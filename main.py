@@ -5,8 +5,8 @@ from scraper import get_all_latest_news
 from image_generator import generate_news_image
 
 # --- CONFIGURATION ---
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "6510168150:AAGuvludhACVN9tzCALs8ijp0dwI4FA4nQU")
-TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "@nepsealertnews")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 
 SENT_NEWS_FILE = "sent_news.json"
 
@@ -46,7 +46,7 @@ def send_to_telegram(image_path, caption):
 def main():
     print("Starting NEPSE News Agent...")
     
-    if TELEGRAM_BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
+    if not TELEGRAM_BOT_TOKEN:
         print("WARNING: Telegram Bot Token is not set. The bot will generate images but won't send them.")
     
     sent_links = load_sent_news()
@@ -64,9 +64,9 @@ def main():
             
             caption = f"<b>{news['headline']}</b>\n\nस्रोत: {news['source']}\n{news['link']}"
             
-            if send_to_telegram(image_filename, caption) or TELEGRAM_BOT_TOKEN == "YOUR_BOT_TOKEN_HERE":
+            if send_to_telegram(image_filename, caption) or not TELEGRAM_BOT_TOKEN:
                 sent_links.append(news['link'])
-                if TELEGRAM_BOT_TOKEN != "YOUR_BOT_TOKEN_HERE":
+                if TELEGRAM_BOT_TOKEN:
                     try:
                         os.remove(image_filename)
                     except:
