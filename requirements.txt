@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+feedparser
+Pillow
+python-telegram-bot
+html2image
