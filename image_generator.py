@@ -6,7 +6,10 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg"):
     Generates a high-quality JPG image using HTML and CSS for perfect 
     Devanagari rendering and attractive styling.
     """
-    hti = Html2Image(size=(1080, 1080))
+    hti = Html2Image(
+        size=(1080, 1080),
+        custom_flags=['--no-sandbox', '--disable-gpu', '--hide-scrollbars']
+    )
     # In some environments, we might need to specify browser path, 
     # but html2image is usually good at finding the default browser.
     
