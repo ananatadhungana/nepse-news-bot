@@ -82,23 +82,26 @@ def main():
             print(f"New unique article found: {news['headline']}")
             new_news_found = True
             
-            image_filename = f"news_{int(os.path.getmtime('.'))}.jpg"
-            generate_news_image(news['headline'], news['summary'], image_filename)
-            
-            caption = f"<b>{news['headline']}</b>\n\nस्रोत: {news['source']}\n{news['link']}"
-            
-            if send_to_telegram(image_filename, caption) or not TELEGRAM_BOT_TOKEN:
-                # Add to history so we don't send it again
-                sent_history.append({"link": news['link'], "headline": news['headline']})
+            try:
+                image_filename = f"news_{int(os.path.getmtime('.'))}.jpg"
+                generate_news_image(news['headline'], news['summary'], image_filename)
                 
-                if TELEGRAM_BOT_TOKEN:
-                    try:
-                        os.remove(image_filename)
-                    except:
-                        pass
+                caption = f"<b>{news['headline']}</b>\n\nस्रोत: {news['source']}\n{news['link']}"
                 
-                # Sleep briefly to avoid hitting Telegram rate limits if sending multiple files
-                time.sleep(3)
+                if send_to_telegram(image_filename, caption) or not TELEGRAM_BOT_TOKEN:
+                    # Add to history so we don't send it again
+                    sent_history.append({"link": news['link'], "headline": news['headline']})
+                    
+                    if TELEGRAM_BOT_TOKEN:
+                        try:
+                            os.remove(image_filename)
+                        except:
+                            pass
+                    
+                    # Sleep briefly to avoid hitting Telegram rate limits if sending multiple files
+                    time.sleep(3)
+            except Exception as e:
+                print(f"Error processing news '{news['headline']}': {e}")
     
     # Keep only the last 150 sent records to prevent the file from growing infinitely
     if len(sent_history) > 150:
