@@ -10,6 +10,10 @@ RSS_FEEDS = {
     "Ratopati": "https://ratopati.com/feed",
     "Bizmandu": "https://bizmandu.com/feed",
     "Ekantipur": "https://ekantipur.com/feed",
+    "Arthasarokar": "https://arthasarokar.com/feed",
+    "AbhiyanDaily": "https://www.abhiyandaily.com/abhiyanrss",
+    "KathmanduPost": "https://kathmandupost.com/rss",
+    "TheHimalayanTimes": "https://thehimalayantimes.com/rss",
 }
 
 def clean_html(raw_html):
