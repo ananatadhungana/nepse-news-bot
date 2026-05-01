@@ -14,6 +14,11 @@ RSS_FEEDS = {
     "AbhiyanDaily": "https://www.abhiyandaily.com/abhiyanrss",
     "KathmanduPost": "https://kathmandupost.com/rss",
     "TheHimalayanTimes": "https://thehimalayantimes.com/rss",
+    "NewsOfNepal": "https://newsofnepal.com/feed",
+    "TechPana": "https://techpana.com/feed",
+    "BimaPost": "https://bimapost.com/feed",
+    "BajarkoChirfar": "https://bajarkochirfar.com/feed",
+    "NepalSamacharpatra": "https://newsofnepal.com/category/nepal-samacharpatra/feed",
 }
 
 def clean_html(raw_html):
