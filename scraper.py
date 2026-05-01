@@ -19,6 +19,8 @@ RSS_FEEDS = {
     "BimaPost": "https://bimapost.com/feed",
     "BajarkoChirfar": "https://bajarkochirfar.com/feed",
     "NepalSamacharpatra": "https://newsofnepal.com/category/nepal-samacharpatra/feed",
+    "Samaypost": "https://samaypost.com/feed",
+    "Diyopost": "https://diyopost.com/feed",
 }
 
 def clean_html(raw_html):
