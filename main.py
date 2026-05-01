@@ -5,13 +5,12 @@ import difflib
 from scraper import get_all_latest_news
 from image_generator import generate_news_image
 import time
-import subprocess
 
 # --- CONFIGURATION ---
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
-FACEBOOK_PAGE_ID = os.environ.get("FACEBOOK_PAGE_ID", "") 
-LOGO_PATH = "logo.png" # User should upload this to the repo
+# Use provided token and channel ID
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8794685716:AAEohtA4mOm1qdKHRhKdrilhrL9r6QWWmf8")
+TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "@nepsealertnews")
+LOGO_PATH = "logo.png"
 
 SENT_NEWS_FILE = "sent_news.json"
 
@@ -33,10 +32,6 @@ def save_sent_news(news_list):
 
 def send_to_telegram(image_path, caption):
     """Sends the generated image and caption to the Telegram Channel."""
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
-        print("Telegram configuration missing. Skipping Telegram.")
-        return False
-
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
     
     try:
@@ -59,16 +54,6 @@ def send_to_telegram(image_path, caption):
         print(f"Error sending to Telegram: {e}")
         return False
 
-def send_to_facebook(image_path, headline, link_url):
-    """
-    Sends the news to Facebook Page.
-    Note: This logic is designed for the Manus environment to execute via Zapier.
-    In GitHub Actions, this would require Facebook Graph API setup.
-    """
-    print(f"Facebook posting triggered for: {headline[:50]}...")
-    # The actual posting is handled by the scheduled Manus task using Zapier.
-    return True
-
 def is_duplicate(new_headline, new_link, sent_history):
     """Checks if the news was already sent using exact link match or fuzzy headline match."""
     for sent in sent_history:
@@ -86,11 +71,6 @@ def is_duplicate(new_headline, new_link, sent_history):
 def main():
     print("Starting NEPSE News Agent...")
     
-    if not TELEGRAM_BOT_TOKEN:
-        print("WARNING: TELEGRAM_BOT_TOKEN is not set.")
-    if not TELEGRAM_CHANNEL_ID:
-        print("WARNING: TELEGRAM_CHANNEL_ID is not set.")
-    
     sent_history = load_sent_news()
     all_news = get_all_latest_news()
     
@@ -103,34 +83,25 @@ def main():
             
             try:
                 image_filename = f"news_{int(time.time())}.jpg"
-                # Use logo if it exists
                 logo = LOGO_PATH if os.path.exists(LOGO_PATH) else None
                 generate_news_image(news['headline'], news['summary'], image_filename, logo_path=logo)
                 
                 caption = f"<b>{news['headline']}</b>\n\nस्रोत: {news['source']}\n{news['link']}"
                 
-                telegram_success = send_to_telegram(image_filename, caption)
-                
-                # Facebook posting logic
-                send_to_facebook(image_filename, news['headline'], news['link'])
-                
-                if telegram_success or not TELEGRAM_BOT_TOKEN:
+                if send_to_telegram(image_filename, caption):
                     sent_history.append({"link": news['link'], "headline": news['headline']})
                     
-                    # Keep the image if we need it for Facebook posting in this session
-                    # Otherwise, cleanup
-                    if not os.environ.get("KEEP_IMAGES"):
-                        try:
-                            if os.path.exists(image_filename):
-                                os.remove(image_filename)
-                        except:
-                            pass
+                    try:
+                        if os.path.exists(image_filename):
+                            os.remove(image_filename)
+                    except:
+                        pass
                     
                     time.sleep(3)
             except Exception as e:
                 print(f"Error processing news '{news['headline']}': {e}")
     
-    if len(sent_history) > 200: # Increased history size
+    if len(sent_history) > 200:
         sent_history = sent_history[-200:]
         
     save_sent_news(sent_history)
