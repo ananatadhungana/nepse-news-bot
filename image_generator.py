@@ -2,26 +2,36 @@ import os
 import base64
 from html2image import Html2Image
 
-def generate_news_image(headline, summary, output_filename="news_update.jpg", logo_path="logo.png"):
+def generate_news_image(headline, summary, output_filename="news_update.jpg", logo_path="logo.png", accent_color="#E69603"):
     """
     Generates a professional news image with a white box layout, 
     logo integration, and high-quality Devanagari rendering.
     """
     hti = Html2Image(
         size=(1080, 1080),
-        custom_flags=['--no-sandbox', '--disable-gpu', '--hide-scrollbars']
+        custom_flags=[
+            '--no-sandbox',
+            '--disable-gpu',
+            '--hide-scrollbars',
+            '--virtual-time-budget=5000' # Give more time for rendering
+        ]
     )
     
     # Encode logo to base64 for embedding in HTML
     logo_base64 = ""
     if os.path.exists(logo_path):
         with open(logo_path, "rb") as image_file:
-            logo_base64 = base64.b64encode(image_file.read()).decode('utf-8')
+            logo_base64 = base64.b64encode(image_file.read()).decode("utf-8")
         logo_html = f'<img src="data:image/png;base64,{logo_base64}" class="logo">'
     else:
         logo_html = '<div class="logo-placeholder">NEPSE ALERT</div>'
 
-    # HTML Template with white box layout
+    # Shorten summary to be very concise
+    short_summary = summary.split(". ")[0] + "..." if len(summary) > 100 else summary
+    if len(short_summary) > 150:
+        short_summary = short_summary[:150] + "..."
+
+    # HTML Template with white box layout and dynamic accent color
     html_content = f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -34,7 +44,7 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg", lo
                 padding: 0;
                 width: 1080px;
                 height: 1080px;
-                background-color: #f4f4f4;
+                background-color: #f4f4f4; /* Light gray background */
                 font-family: 'Mukta', sans-serif;
                 display: flex;
                 justify-content: center;
@@ -44,14 +54,15 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg", lo
             .container {{
                 width: 1000px;
                 height: 1000px;
-                background-color: #ffffff;
+                background-color: #ffffff; /* Plain white box */
                 border-radius: 0;
+                box-shadow: 0 10px 20px rgba(0,0,0,0.05);
                 display: flex;
                 flex-direction: column;
                 padding: 40px;
                 box-sizing: border-box;
                 position: relative;
-                border: 1px solid #ddd;
+                border: 1px solid #e0e0e0;
             }}
             .header {{
                 display: flex;
@@ -59,7 +70,7 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg", lo
                 align-items: center;
                 margin-bottom: 30px;
                 padding-bottom: 20px;
-                border-bottom: 2px solid #f0f0f0;
+                border-bottom: 2px solid {accent_color};
             }}
             .logo {{
                 max-height: 250px;
@@ -70,7 +81,7 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg", lo
             .logo-placeholder {{
                 font-size: 48px;
                 font-weight: 700;
-                color: #B87333;
+                color: {accent_color};
             }}
             .content {{
                 flex-grow: 1;
@@ -90,7 +101,7 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg", lo
                 background-color: #f9f9f9;
                 padding: 30px;
                 border-radius: 10px;
-                border: 1px solid #eee;
+                border-left: 6px solid {accent_color};
             }}
             .summary p {{
                 font-size: 38px;
@@ -106,8 +117,8 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg", lo
             }}
             .comment-tag {{
                 display: inline-block;
-                background-color: #f0f0f0;
-                color: #555;
+                background-color: {accent_color};
+                color: white;
                 padding: 10px 30px;
                 border-radius: 50px;
                 font-size: 32px;
@@ -127,7 +138,7 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg", lo
                 </div>
                 
                 <div class="summary">
-                    <p>{summary}</p>
+                    <p>{short_summary}</p>
                 </div>
             </div>
             
@@ -143,9 +154,10 @@ def generate_news_image(headline, summary, output_filename="news_update.jpg", lo
     return output_filename
 
 if __name__ == "__main__":
+    # Test render with a sample headline and summary
     generate_news_image(
-        "कुष्ठरोगका कारण विवाह बदर हुने कानुनी व्यवस्था खारेज", 
-        "सर्वोच्च अदालतको संवैधानिक इजलासले मुलुकी देवानी संहिता ऐन, २०७४ को दफा ७१(२)(ग) मा रहेको कुष्ठरोगसम्बन्धी व्यवस्था खारेज गरेको छ ।", 
-        "test_render_logo.jpg"
+        "नेपाल राष्ट्र बैंकले मौद्रिक नीति सार्वजनिक गर्दै, शेयर बजारमा कस्तो प्रभाव पर्ला?", 
+        "नेपाल राष्ट्र बैंकले आगामी आर्थिक वर्षको मौद्रिक नीति सार्वजनिक गर्ने तयारी गरिरहेको छ। यसले शेयर बजार, बैंक तथा वित्तीय संस्था र समग्र अर्थतन्त्रमा महत्वपूर्ण प्रभाव पार्ने अपेक्षा गरिएको छ।", 
+        "test_render_logo_new.jpg"
     )
-    print("Test image created as test_render_logo.jpg")
+    print("Test image created as test_render_logo_new.jpg")
