@@ -8,10 +8,14 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
         
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -19,15 +23,15 @@ jobs:
           python-version: '3.10'
           cache: 'pip'
           
-      - name: Install Chromium for Image Generation
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser
-          
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          
+      - name: Setup Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
           
       - name: Run Bot Script
         env:
@@ -36,10 +40,14 @@ jobs:
         run: |
           python main.py
           
-      - name: Commit State File
+      - name: Commit and Push State File
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add sent_news.json || true
-          git commit -m "Update sent news history" || true
-          git push || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update sent news history [skip ci]"
+            git push origin main
+          fi
