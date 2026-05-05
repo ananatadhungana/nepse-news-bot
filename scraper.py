@@ -3,6 +3,11 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import re
+from openai import OpenAI
+import os
+
+# Initialize OpenAI client
+client = OpenAI()
 
 # List of RSS feeds for Nepali news portals
 RSS_FEEDS = {
@@ -58,21 +63,54 @@ def is_finance_related(text):
             return True
     return False
 
-def get_latest_news_from_rss():
-    """Fetches the latest news from a list of RSS feeds with strict filtering."""
+def extract_full_text(url):
+    """Extracts the main text content from a news article URL."""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        for script in soup(["script", "style"]):
+            script.extract()
+        content_div = soup.find('div', class_=re.compile(r'content|article|post-content|entry-content|story-content', re.I))
+        if content_div:
+            return content_div.get_text(separator=' ', strip=True)
+        paragraphs = soup.find_all('p')
+        return ' '.join([p.get_text(strip=True) for p in paragraphs if len(p.get_text(strip=True)) > 30])
+    except:
+        return ""
+
+def get_ai_summary(text, headline):
+    """Generates a very short, to-the-point summary using AI."""
+    if not text or len(text) < 100:
+        return text[:200]
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4.1-mini",
+            messages=[
+                {"role": "system", "content": "You are a financial news assistant. Summarize the following Nepali news article into a single, very short, and impactful sentence in Nepali. Focus only on the core fact related to economy, finance, or the stock market."},
+                {"role": "user", "content": f"Headline: {headline}\n\nContent: {text[:2000]}"}
+            ],
+            max_tokens=150
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"AI Summarization error: {e}")
+        return text[:200] + "..."
+
+def get_all_latest_news():
+    """Fetches the latest news from a list of RSS feeds with strict filtering and AI summarization."""
     all_news = []
-    
     for source, url in RSS_FEEDS.items():
         try:
             feed = feedparser.parse(url)
             if feed.entries:
-                for entry in feed.entries[:5]: # Check top 5 entries
+                for entry in feed.entries[:3]: # Check top 3 entries per source
                     headline = clean_html(entry.get('title', ''))
                     link = entry.get('link', '')
-                    summary = clean_html(entry.get('summary', '') or entry.get('description', ''))
-                    
-                    # Strict filtering: headline or summary must be finance-related
-                    if headline and link and (is_finance_related(headline) or is_finance_related(summary)):
+                    if headline and link and is_finance_related(headline):
+                        print(f"Processing: {headline}")
+                        full_text = extract_full_text(link)
+                        summary = get_ai_summary(full_text, headline)
                         all_news.append({
                             "source": source,
                             "headline": headline,
@@ -81,42 +119,10 @@ def get_latest_news_from_rss():
                         })
         except Exception as e:
             print(f"Error fetching RSS for {source}: {e}")
-            
     return all_news
 
-def get_latest_news_from_merolagani():
-    """Custom scraper for Merolagani."""
-    url = "https://merolagani.com/NewsList.aspx"
-    try:
-        response = requests.get(url, timeout=10)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        
-        news_items = soup.select(".media-body h4.media-heading a")
-        
-        results = []
-        for item in news_items[:5]:
-            headline = item.text.strip()
-            link = "https://merolagani.com" + item['href']
-            
-            if is_finance_related(headline):
-                results.append({
-                    "source": "MeroLagani",
-                    "headline": headline,
-                    "link": link,
-                    "summary": "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।"
-                })
-        return results
-    except Exception as e:
-        print(f"Error scraping MeroLagani: {e}")
-        return []
-
-def get_all_latest_news():
-    news = get_latest_news_from_rss()
-    news.extend(get_latest_news_from_merolagani())
-    return news
-
 if __name__ == "__main__":
-    print("Testing scraper with strict filtering...")
+    print("Testing scraper with AI summarization...")
     news = get_all_latest_news()
     for n in news:
-        print(f"[{n['source']}] {n['headline']}")
+        print(f"[{n['source']}] {n['headline']}\nSummary: {n['summary']}\n")
