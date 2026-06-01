@@ -46,28 +46,6 @@ def send_to_telegram(image_path, caption):
     except:
         return False
 
-def send_to_facebook(image_path, headline, link_url):
-    """Posts to Facebook Page via Zapier."""
-    try:
-        # Upload image to get a public URL
-        upload_cmd = f"manus-upload-file {image_path}"
-        result = subprocess.check_output(upload_cmd, shell=True).decode('utf-8')
-        image_url = result.strip()
-        
-        # Zapier instructions for the agent to handle the tool call
-        zapier_input = {
-            "app": "Facebook Pages",
-            "action": "page_photo",
-            "instructions": f"Post this news to my Facebook Page. Message: {headline}. Photo URL: {image_url}. Please also add the link in a comment: {link_url}",
-            "output": "Post ID"
-        }
-        
-        zapier_cmd = f"manus-mcp-cli tool call execute_zapier_write_action --server zapier --input '{json.dumps(zapier_input)}'"
-        subprocess.run(zapier_cmd, shell=True, check=True)
-        return True
-    except:
-        return False
-
 def is_duplicate(new_headline, new_link, sent_history):
     for sent in sent_history:
         if new_link == sent.get('link'):
@@ -102,13 +80,13 @@ def main():
                 
                 caption = f"<b>{news['headline']}</b>\n\n{news['link']}"
                 
-                # Send to platforms
+                # Send to Telegram
                 telegram_success = send_to_telegram(image_filename, caption)
-                facebook_success = send_to_facebook(image_filename, news['headline'], news['link'])
                 
-                if telegram_success or facebook_success:
+                if telegram_success:
                     sent_history.append({"link": news['link'], "headline": news['headline']})
                     save_sent_news(sent_history)
+                    print(f"Successfully sent: {news['headline']}")
                     
                     if os.path.exists(image_filename):
                         os.remove(image_filename)

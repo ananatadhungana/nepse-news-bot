@@ -37,6 +37,10 @@ RSS_FEEDS = {
     "ArthaBazar": "https://arthabazar.com/feed",
     "Arthatantra": "https://arthatantra.com/feed",
     "AjakoArtha": "https://ajakoartha.com/feed",
+    "Baahrakhari": "https://baahrakhari.com/feed",
+    "Bikashnews": "https://bikashnews.com/feed",
+    "Deshsanchar": "https://deshsanchar.com/feed",
+    "Beemakakura": "https://beemakakura.com/feed",
 }
 
 # Keywords for strict finance/economy filtering
