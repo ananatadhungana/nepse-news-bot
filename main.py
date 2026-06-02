@@ -8,9 +8,13 @@ import time
 import subprocess
 
 # --- CONFIGURATION ---
-# SECURE: These are now ONLY loaded from environment variables (GitHub Secrets)
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID")
+
+# Automatically add '@' to channel ID if it's missing
+if TELEGRAM_CHANNEL_ID and not TELEGRAM_CHANNEL_ID.startswith("@") and not TELEGRAM_CHANNEL_ID.startswith("-"):
+    TELEGRAM_CHANNEL_ID = f"@{TELEGRAM_CHANNEL_ID}"
+
 LOGO_PATH = "logo.png"
 SENT_NEWS_FILE = "sent_news.json"
 
@@ -67,6 +71,7 @@ def is_duplicate(new_headline, new_link, sent_history):
 
 def main():
     print("Starting NEPSE News Agent...")
+    print(f"Using Channel ID: {TELEGRAM_CHANNEL_ID}")
     
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
         print("CRITICAL ERROR: TELEGRAM_BOT_TOKEN or TELEGRAM_CHANNEL_ID is missing from environment.")
