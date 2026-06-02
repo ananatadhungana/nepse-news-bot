@@ -7,7 +7,8 @@ from openai import OpenAI
 import os
 
 # Initialize OpenAI client
-client = OpenAI()
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
 
 # List of RSS feeds for Nepali news portals
 RSS_FEEDS = {
@@ -85,8 +86,13 @@ def extract_full_text(url):
 
 def get_ai_summary(text, headline):
     """Generates a very short, to-the-point summary using AI."""
+    if not client:
+        print("Warning: OPENAI_API_KEY not set. Using fallback summary.")
+        return text[:200] + "..."
+        
     if not text or len(text) < 100:
         return text[:200]
+        
     try:
         response = client.chat.completions.create(
             model="gpt-4.1-mini",

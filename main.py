@@ -8,8 +8,9 @@ import time
 import subprocess
 
 # --- CONFIGURATION ---
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8794685716:AAEohtA4mOm1qdKHRhKdrilhrL9r6QWWmf8")
-TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "@nepsealertnews")
+# SECURE: These are now ONLY loaded from environment variables (GitHub Secrets)
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID")
 LOGO_PATH = "logo.png"
 SENT_NEWS_FILE = "sent_news.json"
 
@@ -32,6 +33,10 @@ def save_sent_news(news_list):
         json.dump(news_list, f, indent=4)
 
 def send_to_telegram(image_path, caption):
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
+        print("Error: Telegram credentials (TELEGRAM_BOT_TOKEN or TELEGRAM_CHANNEL_ID) are not set in GitHub Secrets.")
+        return False
+        
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
     try:
         with open(image_path, "rb") as image_file:
@@ -42,8 +47,11 @@ def send_to_telegram(image_path, caption):
                 "parse_mode": "HTML"
             }
             response = requests.post(url, files=files, data=data)
+            if response.status_code != 200:
+                print(f"Telegram API Error: {response.text}")
             return response.status_code == 200
-    except:
+    except Exception as e:
+        print(f"Telegram Request Error: {e}")
         return False
 
 def is_duplicate(new_headline, new_link, sent_history):
@@ -59,9 +67,18 @@ def is_duplicate(new_headline, new_link, sent_history):
 
 def main():
     print("Starting NEPSE News Agent...")
+    
+    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
+        print("CRITICAL ERROR: TELEGRAM_BOT_TOKEN or TELEGRAM_CHANNEL_ID is missing from environment.")
+        return
+
     sent_history = load_sent_news()
     all_news = get_all_latest_news()
     
+    if not all_news:
+        print("No new finance news found.")
+        return
+
     # Process news in reverse (oldest first)
     for news in reversed(all_news):
         if not is_duplicate(news['headline'], news['link'], sent_history):
@@ -90,9 +107,9 @@ def main():
                     
                     if os.path.exists(image_filename):
                         os.remove(image_filename)
-                    time.sleep(10) # Delay to avoid rate limits
+                    time.sleep(5) # Delay to avoid rate limits
             except Exception as e:
-                print(f"Error: {e}")
+                print(f"Error processing news item: {e}")
     
     print("Run complete.")
 
