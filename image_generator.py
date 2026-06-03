@@ -23,18 +23,25 @@ def get_news_image_url(news_url):
             
         # Fallback to first large image
         for img in soup.find_all("img"):
-            if img.get("src") and ("jpg" in img["src"] or "png" in img["src"]):
-                return img["src"]
+            src = img.get("src")
+            if src and ("jpg" in src or "png" in src or "jpeg" in src):
+                if src.startswith("//"):
+                    src = "https:" + src
+                elif src.startswith("/"):
+                    # This is tricky without the base URL, but we'll try
+                    pass
+                return src
     except:
         pass
-    return "https://images.unsplash.com/photo-1611974714014-40f6950c9a2e?q=80&w=1080&auto=format&fit=crop" # Default finance background
+    # Reliable fallback image
+    return "https://images.unsplash.com/photo-1611974714014-40f6950c9a2e?q=80&w=1080&auto=format&fit=crop"
 
 def generate_news_image(headline, summary, output_filename, news_url=None, logo_path="logo.png", accent_color="#E69603"):
     """
     Generates a professional news image inspired by user samples.
-    Features: Large background image, white headline area, logo integration.
     """
-    hti = Html2Image(size=(1080, 1350), custom_flags=['--no-sandbox', '--disable-gpu', '--hide-scrollbars'])
+    # Custom flags for headless environment
+    hti = Html2Image(size=(1080, 1350), custom_flags=['--no-sandbox', '--disable-gpu', '--hide-scrollbars', '--disable-dev-shm-usage'])
     
     # Get news image
     bg_image_url = get_news_image_url(news_url) if news_url else "https://images.unsplash.com/photo-1611974714014-40f6950c9a2e?q=80&w=1080&auto=format&fit=crop"
@@ -42,9 +49,12 @@ def generate_news_image(headline, summary, output_filename, news_url=None, logo_
     # Encode logo
     logo_base64 = ""
     if os.path.exists(logo_path):
-        with open(logo_path, "rb") as f:
-            logo_base64 = base64.b64encode(f.read()).decode("utf-8")
-        logo_html = f'<img src="data:image/png;base64,{logo_base64}" class="logo">'
+        try:
+            with open(logo_path, "rb") as f:
+                logo_base64 = base64.b64encode(f.read()).decode("utf-8")
+            logo_html = f'<img src="data:image/png;base64,{logo_base64}" class="logo">'
+        except:
+            logo_html = f'<div class="logo-text" style="color:{accent_color}">NEPSE ALERT</div>'
     else:
         logo_html = f'<div class="logo-text" style="color:{accent_color}">NEPSE ALERT</div>'
 
@@ -64,6 +74,7 @@ def generate_news_image(headline, summary, output_filename, news_url=None, logo_
             
             .logo-container {{ position: absolute; top: 30px; left: 30px; background: rgba(255,255,255,0.9); padding: 10px 20px; border-radius: 8px; display: flex; align-items: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }}
             .logo {{ height: 60px; max-width: 300px; object-fit: contain; }}
+            .logo-text {{ font-size: 40px; font-weight: 700; }}
             
             .content-section {{ flex: 1; background: #fff; padding: 40px 50px; display: flex; flex-direction: column; position: relative; }}
             .content-section::before {{ content: ''; position: absolute; top: 0; left: 50px; right: 50px; height: 6px; background: {accent_color}; border-radius: 3px; transform: translateY(-50%); }}
@@ -95,5 +106,10 @@ def generate_news_image(headline, summary, output_filename, news_url=None, logo_
     </body>
     </html>
     """
-    hti.screenshot(html_str=html_content, save_as=output_filename)
-    return output_filename
+    try:
+        hti.screenshot(html_str=html_content, save_as=output_filename)
+        return output_filename
+    except Exception as e:
+        print(f"Image generation error: {e}")
+        # Create a blank image or handle error
+        return None
