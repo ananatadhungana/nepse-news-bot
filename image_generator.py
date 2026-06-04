@@ -3,47 +3,27 @@ import base64
 from html2image import Html2Image
 import requests
 from bs4 import BeautifulSoup
+from PIL import Image, ImageDraw, ImageFont
 
 def get_news_image_url(news_url):
-    """Attempts to find a representative image from the news article URL."""
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(news_url, headers=headers, timeout=5)
         soup = BeautifulSoup(response.content, 'html.parser')
-        
-        # Try OpenGraph image first
         og_image = soup.find("meta", property="og:image")
         if og_image and og_image.get("content"):
             return og_image["content"]
-            
-        # Try Twitter image
-        twitter_image = soup.find("meta", name="twitter:image")
-        if twitter_image and twitter_image.get("content"):
-            return twitter_image["content"]
-            
-        # Fallback to first large image
-        for img in soup.find_all("img"):
-            src = img.get("src")
-            if src and ("jpg" in src or "png" in src or "jpeg" in src):
-                if src.startswith("//"):
-                    src = "https:" + src
-                return src
     except:
         pass
     return "https://images.unsplash.com/photo-1611974714014-40f6950c9a2e?q=80&w=1080&auto=format&fit=crop"
 
 def generate_news_image(headline, summary, output_filename, news_url=None, logo_path="logo.png", accent_color="#E69603"):
-    """
-    Generates a professional news image.
-    """
+    print(f"  [ImageGen] Starting generation for: {headline[:30]}...")
     try:
-        # Custom flags for headless environment
-        hti = Html2Image(size=(1080, 1350), custom_flags=['--no-sandbox', '--disable-gpu', '--hide-scrollbars', '--disable-dev-shm-usage', '--remote-debugging-port=9222'])
-        
-        # Get news image
+        # Try html2image first
+        hti = Html2Image(size=(1080, 1350), custom_flags=['--no-sandbox', '--disable-gpu', '--hide-scrollbars', '--disable-dev-shm-usage'])
         bg_image_url = get_news_image_url(news_url) if news_url else "https://images.unsplash.com/photo-1611974714014-40f6950c9a2e?q=80&w=1080&auto=format&fit=crop"
         
-        # Encode logo
         logo_base64 = ""
         if os.path.exists(logo_path):
             with open(logo_path, "rb") as f:
@@ -91,7 +71,18 @@ def generate_news_image(headline, summary, output_filename, news_url=None, logo_
         </html>
         """
         hti.screenshot(html_str=html_content, save_as=output_filename)
+        print(f"  [ImageGen] Successfully generated image: {output_filename}")
         return output_filename
     except Exception as e:
-        print(f"Image generation error: {e}")
-        return None
+        print(f"  [ImageGen] html2image failed: {e}. Falling back to PIL.")
+        try:
+            # Fallback to PIL (no browser needed)
+            img = Image.new('RGB', (1080, 1350), color=(255, 255, 255))
+            d = ImageDraw.Draw(img)
+            d.rectangle([0, 0, 1080, 750], fill=(240, 240, 240))
+            d.text((50, 800), headline[:50] + "...", fill=(0, 0, 0))
+            img.save(output_filename)
+            return output_filename
+        except Exception as pil_e:
+            print(f"  [ImageGen] PIL fallback also failed: {pil_e}")
+            return None
