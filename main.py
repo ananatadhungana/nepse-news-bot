@@ -5,13 +5,12 @@ import difflib
 from scraper import get_all_latest_news
 from image_generator import generate_news_image
 import time
-import subprocess
+import traceback
 
 # --- CONFIGURATION ---
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID")
 
-# Automatically add '@' to channel ID if it's missing
 if TELEGRAM_CHANNEL_ID and not TELEGRAM_CHANNEL_ID.startswith("@") and not TELEGRAM_CHANNEL_ID.startswith("-"):
     TELEGRAM_CHANNEL_ID = f"@{TELEGRAM_CHANNEL_ID}"
 
@@ -23,37 +22,41 @@ def load_sent_news():
         try:
             with open(SENT_NEWS_FILE, 'r') as f:
                 data = json.load(f)
-                if isinstance(data, list):
-                    return data
-                return []
+                return data if isinstance(data, list) else []
         except:
             return []
     return []
 
 def save_sent_news(news_list):
-    if len(news_list) > 300: # Keep a bit more history for better deduplication
-        news_list = news_list[-300:]
-    with open(SENT_NEWS_FILE, 'w') as f:
-        json.dump(news_list, f, indent=4)
+    try:
+        if len(news_list) > 300:
+            news_list = news_list[-300:]
+        with open(SENT_NEWS_FILE, 'w') as f:
+            json.dump(news_list, f, indent=4)
+    except Exception as e:
+        print(f"Error saving sent news: {e}")
 
 def send_to_telegram(image_path, caption):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
-        print("Error: Telegram credentials (TELEGRAM_BOT_TOKEN or TELEGRAM_CHANNEL_ID) are not set in GitHub Secrets.")
+        print("Error: Telegram credentials missing.")
         return False
         
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
     try:
-        with open(image_path, "rb") as image_file:
-            files = {"photo": image_file}
-            data = {
-                "chat_id": TELEGRAM_CHANNEL_ID,
-                "caption": caption,
-                "parse_mode": "HTML"
-            }
-            response = requests.post(url, files=files, data=data)
-            if response.status_code != 200:
-                print(f"Telegram API Error: {response.text}")
-            return response.status_code == 200
+        if image_path and os.path.exists(image_path):
+            url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+            with open(image_path, "rb") as image_file:
+                files = {"photo": image_file}
+                data = {"chat_id": TELEGRAM_CHANNEL_ID, "caption": caption, "parse_mode": "HTML"}
+                response = requests.post(url, files=files, data=data)
+        else:
+            # Fallback to text-only if image generation failed
+            url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+            data = {"chat_id": TELEGRAM_CHANNEL_ID, "text": caption, "parse_mode": "HTML"}
+            response = requests.post(url, data=data)
+            
+        if response.status_code != 200:
+            print(f"Telegram API Error: {response.text}")
+        return response.status_code == 200
     except Exception as e:
         print(f"Telegram Request Error: {e}")
         return False
@@ -65,56 +68,56 @@ def is_duplicate(new_headline, new_link, sent_history):
         sent_headline = sent.get('headline', '')
         if sent_headline and new_headline:
             similarity = difflib.SequenceMatcher(None, new_headline, sent_headline).ratio()
-            if similarity > 0.75: # Strict deduplication
+            if similarity > 0.8:
                 return True
     return False
 
 def main():
     print("Starting NEPSE News Agent...")
-    print(f"Using Channel ID: {TELEGRAM_CHANNEL_ID}")
     
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHANNEL_ID:
-        print("CRITICAL ERROR: TELEGRAM_BOT_TOKEN or TELEGRAM_CHANNEL_ID is missing from environment.")
+        print("CRITICAL ERROR: Missing Telegram credentials.")
         return
 
-    sent_history = load_sent_news()
-    all_news = get_all_latest_news()
-    
-    if not all_news:
-        print("No new finance news found.")
-        return
+    try:
+        sent_history = load_sent_news()
+        all_news = get_all_latest_news()
+        
+        if not all_news:
+            print("No new news found.")
+            return
 
-    # Process news in reverse (oldest first)
-    for news in reversed(all_news):
-        if not is_duplicate(news['headline'], news['link'], sent_history):
-            print(f"Processing: {news['headline']}")
-            try:
-                image_filename = f"news_{int(time.time())}.jpg"
-                
-                # Generate image with professional layout
-                generate_news_image(
-                    headline=news['headline'],
-                    summary=news['summary'],
-                    output_filename=image_filename,
-                    news_url=news['link'],
-                    logo_path=LOGO_PATH
-                )
-                
-                caption = f"<b>{news['headline']}</b>\n\n{news['link']}"
-                
-                # Send to Telegram
-                telegram_success = send_to_telegram(image_filename, caption)
-                
-                if telegram_success:
-                    sent_history.append({"link": news['link'], "headline": news['headline']})
-                    save_sent_news(sent_history)
-                    print(f"Successfully sent: {news['headline']}")
+        for news in reversed(all_news):
+            if not is_duplicate(news['headline'], news['link'], sent_history):
+                print(f"Processing: {news['headline']}")
+                try:
+                    image_filename = f"news_{int(time.time())}.jpg"
                     
-                    if os.path.exists(image_filename):
-                        os.remove(image_filename)
-                    time.sleep(5) # Delay to avoid rate limits
-            except Exception as e:
-                print(f"Error processing news item: {e}")
+                    # Try to generate image, but don't crash if it fails
+                    image_path = generate_news_image(
+                        headline=news['headline'],
+                        summary=news['summary'],
+                        output_filename=image_filename,
+                        news_url=news['link'],
+                        logo_path=LOGO_PATH
+                    )
+                    
+                    caption = f"<b>{news['headline']}</b>\n\n{news['link']}"
+                    
+                    if send_to_telegram(image_path, caption):
+                        sent_history.append({"link": news['link'], "headline": news['headline']})
+                        save_sent_news(sent_history)
+                        print(f"Successfully sent: {news['headline']}")
+                    
+                    if image_path and os.path.exists(image_path):
+                        os.remove(image_path)
+                    time.sleep(2)
+                except Exception as e:
+                    print(f"Error processing item: {e}")
+                    traceback.print_exc()
+    except Exception as e:
+        print(f"Main loop error: {e}")
+        traceback.print_exc()
     
     print("Run complete.")
 
