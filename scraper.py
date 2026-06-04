@@ -56,8 +56,11 @@ FINANCE_KEYWORDS = [
 def clean_html(raw_html):
     if not raw_html:
         return ""
-    soup = BeautifulSoup(raw_html, "html.parser")
-    return soup.get_text(separator=" ").strip()
+    try:
+        soup = BeautifulSoup(raw_html, "html.parser")
+        return soup.get_text(separator=" ").strip()
+    except:
+        return str(raw_html).strip()
 
 def is_finance_related(text):
     """Checks if the text contains any finance-related keywords."""
@@ -70,6 +73,7 @@ def is_finance_related(text):
 
 def extract_full_text(url):
     """Extracts the main text content from a news article URL."""
+    print(f"  [Scraper] Extracting full text from: {url}")
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(url, headers=headers, timeout=10)
@@ -81,21 +85,23 @@ def extract_full_text(url):
             return content_div.get_text(separator=' ', strip=True)
         paragraphs = soup.find_all('p')
         return ' '.join([p.get_text(strip=True) for p in paragraphs if len(p.get_text(strip=True)) > 30])
-    except:
+    except Exception as e:
+        print(f"  [Scraper] Text extraction error: {e}")
         return ""
 
 def get_ai_summary(text, headline):
     """Generates a very short, to-the-point summary using AI."""
     if not client:
-        print("Warning: OPENAI_API_KEY not set. Using fallback summary.")
-        return text[:200] + "..."
+        print("  [Scraper] Warning: OPENAI_API_KEY not set. Using fallback summary.")
+        return text[:200] + "..." if text else headline
         
     if not text or len(text) < 100:
-        return text[:200]
+        return text[:200] if text else headline
         
     try:
+        print(f"  [Scraper] Requesting AI summary for: {headline[:30]}...")
         response = client.chat.completions.create(
-            model="gpt-4.1-mini",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "You are a financial news assistant. Summarize the following Nepali news article into a single, very short, and impactful sentence in Nepali. Focus only on the core fact related to economy, finance, or the stock market."},
                 {"role": "user", "content": f"Headline: {headline}\n\nContent: {text[:2000]}"}
@@ -104,21 +110,24 @@ def get_ai_summary(text, headline):
         )
         return response.choices[0].message.content.strip()
     except Exception as e:
-        print(f"AI Summarization error: {e}")
-        return text[:200] + "..."
+        print(f"  [Scraper] AI Summarization error: {e}")
+        return text[:200] + "..." if text else headline
 
 def get_all_latest_news():
     """Fetches the latest news from a list of RSS feeds with strict filtering and AI summarization."""
+    print("[Scraper] Starting global news fetch...")
     all_news = []
     for source, url in RSS_FEEDS.items():
         try:
+            print(f"  [Scraper] Fetching RSS for {source}...")
             feed = feedparser.parse(url)
             if feed.entries:
+                print(f"  [Scraper] Found {len(feed.entries)} entries for {source}")
                 for entry in feed.entries[:3]: # Check top 3 entries per source
                     headline = clean_html(entry.get('title', ''))
                     link = entry.get('link', '')
                     if headline and link and is_finance_related(headline):
-                        print(f"Processing: {headline}")
+                        print(f"  [Scraper] Processing finance news: {headline[:50]}...")
                         full_text = extract_full_text(link)
                         summary = get_ai_summary(full_text, headline)
                         all_news.append({
@@ -127,8 +136,12 @@ def get_all_latest_news():
                             "link": link,
                             "summary": summary
                         })
+            else:
+                print(f"  [Scraper] No entries found for {source}")
         except Exception as e:
-            print(f"Error fetching RSS for {source}: {e}")
+            print(f"  [Scraper] Error fetching RSS for {source}: {e}")
+    
+    print(f"[Scraper] Global fetch complete. Total items: {len(all_news)}")
     return all_news
 
 if __name__ == "__main__":
