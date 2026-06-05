@@ -40,7 +40,7 @@ def generate_news_image(headline, summary, output_filename, news_url=None, logo_
         <head>
             <meta charset="UTF-8">
             <style>
-                body {{ margin: 0; padding: 0; width: 1080px; height: 1350px; font-family: sans-serif; background: #fff; overflow: hidden; }}
+                body {{ margin: 0; padding: 0; width: 1080px; height: 1350px; font-family: 'Noto Sans Devanagari', sans-serif; background: #fff; overflow: hidden; }}
                 .container {{ position: relative; width: 1080px; height: 1350px; display: flex; flex-direction: column; }}
                 .image-section {{ position: relative; width: 1080px; height: 750px; overflow: hidden; }}
                 .bg-image {{ width: 100%; height: 100%; object-fit: cover; }}
