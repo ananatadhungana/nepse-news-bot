@@ -21,7 +21,9 @@ def generate_news_image(headline, summary, output_filename, news_url=None, logo_
     print(f"  [ImageGen] Starting generation for: {headline[:30]}...")
     try:
         # Try html2image first
+        print("  [ImageGen] Initializing Html2Image...")
         hti = Html2Image(size=(1080, 1350), custom_flags=['--no-sandbox', '--disable-gpu', '--hide-scrollbars', '--disable-dev-shm-usage'])
+        print("  [ImageGen] Html2Image initialized.")
         bg_image_url = get_news_image_url(news_url) if news_url else "https://images.unsplash.com/photo-1611974714014-40f6950c9a2e?q=80&w=1080&auto=format&fit=crop"
         
         logo_base64 = ""
@@ -70,10 +72,16 @@ def generate_news_image(headline, summary, output_filename, news_url=None, logo_
         </body>
         </html>
         """
+        print(f"  [ImageGen] Attempting to take screenshot with html2image for {output_filename}...")
         hti.screenshot(html_str=html_content, save_as=output_filename)
+        print(f"  [ImageGen] html2image screenshot command executed.")
         print(f"  [ImageGen] Successfully generated image: {output_filename}")
         return output_filename
     except Exception as e:
+        print(f"  [ImageGen] html2image failed with exception: {e}")
+        import traceback
+        traceback.print_exc()
+
         print(f"  [ImageGen] html2image failed: {e}. Falling back to PIL.")
         try:
             # Fallback to PIL (no browser needed)
