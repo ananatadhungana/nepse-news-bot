@@ -12,6 +12,7 @@ import time
 TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 SENT_NEWS_FILE      = "sent_news.json"
+MAX_PER_RUN         = 4     # max articles sent per 15-min run (stops news floods)
 
 # ── RELEVANCE FILTER ────────────────────────────────────────────────────────────
 # INCLUDE: news must match at least one of these topics
@@ -102,6 +103,10 @@ EXCLUDE_KEYWORDS = [
     "अस्पताल", "रोग", "भाइरस",
     # Traffic
     "सवारी साधन", "ट्राफिक",
+    # Parliament disruption (not NEPSE-relevant unless budget session)
+    "अवरोध",
+    # Election results for sports/local bodies (non-financial)
+    "निर्वाचित",
 ]
 
 _INCLUDE_RE = re.compile(
@@ -206,7 +211,7 @@ def is_duplicate(headline, link, history):
             return True
         sent_h = sent.get('headline', '')
         if sent_h and headline:
-            if difflib.SequenceMatcher(None, headline, sent_h).ratio() > 0.65:
+            if difflib.SequenceMatcher(None, headline, sent_h).ratio() > 0.72:
                 print(f"[SKIP] Near-duplicate: '{headline[:60]}…'")
                 return True
     return False
@@ -218,20 +223,53 @@ def unique_filename(link):
     return f"news_{h}.jpg"
 
 
+def _same_event(h1, h2):
+    """
+    True if two headlines describe the same event.
+    Uses fuzzy match AND checks for shared key person/entity name (first 6 chars).
+    Catches: 'महावीर पुन मन्त्री' vs 'महावीर पुनलाई मन्त्री' from different portals.
+    """
+    ratio = difflib.SequenceMatcher(None, h1, h2).ratio()
+    if ratio > 0.72:
+        return True
+    # If similarity is moderate (0.50–0.72), check if they share a long common substring
+    matcher = difflib.SequenceMatcher(None, h1, h2)
+    blocks  = matcher.get_matching_blocks()
+    longest = max((b.size for b in blocks), default=0)
+    if longest >= 12 and ratio > 0.50:   # 12-char shared span = same subject
+        return True
+    return False
+
+
 def main():
     print("=== NEPSE News Agent starting ===")
 
-    sent_history = load_sent_news()
-    all_news     = get_all_latest_news()
-    new_found    = False
+    sent_history   = load_sent_news()
+    all_news       = get_all_latest_news()
+    new_found      = False
+    sent_this_run  = []   # headlines sent THIS run (for same-event cross-portal dedup)
+    run_count      = 0    # articles sent this run
 
     for news in all_news:
+        if run_count >= MAX_PER_RUN:
+            print(f"[INFO] MAX_PER_RUN ({MAX_PER_RUN}) reached — stopping.")
+            break
         # ── Relevance gate ──
         if not is_relevant(news):
             continue
 
-        # ── Duplicate gate ──
+        # ── Duplicate gate (history) ──
         if is_duplicate(news['headline'], news['link'], sent_history):
+            continue
+
+        # ── Same-event gate (within this run — catches cross-portal reposts) ──
+        same = False
+        for prev_h in sent_this_run:
+            if _same_event(news['headline'], prev_h):
+                print(f"[SKIP] Same event this run: '{news['headline'][:60]}…'")
+                same = True
+                break
+        if same:
             continue
 
         print(f"[NEW] {news['source']}: {news['headline'][:80]}")
@@ -261,6 +299,8 @@ def main():
                     "link":     news['link'],
                     "headline": news['headline'],
                 })
+                sent_this_run.append(news['headline'])
+                run_count += 1
 
             # Clean up temp file
             try:
