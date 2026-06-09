@@ -53,8 +53,9 @@ def _ttf(candidates, size):
 def _load_fonts():
     return {
         'header':   _ttf(_LAT_PATHS, 90),
-        'headline': _ttf(_DEV_PATHS, 72),
+        'headline': _ttf(_DEV_PATHS, 74),
         'pill':     _ttf(_DEV_PATHS, 38),
+        'badge':    _ttf(_LAT_PATHS, 32),   # Latin font for source badge
     }
 
 
@@ -71,6 +72,10 @@ def _wrap(text, font, max_w, draw):
                 lines.append(' '.join(cur)); cur = []
     if cur:
         lines.append(' '.join(cur))
+    # Merge orphaned last line (single short token ≤ 3 chars) back onto previous
+    if len(lines) >= 2 and len(lines[-1]) <= 3:
+        lines[-2] = lines[-2] + ' ' + lines[-1]
+        lines.pop()
     return lines
 
 
@@ -257,37 +262,121 @@ def generate_news_image(headline, summary, output_filename,
     img = bg_rgba
     draw = ImageDraw.Draw(img)
 
-    # ── Step 5: Headline text with drop shadow ────────────────────────────────
-    PILL_H   = 76
-    PILL_GAP = 28
-    PAD      = 46
+    # ── Step 5a: Source badge — overlaps top edge of card ────────────────────
+    BADGE_H   = 46
+    BADGE_Y   = C_TOP - BADGE_H // 2   # straddles the card top border
+    src_label = (source or "NEPSE ALERT").upper()
+    f_src     = fnt['badge']   # Latin font — handles source names correctly
+    sb        = draw.textbbox((0, 0), src_label, font=f_src)
+    sw, sh_h  = sb[2] - sb[0], sb[3] - sb[1]
+    badge_pad = 28
+    badge_w   = sw + badge_pad * 2
+    badge_x   = C_L + (C_W - badge_w) // 2
 
-    text_top  = C_TOP + 34
-    text_bot  = C_BOT - PILL_H - PILL_GAP - 16
-    text_zone = text_bot - text_top
+    # Badge glow
+    for gi in range(5, 0, -1):
+        bg_bdg = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(bg_bdg).rounded_rectangle(
+            [(badge_x - gi*2, BADGE_Y - gi), (badge_x + badge_w + gi*2, BADGE_Y + BADGE_H + gi)],
+            radius=BADGE_H//2 + gi, fill=(*AMBER_GLOW, int(18*(gi/5)))
+        )
+        img = Image.alpha_composite(img, bg_bdg)
+
+    draw = ImageDraw.Draw(img)
+    # Badge fill
+    draw.rounded_rectangle(
+        [(badge_x, BADGE_Y), (badge_x + badge_w, BADGE_Y + BADGE_H)],
+        radius=BADGE_H // 2, fill=AMBER_PILL
+    )
+    # Badge text
+    draw.text(
+        (badge_x + badge_pad, BADGE_Y + (BADGE_H - sh_h) // 2),
+        src_label, font=f_src, fill=WHITE
+    )
+
+    # ── Step 5b: Headline + summary text ─────────────────────────────────────
+    PILL_H   = 76
+    PILL_GAP = 20
+    PAD      = 40
+
+    # Available zone: below badge bottom to above bar
+    zone_top = C_TOP + BADGE_H // 2 + 22
+    zone_bot = C_BOT - PILL_H - PILL_GAP
+    zone_h   = zone_bot - zone_top
 
     max_w = C_W - PAD * 2
-    lines = _wrap(headline, fnt['headline'], max_w, draw)[:4]
-    lh    = int(fnt['headline'].size * 1.38)
-    total = len(lines) * lh
-    ty    = text_top + max(0, (text_zone - total) // 2)
+    # Dynamic font size: try to use more of the card for short headlines
+    h_font = fnt['headline']
+    for pt in (100, 88, 74):
+        f_try  = _ttf(_DEV_PATHS, pt)
+        l_try  = _wrap(headline, f_try, max_w, draw)[:4]
+        if len(l_try) <= 2:
+            h_font = f_try
+            break
+    lines   = _wrap(headline, h_font, max_w, draw)[:4]
+    lh      = int(h_font.size * 1.42)
+    h_total = len(lines) * lh
+
+    # Summary: skip generic fallback (adds no value)
+    _GENERIC = "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्"
+    use_summary = summary and _GENERIC not in summary and len(summary.strip()) > 20
+    s_lines = _wrap(summary[:130], fnt['pill'], max_w - 20, draw)[:3] if use_summary else []
+    slh     = int(fnt['pill'].size * 1.5)
+    s_gap   = 26
+    s_total = len(s_lines) * slh if s_lines else 0
+
+    RULE_GAP  = 22   # space between amber rule and text
+    RULE_H    = 4    # amber rule thickness
+    has_rules = not s_lines  # draw amber framing rules only when no summary
+    rule_extra = (RULE_H + RULE_GAP) * 2 if has_rules else 0
+    block_h = h_total + (s_gap + s_total if s_total else 0) + rule_extra
+
+    # With summary: upper-third. Without: true center.
+    if s_lines:
+        ty = zone_top + max(28, (zone_h - block_h) // 3)
+    else:
+        ty = zone_top + max(28, (zone_h - block_h) // 2)
+
+    # Amber framing rule above headline
+    if has_rules:
+        rule_x0 = C_L + PAD * 2
+        rule_x1 = C_L + C_W - PAD * 2
+        rule_y  = ty
+        draw.rectangle([rule_x0, rule_y, rule_x1, rule_y + RULE_H],
+                       fill=(*AMBER_TOP, 200))
+        ty += RULE_H + RULE_GAP
 
     for i, line in enumerate(lines):
-        bb  = draw.textbbox((0, 0), line, font=fnt['headline'])
+        bb  = draw.textbbox((0, 0), line, font=h_font)
         lw  = bb[2] - bb[0]
         col = RED_ACCENT if i == len(lines) - 1 else GREEN_DARK
         tx  = C_L + (C_W - lw) // 2
 
-        # Drop shadow (warm dark offset)
+        # Drop shadow
         sh_layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
         ImageDraw.Draw(sh_layer).text((tx + 3, ty + 4), line,
-                                       font=fnt['headline'], fill=(0, 0, 0, 60))
+                                       font=h_font, fill=(0, 0, 0, 60))
         img = Image.alpha_composite(img, sh_layer)
         draw = ImageDraw.Draw(img)
 
-        # Main text
-        draw.text((tx, ty), line, font=fnt['headline'], fill=col)
+        draw.text((tx, ty), line, font=h_font, fill=col)
         ty += lh
+
+    # Amber framing rule below headline
+    if has_rules:
+        draw.rectangle([rule_x0, ty + RULE_GAP, rule_x1, ty + RULE_GAP + RULE_H],
+                       fill=(*AMBER_TOP, 200))
+
+    # Summary text — muted dark color, centered
+    if s_lines:
+        ty += s_gap
+        SUM_COL = (60, 60, 60, 210)
+        for line in s_lines:
+            bb = draw.textbbox((0, 0), line, font=fnt['pill'])
+            lw = bb[2] - bb[0]
+            tx = C_L + (C_W - lw) // 2
+            draw.text((tx, ty), line, font=fnt['pill'], fill=SUM_COL)
+            ty += slh
 
     # ── Step 6: Amber bottom bar with glow ───────────────────────────────────
     pill_text = "समाचारको लिंक कमेन्टमा"
