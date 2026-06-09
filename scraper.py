@@ -55,6 +55,7 @@ RSS_FEEDS = {
     "NewBusinessAge":    "https://www.newbusinessage.com/feed",
 
     # ── Finance / Economy / Stock Market ──────────────────────────────────────
+    "BankingSamachar":   "https://bankingsamachar.com/feed",
     "Bizmandu":          "https://bizmandu.com/feed",
     "BeemaKaKura":       "https://beemakakura.com/?feed=rss2",
     "Arthasarokar":      "https://arthasarokar.com/feed",
