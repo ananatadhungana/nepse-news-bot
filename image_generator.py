@@ -178,20 +178,21 @@ def generate_news_image(headline, summary, output_filename,
         draw.text((C_L + (C_W - lw) // 2, ty), line, font=fnt['headline'], fill=col)
         ty += lh
 
-    # ── Step 6: Amber pill button (wide — covers logo "TRADE THE TREND" text) ──
+    # ── Step 6: Amber bottom bar (full width inside card) covers TRADE THE TREND
     pill_text = "समाचारको लिंक कमेन्टमा"
     pb  = draw.textbbox((0, 0), pill_text, font=fnt['pill'])
-    ph  = 96                        # taller pill to cover TRADE THE TREND
-    pw  = C_W - 60                  # near full card width
-    px  = C_L + (C_W - pw) // 2
-    py  = C_BOT - ph - PILL_GAP + 10   # nudge up to cover text above
-
-    draw.rounded_rectangle([(px, py), (px + pw, py + ph)],
-                            radius=41, fill=(*AMBER_PILL, 255))
-    # center text in pill
+    ph  = 110                       # tall enough to fully cover TRADE THE TREND
+    # Full card width bar with rounded bottom corners only
+    bar_y = C_BOT - ph
+    # Draw amber rectangle covering bottom of card
+    draw.rectangle([(C_L + 2, bar_y), (C_R - 2, C_BOT - 2)], fill=AMBER_PILL)
+    # Round only the bottom corners by overdrawing rounded rect
+    draw.rounded_rectangle([(C_L + 2, bar_y), (C_R - 2, C_BOT - 2)],
+                            radius=34, fill=AMBER_PILL)
+    # Center text in bar
     tw = pb[2] - pb[0]
     th = pb[3] - pb[1]
-    draw.text((px + (pw - tw) // 2, py + (ph - th) // 2),
+    draw.text(((W - tw) // 2, bar_y + (ph - th) // 2),
               pill_text, font=fnt['pill'], fill=WHITE)
 
     # ── Save ───────────────────────────────────────────────────────────────────
