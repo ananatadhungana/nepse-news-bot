@@ -1,93 +1,5 @@
 [
   {
-    "link": "https://www.setopati.com/art/art-activity/388194",
-    "headline": "धिरज-मिरूनाको 'कुस्ती' ले तोक्यो प्रदर्शन मिति"
-  },
-  {
-    "link": "https://www.ratopati.com/story/560894/putins-security-tightened-amid-fears-of-assassination-and-coup",
-    "headline": "हत्या र ‘कू’को डरमा पुटिनको सुरक्षामा कडाइ"
-  },
-  {
-    "link": "https://www.ratopati.com/story/560893/supreme-court-orders-deepak-bhatta-to-be-produced-before-the-court-along-with-the-detainees",
-    "headline": "दीपक भट्टलाई बन्दीसहित उपस्थित गराउन सर्वोच्च अदालतको आदेश"
-  },
-  {
-    "link": "https://bizmandu.com/content/20260504133605.html",
-    "headline": "एनआइसी एसियाले ७.४५ अर्बको हकप्रद जारी गर्ने, राष्ट्र बैंकको पूर्व स्वीकृतिपछि बोलायो साधारण सभा"
-  },
-  {
-    "link": "https://bizmandu.com/content/20260504133146.html",
-    "headline": "घरजग्गा एजेन्ट तथा एजेन्सी सञ्चालकले गठन गरे महासंघ, सुवेदीको अध्यक्षतामा तदर्थ समिति"
-  },
-  {
-    "link": "https://arthasarokar.com/2026/05/home-secretary-shrestha-directs-police-personnel-to-make-transfers-and-promotions-fair-and-predictable.html",
-    "headline": "प्रहरीको सरुवा बढुवालाई निष्पक्ष र अनुमानयोग्य बनाउन गृहसचिव श्रेष्ठको निर्देशन"
-  },
-  {
-    "link": "https://arthasarokar.com/2026/05/lipulekh-is-nepals-land-and-the-government-is-clear-and-committed-to-it-pokharel-said.html",
-    "headline": "‘लिपुलेक नेपालकै भूमि हो, यसमा सरकार स्पष्ट र प्रतिवद्ध छ’ -सस्मित पोखरेल"
-  },
-  {
-    "link": "https://kathmandupost.com/politics/2026/05/04/government-resends-constitutional-council-ordinance-to-president",
-    "headline": "Government resends Constitutional Council ordinance to President"
-  },
-  {
-    "link": "https://kathmandupost.com/world/2026/05/04/australia-begins-hearings-into-bondi-beach-attack-and-rising-antisemitism",
-    "headline": "Australia begins hearings into Bondi Beach attack and rising antisemitism"
-  },
-  {
-    "link": "https://newsofnepal.com/2026/05/04/766774/",
-    "headline": "संवैधानिक परिषद्सम्बन्धी अध्यादेश फेरि राष्ट्रपतिसमक्ष पठाउने सरकारको निर्णय"
-  },
-  {
-    "link": "https://newsofnepal.com/2026/05/04/766771/",
-    "headline": "खेलकुदका २७ जना पदाधिकारी पदमुक्त"
-  },
-  {
-    "link": "https://techpana.com/2026/156481/never-share-otp-over-phone-its-a-scam-warning",
-    "headline": "‘यदि कसैले फोन गरेर ओटीपी माग्छ भने सम्झिनुहोस्, त्यो स्क्यामर हो’"
-  },
-  {
-    "link": "https://techpana.com/2026/156480/priority-for-domestic-products-and-software-in-government-procurement",
-    "headline": "सरकारी खरिदमा अब स्वदेशी उत्पादन तथा सफ्टवेयरलाई विशेष प्राथमिकता"
-  },
-  {
-    "link": "https://bajarkochirfar.com/damaged-pokhara-bhatbhateni-reopens-inaugurated-by-gurung-couple",
-    "headline": "क्षतिग्रस्त पोखरा भाटभटेनी पुनः सञ्चालनमा, गुरुङ दम्पतीले गरे उद्घाटन"
-  },
-  {
-    "link": "https://bajarkochirfar.com/shram-sanskriti-party-did-not-attend-the-meeting-called-by-the-speaker",
-    "headline": "सभामुखले बोलाएको बैठकमा गएन श्रम संस्कृति पार्टी"
-  },
-  {
-    "link": "https://www.diyopost.com/05/158949/",
-    "headline": "विश्व बैंकबाट ५७ मिलियन डलर आर्थिक सहयोग स्वीकार गर्ने सरकारको निर्णय"
-  },
-  {
-    "link": "https://www.diyopost.com/05/158942/",
-    "headline": "मोबाइल चार्जर, कण्डमदेखि मेन्सुरेशनल कपसम्म: के हाम्रा नाति-पनातिले हामीलाई यस्तै ‘टेक्नोफोसिल’बाट चिन्नेछन्?"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/05/1924626/fugitive-in-4-banking-cases-caught-in-foreign-fraud",
-    "headline": "४ वटा बैंकिङ कसुर मुद्दाका फरार व्यक्ति वैदेशिक ठगीमा समातिए"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/05/1924317/eating-without-feeling-hungry-can-be-a-habit",
-    "headline": "भोक नलागी खाना खाने बानी पर्न सक्छ भारी"
-  },
-  {
-    "link": "https://www.setopati.com/social/388235",
-    "headline": "शेखर गोल्छाले धरौटी तिर्न नसके मात्रै हिरासतमा राख्न सर्वोच्चको परमादेश"
-  },
-  {
-    "link": "https://www.setopati.com/politics/388230",
-    "headline": "विधवाले विवाह गरेपछि पहिलो पतिका छोराछोरीलाई अंश फर्काउनुपर्ने व्यवस्था बदर"
-  },
-  {
-    "link": "https://www.ratopati.com/story/560962/dozer-driven-squatter-entrepreneurs-face-hardship-in-slums",
-    "headline": "डोजर चलेका सुकुमबासी बस्तीमा कवाडी व्यवसायीलाई भ्याइनभ्याई"
-  },
-  {
     "link": "https://www.ratopati.com/story/560989/supreme-court-orders-release-of-shekhar-golchha-on-bail",
     "headline": "शेखर गोल्छालाई धरौटीमा छाड्न सर्वोच्चको आदेश"
   },
@@ -798,5 +710,93 @@
   {
     "link": "https://www.ratopati.com/story/568862",
     "headline": "दमौली बजारका अवैध संरचना हटाउन आग्रह"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/06/1949995/two-days-left-until-the-fifa-world-cup-begins-lets-see-the-complete-match-schedule-dates-and-final-information",
+    "headline": "फिफा विश्वकप सुरु हुन दुई दिन बाँकी, हेरौं पूरा खेल तालिका, मिति र फाइनलको जानकारी"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/06/1950001/bhaichung-bhutia-to-come-to-nepal-for-fifa-world-cup-pre-match-and-post-match-shows",
+    "headline": "भाइचुङ भुटिया फिफा विश्वकपको प्रिम्याच र पोस्ट म्याच शोका लागि नेपाल आउने"
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/business/390996",
+    "headline": "यशोधा फुड्सले भन्यो- निश्चित ब्याचबाहेकका अन्य करेन्ट चाउचाउ खान योग्य छ"
+  },
+  {
+    "link": "https://www.ratopati.com/story/568919/conflict-between-artists-and-organizers-whose-weakness",
+    "headline": "कलाकार र आयोजकबिच टकरावः कमजोरी क–कसको ?"
+  },
+  {
+    "link": "https://www.spotlightnepal.com/2026/06/09/after-delhi-visits-what-next-nepal-india-relations/",
+    "headline": "After The Delhi Visits, What Next For Nepal-India Relations?"
+  },
+  {
+    "link": "http://lokaantar.com/story/321619/2026/6/9/madhyasthata",
+    "headline": "राज्यकोष लुट्ने 'वैधानिक हतियार': मध्यस्थताका नाममा ठेकेदार पोसिँदै, सवा ५ अर्ब झ्वाम !"
+  },
+  {
+    "link": "https://newsofnepal.com/2026/06/09/772333/",
+    "headline": "असोजमा तेस्रो एभरेष्ट महिला भलिबल लिग हुने"
+  },
+  {
+    "link": "https://www.osnepal.com/detail/586731",
+    "headline": "नवीकरणीय ऊर्जाको विस्तारसँगै चीनको ऊर्जा भण्डारण उद्योगमा तीव्र वृद्धि"
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/06/208529/",
+    "headline": "महत्वपूर्ण निर्णय लिन प्रधानमन्त्रीले बोलाए मन्त्रि परिषद बैठक"
+  },
+  {
+    "link": "https://www.eadarsha.com/nep/212898.html",
+    "headline": "उपभोक्ता समितिका गुनासा : सरकारकै सेवा गर्दा उल्टै बेरुजुको भार ?"
+  },
+  {
+    "link": "https://www.bbc.com/nepali/articles/clyelvnd146o?at_medium=RSS&at_campaign=rss",
+    "headline": "बालेनबारे विपक्षी विभाजित, माफी मगाउने कि 'आशय' बुझ्ने?"
+  },
+  {
+    "link": "https://kathmandupost.com/national/2026/06/09/nepal-india-launch-digital-remittance-service-for-migrant-workers",
+    "headline": "Nepal, India launch digital remittance service for migrant workers"
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/06/09/wagle-hails-ritz-carltons-nepal-debut-as-tourism-milestone/",
+    "headline": "Wagle hails Ritz-Carlton’s Nepal debut as tourism milestone"
+  },
+  {
+    "link": "https://bizmandu.com/content/20260609114041.html",
+    "headline": "नागढुंगा सुरुङमार्ग समेतलाई फास्ट ट्र्याकसँग जोडिंदै, लिंक रोड बनाउन ५० करोड बजेट विनियोजन"
+  },
+  {
+    "link": "https://bizmandu.com/content/20260609113739.html",
+    "headline": "विश्वकपका लागि नेपाल टेलिकमले ल्यायो टिभी प्याकेज, इन्टरनेट जडान गर्नेलाई नि:शुल्क"
+  },
+  {
+    "link": "https://arthasarokar.com/2026/06/lali-bazaar-earns-rs-9-crore.html",
+    "headline": "‘लालीबजार’ को कमाई ९ करोड !"
+  },
+  {
+    "link": "https://www.karobardaily.com/news/383206",
+    "headline": "हर्मुजको व्यवधानले करमा पारेको छालीय प्रभाव"
+  },
+  {
+    "link": "https://www.capitalnepal.com/detail/80341",
+    "headline": "मध्यपूर्वको युद्ध चुलिँदा पनि चीनको निर्यातमा उल्लेख्य वृद्धि"
+  },
+  {
+    "link": "https://techmandu.com/government-imposes-6-percent-tax-on-ride-sharing-industry-gig-economy-gets-pricier/",
+    "headline": "Govt. imposes 6% tax on ride-sharing industry, gig economy gets pricier!"
+  },
+  {
+    "link": "https://techmandu.com/taxes-revised-on-electric-vehicles/",
+    "headline": "Electric Vehicles tax in Nepal: Budget FY 2083/84 Latest"
+  },
+  {
+    "link": "https://bikashnews.com/story/570037/",
+    "headline": "करोडौं बक्यौता नतिर्ने उद्योगमाथि सरकारको एक्सन, ७ दिनको अल्टिमेटम"
+  },
+  {
+    "link": "https://bikashnews.com/story/570035/",
+    "headline": "१८० मेगावाटको कालीगण्डकी गर्जको निर्माण सुरु, ग्लोबलसहित ५ बैंकको ४० अर्ब लगानी"
   }
 ]
