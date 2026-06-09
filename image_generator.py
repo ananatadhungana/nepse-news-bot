@@ -121,11 +121,26 @@ def _text_shadow(draw, pos, text, font, shadow_col, offset=(3, 4), alpha_img=Non
 def generate_news_image(headline, summary, output_filename,
                         photo_url=None, news_url=None, logo_path=None,
                         accent_color=None, source=None):
-    global LOGO_PATH
+    global LOGO_PATH, H
     if logo_path:
         LOGO_PATH = logo_path
 
     fnt = _load_fonts()
+
+    # ── Pre-compute dynamic image height from headline line count ─────────────
+    # Card top is fixed: HDR_Y(26) + LOGO_SM(82) + gap(46) = 154
+    _H_C_TOP  = 26 + 82 + 46
+    _H_C_W    = W - 36 * 2            # 1008 (card width with margins)
+    _H_max_w  = _H_C_W - 40 * 2       # 928  (headline wrap width)
+    _H_draw   = ImageDraw.Draw(Image.new('RGBA', (W, 1080)))
+    _H_lines  = _wrap(headline, fnt['headline'], _H_max_w, _H_draw)[:4]
+    _H_lh     = int(fnt['headline'].size * 1.42)
+    _H_htotal = len(_H_lines) * _H_lh
+    # 18=accent strip, 48=zone_pad, 4+22=top rule, h_total, 22+4=bot rule, 30=bot_pad, 110=pill
+    _H_needed = 18 + 48 + 4 + 22 + _H_htotal + 22 + 4 + 30 + 110
+    _H_cardh  = max(420, _H_needed)
+    H = max(800, min(1080, _H_C_TOP + _H_cardh + 80))
+    # ─────────────────────────────────────────────────────────────────────────
 
     # ── Step 1: Amber gradient background ────────────────────────────────────
     bg = Image.new('RGB', (W, H))
