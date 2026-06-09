@@ -3,7 +3,7 @@ name: NEPSE News Bot
 on:
   schedule:
     - cron: '*/15 * * * *' # Runs every 15 minutes
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
   run-bot:
@@ -14,25 +14,22 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
         
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'
+          cache: 'pip' # Cache pip dependencies for faster runs
           
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Setup Chrome
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-          
+      # Since we rely on sent_news.json to remember what we sent, we need to load it.
+      # Usually, GitHub Actions instances are ephemeral (they start fresh each time).
+      # To keep state across runs, we can commit the sent_news.json file back to the repository.
+      
       - name: Run Bot Script
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -40,14 +37,12 @@ jobs:
         run: |
           python main.py
           
-      - name: Commit and Push State File
+      - name: Commit State File
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout main || git checkout master || true
+          git pull origin main --rebase || git pull origin master --rebase || true
           git add sent_news.json || true
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update sent news history [skip ci]"
-            git push origin main
-          fi
+          git commit -m "Update sent news history" || true
+          git push origin HEAD:main || git push origin HEAD:master || true
