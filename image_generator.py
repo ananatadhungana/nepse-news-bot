@@ -8,11 +8,15 @@ LOGO_PATH  = os.path.join(SCRIPT_DIR, 'logo.png')
 
 _DEV_PATHS = [
     os.path.join(SCRIPT_DIR, 'NotoSansDevanagari-Bold.ttf'),
+    os.path.join(SCRIPT_DIR, 'NotoSansDevanagari-Regular.ttf'),
     '/usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf',
+    '/usr/share/fonts/truetype/noto/NotoSansDevanagari-Regular.ttf',
     '/usr/share/fonts/truetype/noto/NotoSansDevanagari[wdth,wght].ttf',
     '/usr/share/fonts/noto/NotoSansDevanagari-Bold.ttf',
+    '/usr/share/fonts/noto/NotoSansDevanagari-Regular.ttf',
     '/usr/share/fonts/truetype/fonts-noto-core/NotoSansDevanagari-Bold.ttf',
     '/usr/share/fonts/opentype/noto/NotoSansDevanagari-Bold.ttf',
+    '/usr/share/fonts/opentype/noto/NotoSansDevanagari-Regular.ttf',
 ]
 _LAT_PATHS = [
     os.path.join(SCRIPT_DIR, 'Poppins-Bold.ttf'),
@@ -35,8 +39,13 @@ W, H = 1080, 1080
 
 def _ttf(candidates, size):
     import glob
-    extra = glob.glob('/usr/share/fonts/**/*Devanagari*Bold*.ttf', recursive=True) + \
-            glob.glob('/usr/share/fonts/**/*Devanagari*Bold*.otf', recursive=True)
+    # Bold first, then any Devanagari (Regular beats load_default for Devanagari glyphs)
+    extra = (
+        glob.glob('/usr/share/fonts/**/*Devanagari*Bold*.ttf', recursive=True) +
+        glob.glob('/usr/share/fonts/**/*Devanagari*Bold*.otf', recursive=True) +
+        glob.glob('/usr/share/fonts/**/*Devanagari*.ttf',      recursive=True) +
+        glob.glob('/usr/share/fonts/**/*Devanagari*.otf',      recursive=True)
+    )
     all_paths = candidates + [p for p in extra if p not in candidates]
     for path in all_paths:
         if os.path.exists(path):
@@ -46,7 +55,7 @@ def _ttf(candidates, size):
                 return f
             except Exception:
                 continue
-    print(f"[WARN] Font not found — fallback")
+    print(f"[WARN] Font not found — fallback to default (Devanagari will not render)")
     return ImageFont.load_default(size)
 
 
@@ -65,15 +74,18 @@ def _wrap(text, font, max_w, draw):
     words, lines, cur = text.split(), [], []
     for w in words:
         cur.append(w)
-        if draw.textbbox((0, 0), ' '.join(cur), font=font)[2] > max_w:
+        bb = draw.textbbox((0, 0), ' '.join(cur), font=font)
+        # Use bb[2]-bb[0] (visual width) — Devanagari has non-zero left bearing
+        # so bb[2] alone overestimates width → premature wrapping → card too tall
+        if bb[2] - bb[0] > max_w:
             if len(cur) > 1:
                 cur.pop(); lines.append(' '.join(cur)); cur = [w]
             else:
                 lines.append(' '.join(cur)); cur = []
     if cur:
         lines.append(' '.join(cur))
-    # Merge orphaned last line (single short token ≤ 3 chars) back onto previous
-    if len(lines) >= 2 and len(lines[-1]) <= 3:
+    # Merge orphaned last line (single short token ≤ 6 chars) back onto previous
+    if len(lines) >= 2 and len(lines[-1]) <= 6:
         lines[-2] = lines[-2] + ' ' + lines[-1]
         lines.pop()
     return lines
