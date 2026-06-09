@@ -2,6 +2,10 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 import re
+import socket
+
+# Global timeout for all network calls (feedparser uses urllib internally)
+socket.setdefaulttimeout(10)
 
 # --- RSS FEEDS ---
 # 55+ Nepali news & finance portals (2 latest articles each)
