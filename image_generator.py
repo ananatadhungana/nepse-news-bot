@@ -1,96 +1,225 @@
 import os
-import base64
-from html2image import Html2Image
 import requests
-from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont
+from io import BytesIO
 
-def get_news_image_url(news_url):
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(news_url, headers=headers, timeout=5)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        og_image = soup.find("meta", property="og:image")
-        if og_image and og_image.get("content"):
-            return og_image["content"]
-    except:
-        pass
-    return "https://images.unsplash.com/photo-1611974714014-40f6950c9a2e?q=80&w=1080&auto=format&fit=crop"
+# ── PATHS ──────────────────────────────────────────────────────────────────────
+SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
 
-def generate_news_image(headline, summary, output_filename, news_url=None, logo_path="logo.png", accent_color="#E69603"):
-    print(f"  [ImageGen] Starting generation for: {headline[:30]}...")
-    try:
-        # Try html2image first
-        print("  [ImageGen] Initializing Html2Image...")
-        hti = Html2Image(size=(1080, 1350), custom_flags=['--no-sandbox', '--disable-gpu', '--hide-scrollbars', '--disable-dev-shm-usage'])
-        print("  [ImageGen] Html2Image initialized.")
-        bg_image_url = get_news_image_url(news_url) if news_url else "https://images.unsplash.com/photo-1611974714014-40f6950c9a2e?q=80&w=1080&auto=format&fit=crop"
-        
-        logo_base64 = ""
-        if os.path.exists(logo_path):
-            with open(logo_path, "rb") as f:
-                logo_base64 = base64.b64encode(f.read()).decode("utf-8")
-            logo_html = f'<img src="data:image/png;base64,{logo_base64}" class="logo">'
-        else:
-            logo_html = f'<div class="logo-text" style="color:{accent_color}">NEPSE ALERT</div>'
+# Devanagari (Nepali text)
+FONT_DEV_BOLD = os.path.join(SCRIPT_DIR, 'NotoSansDevanagari-Bold.ttf')
+FONT_DEV_REG  = os.path.join(SCRIPT_DIR, 'NotoSansDevanagari-Regular.ttf')
 
-        html_content = f"""
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <meta charset="UTF-8">
-            <style>
-                body {{ margin: 0; padding: 0; width: 1080px; height: 1350px; font-family: 'Noto Sans Devanagari', sans-serif; background: #fff; overflow: hidden; }}
-                .container {{ position: relative; width: 1080px; height: 1350px; display: flex; flex-direction: column; }}
-                .image-section {{ position: relative; width: 1080px; height: 750px; overflow: hidden; }}
-                .bg-image {{ width: 100%; height: 100%; object-fit: cover; }}
-                .logo-container {{ position: absolute; top: 30px; left: 30px; background: rgba(255,255,255,0.9); padding: 10px 20px; border-radius: 8px; display: flex; align-items: center; }}
-                .logo {{ height: 60px; max-width: 300px; object-fit: contain; }}
-                .content-section {{ flex: 1; background: #fff; padding: 40px 50px; display: flex; flex-direction: column; position: relative; border-top: 6px solid {accent_color}; }}
-                .headline {{ font-size: 68px; font-weight: 700; line-height: 1.2; color: #1a1a1a; margin-bottom: 30px; }}
-                .summary {{ font-size: 36px; font-weight: 400; line-height: 1.5; color: #444; margin-bottom: 40px; flex-grow: 1; }}
-                .footer {{ display: flex; justify-content: space-between; align-items: center; padding-top: 20px; border-top: 1px solid #eee; }}
-                .link-tag {{ background: {accent_color}; color: #fff; padding: 12px 35px; border-radius: 50px; font-size: 32px; font-weight: 600; }}
-                .brand-name {{ font-size: 28px; color: #888; font-weight: 600; }}
-            </style>
-        </head>
-        <body>
-            <div class="container">
-                <div class="image-section">
-                    <img src="{bg_image_url}" class="bg-image">
-                    <div class="logo-container">{logo_html}</div>
-                </div>
-                <div class="content-section">
-                    <div class="headline">{headline}</div>
-                    <div class="summary">{summary[:200] + "..." if len(summary) > 200 else summary}</div>
-                    <div class="footer">
-                        <div class="link-tag">समाचारको लिंक कमेन्टमा</div>
-                        <div class="brand-name">NEPSE ALERT NEWS</div>
-                    </div>
-                </div>
-            </div>
-        </body>
-        </html>
-        """
-        print(f"  [ImageGen] Attempting to take screenshot with html2image for {output_filename}...")
-        hti.screenshot(html_str=html_content, save_as=output_filename)
-        print(f"  [ImageGen] html2image screenshot command executed.")
-        print(f"  [ImageGen] Successfully generated image: {output_filename}")
-        return output_filename
-    except Exception as e:
-        print(f"  [ImageGen] html2image failed with exception: {e}")
-        import traceback
-        traceback.print_exc()
+# Latin (English — Poppins ships with the GitHub Actions runner)
+FONT_LAT_BOLD = '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf'
+FONT_LAT_REG  = '/usr/share/fonts/truetype/google-fonts/Poppins-Regular.ttf'
 
-        print(f"  [ImageGen] html2image failed: {e}. Falling back to PIL.")
+LOGO_PATH     = os.path.join(SCRIPT_DIR, 'logo.png')
+
+# ── BRAND COLORS — from NEPSE ALERT logo (amber/gold theme) ───────────────────
+AMBER         = (240, 165,   0)   # golden amber (logo bg color)
+AMBER_DARK    = (180, 120,   0)   # darker amber for last headline line
+DARK_BG       = ( 18,  15,   8)   # near-black content zone
+WHITE         = (255, 255, 255)
+PILL_BG       = (240, 165,   0)   # amber pill button
+PILL_TEXT     = ( 18,  15,   8)   # dark text on pill
+
+# ── CANVAS ─────────────────────────────────────────────────────────────────────
+W             = 1080
+H             = 1080
+PHOTO_H       = 555   # top zone height
+SEP_H         = 10    # separator thickness
+CONTENT_TOP   = PHOTO_H + SEP_H
+PAD           = 60
+
+
+def _load_fonts():
+    def ttf(path, size):
         try:
-            # Fallback to PIL (no browser needed)
-            img = Image.new('RGB', (1080, 1350), color=(255, 255, 255))
-            d = ImageDraw.Draw(img)
-            d.rectangle([0, 0, 1080, 750], fill=(240, 240, 240))
-            d.text((50, 800), headline[:50] + "...", fill=(0, 0, 0))
-            img.save(output_filename)
-            return output_filename
-        except Exception as pil_e:
-            print(f"  [ImageGen] PIL fallback also failed: {pil_e}")
-            return None
+            return ImageFont.truetype(path, size)
+        except Exception:
+            return ImageFont.load_default()
+    return {
+        'headline': ttf(FONT_DEV_BOLD, 66),
+        'pill':     ttf(FONT_DEV_BOLD, 40),
+        'brand_en': ttf(FONT_LAT_BOLD, 32),
+        'tag_en':   ttf(FONT_LAT_BOLD, 28),
+        'big_en':   ttf(FONT_LAT_BOLD, 80),
+    }
+
+
+def _get_photo(url):
+    if not url:
+        return None
+    try:
+        r = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
+        return Image.open(BytesIO(r.content)).convert('RGB')
+    except Exception as e:
+        print(f"[WARN] Photo: {e}")
+        return None
+
+
+def _cover_crop(img, tw, th):
+    s      = max(tw / img.width, th / img.height)
+    nw, nh = int(img.width * s), int(img.height * s)
+    img    = img.resize((nw, nh), Image.LANCZOS)
+    l, t   = (nw - tw) // 2, (nh - th) // 2
+    return img.crop((l, t, l + tw, t + th))
+
+
+def _wrap(text, font, max_w, draw):
+    if not text:
+        return []
+    words, lines, cur = text.split(), [], []
+    for w in words:
+        cur.append(w)
+        if draw.textbbox((0, 0), ' '.join(cur), font=font)[2] > max_w:
+            if len(cur) > 1:
+                cur.pop(); lines.append(' '.join(cur)); cur = [w]
+            else:
+                lines.append(' '.join(cur)); cur = []
+    if cur:
+        lines.append(' '.join(cur))
+    return lines
+
+
+def _draw_logo_tag(img, draw, fnt):
+    """Logo in top-right corner."""
+    lx, ly = W - 120, 16
+    if os.path.exists(LOGO_PATH):
+        try:
+            logo = Image.open(LOGO_PATH).convert('RGBA')
+            logo = logo.resize((104, 104), Image.LANCZOS)
+            bg   = Image.new('RGBA', (112, 112), (0, 0, 0, 140))
+            img.paste(bg,   (lx - 4, ly - 4), bg)
+            img.paste(logo, (lx, ly), logo)
+            return
+        except Exception as e:
+            print(f"[WARN] Logo tag: {e}")
+    # Fallback amber text tag
+    tw, th = 108, 72
+    tx, ty = W - tw - 16, 16
+    draw.rounded_rectangle([(tx, ty), (tx+tw, ty+th)], radius=10, fill=AMBER)
+    for i, line in enumerate(["NEPSE", "ALERT"]):
+        bb = draw.textbbox((0, 0), line, font=fnt['tag_en'])
+        lw = bb[2] - bb[0]
+        draw.text((tx + (tw - lw) // 2, ty + 6 + i * 30),
+                  line, font=fnt['tag_en'], fill=DARK_BG)
+
+
+def generate_news_image(headline, summary, output_filename,
+                        photo_url=None, news_url=None, logo_path=None,
+                        accent_color=None):
+    """
+    NEPSE ALERT NEWS — amber-gold branded card  1080x1080
+
+    WITH photo:  news photo fills top half
+    NO photo:    logo.png fills entire canvas as background (dark overlay added)
+    Both cases:  amber separator bar, dark content zone, no website URL
+    """
+    global LOGO_PATH
+    if logo_path:
+        LOGO_PATH = logo_path
+
+    fnt  = _load_fonts()
+    img  = Image.new('RGB', (W, H), DARK_BG)
+    draw = ImageDraw.Draw(img)
+
+    # ── TOP ZONE (photo or logo background) ───────────────────────────────────
+    photo = _get_photo(photo_url)
+    if photo:
+        # News photo — cover-crop into top half only
+        photo = _cover_crop(photo, W, PHOTO_H)
+        img.paste(photo, (0, 0))
+    else:
+        # No photo → use logo.png as full-canvas background + dark overlay
+        if os.path.exists(LOGO_PATH):
+            try:
+                bg = Image.open(LOGO_PATH).convert('RGBA')
+                bg = _cover_crop(bg, W, H)
+                # Convert to RGB and paste as base
+                img.paste(bg.convert('RGB'), (0, 0))
+                # Dark overlay so text is readable
+                overlay     = Image.new('RGBA', (W, H), (18, 15, 8, 195))
+                overlay_rgb = Image.new('RGB',  (W, H), (18, 15, 8))
+                overlay_msk = Image.new('L',    (W, H), 195)
+                img.paste(overlay_rgb, (0, 0), overlay_msk)
+            except Exception as e:
+                print(f"[WARN] Logo BG: {e}")
+                _draw_brand_header(img, draw, fnt)
+        else:
+            _draw_brand_header(img, draw, fnt)
+
+    # ── LOGO TAG top-right ─────────────────────────────────────────────────────
+    _draw_logo_tag(img, draw, fnt)
+
+    # ── AMBER SEPARATOR ────────────────────────────────────────────────────────
+    draw = ImageDraw.Draw(img)   # refresh after pastes
+    draw.rectangle([(0, PHOTO_H), (W, PHOTO_H + SEP_H)], fill=AMBER)
+
+    # ── CONTENT ZONE dark fill ─────────────────────────────────────────────────
+    content_rgb = Image.new('RGB', (W, H - CONTENT_TOP), (18, 15, 8))
+    content_msk = Image.new('L',   (W, H - CONTENT_TOP), 225)
+    img.paste(content_rgb, (0, CONTENT_TOP), content_msk)
+    draw = ImageDraw.Draw(img)
+
+    # ── HEADLINE ───────────────────────────────────────────────────────────────
+    max_w     = W - PAD * 2
+    lines     = _wrap(headline, fnt['headline'], max_w, draw)[:4]
+    line_h    = 82
+    total_txt = len(lines) * line_h
+    avail     = (H - CONTENT_TOP) - 170
+    y         = CONTENT_TOP + (avail - total_txt) // 2 - 10
+
+    for i, line in enumerate(lines):
+        bb  = draw.textbbox((0, 0), line, font=fnt['headline'])
+        lw  = bb[2] - bb[0]
+        col = AMBER if i < len(lines) - 1 else AMBER_DARK
+        draw.text(((W - lw) // 2, y), line, font=fnt['headline'], fill=col)
+        y  += line_h
+
+    # ── "समाचारको लिंक कमेन्टमा" PILL ─────────────────────────────────────────
+    pill_text = "समाचारको लिंक कमेन्टमा"
+    pb   = draw.textbbox((0, 0), pill_text, font=fnt['pill'])
+    pw   = pb[2] - pb[0] + 80
+    ph   = 66
+    px   = (W - pw) // 2
+    py   = y + 36
+
+    draw.rounded_rectangle([(px, py), (px + pw, py + ph)],
+                            radius=33, fill=PILL_BG)
+    draw.text((px + 40, py + (ph - (pb[3] - pb[1])) // 2),
+              pill_text, font=fnt['pill'], fill=PILL_TEXT)
+
+    # ── BOTTOM BAR — brand name only (no website URL) ─────────────────────────
+    bar_y = H - 52
+    draw.line([(PAD, bar_y - 14), (W - PAD, bar_y - 14)],
+              fill=(60, 48, 10), width=1)
+    draw.text((PAD, bar_y), "NEPSE ALERT NEWS",
+              font=fnt['brand_en'], fill=WHITE)
+
+    # ── SAVE ───────────────────────────────────────────────────────────────────
+    img.save(output_filename, 'JPEG', quality=92, optimize=True)
+    print(f"[OK] Saved: {output_filename}")
+    return output_filename
+
+
+def _draw_brand_header(img, draw, fnt):
+    """Fallback no-logo header with amber accents."""
+    draw.rectangle([(0, 0), (W, 6)], fill=AMBER)
+    for txt, ypos, col in [("NEPSE ALERT", 150, AMBER), ("NEWS", 250, WHITE)]:
+        bb = draw.textbbox((0, 0), txt, font=fnt['big_en'])
+        lw = bb[2] - bb[0]
+        draw.text(((W - lw) // 2, ypos), txt, font=fnt['big_en'], fill=col)
+    draw.rectangle([(PAD, PHOTO_H - 40), (W//2 - 160, PHOTO_H - 34)], fill=AMBER)
+    draw.rectangle([(W//2 + 160, PHOTO_H - 40), (W - PAD, PHOTO_H - 34)], fill=AMBER)
+
+
+if __name__ == "__main__":
+    generate_news_image(
+        headline="नेप्से परिसूचक ३ सय बिन्दुले घट्यो, लगानीकर्ता चिन्तित",
+        summary="थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
+        output_filename="test_render.jpg",
+        photo_url=None,
+    )
+    print("Done → test_render.jpg")
