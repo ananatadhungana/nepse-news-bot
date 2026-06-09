@@ -181,13 +181,28 @@ def generate_news_image(headline, summary, output_filename,
         except Exception as e:
             print(f"[WARN] Header logo: {e}")
 
-    # ── Step 3: Card geometry ─────────────────────────────────────────────────
+    # ── Step 3: Card geometry — C_BOT is content-driven ─────────────────────
     CM    = 36
     C_TOP = HDR_Y + LOGO_SM + 46
-    C_BOT = H - 36
     C_L   = CM
     C_R   = W - CM
     C_W   = C_R - C_L
+
+    # Pre-compute headline block height to size the card
+    _PAD_PRE  = 40
+    _max_w    = C_W - _PAD_PRE * 2
+    _lines    = _wrap(headline, fnt['headline'], _max_w, ImageDraw.Draw(Image.new('RGBA', (W, H))))[:4]
+    _lh       = int(fnt['headline'].size * 1.42)
+    _h_total  = len(_lines) * _lh
+    _RULE_H   = 4
+    _RULE_GAP = 22
+    _PILL_H   = 110
+    _ZONE_PAD = 48   # fixed top pad inside card before top rule
+    _BOT_PAD  = 30   # bottom pad between bottom rule and bar
+    _MIN_CARD = 420  # minimum card height regardless of content
+
+    _needed = 18 + _ZONE_PAD + _RULE_H + _RULE_GAP + _h_total + _RULE_GAP + _RULE_H + _BOT_PAD + _PILL_H
+    C_BOT = C_TOP + max(_MIN_CARD, _needed)
     C_H   = C_BOT - C_TOP
 
     # ── Step 3a: Amber glow ring around card (3D illumination effect) ─────────
@@ -294,57 +309,33 @@ def generate_news_image(headline, summary, output_filename,
         src_label, font=f_src, fill=WHITE
     )
 
-    # ── Step 5b: Headline + summary text ─────────────────────────────────────
+    # ── Step 5b: Headline text — always amber-framed, no summary ─────────────
     PILL_H   = 76
     PILL_GAP = 20
     PAD      = 40
+    RULE_GAP = 22
+    RULE_H   = 4
 
-    # Available zone: below badge bottom to above bar
-    zone_top = C_TOP + BADGE_H // 2 + 22
+    # Available zone: just inside card top (badge straddles C_TOP)
+    zone_top = C_TOP + 18
     zone_bot = C_BOT - PILL_H - PILL_GAP
     zone_h   = zone_bot - zone_top
 
-    max_w = C_W - PAD * 2
-    # Dynamic font size: try to use more of the card for short headlines
-    h_font = fnt['headline']
-    for pt in (100, 88, 74):
-        f_try  = _ttf(_DEV_PATHS, pt)
-        l_try  = _wrap(headline, f_try, max_w, draw)[:4]
-        if len(l_try) <= 2:
-            h_font = f_try
-            break
+    max_w   = C_W - PAD * 2
+    h_font  = fnt['headline']   # 74pt — typical NEPSE headline wraps to 3-4 lines
     lines   = _wrap(headline, h_font, max_w, draw)[:4]
     lh      = int(h_font.size * 1.42)
     h_total = len(lines) * lh
 
-    # Summary: skip generic fallback (adds no value)
-    _GENERIC = "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्"
-    use_summary = summary and _GENERIC not in summary and len(summary.strip()) > 20
-    s_lines = _wrap(summary[:130], fnt['pill'], max_w - 20, draw)[:3] if use_summary else []
-    slh     = int(fnt['pill'].size * 1.5)
-    s_gap   = 26
-    s_total = len(s_lines) * slh if s_lines else 0
+    rule_x0 = C_L + PAD * 2
+    rule_x1 = C_L + C_W - PAD * 2
+    block_h = (RULE_H + RULE_GAP) * 2 + h_total
+    # Small fixed top pad — all extra space falls to bottom
+    ty = zone_top + 48
 
-    RULE_GAP  = 22   # space between amber rule and text
-    RULE_H    = 4    # amber rule thickness
-    has_rules = not s_lines  # draw amber framing rules only when no summary
-    rule_extra = (RULE_H + RULE_GAP) * 2 if has_rules else 0
-    block_h = h_total + (s_gap + s_total if s_total else 0) + rule_extra
-
-    # With summary: upper-third. Without: true center.
-    if s_lines:
-        ty = zone_top + max(28, (zone_h - block_h) // 3)
-    else:
-        ty = zone_top + max(28, (zone_h - block_h) // 2)
-
-    # Amber framing rule above headline
-    if has_rules:
-        rule_x0 = C_L + PAD * 2
-        rule_x1 = C_L + C_W - PAD * 2
-        rule_y  = ty
-        draw.rectangle([rule_x0, rule_y, rule_x1, rule_y + RULE_H],
-                       fill=(*AMBER_TOP, 200))
-        ty += RULE_H + RULE_GAP
+    # Top amber rule
+    draw.rectangle([rule_x0, ty, rule_x1, ty + RULE_H], fill=(*AMBER_TOP, 200))
+    ty += RULE_H + RULE_GAP
 
     for i, line in enumerate(lines):
         bb  = draw.textbbox((0, 0), line, font=h_font)
@@ -362,21 +353,9 @@ def generate_news_image(headline, summary, output_filename,
         draw.text((tx, ty), line, font=h_font, fill=col)
         ty += lh
 
-    # Amber framing rule below headline
-    if has_rules:
-        draw.rectangle([rule_x0, ty + RULE_GAP, rule_x1, ty + RULE_GAP + RULE_H],
-                       fill=(*AMBER_TOP, 200))
-
-    # Summary text — muted dark color, centered
-    if s_lines:
-        ty += s_gap
-        SUM_COL = (60, 60, 60, 210)
-        for line in s_lines:
-            bb = draw.textbbox((0, 0), line, font=fnt['pill'])
-            lw = bb[2] - bb[0]
-            tx = C_L + (C_W - lw) // 2
-            draw.text((tx, ty), line, font=fnt['pill'], fill=SUM_COL)
-            ty += slh
+    # Bottom amber rule
+    draw.rectangle([rule_x0, ty + RULE_GAP, rule_x1, ty + RULE_GAP + RULE_H],
+                   fill=(*AMBER_TOP, 200))
 
     # ── Step 6: Amber bottom bar with glow ───────────────────────────────────
     pill_text = "समाचारको लिंक कमेन्टमा"
