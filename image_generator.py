@@ -20,18 +20,20 @@ _LAT_PATHS = [
     '/usr/share/fonts/truetype/poppins/Poppins-Bold.ttf',
 ]
 
-AMBER_TOP  = (240, 165,   0)
-AMBER_BOT  = (185, 110,   0)
-AMBER_PILL = (170, 105,   0)
+# ── Palette ───────────────────────────────────────────────────────────────────
+AMBER_TOP  = (248, 175,  10)   # bright warm amber
+AMBER_BOT  = (165,  90,   0)   # deep bronze
+AMBER_PILL = (155,  90,   0)   # dark amber bar
+AMBER_GLOW = (255, 190,  30)   # bright glow amber
 WHITE      = (255, 255, 255)
-GREEN_DARK = ( 15,  55,  15)
-RED_ACCENT = (145,  15,  15)
+CARD_WHITE = (255, 254, 252)   # near-white card
+GREEN_DARK = ( 15,  52,  15)
+RED_ACCENT = (130,  10,  10)
 
 W, H = 1080, 1080
 
 
 def _ttf(candidates, size):
-    # Also search system font dirs dynamically
     import glob
     extra = glob.glob('/usr/share/fonts/**/*Devanagari*Bold*.ttf', recursive=True) + \
             glob.glob('/usr/share/fonts/**/*Devanagari*Bold*.otf', recursive=True)
@@ -72,6 +74,33 @@ def _wrap(text, font, max_w, draw):
     return lines
 
 
+def _glow_rect(canvas_ref, rect, radius, color, layers=12, max_spread=28):
+    """Simulate glow by drawing multiple expanding semi-transparent rounded rects.
+    canvas_ref is a list [image] so we can reassign in-place."""
+    x1, y1, x2, y2 = rect
+    for i in range(layers, 0, -1):
+        spread = int(max_spread * (i / layers))
+        alpha  = int(55 * ((layers - i + 1) / layers) ** 1.6)
+        ov = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(ov).rounded_rectangle(
+            [(x1 - spread, y1 - spread), (x2 + spread, y2 + spread)],
+            radius=radius + spread,
+            fill=(*color, alpha)
+        )
+        canvas_ref[0] = Image.alpha_composite(canvas_ref[0], ov)
+
+
+def _text_shadow(draw, pos, text, font, shadow_col, offset=(3, 4), alpha_img=None):
+    """Draw a drop-shadow for text."""
+    if alpha_img is None:
+        draw.text((pos[0]+offset[0], pos[1]+offset[1]), text, font=font, fill=(*shadow_col, 90))
+        return
+    sh = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(sh).text((pos[0]+offset[0], pos[1]+offset[1]), text, font=font,
+                             fill=(*shadow_col, 80))
+    alpha_img[:] = Image.alpha_composite(alpha_img, sh)
+
+
 def generate_news_image(headline, summary, output_filename,
                         photo_url=None, news_url=None, logo_path=None,
                         accent_color=None, source=None):
@@ -81,17 +110,29 @@ def generate_news_image(headline, summary, output_filename,
 
     fnt = _load_fonts()
 
-    # ── Step 1: Amber gradient background (flat RGB) ───────────────────────────
+    # ── Step 1: Amber gradient background ────────────────────────────────────
     bg = Image.new('RGB', (W, H))
     draw = ImageDraw.Draw(bg)
     for y in range(H):
         t = y / (H - 1)
-        r = int(AMBER_TOP[0] + (AMBER_BOT[0] - AMBER_TOP[0]) * t)
-        g = int(AMBER_TOP[1] + (AMBER_BOT[1] - AMBER_TOP[1]) * t)
-        b = int(AMBER_TOP[2] + (AMBER_BOT[2] - AMBER_TOP[2]) * t)
+        t2 = t * t * (3 - 2 * t)   # smooth-step
+        r = int(AMBER_TOP[0] + (AMBER_BOT[0] - AMBER_TOP[0]) * t2)
+        g = int(AMBER_TOP[1] + (AMBER_BOT[1] - AMBER_TOP[1]) * t2)
+        b = int(AMBER_TOP[2] + (AMBER_BOT[2] - AMBER_TOP[2]) * t2)
         draw.line([(0, y), (W, y)], fill=(r, g, b))
 
-    # ── Step 2: Header "NEPSE [logo] ALERT" ───────────────────────────────────
+    # Subtle radial highlight in upper-center (adds 3D depth to background)
+    for i in range(30, 0, -1):
+        rr = i * 14
+        alpha = int(18 * (i / 30))
+        ov = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(ov).ellipse(
+            [(W//2 - rr, -rr//2), (W//2 + rr, rr)],
+            fill=(255, 220, 80, alpha)
+        )
+        bg = Image.alpha_composite(bg.convert('RGBA'), ov).convert('RGB')
+
+    # ── Step 2: Header "NEPSE [logo] ALERT" with glow ────────────────────────
     HDR_Y   = 26
     LOGO_SM = 82
     GAP     = 12
@@ -103,42 +144,94 @@ def generate_news_image(headline, summary, output_filename,
     hdr_x     = (W - total_hdr) // 2
     t_off     = (LOGO_SM - (nb[3] - nb[1])) // 2
 
-    draw.text((hdr_x, HDR_Y + t_off), "NEPSE", font=fnt['header'], fill=WHITE)
-    draw.text((hdr_x + nw + GAP + LOGO_SM + GAP, HDR_Y + t_off),
-              "ALERT", font=fnt['header'], fill=WHITE)
+    # Glow behind header text (amber halo)
+    bg_rgba = bg.convert('RGBA')
+    for gi in range(8, 0, -1):
+        gsh = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        gdraw = ImageDraw.Draw(gsh)
+        gdraw.text((hdr_x - gi, HDR_Y + t_off - gi//2), "NEPSE",
+                   font=fnt['header'], fill=(255, 200, 50, int(35*(gi/8))))
+        gdraw.text((hdr_x + nw + GAP + LOGO_SM + GAP - gi,
+                    HDR_Y + t_off - gi//2), "ALERT",
+                   font=fnt['header'], fill=(255, 200, 50, int(35*(gi/8))))
+        bg_rgba = Image.alpha_composite(bg_rgba, gsh)
 
+    # Draw crisp white header text
+    draw2 = ImageDraw.Draw(bg_rgba)
+    draw2.text((hdr_x, HDR_Y + t_off), "NEPSE", font=fnt['header'], fill=WHITE)
+    draw2.text((hdr_x + nw + GAP + LOGO_SM + GAP, HDR_Y + t_off),
+               "ALERT", font=fnt['header'], fill=WHITE)
+
+    # Header logo (crop center 66% to remove text ring)
     if os.path.exists(LOGO_PATH):
         try:
-            lg   = Image.open(LOGO_PATH).convert('RGBA')
-            lg   = lg.resize((LOGO_SM, LOGO_SM), Image.LANCZOS)
+            lg_src = Image.open(LOGO_PATH).convert('RGBA')
+            sz = lg_src.width
+            trim = int(sz * 0.17)
+            lg_src = lg_src.crop((trim, trim, sz - trim, sz - trim))
+            lg   = lg_src.resize((LOGO_SM, LOGO_SM), Image.LANCZOS)
             mask = Image.new('L', (LOGO_SM, LOGO_SM), 0)
             ImageDraw.Draw(mask).ellipse([(0, 0), (LOGO_SM, LOGO_SM)], fill=255)
-            bg.paste(lg.convert('RGB'), (hdr_x + nw + GAP, HDR_Y), mask)
+            bg_rgba.paste(lg.convert('RGB'), (hdr_x + nw + GAP, HDR_Y), mask)
         except Exception as e:
             print(f"[WARN] Header logo: {e}")
 
-    # ── Step 3: White semi-transparent card via RGBA composite ─────────────────
-    CM    = 38
-    C_TOP = HDR_Y + LOGO_SM + 50    # clear gap below header
-    C_BOT = H - 40
+    # ── Step 3: Card geometry ─────────────────────────────────────────────────
+    CM    = 36
+    C_TOP = HDR_Y + LOGO_SM + 46
+    C_BOT = H - 36
     C_L   = CM
     C_R   = W - CM
     C_W   = C_R - C_L
     C_H   = C_BOT - C_TOP
 
-    # Convert bg to RGBA, draw card as semi-transparent white
-    img = bg.convert('RGBA')
-    overlay = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-    ImageDraw.Draw(overlay).rounded_rectangle(
+    # ── Step 3a: Amber glow ring around card (3D illumination effect) ─────────
+    ref = [bg_rgba]
+    _glow_rect(ref, (C_L, C_TOP, C_R, C_BOT),
+               radius=36, color=AMBER_GLOW, layers=14, max_spread=32)
+    bg_rgba = ref[0]
+
+    # ── Step 3b: 3D layered shadow (warm bottom-right shadow) ─────────────────
+    for i in range(10, 0, -1):
+        sh = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(sh).rounded_rectangle(
+            [(C_L + i*2, C_TOP + i*2 + 4), (C_R + i*2, C_BOT + i*2 + 4)],
+            radius=36, fill=(80, 40, 0, int(28 * (i / 10)))
+        )
+        bg_rgba = Image.alpha_composite(bg_rgba, sh)
+
+    # ── Step 3c: Solid white card ─────────────────────────────────────────────
+    card_ov = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(card_ov).rounded_rectangle(
         [(C_L, C_TOP), (C_R, C_BOT)],
         radius=36,
-        fill=(255, 255, 255, 165)   # ~65% opacity
+        fill=(*CARD_WHITE, 252)
     )
-    img = Image.alpha_composite(img, overlay)
+    bg_rgba = Image.alpha_composite(bg_rgba, card_ov)
 
-    # ── Step 4: Logo watermark centered inside card ────────────────────────────
-    # Logo has solid amber bg → must remove it before use as watermark.
-    # Strategy: any pixel close to amber (#F0A500 ±40) → set alpha=0 (transparent).
+    # ── Step 3d: Top highlight edge (simulates 3D light from above) ───────────
+    hl = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    # Bright white line at very top of card
+    ImageDraw.Draw(hl).rounded_rectangle(
+        [(C_L + 2, C_TOP), (C_R - 2, C_TOP + 5)],
+        radius=3, fill=(255, 255, 255, 220)
+    )
+    # Softer secondary highlight below
+    ImageDraw.Draw(hl).rounded_rectangle(
+        [(C_L + 8, C_TOP + 5), (C_R - 8, C_TOP + 12)],
+        radius=2, fill=(255, 255, 255, 80)
+    )
+    bg_rgba = Image.alpha_composite(bg_rgba, hl)
+
+    # Thin amber accent top strip (just below highlight)
+    acc = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(acc).rectangle(
+        [(C_L + 3, C_TOP + 13), (C_R - 3, C_TOP + 17)],
+        fill=(*AMBER_GLOW, 160)
+    )
+    bg_rgba = Image.alpha_composite(bg_rgba, acc)
+
+    # ── Step 4: Logo watermark ────────────────────────────────────────────────
     if os.path.exists(LOGO_PATH):
         try:
             wm      = Image.open(LOGO_PATH).convert('RGBA')
@@ -148,28 +241,28 @@ def generate_news_image(headline, summary, output_filename,
             for py in range(wm.height):
                 for px in range(wm.width):
                     r2, g2, b2, a2 = pixels[px, py]
-                    # Detect amber/orange background (high R, mid G, low B)
                     if r2 > 180 and g2 > 100 and b2 < 80 and g2 < r2:
-                        pixels[px, py] = (r2, g2, b2, 0)   # transparent
+                        pixels[px, py] = (r2, g2, b2, 0)
             r, g, b, a = wm.split()
-            a = a.point(lambda x: int(x * 0.14))   # 14% opacity — subtle watermark
+            a = a.point(lambda x: int(x * 0.07))
             wm.putalpha(a)
             wm_layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
             wx = C_L + (C_W - wm_size) // 2
             wy = C_TOP + (C_H - wm_size) // 2
             wm_layer.paste(wm, (wx, wy), wm)
-            img = Image.alpha_composite(img, wm_layer)
+            bg_rgba = Image.alpha_composite(bg_rgba, wm_layer)
         except Exception as e:
             print(f"[WARN] Watermark: {e}")
 
+    img = bg_rgba
     draw = ImageDraw.Draw(img)
 
-    # ── Step 5: Headline text (vertically centered in card above pill) ─────────
-    PILL_H   = 70
-    PILL_GAP = 30
+    # ── Step 5: Headline text with drop shadow ────────────────────────────────
+    PILL_H   = 76
+    PILL_GAP = 28
     PAD      = 46
 
-    text_top  = C_TOP + 30
+    text_top  = C_TOP + 34
     text_bot  = C_BOT - PILL_H - PILL_GAP - 16
     text_zone = text_bot - text_top
 
@@ -183,28 +276,69 @@ def generate_news_image(headline, summary, output_filename,
         bb  = draw.textbbox((0, 0), line, font=fnt['headline'])
         lw  = bb[2] - bb[0]
         col = RED_ACCENT if i == len(lines) - 1 else GREEN_DARK
-        draw.text((C_L + (C_W - lw) // 2, ty), line, font=fnt['headline'], fill=col)
+        tx  = C_L + (C_W - lw) // 2
+
+        # Drop shadow (warm dark offset)
+        sh_layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(sh_layer).text((tx + 3, ty + 4), line,
+                                       font=fnt['headline'], fill=(0, 0, 0, 60))
+        img = Image.alpha_composite(img, sh_layer)
+        draw = ImageDraw.Draw(img)
+
+        # Main text
+        draw.text((tx, ty), line, font=fnt['headline'], fill=col)
         ty += lh
 
-    # ── Step 6: Amber bottom bar (full width inside card) covers TRADE THE TREND
+    # ── Step 6: Amber bottom bar with glow ───────────────────────────────────
     pill_text = "समाचारको लिंक कमेन्टमा"
     pb  = draw.textbbox((0, 0), pill_text, font=fnt['pill'])
-    ph  = 110                       # tall enough to fully cover TRADE THE TREND
-    # Full card width bar with rounded bottom corners only
+    ph  = 110
     bar_y = C_BOT - ph
-    # Draw amber rectangle covering bottom of card
-    draw.rectangle([(C_L + 2, bar_y), (C_R - 2, C_BOT - 2)], fill=AMBER_PILL)
-    # Round only the bottom corners by overdrawing rounded rect
-    draw.rounded_rectangle([(C_L + 2, bar_y), (C_R - 2, C_BOT - 2)],
-                            radius=34, fill=AMBER_PILL)
-    # Center text in bar
+
+    # Bar glow (amber halo under bar)
+    for gi in range(6, 0, -1):
+        bg_sh = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+        ImageDraw.Draw(bg_sh).rounded_rectangle(
+            [(C_L + 2, bar_y - gi*2), (C_R - 2, C_BOT + gi)],
+            radius=34, fill=(*AMBER_GLOW, int(20*(gi/6)))
+        )
+        img = Image.alpha_composite(img, bg_sh)
+
+    draw = ImageDraw.Draw(img)
+
+    # Bar fill
+    bar_ov = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(bar_ov).rounded_rectangle(
+        [(C_L + 2, bar_y), (C_R - 2, C_BOT - 2)],
+        radius=34, fill=(*AMBER_PILL, 255)
+    )
+    # Square off top corners
+    ImageDraw.Draw(bar_ov).rectangle(
+        [(C_L + 2, bar_y), (C_R - 2, bar_y + 34)],
+        fill=(*AMBER_PILL, 255)
+    )
+    img = Image.alpha_composite(img, bar_ov)
+
+    # Bright top highlight on bar (3D raised look)
+    bar_hl = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(bar_hl).rectangle(
+        [(C_L + 3, bar_y), (C_R - 3, bar_y + 3)],
+        fill=(255, 210, 80, 140)
+    )
+    img = Image.alpha_composite(img, bar_hl)
+
+    draw = ImageDraw.Draw(img)
     tw = pb[2] - pb[0]
     th = pb[3] - pb[1]
+    # Bar text shadow
+    draw.text(((W - tw) // 2 + 2, bar_y + (ph - th) // 2 + 2),
+              pill_text, font=fnt['pill'], fill=(0, 0, 0, 60))
+    # Bar text
     draw.text(((W - tw) // 2, bar_y + (ph - th) // 2),
               pill_text, font=fnt['pill'], fill=WHITE)
 
-    # ── Save ───────────────────────────────────────────────────────────────────
-    img.convert('RGB').save(output_filename, 'JPEG', quality=92, optimize=True)
+    # ── Save ──────────────────────────────────────────────────────────────────
+    img.convert('RGB').save(output_filename, 'JPEG', quality=93, optimize=True)
     print(f"[OK] {output_filename}")
     return output_filename
 
