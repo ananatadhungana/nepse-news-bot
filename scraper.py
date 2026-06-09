@@ -1,151 +1,223 @@
 import feedparser
 import requests
 from bs4 import BeautifulSoup
-import time
 import re
-from openai import OpenAI
-import os
 
-# Initialize OpenAI client
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
-
-# List of RSS feeds for Nepali news portals
+# --- RSS FEEDS ---
+# 30+ Nepali news & finance portals (2 latest articles each)
 RSS_FEEDS = {
-    "OnlineKhabar": "https://www.onlinekhabar.com/feed",
-    "Setopati": "https://www.setopati.com/feed",
-    "Ratopati": "https://ratopati.com/feed",
-    "Bizmandu": "https://bizmandu.com/feed",
-    "Ekantipur": "https://ekantipur.com/feed",
-    "Arthasarokar": "https://arthasarokar.com/feed",
-    "AbhiyanDaily": "https://www.abhiyandaily.com/abhiyanrss",
-    "KathmanduPost": "https://kathmandupost.com/rss",
-    "TheHimalayanTimes": "https://thehimalayantimes.com/rss",
-    "NewsOfNepal": "https://newsofnepal.com/feed",
-    "TechPana": "https://techpana.com/feed",
-    "BimaPost": "https://bimapost.com/feed",
-    "BajarkoChirfar": "https://bajarkochirfar.com/feed",
-    "NepalSamacharpatra": "https://newsofnepal.com/category/nepal-samacharpatra/feed",
-    "Samaypost": "https://samaypost.com/feed",
-    "Diyopost": "https://diyopost.com/feed",
-    "Sharesansar": "https://www.sharesansar.com/rss",
-    "Nepalipaisa": "https://nepalipaisa.com/feed",
-    "Nepsealpha": "https://nepsealpha.com/feed",
-    "ArthaSanjal": "https://arthasanjal.com/feed",
-    "ArthaSarsar": "https://arthasansar.com/feed",
-    "ArthaToday": "https://arthatoday.com/feed",
-    "ArthaDainik": "https://arthadainik.com/feed",
-    "ArthaBazar": "https://arthabazar.com/feed",
-    "Arthatantra": "https://arthatantra.com/feed",
-    "AjakoArtha": "https://ajakoartha.com/feed",
-    "Baahrakhari": "https://baahrakhari.com/feed",
-    "Bikashnews": "https://bikashnews.com/feed",
-    "Deshsanchar": "https://deshsanchar.com/feed",
-    "Beemakakura": "https://beemakakura.com/feed",
+    # ── General / Political ────────────────────────────────────────────────────
+    "OnlineKhabar":   "https://www.onlinekhabar.com/feed",
+    "Setopati":       "https://www.setopati.com/feed",
+    "Ratopati":       "https://ratopati.com/feed",
+    "Ekantipur":      "https://ekantipur.com/feed",
+    "Baahrakhari":    "https://baahrakhari.com/feed",
+    "DeshSanchar":    "https://deshsanchar.com/feed",
+    "NagarikNews":    "https://nagariknews.nagariknetwork.com/feed",
+    "MyRepublica":    "https://myrepublica.nagariknetwork.com/feed",
+    "AnnapurnaPost":  "https://annapurnapost.com/feed",
+    "NepalLiveToday": "https://nepallivetoday.com/feed",
+    "HamroSwasthya":  "https://hamroswasthya.com/feed",
+    "SpotlightNepal": "https://www.spotlightnepal.com/feed",
+    "NepalPress":     "https://nepalpress.com/feed",
+    "SajhaPost":      "https://sajhapost.com/feed",
+    "KhojKhabar":     "https://www.khojkhabar.com/feed",
+    "NepalSandesh":   "https://www.nepalsandesh.com/feed",
+
+    # ── Finance / Economy / Stock Market ──────────────────────────────────────
+    "Bizmandu":       "https://bizmandu.com/feed",
+    "BeemaKaKura":    "https://beemakakura.com/?feed=rss2",
+    "Arthasarokar":   "https://arthasarokar.com/feed",
+    "ArthoSansar":    "https://arthosansar.com/feed",
+    "ArtikAbhiyan":   "https://arthikabhiyan.com/feed",
+    "KarobarDaily":   "https://karobardaily.com/feed",
+    "ShareSansar":    "https://www.sharesansar.com/rss",
+    "NepalEconomyNews": "https://nepalecon.net/feed",
+    "FinanceNepal":   "https://financenepal.com/feed",
+    "CapitalNepal":   "https://capitalnepal.com/feed",
+    "InvestmentNepal":"https://investmentnepal.com/feed",
+    "MoneyMandu":     "https://moneymandu.com/feed",
+    "NepseTech":      "https://nepsetech.com/feed",
+    "BusinessAge":    "https://businessage.com.np/feed",
+    "BusinessHimalaya":"https://businesshimalaya.com/feed",
 }
 
-# Keywords for strict finance/economy filtering
-FINANCE_KEYWORDS = [
-    "नेप्से", "सेयर", "बजार", "लगानी", "बैंक", "बीमा", "अर्थतन्त्र", "बजेट", "लाभांश", "बोनस", 
-    "आईपीओ", "धितोपत्र", "मुद्रा", "ऋण", "ब्याज", "कारोबार", "कम्पनी", "म्युचुअल फण्ड", 
-    "NEPSE", "Stock", "Market", "Investment", "Bank", "Insurance", "Economy", "Budget", 
-    "Dividend", "Bonus", "IPO", "Securities", "Currency", "Loan", "Interest", "Trading", 
-    "Company", "Mutual Fund", "Finance", "Banking", "Fiscal", "Monetary", "Revenue"
-]
+HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; NEPSEBot/1.0)'}
+
 
 def clean_html(raw_html):
     if not raw_html:
         return ""
+    soup = BeautifulSoup(str(raw_html), "html.parser")
+    return soup.get_text(separator=" ").strip()
+
+
+def get_og_image(article_url):
+    """Scrape og:image from article page as last-resort photo source."""
     try:
-        soup = BeautifulSoup(raw_html, "html.parser")
-        return soup.get_text(separator=" ").strip()
-    except:
-        return str(raw_html).strip()
+        r    = requests.get(article_url, timeout=7, headers=HEADERS)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        og   = soup.find('meta', property='og:image') or \
+               soup.find('meta', attrs={'name': 'og:image'})
+        if og:
+            src = og.get('content', '').strip()
+            if src and src.startswith('http'):
+                return src
+    except Exception:
+        pass
+    return None
 
-def is_finance_related(text):
-    """Checks if the text contains any finance-related keywords."""
-    if not text:
-        return False
-    for keyword in FINANCE_KEYWORDS:
-        if re.search(rf"\b{keyword}\b", text, re.IGNORECASE) or keyword in text:
-            return True
-    return False
 
-def extract_full_text(url):
-    """Extracts the main text content from a news article URL."""
-    print(f"  [Scraper] Extracting full text from: {url}")
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
-        response = requests.get(url, headers=headers, timeout=10)
-        soup = BeautifulSoup(response.content, 'html.parser')
-        for script in soup(["script", "style"]):
-            script.extract()
-        content_div = soup.find('div', class_=re.compile(r'content|article|post-content|entry-content|story-content', re.I))
-        if content_div:
-            return content_div.get_text(separator=' ', strip=True)
-        paragraphs = soup.find_all('p')
-        return ' '.join([p.get_text(strip=True) for p in paragraphs if len(p.get_text(strip=True)) > 30])
-    except Exception as e:
-        print(f"  [Scraper] Text extraction error: {e}")
-        return ""
+def extract_image_from_entry(entry):
+    """Try multiple locations in an RSS entry to find a photo URL."""
 
-def get_ai_summary(text, headline):
-    """Generates a very short, to-the-point summary using AI."""
-    if not client:
-        print("  [Scraper] Warning: OPENAI_API_KEY not set. Using fallback summary.")
-        return text[:200] + "..." if text else headline
-        
-    if not text or len(text) < 100:
-        return text[:200] if text else headline
-        
-    try:
-        print(f"  [Scraper] Requesting AI summary for: {headline[:30]}...")
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "You are a financial news assistant. Summarize the following Nepali news article into a single, very short, and impactful sentence in Nepali. Focus only on the core fact related to economy, finance, or the stock market."},
-                {"role": "user", "content": f"Headline: {headline}\n\nContent: {text[:2000]}"}
-            ],
-            max_tokens=150
-        )
-        return response.choices[0].message.content.strip()
-    except Exception as e:
-        print(f"  [Scraper] AI Summarization error: {e}")
-        return text[:200] + "..." if text else headline
+    # 1. media:content (e.g. OnlineKhabar, Setopati)
+    media = getattr(entry, 'media_content', None)
+    if media and isinstance(media, list):
+        for m in media:
+            url = m.get('url', '')
+            if url and re.search(r'\.(jpg|jpeg|png|webp)', url, re.I):
+                return url
 
-def get_all_latest_news():
-    """Fetches the latest news from a list of RSS feeds with strict filtering and AI summarization."""
-    print("[Scraper] Starting global news fetch...")
+    # 2. enclosure
+    enclosures = getattr(entry, 'enclosures', [])
+    for enc in enclosures:
+        url = enc.get('url', '')
+        if url and re.search(r'\.(jpg|jpeg|png|webp)', url, re.I):
+            return url
+
+    # 3. First <img> inside summary / content HTML
+    for field in ('summary', 'content', 'description'):
+        raw = ''
+        val = getattr(entry, field, None)
+        if isinstance(val, list):          # content is a list of dicts
+            raw = val[0].get('value', '') if val else ''
+        elif isinstance(val, str):
+            raw = val
+        if raw:
+            soup = BeautifulSoup(raw, 'html.parser')
+            img = soup.find('img')
+            if img:
+                src = img.get('src', '')
+                if src and not src.endswith('.gif'):
+                    return src
+
+    return None
+
+
+def get_latest_news_from_rss():
     all_news = []
     for source, url in RSS_FEEDS.items():
         try:
-            print(f"  [Scraper] Fetching RSS for {source}...")
             feed = feedparser.parse(url)
-            if feed.entries:
-                print(f"  [Scraper] Found {len(feed.entries)} entries for {source}")
-                for entry in feed.entries[:3]: # Check top 3 entries per source
-                    headline = clean_html(entry.get('title', ''))
-                    link = entry.get('link', '')
-                    if headline and link and is_finance_related(headline):
-                        print(f"  [Scraper] Processing finance news: {headline[:50]}...")
-                        full_text = extract_full_text(link)
-                        summary = get_ai_summary(full_text, headline)
-                        all_news.append({
-                            "source": source,
-                            "headline": headline,
-                            "link": link,
-                            "summary": summary
-                        })
-            else:
-                print(f"  [Scraper] No entries found for {source}")
+            if not feed.entries:
+                print(f"[WARN] No entries from {source}")
+                continue
+            for entry in feed.entries[:2]:
+                headline = clean_html(entry.get('title', ''))
+                link     = entry.get('link', '')
+                summary  = clean_html(
+                    entry.get('summary', '') or entry.get('description', '')
+                )
+                photo    = extract_image_from_entry(entry)
+
+                if headline and link:
+                    # OG fallback if RSS had no photo
+                    if not photo:
+                        photo = get_og_image(link)
+                    all_news.append({
+                        "source":   source,
+                        "headline": headline,
+                        "link":     link,
+                        "summary":  summary or "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
+                        "photo":    photo,
+                    })
         except Exception as e:
-            print(f"  [Scraper] Error fetching RSS for {source}: {e}")
-    
-    print(f"[Scraper] Global fetch complete. Total items: {len(all_news)}")
+            print(f"[ERROR] RSS {source}: {e}")
+
     return all_news
 
+
+def get_latest_news_from_merolagani():
+    url = "https://merolagani.com/NewsList.aspx"
+    try:
+        r = requests.get(url, timeout=10, headers=HEADERS)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        results = []
+        for item in soup.select(".media-body h4.media-heading a")[:2]:
+            headline = item.text.strip()
+            link     = "https://merolagani.com" + item['href']
+            if headline:
+                # Try to grab thumbnail
+                parent  = item.find_parent('.media')
+                photo   = None
+                if parent:
+                    img = parent.find('img')
+                    if img:
+                        src = img.get('src', '') or img.get('data-src', '')
+                        if src and not src.startswith('data:'):
+                            photo = ('https://merolagani.com' + src
+                                     if src.startswith('/') else src)
+                results.append({
+                    "source":   "MeroLagani",
+                    "headline": headline,
+                    "link":     link,
+                    "summary":  "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
+                    "photo":    photo,
+                })
+        return results
+    except Exception as e:
+        print(f"[ERROR] MeroLagani: {e}")
+        return []
+
+
+def get_latest_news_from_bikashnews():
+    url = "https://bikashnews.com/"
+    try:
+        r = requests.get(url, timeout=10, headers=HEADERS)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        results, seen = [], set()
+        for a in soup.find_all('a', href=True):
+            href = a['href']
+            if href.startswith('/story/') and href not in seen:
+                seen.add(href)
+                headline = a.text.strip()
+                if not headline:
+                    continue
+                # Try sibling/parent img
+                photo = None
+                parent = a.find_parent()
+                if parent:
+                    img = parent.find('img')
+                    if img:
+                        src = img.get('src', '') or img.get('data-src', '')
+                        if src and not src.startswith('data:'):
+                            photo = ('https://bikashnews.com' + src
+                                     if src.startswith('/') else src)
+                results.append({
+                    "source":   "BikashNews",
+                    "headline": headline,
+                    "link":     "https://bikashnews.com" + href,
+                    "summary":  "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
+                    "photo":    photo,
+                })
+                if len(results) >= 2:
+                    break
+        return results
+    except Exception as e:
+        print(f"[ERROR] BikashNews: {e}")
+        return []
+
+
+def get_all_latest_news():
+    news = get_latest_news_from_rss()
+    news.extend(get_latest_news_from_merolagani())
+    news.extend(get_latest_news_from_bikashnews())
+    print(f"[INFO] Total articles fetched: {len(news)}")
+    return news
+
+
 if __name__ == "__main__":
-    print("Testing scraper with AI summarization...")
-    news = get_all_latest_news()
-    for n in news:
-        print(f"[{n['source']}] {n['headline']}\nSummary: {n['summary']}\n")
+    print("Testing scraper...")
+    for n in get_all_latest_news():
+        print(f"[{n['source']}] {n['headline']} | photo={n['photo']}")
