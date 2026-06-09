@@ -122,15 +122,12 @@ def get_latest_news_from_rss():
                 photo    = extract_image_from_entry(entry)
 
                 if headline and link:
-                    # OG fallback if RSS had no photo
-                    if not photo:
-                        photo = get_og_image(link)
                     all_news.append({
                         "source":   source,
                         "headline": headline,
                         "link":     link,
                         "summary":  summary or "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
-                        "photo":    photo,
+                        "photo":    photo,  # None → logo bg used; no per-article HTTP call
                     })
         except Exception as e:
             print(f"[ERROR] RSS {source}: {e}")
