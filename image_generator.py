@@ -9,7 +9,10 @@ LOGO_PATH  = os.path.join(SCRIPT_DIR, 'logo.png')
 _DEV_PATHS = [
     os.path.join(SCRIPT_DIR, 'NotoSansDevanagari-Bold.ttf'),
     '/usr/share/fonts/truetype/noto/NotoSansDevanagari-Bold.ttf',
+    '/usr/share/fonts/truetype/noto/NotoSansDevanagari[wdth,wght].ttf',
     '/usr/share/fonts/noto/NotoSansDevanagari-Bold.ttf',
+    '/usr/share/fonts/truetype/fonts-noto-core/NotoSansDevanagari-Bold.ttf',
+    '/usr/share/fonts/opentype/noto/NotoSansDevanagari-Bold.ttf',
 ]
 _LAT_PATHS = [
     os.path.join(SCRIPT_DIR, 'Poppins-Bold.ttf'),
@@ -28,7 +31,12 @@ W, H = 1080, 1080
 
 
 def _ttf(candidates, size):
-    for path in candidates:
+    # Also search system font dirs dynamically
+    import glob
+    extra = glob.glob('/usr/share/fonts/**/*Devanagari*Bold*.ttf', recursive=True) + \
+            glob.glob('/usr/share/fonts/**/*Devanagari*Bold*.otf', recursive=True)
+    all_paths = candidates + [p for p in extra if p not in candidates]
+    for path in all_paths:
         if os.path.exists(path):
             try:
                 f = ImageFont.truetype(path, size)
@@ -36,8 +44,8 @@ def _ttf(candidates, size):
                 return f
             except Exception:
                 continue
-    print("[WARN] Font missing — tiny fallback")
-    return ImageFont.load_default()
+    print(f"[WARN] Font not found — fallback")
+    return ImageFont.load_default(size)
 
 
 def _load_fonts():
@@ -144,7 +152,7 @@ def generate_news_image(headline, summary, output_filename,
                     if r2 > 180 and g2 > 100 and b2 < 80 and g2 < r2:
                         pixels[px, py] = (r2, g2, b2, 0)   # transparent
             r, g, b, a = wm.split()
-            a = a.point(lambda x: int(x * 0.28))   # 28% opacity
+            a = a.point(lambda x: int(x * 0.14))   # 14% opacity — subtle watermark
             wm.putalpha(a)
             wm_layer = Image.new('RGBA', (W, H), (0, 0, 0, 0))
             wx = C_L + (C_W - wm_size) // 2
