@@ -5,32 +5,19 @@ from io import BytesIO
 
 # ── PATHS ──────────────────────────────────────────────────────────────────────
 SCRIPT_DIR    = os.path.dirname(os.path.abspath(__file__))
-
-# Devanagari (Nepali text)
 FONT_DEV_BOLD = os.path.join(SCRIPT_DIR, 'NotoSansDevanagari-Bold.ttf')
-FONT_DEV_REG  = os.path.join(SCRIPT_DIR, 'NotoSansDevanagari-Regular.ttf')
-
-# Latin (English — Poppins ships with the GitHub Actions runner)
 FONT_LAT_BOLD = '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf'
-FONT_LAT_REG  = '/usr/share/fonts/truetype/google-fonts/Poppins-Regular.ttf'
-
 LOGO_PATH     = os.path.join(SCRIPT_DIR, 'logo.png')
 
-# ── BRAND COLORS — from NEPSE ALERT logo (amber/gold theme) ───────────────────
-AMBER         = (240, 165,   0)   # golden amber (logo bg color)
-AMBER_DARK    = (180, 120,   0)   # darker amber for last headline line
-DARK_BG       = ( 18,  15,   8)   # near-black content zone
-WHITE         = (255, 255, 255)
-PILL_BG       = (240, 165,   0)   # amber pill button
-PILL_TEXT     = ( 18,  15,   8)   # dark text on pill
+# ── BRAND COLORS ───────────────────────────────────────────────────────────────
+AMBER      = (240, 165,   0)   # brand orange / amber
+AMBER_DARK = (190, 120,   0)   # darker amber for last headline line
+WHITE      = (255, 255, 255)
+DARK       = ( 25,  20,  10)   # near-black headline text
+CARD_BG    = (255, 255, 255)   # white card
 
 # ── CANVAS ─────────────────────────────────────────────────────────────────────
-W             = 1080
-H             = 1080
-PHOTO_H       = 555   # top zone height
-SEP_H         = 10    # separator thickness
-CONTENT_TOP   = PHOTO_H + SEP_H
-PAD           = 60
+W, H = 1080, 1080
 
 
 def _load_fonts():
@@ -40,11 +27,10 @@ def _load_fonts():
         except Exception:
             return ImageFont.load_default()
     return {
-        'headline': ttf(FONT_DEV_BOLD, 66),
-        'pill':     ttf(FONT_DEV_BOLD, 40),
-        'brand_en': ttf(FONT_LAT_BOLD, 32),
-        'tag_en':   ttf(FONT_LAT_BOLD, 28),
-        'big_en':   ttf(FONT_LAT_BOLD, 80),
+        'header':   ttf(FONT_LAT_BOLD, 90),   # "NEPSE ALERT"
+        'headline': ttf(FONT_DEV_BOLD, 64),    # Nepali news headline
+        'pill':     ttf(FONT_DEV_BOLD, 40),    # bottom pill
+        'source':   ttf(FONT_LAT_BOLD, 28),    # source name tag
     }
 
 
@@ -55,7 +41,7 @@ def _get_photo(url):
         r = requests.get(url, timeout=10, headers={'User-Agent': 'Mozilla/5.0'})
         return Image.open(BytesIO(r.content)).convert('RGB')
     except Exception as e:
-        print(f"[WARN] Photo: {e}")
+        print(f"[WARN] Photo fetch: {e}")
         return None
 
 
@@ -83,143 +69,187 @@ def _wrap(text, font, max_w, draw):
     return lines
 
 
-def _draw_logo_tag(img, draw, fnt):
-    """Logo in top-right corner."""
-    lx, ly = W - 120, 16
-    if os.path.exists(LOGO_PATH):
-        try:
-            logo = Image.open(LOGO_PATH).convert('RGBA')
-            logo = logo.resize((104, 104), Image.LANCZOS)
-            bg   = Image.new('RGBA', (112, 112), (0, 0, 0, 140))
-            img.paste(bg,   (lx - 4, ly - 4), bg)
-            img.paste(logo, (lx, ly), logo)
-            return
-        except Exception as e:
-            print(f"[WARN] Logo tag: {e}")
-    # Fallback amber text tag
-    tw, th = 108, 72
-    tx, ty = W - tw - 16, 16
-    draw.rounded_rectangle([(tx, ty), (tx+tw, ty+th)], radius=10, fill=AMBER)
-    for i, line in enumerate(["NEPSE", "ALERT"]):
-        bb = draw.textbbox((0, 0), line, font=fnt['tag_en'])
-        lw = bb[2] - bb[0]
-        draw.text((tx + (tw - lw) // 2, ty + 6 + i * 30),
-                  line, font=fnt['tag_en'], fill=DARK_BG)
+def _paste_logo_watermark(img, card_left, card_top, card_w, card_h, opacity=0.10):
+    """Paste logo.png as a faint centered watermark inside the card."""
+    if not os.path.exists(LOGO_PATH):
+        return
+    try:
+        wm      = Image.open(LOGO_PATH).convert('RGBA')
+        wm_size = int(card_w * 0.80)
+        wm      = wm.resize((wm_size, wm_size), Image.LANCZOS)
+        r, g, b, a = wm.split()
+        a = a.point(lambda x: int(x * opacity))
+        wm.putalpha(a)
+        wm_x = card_left + (card_w - wm_size) // 2
+        wm_y = card_top  + (card_h - wm_size) // 2
+        img.paste(wm, (wm_x, wm_y), wm)
+    except Exception as e:
+        print(f"[WARN] Watermark: {e}")
 
 
 def generate_news_image(headline, summary, output_filename,
                         photo_url=None, news_url=None, logo_path=None,
-                        accent_color=None):
+                        accent_color=None, source=None):
     """
-    NEPSE ALERT NEWS — amber-gold branded card  1080x1080
+    NEPSE ALERT card — 1080×1080
 
-    WITH photo:  news photo fills top half
-    NO photo:    logo.png fills entire canvas as background (dark overlay added)
-    Both cases:  amber separator bar, dark content zone, no website URL
+    Layout:
+      ┌──────────────────────────────────┐  ← AMBER background
+      │  NEPSE [●] ALERT  (white bold)  │  ← header
+      │  ┌────────────────────────────┐  │
+      │  │  [logo watermark faint]    │  │  ← white card
+      │  │                            │  │
+      │  │     headline text dark     │  │
+      │  │                            │  │
+      │  │  [AMBER pill — link text]  │  │
+      │  └────────────────────────────┘  │
+      └──────────────────────────────────┘
     """
     global LOGO_PATH
     if logo_path:
         LOGO_PATH = logo_path
 
     fnt  = _load_fonts()
-    img  = Image.new('RGB', (W, H), DARK_BG)
+
+    # ── Full amber background ──────────────────────────────────────────────────
+    img  = Image.new('RGB', (W, H), AMBER)
     draw = ImageDraw.Draw(img)
 
-    # ── TOP ZONE (photo or logo background) ───────────────────────────────────
+    # ── Header: "NEPSE [logo] ALERT" ──────────────────────────────────────────
+    HDR_Y      = 24
+    LOGO_SM_SZ = 88
+    GAP        = 16
+
+    nb = draw.textbbox((0, 0), "NEPSE", font=fnt['header'])
+    ab = draw.textbbox((0, 0), "ALERT", font=fnt['header'])
+    nw = nb[2] - nb[0]
+    aw = ab[2] - ab[0]
+    total_hdr  = nw + GAP + LOGO_SM_SZ + GAP + aw
+    hdr_start  = (W - total_hdr) // 2
+
+    # Text vertical centering with logo
+    txt_offset = (LOGO_SM_SZ - (nb[3] - nb[1])) // 2
+
+    draw.text((hdr_start, HDR_Y + txt_offset), "NEPSE",
+              font=fnt['header'], fill=WHITE)
+    draw.text((hdr_start + nw + GAP + LOGO_SM_SZ + GAP, HDR_Y + txt_offset),
+              "ALERT", font=fnt['header'], fill=WHITE)
+
+    # Small circular logo between words
+    logo_hdr_x = hdr_start + nw + GAP
+    if os.path.exists(LOGO_PATH):
+        try:
+            lg = Image.open(LOGO_PATH).convert('RGBA')
+            lg = lg.resize((LOGO_SM_SZ, LOGO_SM_SZ), Image.LANCZOS)
+            mask = Image.new('L', (LOGO_SM_SZ, LOGO_SM_SZ), 0)
+            ImageDraw.Draw(mask).ellipse(
+                [(0, 0), (LOGO_SM_SZ, LOGO_SM_SZ)], fill=255)
+            img.paste(lg, (logo_hdr_x, HDR_Y), mask)
+        except Exception as e:
+            print(f"[WARN] Header logo: {e}")
+
+    # ── White card ─────────────────────────────────────────────────────────────
+    CARD_MARGIN = 36
+    CARD_TOP    = HDR_Y + LOGO_SM_SZ + 22
+    CARD_BOTTOM = H - 36
+    CARD_LEFT   = CARD_MARGIN
+    CARD_RIGHT  = W - CARD_MARGIN
+    CARD_W      = CARD_RIGHT - CARD_LEFT
+    CARD_H      = CARD_BOTTOM - CARD_TOP
+    RADIUS      = 36
+
+    draw.rounded_rectangle(
+        [(CARD_LEFT, CARD_TOP), (CARD_RIGHT, CARD_BOTTOM)],
+        radius=RADIUS, fill=CARD_BG
+    )
+
+    # ── Logo watermark inside card (always) ────────────────────────────────────
+    _paste_logo_watermark(img, CARD_LEFT, CARD_TOP, CARD_W, CARD_H, opacity=0.10)
+    draw = ImageDraw.Draw(img)
+
+    # ── News photo (optional) — top portion of card ───────────────────────────
     photo = _get_photo(photo_url)
+    photo_zone_h = 0
     if photo:
-        # News photo — cover-crop into top half only
-        photo = _cover_crop(photo, W, PHOTO_H)
-        img.paste(photo, (0, 0))
-    else:
-        # No photo → use logo.png as full-canvas background + dark overlay
-        if os.path.exists(LOGO_PATH):
-            try:
-                bg = Image.open(LOGO_PATH).convert('RGBA')
-                bg = _cover_crop(bg, W, H)
-                # Convert to RGB and paste as base
-                img.paste(bg.convert('RGB'), (0, 0))
-                # Dark overlay so text is readable
-                overlay     = Image.new('RGBA', (W, H), (18, 15, 8, 195))
-                overlay_rgb = Image.new('RGB',  (W, H), (18, 15, 8))
-                overlay_msk = Image.new('L',    (W, H), 195)
-                img.paste(overlay_rgb, (0, 0), overlay_msk)
-            except Exception as e:
-                print(f"[WARN] Logo BG: {e}")
-                _draw_brand_header(img, draw, fnt)
-        else:
-            _draw_brand_header(img, draw, fnt)
+        photo_zone_h = int(CARD_H * 0.46)
+        ph_w         = CARD_W - 16
+        ph_h         = photo_zone_h - 10
+        photo        = _cover_crop(photo, ph_w, ph_h)
+        # Rounded-top clipping mask
+        pmask = Image.new('L', (ph_w, ph_h), 0)
+        pd    = ImageDraw.Draw(pmask)
+        pd.rounded_rectangle([(0, 0), (ph_w, ph_h)], radius=26, fill=255)
+        pd.rectangle([(0, ph_h - 30), (ph_w, ph_h)], fill=255)  # straight bottom
+        img.paste(photo, (CARD_LEFT + 8, CARD_TOP + 8), pmask)
+        draw = ImageDraw.Draw(img)
 
-    # ── LOGO TAG top-right ─────────────────────────────────────────────────────
-    _draw_logo_tag(img, draw, fnt)
+    # ── Headline text ──────────────────────────────────────────────────────────
+    PILL_H       = 70
+    PILL_MARGIN  = 24
+    TEXT_PAD     = 52
 
-    # ── AMBER SEPARATOR ────────────────────────────────────────────────────────
-    draw = ImageDraw.Draw(img)   # refresh after pastes
-    draw.rectangle([(0, PHOTO_H), (W, PHOTO_H + SEP_H)], fill=AMBER)
+    text_top  = CARD_TOP + photo_zone_h + 20
+    text_bot  = CARD_BOTTOM - PILL_H - PILL_MARGIN - 18
+    text_zone = text_bot - text_top
 
-    # ── CONTENT ZONE dark fill ─────────────────────────────────────────────────
-    content_rgb = Image.new('RGB', (W, H - CONTENT_TOP), (18, 15, 8))
-    content_msk = Image.new('L',   (W, H - CONTENT_TOP), 225)
-    img.paste(content_rgb, (0, CONTENT_TOP), content_msk)
-    draw = ImageDraw.Draw(img)
+    max_w  = CARD_W - TEXT_PAD * 2
+    lines  = _wrap(headline, fnt['headline'], max_w, draw)[:4]
+    line_h = 84
+    total  = len(lines) * line_h
 
-    # ── HEADLINE ───────────────────────────────────────────────────────────────
-    max_w     = W - PAD * 2
-    lines     = _wrap(headline, fnt['headline'], max_w, draw)[:4]
-    line_h    = 82
-    total_txt = len(lines) * line_h
-    avail     = (H - CONTENT_TOP) - 170
-    y         = CONTENT_TOP + (avail - total_txt) // 2 - 10
+    ty = text_top + max(0, (text_zone - total) // 2)
 
     for i, line in enumerate(lines):
         bb  = draw.textbbox((0, 0), line, font=fnt['headline'])
         lw  = bb[2] - bb[0]
-        col = AMBER if i < len(lines) - 1 else AMBER_DARK
-        draw.text(((W - lw) // 2, y), line, font=fnt['headline'], fill=col)
-        y  += line_h
+        col = DARK if i < len(lines) - 1 else AMBER_DARK
+        draw.text((CARD_LEFT + (CARD_W - lw) // 2, ty),
+                  line, font=fnt['headline'], fill=col)
+        ty += line_h
 
-    # ── "समाचारको लिंक कमेन्टमा" PILL ─────────────────────────────────────────
+    # ── Source tag (top-left of card) ──────────────────────────────────────────
+    if source:
+        src_text = f"📰 {source}"
+        sb = draw.textbbox((0, 0), src_text, font=fnt['source'])
+        draw.text(
+            (CARD_LEFT + 22, CARD_TOP + 14 + (photo_zone_h if photo else 0)),
+            src_text, font=fnt['source'], fill=(140, 100, 0)
+        )
+
+    # ── Bottom pill inside card ─────────────────────────────────────────────────
     pill_text = "समाचारको लिंक कमेन्टमा"
-    pb   = draw.textbbox((0, 0), pill_text, font=fnt['pill'])
-    pw   = pb[2] - pb[0] + 80
-    ph   = 66
-    px   = (W - pw) // 2
-    py   = y + 36
+    pb = draw.textbbox((0, 0), pill_text, font=fnt['pill'])
+    pw = pb[2] - pb[0] + 80
+    ph = PILL_H
+    px = CARD_LEFT + (CARD_W - pw) // 2
+    py = CARD_BOTTOM - ph - PILL_MARGIN
 
-    draw.rounded_rectangle([(px, py), (px + pw, py + ph)],
-                            radius=33, fill=PILL_BG)
-    draw.text((px + 40, py + (ph - (pb[3] - pb[1])) // 2),
-              pill_text, font=fnt['pill'], fill=PILL_TEXT)
+    draw.rounded_rectangle(
+        [(px, py), (px + pw, py + ph)],
+        radius=35, fill=AMBER
+    )
+    draw.text(
+        (px + 40, py + (ph - (pb[3] - pb[1])) // 2),
+        pill_text, font=fnt['pill'], fill=DARK
+    )
 
-    # ── BOTTOM BAR — brand name only (no website URL) ─────────────────────────
-    bar_y = H - 52
-    draw.line([(PAD, bar_y - 14), (W - PAD, bar_y - 14)],
-              fill=(60, 48, 10), width=1)
-    draw.text((PAD, bar_y), "NEPSE ALERT NEWS",
-              font=fnt['brand_en'], fill=WHITE)
-
-    # ── SAVE ───────────────────────────────────────────────────────────────────
+    # ── Save ───────────────────────────────────────────────────────────────────
     img.save(output_filename, 'JPEG', quality=92, optimize=True)
     print(f"[OK] Saved: {output_filename}")
     return output_filename
 
 
 def _draw_brand_header(img, draw, fnt):
-    """Fallback no-logo header with amber accents."""
-    draw.rectangle([(0, 0), (W, 6)], fill=AMBER)
-    for txt, ypos, col in [("NEPSE ALERT", 150, AMBER), ("NEWS", 250, WHITE)]:
-        bb = draw.textbbox((0, 0), txt, font=fnt['big_en'])
-        lw = bb[2] - bb[0]
-        draw.text(((W - lw) // 2, ypos), txt, font=fnt['big_en'], fill=col)
-    draw.rectangle([(PAD, PHOTO_H - 40), (W//2 - 160, PHOTO_H - 34)], fill=AMBER)
-    draw.rectangle([(W//2 + 160, PHOTO_H - 40), (W - PAD, PHOTO_H - 34)], fill=AMBER)
+    """Fallback header — not used in main flow but kept for import compat."""
+    pass
 
 
 if __name__ == "__main__":
     generate_news_image(
-        headline="नेप्से परिसूचक ३ सय बिन्दुले घट्यो, लगानीकर्ता चिन्तित",
+        headline="गृहमन्त्रीमा फेरि सुधन गुरुङ फर्कदै, आजै ३बजे शपथ",
         summary="थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
         output_filename="test_render.jpg",
         photo_url=None,
+        source="OnlineKhabar",
     )
     print("Done → test_render.jpg")

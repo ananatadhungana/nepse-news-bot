@@ -14,51 +14,141 @@ TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 SENT_NEWS_FILE      = "sent_news.json"
 
 # ── RELEVANCE FILTER ────────────────────────────────────────────────────────────
-# Only send news touching these topics (Nepali + English)
+# INCLUDE: news must match at least one of these topics
 RELEVANT_KEYWORDS = [
-    # Stock / capital market
-    "शेयर", "सेयर", "nepse", "नेप्से", "शेयरबजार", "सेयरबजार",
-    "पुँजीबजार", "capital market", "stock", "ipo", "fpo",
-    "आईपीओ", "एफपीओ", "बोनस", "हकप्रद", "right share",
-    "dividend", "लाभांश", "demat", "डिम्याट", "broker", "दलाल",
-    "mutual fund", "म्युचुअल फन्ड", "index", "सूचकांक", "listing",
-    # Economy / finance
-    "अर्थतन्त्र", "economy", "economic", "आर्थिक", "gdp", "जिडिपी",
-    "inflation", "मुद्रास्फीति", "महँगी", "महंगाई",
-    "budget", "बजेट", "fiscal", "राजस्व", "revenue", "tax", "कर",
-    "remittance", "रेमिट्यान्स", "विप्रेषण",
-    "trade deficit", "व्यापार घाटा", "export", "import", "निर्यात", "आयात",
-    # Banking / monetary
-    "बैंक", "bank", "ब्याजदर", "interest rate", "राष्ट्र बैंक", "nrb",
-    "nepal rastra bank", "monetary", "मौद्रिक", "liquidity", "तरलता",
-    "loan", "ऋण", "credit", "कर्जा", "deposit", "निक्षेप",
-    "microfinance", "लघुवित्त", "insurance", "बीमा",
-    # Government / policy (economy-related)
-    "प्रधानमन्त्री", "prime minister", "cabinet", "मन्त्रिपरिशद",
-    "मन्त्री", "minister", "सरकार", "government", "policy", "नीति",
-    "राष्ट्रपति", "president", "parliament", "संसद",
-    "ordinance", "अध्यादेश", "बजेट अधिवेशन",
-    # Major political
-    "राजनीति", "political", "election", "निर्वाचन",
-    "coalition", "गठबन्धन", "राजनीतिक",
-    # Companies / corporates
-    "कम्पनी", "company", "corporation", "उद्योग", "industry",
-    "merger", "acquisition", "ceo", "प्रमुख कार्यकारी",
+    # ── NEPSE / Stock market (core) ──
+    "नेप्से", "nepse", "शेयर", "सेयर", "शेयरबजार", "सेयरबजार",
+    "पुँजीबजार", "पुंजीबजार",
+    "आईपीओ", "एफपीओ", "ipo", "fpo",
+    "हकप्रद", "बोनस सेयर", "बोनस शेयर", "right share",
+    "लाभांश", "dividend",
+    "डिम्याट", "demat",
+    "दलाल", "broker",
+    "म्युचुअल फन्ड", "mutual fund",
+    "किताब बन्द", "book close",
+    "लिस्टिङ", "listing",
+    "कारोबार", "trade volume",
+    "मर्जर", "merger", "acquisition",
+    "सूचकांक", "index",
+    # ── Banking / Monetary ──
+    "बैंक", "bank", "बैंकिङ",
+    "राष्ट्र बैंक", "नेपाल राष्ट्र बैंक", "nrb",
+    "ब्याजदर", "बेस रेट", "interest rate",
+    "तरलता", "liquidity",
+    "कर्जा", "ऋण", "loan", "credit",
+    "निक्षेप", "deposit",
+    "मौद्रिक नीति", "monetary policy",
+    "लघुवित्त", "microfinance",
+    "वित्त कम्पनी", "development bank", "डेभलपमेन्ट बैंक",
+    # ── Insurance ──
+    "बीमा", "बीमा कम्पनी", "जीवन बीमा", "insurance",
+    # ── Economy / Budget ──
+    "बजेट", "budget",
+    "राजस्व", "revenue",
+    "जिडिपी", "gdp",
+    "मुद्रास्फीति", "महँगी", "inflation",
+    "विप्रेषण", "रेमिट्यान्स", "remittance",
+    "व्यापार घाटा", "trade deficit",
+    "विदेशी मुद्रा", "foreign exchange", "forex",
+    "आयात", "निर्यात", "import", "export",
+    "अर्थतन्त्र", "economic",
+    "fiscal policy", "राजकोषीय",
+    # ── Key political roles (economy-impacting) ──
+    "प्रधानमन्त्री", "prime minister",
+    "अर्थमन्त्री",          # Finance Minister
+    "ऊर्जामन्त्री",          # Energy Minister (hydropower stocks)
+    "गृहमन्त्री",            # Home Minister
+    "परराष्ट्रमन्त्री",       # Foreign Minister
+    "मन्त्रिपरिषद", "cabinet",
+    "बजेट अधिवेशन", "बजेट पेश",
+    "संसद अधिवेशन", "parliament session",
+    "अध्यादेश", "ordinance",
+    "सरकार गठन", "नयाँ सरकार",
+    "शपथ",                   # Oath taking
+    "राजीनामा",              # Resignation
+    "विश्वासको मत",          # Vote of confidence
+    "अविश्वास प्रस्ताव",
+    "संसद विघटन",
+    "निर्वाचन",               # Election
+    "नेकपा", "काँग्रेस", "एमाले", "माओवादी",
+    # ── Hydro / Energy (major NEPSE sector) ──
+    "जलविद्युत", "hydropower", "विद्युत",
+    "नेपाल विद्युत प्राधिकरण", "nea",
+    # ── Telecom (NEPSE listed) ──
+    "नेपाल टेलिकम", "nepal telecom", "ntc",
+    # ── Cement / Manufacturing (NEPSE listed) ──
+    "सिमेन्ट कम्पनी", "cement company",
 ]
 
-_RELEVANT_RE = re.compile(
+# EXCLUDE: if headline contains ANY of these → skip (entertainment/sports/crime/etc.)
+EXCLUDE_KEYWORDS = [
+    # Entertainment
+    "कलाकार", "गायक", "गायिका", "अभिनेता", "अभिनेत्री",
+    "चलचित्र", "फिल्म", "नाटक", "संगीत", "गीत", "एल्बम", "कन्सर्ट",
+    "टेलिसिरियल", "वेबसिरिज",
+    # Sports (consumer / results — not financial)
+    "खेलकुद", "क्रिकेट", "फुटबल", "भलिबल", "ब्याडमिन्टन",
+    "विश्वकप", "एसिया कप", "खेलाडी", "प्रशिक्षक",
+    # Consumer telecom/internet offers
+    "टिभी प्याकेज", "इन्टरनेट प्याकेज", "डाटा प्याकेज",
+    "रिचार्ज अफर",
+    # Crime / accident
+    "हत्या", "दुर्घटना", "बलात्कार", "चोरी", "लुट", "अपहरण",
+    # Weather / disaster
+    "मौसम", "भूकम्प", "बाढी", "पहिरो", "हिमपात",
+    # Religious / cultural (non-financial)
+    "तीर्थ", "धार्मिक", "पूजा", "जात्रा", "पर्व",
+    # Health (unless economic)
+    "अस्पताल", "रोग", "भाइरस",
+    # Traffic
+    "सवारी साधन", "ट्राफिक",
+]
+
+_INCLUDE_RE = re.compile(
     '|'.join(re.escape(k) for k in RELEVANT_KEYWORDS),
+    re.IGNORECASE
+)
+_EXCLUDE_RE = re.compile(
+    '|'.join(re.escape(k) for k in EXCLUDE_KEYWORDS),
+    re.IGNORECASE
+)
+
+# Strong financial signals — even if exclude matches, send if STRONG signal present
+STRONG_KEYWORDS = [
+    "नेप्से", "nepse", "शेयर", "सेयर", "आईपीओ", "एफपीओ", "ipo", "fpo",
+    "लाभांश", "dividend", "डिम्याट", "हकप्रद", "राष्ट्र बैंक", "nrb",
+    "बजेट", "budget", "मर्जर", "merger",
+]
+_STRONG_RE = re.compile(
+    '|'.join(re.escape(k) for k in STRONG_KEYWORDS),
     re.IGNORECASE
 )
 
 
 def is_relevant(news):
-    """Return True if headline or summary touches relevant topics."""
-    text = news.get('headline', '') + ' ' + news.get('summary', '')
-    result = bool(_RELEVANT_RE.search(text))
-    if not result:
-        print(f"[FILTER] Skipped (off-topic): {news['headline'][:70]}")
-    return result
+    """
+    Send if:
+      - STRONG financial keyword present (always send), OR
+      - INCLUDE keyword present AND no EXCLUDE keyword in headline
+    """
+    headline = news.get('headline', '')
+    text     = headline + ' ' + news.get('summary', '')
+
+    # Strong signal → always send
+    if _STRONG_RE.search(text):
+        return True
+
+    # Exclude check on headline only (not summary — summary often generic)
+    if _EXCLUDE_RE.search(headline):
+        print(f"[FILTER] Excluded (off-topic): {headline[:70]}")
+        return False
+
+    # Include check
+    if _INCLUDE_RE.search(text):
+        return True
+
+    print(f"[FILTER] Skipped (no match): {headline[:70]}")
+    return False
 
 
 def load_sent_news():
@@ -154,6 +244,7 @@ def main():
                 summary         = news['summary'],
                 output_filename = img_path,
                 photo_url       = news.get('photo'),
+                source          = news.get('source'),
             )
 
             caption = (
