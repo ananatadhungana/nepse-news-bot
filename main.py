@@ -54,24 +54,10 @@ RELEVANT_KEYWORDS = [
     "आयात", "निर्यात", "import", "export",
     "अर्थतन्त्र", "economic",
     "fiscal policy", "राजकोषीय",
-    # ── Key political roles (economy-impacting) ──
-    "प्रधानमन्त्री", "prime minister",
-    "अर्थमन्त्री",          # Finance Minister
-    "ऊर्जामन्त्री",          # Energy Minister (hydropower stocks)
-    "गृहमन्त्री",            # Home Minister
-    "परराष्ट्रमन्त्री",       # Foreign Minister
-    "मन्त्रिपरिषद", "cabinet",
+    # ── Key political roles (only when economy-impacting) ──
     "बजेट अधिवेशन", "बजेट पेश",
-    "संसद अधिवेशन", "parliament session",
     "अध्यादेश", "ordinance",
     "सरकार गठन", "नयाँ सरकार",
-    "शपथ",                   # Oath taking
-    "राजीनामा",              # Resignation
-    "विश्वासको मत",          # Vote of confidence
-    "अविश्वास प्रस्ताव",
-    "संसद विघटन",
-    "निर्वाचन",               # Election
-    "नेकपा", "काँग्रेस", "एमाले", "माओवादी",
     # ── Hydro / Energy (major NEPSE sector) ──
     "जलविद्युत", "hydropower", "विद्युत",
     "नेपाल विद्युत प्राधिकरण", "nea",
@@ -107,6 +93,14 @@ EXCLUDE_KEYWORDS = [
     "अवरोध",
     # Election results for sports/local bodies (non-financial)
     "निर्वाचित",
+    # Political / cabinet (non-financial minister news)
+    # Note: अर्थमन्त्री / ऊर्जामन्त्री are in STRONG so they win before this exclude fires
+    "मन्त्री",               # cabinet/minister appointment/statement news
+    "मन्त्रिपरिषद",          # cabinet formation
+    "प्रधानमन्त्री",          # PM news (non-economic)
+    "सांसद", "सभासद",        # parliamentarian news
+    "राजनीतिक दल",           # political party
+    "विपक्ष", "सत्तापक्ष",
 ]
 
 _INCLUDE_RE = re.compile(
@@ -118,11 +112,13 @@ _EXCLUDE_RE = re.compile(
     re.IGNORECASE
 )
 
-# Strong financial signals — even if exclude matches, send if STRONG signal present
+# Strong financial signals — checked FIRST, override exclude list
 STRONG_KEYWORDS = [
     "नेप्से", "nepse", "शेयर", "सेयर", "आईपीओ", "एफपीओ", "ipo", "fpo",
     "लाभांश", "dividend", "डिम्याट", "हकप्रद", "राष्ट्र बैंक", "nrb",
     "बजेट", "budget", "मर्जर", "merger",
+    # Finance/Energy ministers moved here so "मन्त्री" exclude doesn't block them
+    "अर्थमन्त्री", "ऊर्जामन्त्री",
 ]
 _STRONG_RE = re.compile(
     '|'.join(re.escape(k) for k in STRONG_KEYWORDS),
@@ -133,23 +129,24 @@ _STRONG_RE = re.compile(
 def is_relevant(news):
     """
     Send if:
-      - STRONG financial keyword present (always send), OR
-      - INCLUDE keyword present AND no EXCLUDE keyword in headline
+      - STRONG financial keyword in HEADLINE (always send), OR
+      - INCLUDE keyword in HEADLINE AND no EXCLUDE keyword in headline
+    Summary intentionally excluded from all checks — too noisy (political articles
+    often mention financial terms in their summary).
     """
     headline = news.get('headline', '')
-    text     = headline + ' ' + news.get('summary', '')
 
-    # Strong signal → always send
-    if _STRONG_RE.search(text):
+    # Strong signal in headline → always send (overrides exclude list)
+    if _STRONG_RE.search(headline):
         return True
 
-    # Exclude check on headline only (not summary — summary often generic)
+    # Exclude check on headline
     if _EXCLUDE_RE.search(headline):
         print(f"[FILTER] Excluded (off-topic): {headline[:70]}")
         return False
 
-    # Include check
-    if _INCLUDE_RE.search(text):
+    # Include check on headline only
+    if _INCLUDE_RE.search(headline):
         return True
 
     print(f"[FILTER] Skipped (no match): {headline[:70]}")
@@ -204,15 +201,22 @@ def send_to_telegram(image_path, caption):
 def is_duplicate(headline, link, history):
     """
     Exact link match → duplicate.
-    Fuzzy headline match (≥65%) → duplicate (catches cross-portal reposts).
+    Fuzzy headline ≥0.65 → duplicate (catches cross-portal reposts).
+    Longest common block ≥12 chars + ratio ≥0.45 → same event (different wording).
     """
     for sent in history:
         if link == sent.get('link'):
             return True
         sent_h = sent.get('headline', '')
         if sent_h and headline:
-            if difflib.SequenceMatcher(None, headline, sent_h).ratio() > 0.72:
+            m = difflib.SequenceMatcher(None, headline, sent_h)
+            ratio = m.ratio()
+            if ratio > 0.65:
                 print(f"[SKIP] Near-duplicate: '{headline[:60]}…'")
+                return True
+            longest = max((b.size for b in m.get_matching_blocks()), default=0)
+            if longest >= 12 and ratio > 0.45:
+                print(f"[SKIP] Same-event (cross-run): '{headline[:60]}…'")
                 return True
     return False
 
