@@ -2,8 +2,10 @@ name: NEPSE News Bot
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Runs every 15 minutes
-  workflow_dispatch: # Allows manual trigger from GitHub UI
+    - cron: '*/15 * * * *' # Runs every 15 minutes (GitHub may delay up to ~1hr)
+  workflow_dispatch:        # Manual trigger from GitHub UI
+  repository_dispatch:      # External cron trigger (cron-job.org → GitHub API)
+    types: [run-bot]
 
 jobs:
   run-bot:
@@ -56,8 +58,15 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout main || git checkout master || true
-          git pull origin main --rebase || git pull origin master --rebase || true
-          git add sent_news.json || true
-          git commit -m "Update sent news history" || true
-          git push origin HEAD:main || git push origin HEAD:master || true
+          # Save the freshly-written state file before any git operations
+          cp sent_news.json /tmp/sent_news_new.json
+          # Sync to latest origin/main (handles concurrent bot commits)
+          git fetch origin main
+          git reset --hard origin/main
+          # Restore the state file we just generated
+          cp /tmp/sent_news_new.json sent_news.json
+          git add sent_news.json
+          # Skip commit if nothing changed
+          git diff --cached --quiet && echo "[INFO] Nothing to commit." && exit 0
+          git commit -m "chore: update sent news history"
+          git push origin HEAD:main

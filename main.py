@@ -4,6 +4,7 @@ import hashlib
 import requests
 import difflib
 import re
+import datetime
 from scraper import get_all_latest_news
 from image_generator import generate_news_image
 import time
@@ -13,6 +14,7 @@ TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 SENT_NEWS_FILE      = "sent_news.json"
 MAX_PER_RUN         = 4     # max articles sent per 15-min run (stops news floods)
+HISTORY_EXPIRE_HRS  = 6     # forget sent articles after 6 hours → fresh again
 
 # ── RELEVANCE FILTER ────────────────────────────────────────────────────────────
 # INCLUDE: news must match at least one of these topics
@@ -154,20 +156,44 @@ def is_relevant(news):
 
 
 def load_sent_news():
-    if os.path.exists(SENT_NEWS_FILE):
-        try:
-            with open(SENT_NEWS_FILE, 'r') as f:
-                data = json.load(f)
-                # Handle legacy format (list of plain strings)
-                if data and isinstance(data[0], str):
-                    return [{"link": l, "headline": ""} for l in data]
-                return data
-        except Exception:
-            return []
-    return []
+    """Load history and drop entries older than HISTORY_EXPIRE_HRS."""
+    if not os.path.exists(SENT_NEWS_FILE):
+        return []
+    try:
+        with open(SENT_NEWS_FILE, 'r') as f:
+            data = json.load(f)
+        # Legacy: list of plain URL strings
+        if data and isinstance(data[0], str):
+            data = [{"link": l, "headline": ""} for l in data]
+        # Time-based expiry: drop entries with sent_at older than threshold
+        now     = datetime.datetime.now(datetime.timezone.utc)
+        cutoff  = now - datetime.timedelta(hours=HISTORY_EXPIRE_HRS)
+        fresh, expired = [], 0
+        for entry in data:
+            ts_str = entry.get('sent_at', '')
+            if ts_str:
+                try:
+                    ts = datetime.datetime.fromisoformat(ts_str)
+                    # Make naive timestamps timezone-aware (UTC)
+                    if ts.tzinfo is None:
+                        ts = ts.replace(tzinfo=datetime.timezone.utc)
+                    if ts < cutoff:
+                        expired += 1
+                        continue
+                except Exception:
+                    pass  # malformed timestamp: keep entry
+            fresh.append(entry)
+        if expired:
+            print(f"[INFO] Expired {expired} old history entries (>{HISTORY_EXPIRE_HRS}h old).")
+        return fresh
+    except Exception:
+        return []
 
 
 def save_sent_news(news_list):
+    # Safety cap: never store more than 200 entries
+    if len(news_list) > 200:
+        news_list = news_list[-200:]
     with open(SENT_NEWS_FILE, 'w') as f:
         json.dump(news_list, f, ensure_ascii=False, indent=2)
 
@@ -302,6 +328,7 @@ def main():
                 sent_history.append({
                     "link":     news['link'],
                     "headline": news['headline'],
+                    "sent_at":  datetime.datetime.now(datetime.timezone.utc).isoformat(),
                 })
                 sent_this_run.append(news['headline'])
                 run_count += 1
@@ -319,10 +346,6 @@ def main():
             print(f"[ERROR] Processing '{news['headline'][:60]}': {e}")
             import traceback
             traceback.print_exc()
-
-    # Keep history capped at 60 entries (~3–4 hrs of runs at MAX_PER_RUN=4)
-    if len(sent_history) > 60:
-        sent_history = sent_history[-60:]
 
     save_sent_news(sent_history)
 
