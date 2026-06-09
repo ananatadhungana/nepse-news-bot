@@ -316,9 +316,9 @@ def main():
             import traceback
             traceback.print_exc()
 
-    # Keep history capped at 200 entries
-    if len(sent_history) > 200:
-        sent_history = sent_history[-200:]
+    # Keep history capped at 60 entries (~3–4 hrs of runs at MAX_PER_RUN=4)
+    if len(sent_history) > 60:
+        sent_history = sent_history[-60:]
 
     save_sent_news(sent_history)
 
