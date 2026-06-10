@@ -22,6 +22,11 @@ _LAT_PATHS = [
     os.path.join(SCRIPT_DIR, 'Poppins-Bold.ttf'),
     '/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf',
     '/usr/share/fonts/truetype/poppins/Poppins-Bold.ttf',
+    # System fallbacks always present on Ubuntu (GitHub Actions) — prevents tiny default font
+    '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',
+    '/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf',
+    '/usr/share/fonts/truetype/ubuntu/Ubuntu-B.ttf',
+    '/usr/share/fonts/truetype/freefont/FreeSansBold.ttf',
 ]
 
 # ── Palette ───────────────────────────────────────────────────────────────────
@@ -224,21 +229,8 @@ def generate_news_image(headline, summary, output_filename,
     C_R   = W - CM
     C_W   = C_R - C_L
 
-    # Pre-compute headline block height to size the card
-    _PAD_PRE  = 40
-    _max_w    = C_W - _PAD_PRE * 2
-    _lines    = _wrap(headline, fnt['headline'], _max_w, ImageDraw.Draw(Image.new('RGBA', (W, H))))[:4]
-    _lh       = int(fnt['headline'].size * 1.42)
-    _h_total  = len(_lines) * _lh
-    _RULE_H   = 4
-    _RULE_GAP = 22
-    _PILL_H   = 110
-    _ZONE_PAD = 48   # fixed top pad inside card before top rule
-    _BOT_PAD  = 30   # bottom pad between bottom rule and bar
-    _MIN_CARD = 420  # minimum card height regardless of content
-
-    _needed = 18 + _ZONE_PAD + _RULE_H + _RULE_GAP + _h_total + _RULE_GAP + _RULE_H + _BOT_PAD + _PILL_H
-    C_BOT = C_TOP + max(_MIN_CARD, _needed)
+    # Card height — reuse values from pre-computation above (same formula, same font)
+    C_BOT = C_TOP + _H_cardh
     C_H   = C_BOT - C_TOP
 
     # ── Step 3a: Amber glow ring around card (3D illumination effect) ─────────
@@ -346,27 +338,18 @@ def generate_news_image(headline, summary, output_filename,
     )
 
     # ── Step 5b: Headline text — always amber-framed, no summary ─────────────
-    PILL_H   = 76
-    PILL_GAP = 20
     PAD      = 40
     RULE_GAP = 22
     RULE_H   = 4
 
-    # Available zone: just inside card top (badge straddles C_TOP)
     zone_top = C_TOP + 18
-    zone_bot = C_BOT - PILL_H - PILL_GAP
-    zone_h   = zone_bot - zone_top
-
-    max_w   = C_W - PAD * 2
-    h_font  = fnt['headline']   # 74pt — typical NEPSE headline wraps to 3-4 lines
-    lines   = _wrap(headline, h_font, max_w, draw)[:4]
-    lh      = int(h_font.size * 1.42)
-    h_total = len(lines) * lh
+    max_w    = C_W - PAD * 2
+    h_font   = fnt['headline']   # 74pt — typical NEPSE headline wraps to 3-4 lines
+    lines    = _wrap(headline, h_font, max_w, draw)[:4]
+    lh       = int(h_font.size * 1.42)
 
     rule_x0 = C_L + PAD * 2
     rule_x1 = C_L + C_W - PAD * 2
-    block_h = (RULE_H + RULE_GAP) * 2 + h_total
-    # Small fixed top pad — all extra space falls to bottom
     ty = zone_top + 48
 
     # Top amber rule

@@ -5,6 +5,7 @@ import requests
 import difflib
 import re
 import datetime
+import html as _html
 from scraper import get_all_latest_news
 from image_generator import generate_news_image
 import time
@@ -259,14 +260,15 @@ def _same_event(h1, h2):
     Uses fuzzy match AND checks for shared key person/entity name (first 6 chars).
     Catches: 'महावीर पुन मन्त्री' vs 'महावीर पुनलाई मन्त्री' from different portals.
     """
-    ratio = difflib.SequenceMatcher(None, h1, h2).ratio()
+    # Reuse one SequenceMatcher for both ratio() and get_matching_blocks()
+    matcher = difflib.SequenceMatcher(None, h1, h2)
+    ratio   = matcher.ratio()
     if ratio > 0.72:
         return True
-    # If similarity is moderate (0.50–0.72), check if they share a long common substring
-    matcher = difflib.SequenceMatcher(None, h1, h2)
+    # Moderate similarity: check shared long substring (12+ chars = same subject)
     blocks  = matcher.get_matching_blocks()
     longest = max((b.size for b in blocks), default=0)
-    if longest >= 12 and ratio > 0.50:   # 12-char shared span = same subject
+    if longest >= 12 and ratio > 0.50:
         return True
     return False
 
@@ -316,8 +318,8 @@ def main():
             )
 
             caption = (
-                f"<b>{news['headline']}</b>\n\n"
-                f"📰 स्रोत: {news['source']}\n\n"
+                f"<b>{_html.escape(news['headline'])}</b>\n\n"
+                f"📰 स्रोत: {_html.escape(news['source'])}\n\n"
                 f"🔗 समाचारको लिंक कमेन्टमा 👇\n"
                 f"{news['link']}"
             )

@@ -75,6 +75,7 @@ RSS_FEEDS = {
     "AarthikNews":       "https://aarthiknews.com/feed",
     "Techmandu":         "https://techmandu.com/feed/",
     "UjyaaloOnline":     "https://ujyaaloonline.com/feed",
+    "BajarKoChirfar":    "https://bajarkochirfar.com/feed",
 }
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; NEPSEBot/1.0)'}
@@ -144,7 +145,8 @@ def get_latest_news_from_rss():
     all_news = []
     for source, url in RSS_FEEDS.items():
         try:
-            feed = feedparser.parse(url)
+            # Pass User-Agent — some Nepali news sites block the default feedparser UA
+            feed = feedparser.parse(url, request_headers=HEADERS)
             if not feed.entries:
                 print(f"[WARN] No entries from {source}")
                 continue
