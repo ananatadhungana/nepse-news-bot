@@ -84,10 +84,19 @@ def _wrap(text, font, max_w, draw):
                 lines.append(' '.join(cur)); cur = []
     if cur:
         lines.append(' '.join(cur))
-    # Merge orphaned last line (single short token ≤ 6 chars) back onto previous
-    if len(lines) >= 2 and len(lines[-1]) <= 6:
-        lines[-2] = lines[-2] + ' ' + lines[-1]
-        lines.pop()
+    # Merge orphaned last line only if:
+    #   1. last line is visually short (< 30% of max_w), AND
+    #   2. the merged line still fits within max_w
+    # NOTE: never use len() for Devanagari — "निषेध" = 5 code points but is a full word
+    if len(lines) >= 2:
+        bb_last   = draw.textbbox((0, 0), lines[-1], font=font)
+        last_w    = bb_last[2] - bb_last[0]
+        if last_w < max_w * 0.35:
+            merged  = lines[-2] + ' ' + lines[-1]
+            bb_m    = draw.textbbox((0, 0), merged, font=font)
+            if bb_m[2] - bb_m[0] <= max_w:
+                lines[-2] = merged
+                lines.pop()
     return lines
 
 
