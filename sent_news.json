@@ -64,16 +64,6 @@
     "headline": "रेमिट्यान्समा ऐतिहासिक उछाल : १० महिनामै १९ खर्ब १६ अर्ब भित्रियो, अर्थतन्त्रलाई ठूलो टेवा"
   },
   {
-    "link": "https://www.ratopati.com/story/576230/this-is-the-foreign-exchange-rate-for-today",
-    "headline": "यस्तो छ आजको लागि विदेशी मुद्राको विनिमयदर",
-    "sent_at": "2026-07-09T23:35:46.588711+00:00"
-  },
-  {
-    "link": "https://www.ratopati.com/story/576234/upper-mugu-karnali-hydropower-project-to-be-constructed",
-    "headline": "माथिल्लो मुगु कर्णाली जलविद्युत् आयोजना निर्माण हुने",
-    "sent_at": "2026-07-10T01:16:09.620133+00:00"
-  },
-  {
     "link": "https://baahrakhari.com/detail/493705",
     "headline": "कर्णालीमा जिल्लागत बजेट कार्यान्वयन : कालिकोट पहिलो, सुर्खेत सबैभन्दा कमजोर",
     "sent_at": "2026-07-10T05:08:31.817462+00:00"
@@ -92,5 +82,25 @@
     "link": "https://investmentnepal.com/%e0%a4%9f%e0%a4%95%e0%a5%8d%e0%a4%b8%e0%a4%be%e0%a4%b0-%e0%a4%aa%e0%a4%bf%e0%a4%96%e0%a5%81%e0%a4%b5%e0%a4%be-%e0%a4%96%e0%a5%8b%e0%a4%b2%e0%a4%be-%e0%a4%b9%e0%a4%be%e0%a4%87%e0%a4%a1%e0%a5%8d/",
     "headline": "टक्सार पिखुवा खोला हाइड्रोपावरको आईपीओमा वैशाख २८ गतेसम्म आवेदन दिन पाइने",
     "sent_at": "2026-07-10T05:08:46.912339+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/161939/",
+    "headline": "डेरी एसोसिएसनले भन्यो, ‘मौद्रिक नीति प्रभावकारी रूपमा कार्यान्वयन गर्नुपर्छ’",
+    "sent_at": "2026-07-10T08:37:14.460245+00:00"
+  },
+  {
+    "link": "https://www.karobardaily.com/news/393197",
+    "headline": "माथिल्लो मुगु कर्णाली जलविद्युत् आयोजनाको उत्पादन अनुमति प्रक्रिया अघि बढ्यो",
+    "sent_at": "2026-07-10T08:37:19.778698+00:00"
+  },
+  {
+    "link": "https://bajarkochirfar.com/lock-in-period-for-over-2-8-million-shares-of-upper-lohore-khola-hydropower-ends",
+    "headline": "अप्पर लोहोरे खोला हाइड्रोपावरको २८ लाख बढी कित्ता सेयरको लकइन अवधि सकिँदै",
+    "sent_at": "2026-07-10T08:37:25.166913+00:00"
+  },
+  {
+    "link": "https://bikashnews.com/story/571960/",
+    "headline": "तरलता व्यवस्थापनसँगै महँगीको दबाब",
+    "sent_at": "2026-07-10T08:37:30.482835+00:00"
   }
 ]
