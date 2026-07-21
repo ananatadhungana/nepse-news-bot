@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import socket
+import time as _time
 
 # Global timeout for all network calls (feedparser uses urllib internally)
 socket.setdefaulttimeout(10)
@@ -141,6 +142,18 @@ def extract_image_from_entry(entry):
     return None
 
 
+def _entry_age_hours(entry):
+    """Return age of RSS entry in hours. Returns 0 (include) if pub_date unparseable."""
+    for field in ('published_parsed', 'updated_parsed'):
+        t = getattr(entry, field, None)
+        if t:
+            try:
+                return (_time.time() - _time.mktime(t)) / 3600
+            except Exception:
+                pass
+    return 0  # unknown age → include by default (safe)
+
+
 def get_latest_news_from_rss():
     all_news = []
     for source, url in RSS_FEEDS.items():
@@ -153,6 +166,13 @@ def get_latest_news_from_rss():
             for entry in feed.entries[:2]:
                 headline = clean_html(entry.get('title', ''))
                 link     = entry.get('link', '')
+
+                # Skip articles older than 36 hours (prevents old news replay)
+                age_h = _entry_age_hours(entry)
+                if age_h > 36:
+                    print(f"[SKIP] Old article ({age_h:.0f}h) [{source}]: {headline[:60]}")
+                    continue
+
                 summary  = clean_html(
                     entry.get('summary', '') or entry.get('description', '')
                 )

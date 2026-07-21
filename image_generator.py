@@ -64,12 +64,18 @@ def _ttf(candidates, size):
     return ImageFont.load_default(size)
 
 
+def _is_devanagari(text):
+    """Return True if text contains any Devanagari Unicode characters (U+0900–U+097F)."""
+    return any('ऀ' <= ch <= 'ॿ' for ch in (text or ''))
+
+
 def _load_fonts():
     return {
-        'header':   _ttf(_LAT_PATHS, 90),
-        'headline': _ttf(_DEV_PATHS, 74),
-        'pill':     _ttf(_DEV_PATHS, 38),
-        'badge':    _ttf(_LAT_PATHS, 32),   # Latin font for source badge
+        'header':       _ttf(_LAT_PATHS, 90),
+        'headline_dev': _ttf(_DEV_PATHS, 74),   # Devanagari/mixed headlines
+        'headline_lat': _ttf(_LAT_PATHS, 74),   # English/Latin-only headlines
+        'pill':         _ttf(_DEV_PATHS, 38),
+        'badge':        _ttf(_LAT_PATHS, 32),
     }
 
 
@@ -147,8 +153,9 @@ def generate_news_image(headline, summary, output_filename,
     _H_C_W    = W - 36 * 2            # 1008 (card width with margins)
     _H_max_w  = _H_C_W - 40 * 2       # 928  (headline wrap width)
     _H_draw   = ImageDraw.Draw(Image.new('RGBA', (W, 1080)))
-    _H_lines  = _wrap(headline, fnt['headline'], _H_max_w, _H_draw)[:4]
-    _H_lh     = int(fnt['headline'].size * 1.42)
+    _H_fnt    = fnt['headline_lat'] if not _is_devanagari(headline) else fnt['headline_dev']
+    _H_lines  = _wrap(headline, _H_fnt, _H_max_w, _H_draw)[:4]
+    _H_lh     = int(_H_fnt.size * 1.42)
     _H_htotal = len(_H_lines) * _H_lh
     # 18=accent strip, 48=zone_pad, 4+22=top rule, h_total, 22+4=bot rule, 30=bot_pad, 110=pill
     _H_needed = 18 + 48 + 4 + 22 + _H_htotal + 22 + 4 + 30 + 110
@@ -344,7 +351,7 @@ def generate_news_image(headline, summary, output_filename,
 
     zone_top = C_TOP + 18
     max_w    = C_W - PAD * 2
-    h_font   = fnt['headline']   # 74pt — typical NEPSE headline wraps to 3-4 lines
+    h_font   = fnt['headline_lat'] if not _is_devanagari(headline) else fnt['headline_dev']
     lines    = _wrap(headline, h_font, max_w, draw)[:4]
     lh       = int(h_font.size * 1.42)
 
