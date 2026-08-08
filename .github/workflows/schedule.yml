@@ -28,25 +28,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Fonts
-        run: |
-          # Install Noto via apt (system fallback)
-          sudo apt-get install -y fonts-noto-core fonts-noto 2>/dev/null || true
-          # Download Poppins (not in apt)
-          curl -fL "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Bold.ttf" \
-            -o Poppins-Bold.ttf || true
-          echo "=== TTF in working dir ==="
-          ls -lh *.ttf 2>/dev/null || echo "WARN: no .ttf in working dir"
-          echo "=== Noto Devanagari on system ==="
-          find /usr/share/fonts -iname "*Devanagari*" 2>/dev/null | head -10 || echo "none"
-          # Fail loudly if Devanagari font not found anywhere — boxes will appear
-          if ! ls NotoSansDevanagari*.ttf 2>/dev/null && \
-             ! find /usr/share/fonts -iname "*Devanagari*Bold*" 2>/dev/null | grep -q .; then
-            echo "ERROR: No Devanagari font found! Commit NotoSansDevanagari-Bold.ttf to the repo."
-            exit 1
-          fi
-          echo "Devanagari font OK."
-
       # Since we rely on sent_news.json to remember what we sent, we need to load it.
       # Usually, GitHub Actions instances are ephemeral (they start fresh each time).
       # To keep state across runs, we can commit the sent_news.json file back to the repository.

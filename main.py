@@ -1,13 +1,11 @@
 import os
 import json
-import hashlib
 import requests
 import difflib
 import re
 import datetime
 import html as _html
 from scraper import get_all_latest_news
-from image_generator import generate_news_image
 import time
 
 # --- CONFIGURATION ---
@@ -15,7 +13,9 @@ TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 SENT_NEWS_FILE      = "sent_news.json"
 MAX_PER_RUN         = 4     # max articles sent per 15-min run (stops news floods)
-HISTORY_EXPIRE_HRS  = 6     # forget sent articles after 6 hours → fresh again
+HISTORY_MAX_ENTRIES = 500   # dedup memory size — NOT time-based anymore.
+                            # (old 6h time-expiry caused same article to be
+                            # re-sent every 6h if nothing new was published)
 
 # ── RELEVANCE FILTER ────────────────────────────────────────────────────────────
 # INCLUDE: news must match at least one of these topics
@@ -157,7 +157,8 @@ def is_relevant(news):
 
 
 def load_sent_news():
-    """Load history and drop entries older than HISTORY_EXPIRE_HRS."""
+    """Load dedup history. No time-based expiry — an article stays 'seen'
+    until it rolls off the HISTORY_MAX_ENTRIES cap (see save_sent_news)."""
     if not os.path.exists(SENT_NEWS_FILE):
         return []
     try:
@@ -166,57 +167,37 @@ def load_sent_news():
         # Legacy: list of plain URL strings
         if data and isinstance(data[0], str):
             data = [{"link": l, "headline": ""} for l in data]
-        # Time-based expiry: drop entries with sent_at older than threshold
-        now     = datetime.datetime.now(datetime.timezone.utc)
-        cutoff  = now - datetime.timedelta(hours=HISTORY_EXPIRE_HRS)
-        fresh, expired = [], 0
-        for entry in data:
-            ts_str = entry.get('sent_at', '')
-            if ts_str:
-                try:
-                    ts = datetime.datetime.fromisoformat(ts_str)
-                    # Make naive timestamps timezone-aware (UTC)
-                    if ts.tzinfo is None:
-                        ts = ts.replace(tzinfo=datetime.timezone.utc)
-                    if ts < cutoff:
-                        expired += 1
-                        continue
-                except Exception:
-                    pass  # malformed timestamp: keep entry
-            fresh.append(entry)
-        if expired:
-            print(f"[INFO] Expired {expired} old history entries (>{HISTORY_EXPIRE_HRS}h old).")
-        return fresh
+        return data
     except Exception:
         return []
 
 
 def save_sent_news(news_list):
-    # Safety cap: never store more than 200 entries
-    if len(news_list) > 200:
-        news_list = news_list[-200:]
+    # Cap: never store more than HISTORY_MAX_ENTRIES (oldest fall off first)
+    if len(news_list) > HISTORY_MAX_ENTRIES:
+        news_list = news_list[-HISTORY_MAX_ENTRIES:]
     with open(SENT_NEWS_FILE, 'w') as f:
         json.dump(news_list, f, ensure_ascii=False, indent=2)
 
 
-def send_to_telegram(image_path, caption):
-    """Send the generated image + caption to the Telegram channel."""
+def send_to_telegram(text):
+    """Send a plain text message (with link) to the Telegram channel.
+    Telegram auto-generates a link preview + thumbnail from the article's
+    own og:image — no need to build a custom image card."""
     if not TELEGRAM_BOT_TOKEN:
-        print("[SKIP] No bot token — image generated but not sent.")
+        print("[SKIP] No bot token — message not sent.")
         return False
 
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-    with open(image_path, "rb") as f:
-        resp = requests.post(
-            url,
-            files={"photo": f},
-            data={
-                "chat_id":    TELEGRAM_CHANNEL_ID,
-                "caption":    caption,
-                "parse_mode": "HTML",
-            },
-            timeout=30,
-        )
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    resp = requests.post(
+        url,
+        data={
+            "chat_id":    TELEGRAM_CHANNEL_ID,
+            "text":       text,
+            "parse_mode": "HTML",
+        },
+        timeout=30,
+    )
     if resp.status_code == 200:
         print("[OK] Sent to Telegram.")
         return True
@@ -246,12 +227,6 @@ def is_duplicate(headline, link, history):
                 print(f"[SKIP] Same-event (cross-run): '{headline[:60]}…'")
                 return True
     return False
-
-
-def unique_filename(link):
-    """Derive a stable temp filename from the article URL."""
-    h = hashlib.md5(link.encode()).hexdigest()[:8]
-    return f"news_{h}.jpg"
 
 
 def _same_event(h1, h2):
@@ -306,25 +281,15 @@ def main():
 
         print(f"[NEW] {news['source']}: {news['headline'][:80]}")
         new_found = True
-        img_path  = unique_filename(news['link'])
 
         try:
-            generate_news_image(
-                headline        = news['headline'],
-                summary         = news['summary'],
-                output_filename = img_path,
-                photo_url       = news.get('photo'),
-                source          = news.get('source'),
-            )
-
-            caption = (
+            text = (
                 f"<b>{_html.escape(news['headline'])}</b>\n\n"
                 f"📰 स्रोत: {_html.escape(news['source'])}\n\n"
-                f"🔗 समाचारको लिंक कमेन्टमा 👇\n"
-                f"{news['link']}"
+                f"🔗 {news['link']}"
             )
 
-            sent = send_to_telegram(img_path, caption)
+            sent = send_to_telegram(text)
 
             if sent or not TELEGRAM_BOT_TOKEN:
                 sent_history.append({
@@ -334,12 +299,6 @@ def main():
                 })
                 sent_this_run.append(news['headline'])
                 run_count += 1
-
-            # Clean up temp file
-            try:
-                os.remove(img_path)
-            except Exception:
-                pass
 
             # Rate-limit: don't flood Telegram
             time.sleep(3)
