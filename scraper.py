@@ -89,59 +89,6 @@ def clean_html(raw_html):
     return soup.get_text(separator=" ").strip()
 
 
-def get_og_image(article_url):
-    """Scrape og:image from article page as last-resort photo source."""
-    try:
-        r    = requests.get(article_url, timeout=7, headers=HEADERS)
-        soup = BeautifulSoup(r.content, 'html.parser')
-        og   = soup.find('meta', property='og:image') or \
-               soup.find('meta', attrs={'name': 'og:image'})
-        if og:
-            src = og.get('content', '').strip()
-            if src and src.startswith('http'):
-                return src
-    except Exception:
-        pass
-    return None
-
-
-def extract_image_from_entry(entry):
-    """Try multiple locations in an RSS entry to find a photo URL."""
-
-    # 1. media:content (e.g. OnlineKhabar, Setopati)
-    media = getattr(entry, 'media_content', None)
-    if media and isinstance(media, list):
-        for m in media:
-            url = m.get('url', '')
-            if url and re.search(r'\.(jpg|jpeg|png|webp)', url, re.I):
-                return url
-
-    # 2. enclosure
-    enclosures = getattr(entry, 'enclosures', [])
-    for enc in enclosures:
-        url = enc.get('url', '')
-        if url and re.search(r'\.(jpg|jpeg|png|webp)', url, re.I):
-            return url
-
-    # 3. First <img> inside summary / content HTML
-    for field in ('summary', 'content', 'description'):
-        raw = ''
-        val = getattr(entry, field, None)
-        if isinstance(val, list):          # content is a list of dicts
-            raw = val[0].get('value', '') if val else ''
-        elif isinstance(val, str):
-            raw = val
-        if raw:
-            soup = BeautifulSoup(raw, 'html.parser')
-            img = soup.find('img')
-            if img:
-                src = img.get('src', '')
-                if src and not src.endswith('.gif'):
-                    return src
-
-    return None
-
-
 def _entry_age_hours(entry):
     """Return age of RSS entry in hours. Returns 0 (include) if pub_date unparseable."""
     for field in ('published_parsed', 'updated_parsed'):
@@ -176,7 +123,6 @@ def get_latest_news_from_rss():
                 summary  = clean_html(
                     entry.get('summary', '') or entry.get('description', '')
                 )
-                photo    = extract_image_from_entry(entry)
 
                 if headline and link:
                     all_news.append({
@@ -184,7 +130,6 @@ def get_latest_news_from_rss():
                         "headline": headline,
                         "link":     link,
                         "summary":  summary or "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
-                        "photo":    photo,  # None → logo bg used; no per-article HTTP call
                     })
         except Exception as e:
             print(f"[ERROR] RSS {source}: {e}")
@@ -202,22 +147,11 @@ def get_latest_news_from_merolagani():
             headline = item.text.strip()
             link     = "https://merolagani.com" + item['href']
             if headline:
-                # Try to grab thumbnail
-                parent  = item.find_parent('.media')
-                photo   = None
-                if parent:
-                    img = parent.find('img')
-                    if img:
-                        src = img.get('src', '') or img.get('data-src', '')
-                        if src and not src.startswith('data:'):
-                            photo = ('https://merolagani.com' + src
-                                     if src.startswith('/') else src)
                 results.append({
                     "source":   "MeroLagani",
                     "headline": headline,
                     "link":     link,
                     "summary":  "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
-                    "photo":    photo,
                 })
         return results
     except Exception as e:
@@ -238,22 +172,11 @@ def get_latest_news_from_bikashnews():
                 headline = a.text.strip()
                 if not headline:
                     continue
-                # Try sibling/parent img
-                photo = None
-                parent = a.find_parent()
-                if parent:
-                    img = parent.find('img')
-                    if img:
-                        src = img.get('src', '') or img.get('data-src', '')
-                        if src and not src.startswith('data:'):
-                            photo = ('https://bikashnews.com' + src
-                                     if src.startswith('/') else src)
                 results.append({
                     "source":   "BikashNews",
                     "headline": headline,
                     "link":     "https://bikashnews.com" + href,
                     "summary":  "थप जानकारीको लागि लिंकमा क्लिक गर्नुहोस्।",
-                    "photo":    photo,
                 })
                 if len(results) >= 2:
                     break
@@ -274,4 +197,4 @@ def get_all_latest_news():
 if __name__ == "__main__":
     print("Testing scraper...")
     for n in get_all_latest_news():
-        print(f"[{n['source']}] {n['headline']} | photo={n['photo']}")
+        print(f"[{n['source']}] {n['headline']}")
