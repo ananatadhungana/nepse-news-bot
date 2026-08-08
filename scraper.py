@@ -77,6 +77,7 @@ RSS_FEEDS = {
     "Techmandu":         "https://techmandu.com/feed/",
     "UjyaaloOnline":     "https://ujyaaloonline.com/feed",
     "BajarKoChirfar":    "https://bajarkochirfar.com/feed",
+    "ArthaKhabar":       "https://arthakhabar.com/feed",
 }
 
 HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; NEPSEBot/1.0)'}
