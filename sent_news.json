@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.capitalnepal.com/detail/83738",
-    "headline": "अटोबाट राजस्व उठाउने सरकारी नीति गलत, एसेम्बलिङका लागि छुट्टै नीति चाहिन्छः अन्जन श्रेष्ठ",
-    "sent_at": "2026-08-11T06:13:01.580514+00:00"
-  },
-  {
-    "link": "https://www.osnepal.com/detail/589348",
-    "headline": "स्थिर सरकार र स्पष्ट नीतिबिनाको अर्थतन्त्रमा लगानी आउँदैन : वीरेन्द्रराज पाण्डे",
-    "sent_at": "2026-08-11T07:34:37.549318+00:00"
-  },
-  {
     "link": "https://kathmandupost.com/money/2026/08/11/lpg-imports-are-up-why-are-consumers-still-queuing-for-it",
     "headline": "LPG imports are up. Why are consumers still queuing for it?",
     "sent_at": "2026-08-11T07:34:41.284887+00:00"
@@ -2498,5 +2488,15 @@
     "link": "https://www.karobardaily.com/news/409427",
     "headline": "ब्याजदर घटाएरै सवारी कर्जा दिन बैंकबीच प्रतिस्पर्धा",
     "sent_at": "2026-08-26T04:09:17.176691+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/national/2026/08/26/major-flood-damages-syabrubesi-hydropower-projects-in-rasuwa",
+    "headline": "Flash flood hits Rasuwa, damages hydropower projects and markets",
+    "sent_at": "2026-08-26T04:53:28.439680+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/168324/",
+    "headline": "बैंकिङ्ग कसुर मुद्दामा १ करोड ६२ लाख बिगो तोकिएका हरि चन्द्र पक्राउ",
+    "sent_at": "2026-08-26T04:53:32.312217+00:00"
   }
 ]
