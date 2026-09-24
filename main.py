@@ -5,15 +5,15 @@ import difflib
 import re
 import datetime
 import html as _html
-from scraper import get_all_latest_news
+from scraper import get_all_latest_news, get_listed_symbols, FINANCE_SOURCES
 import time
 
 # --- CONFIGURATION ---
 TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 SENT_NEWS_FILE      = "sent_news.json"
-MAX_PER_RUN         = 4     # max articles sent per 15-min run (stops news floods)
-HISTORY_MAX_ENTRIES = 500   # dedup memory size — NOT time-based anymore.
+MAX_PER_RUN         = 6     # max articles per 5-min run; the rest go next run
+HISTORY_MAX_ENTRIES = 1500  # dedup memory size — NOT time-based anymore.
                             # (old 6h time-expiry caused same article to be
                             # re-sent every 6h if nothing new was published)
 
@@ -68,6 +68,10 @@ RELEVANT_KEYWORDS = [
     "नेपाल टेलिकम", "nepal telecom", "ntc",
     # ── Cement / Manufacturing (NEPSE listed) ──
     "सिमेन्ट कम्पनी", "cement company",
+    # ── Broad business stems ──
+    "टेलिकम", "हाइड्रो", "फाइनान्स", "सिमेन्ट", "होटल", "लगानी", "पुँजी", "कम्पनी",
+    "उद्योग", "व्यवसाय", "व्यापार", "नाफा", "मुनाफा", "सुनचाँदी", "सुनको मूल्य",
+    "भन्सार", "राजस्व", "कर्जा", "company", "investment", "profit", "industry",
 ]
 
 # EXCLUDE: if headline contains ANY of these → skip (entertainment/sports/crime/etc.)
@@ -115,150 +119,27 @@ _EXCLUDE_RE = re.compile(
     re.IGNORECASE
 )
 
-# All NEPSE-listed companies (commercial banks, dev banks, finance, hotels,
-# hydropower, investment, life insurance, manufacturing, microfinance).
-# Full legal names only — no bare ticker symbols (things like "API", "CITY",
-# "SBI" would substring-match ordinary words with no word-boundary regex).
-# Source: merolagani.com/CompanyList.aspx, pulled 2026-08-08.
-LISTED_COMPANIES = [
-    # Commercial Banks
-    "Agriculture Development Bank Limited", "Citizen Bank International Limited",
-    "Everest Bank Limited", "Global IME Bank Limited", "Himalayan Bank Limited",
-    "Kumari Bank Limited", "Machhapuchchhre Bank Limited", "Nabil Bank Limited",
-    "Nepal Bank Limited", "NIC Asia Bank Ltd.", "NMB Bank Limited",
-    "Prime Commercial Bank Ltd.", "Sanima Bank Limited", "Nepal SBI Bank Limited",
-    "Siddhartha Bank Limited", "Standard Chartered Bank Limited",
-    "Prabhu Bank Limited", "Nepal Investment Mega Bank Limited",
-    "Laxmi Sunrise Bank Limited",
-    # Development Banks
-    "Corporate Development Bank Limited", "Excel Development Bank Ltd.",
-    "Garima Bikas Bank Limited", "Jyoti Bikas Bank Limited",
-    "Miteri Development Bank Limited", "Muktinath Bikas Bank Ltd.",
-    "Narayani Development Bank Limited", "Shangrila Development Bank Ltd.",
-    "Shine Resunga Development Bank Ltd.", "Sindhu Bikash Bank Ltd",
-    "Green Development Bank Ltd.", "Salapa Bikas Bank Limited",
-    "Mahalaxmi Bikas Bank Ltd.", "Lumbini Bikas Bank Ltd.",
-    "Kamana Sewa Bikas Bank Limited", "Saptakoshi Development Bank Ltd",
-    # Finance
-    "Central Finance Co. Ltd.", "Goodwill Finance Co. Ltd.",
-    "Guheshowori Merchant Bank & Finance Co. Ltd.", "ICFC Finance Limited",
-    "Janaki Finance Ltd.", "Manjushree Finance Ltd.",
-    "Multipurpose Finance Company Limited", "Nepal Finance Ltd.",
-    "Pokhara Finance Ltd.", "Progressive Finance Limited",
-    "Shree Investment Finance Co. Ltd.", "Reliance Finance Ltd.",
-    "Gurkhas Finance Ltd.", "Best Finance Company Ltd.",
-    "Samriddhi Finance Company Limited",
-    # Hotels & Tourism
-    "Oriental Hotels Limited", "Soaltee Hotel Limited",
-    "Taragaon Regency Hotel Limited", "Chandragiri Hills Limited",
-    "Kalinchowk Darshan Limited", "City Hotel Limited",
-    "Bandipur Cablecar and Tourism Limited", "Hotel Forest Inn Limited",
-    # Investment
-    "Citizen Investment Trust", "Hathway Investment Nepal Limited",
-    "Hydorelectricity Investment and Development Company Ltd",
-    "Nepal Infrastructure Bank Limited", "Emerging Nepal Limited",
-    "NRN Infrastructure and Development Limited", "CEDB Holdings Limited",
-    # Life Insurance
-    "Asian Life Insurance Co. Limited", "Life Insurance Co. Nepal",
-    "Nepal Life Insurance Co. Ltd.", "National Life Insurance Co. Ltd.",
-    "Citizen Life Insurance Company Limited", "Reliable Nepal Life Insurance Limited",
-    "IME Life Insurance Company Limited", "Sun Nepal Life Insurance Company Limited",
-    "SuryaJyoti Life Insurance Company Limited", "Sanima Reliance Life Insurance Limited",
-    "Himalayan Life Insurance Limited", "Prabhu Mahalaxmi Life Insurance Limited",
-    "Guardian Micro-Life Insurance Limited", "Crest Micro Life Insurance Ltd.",
-    # Manufacturing & Processing
-    "Bottlers Nepal (Balaju) Limited", "Bottlers Nepal (Terai) Limited",
-    "Himalayan Distillery Limited", "Nepal Lube Oil Limited",
-    "Unilever Nepal Limited", "Shivam Cements Ltd", "Sarbottam Cement Limited",
-    "Reliance Spinning Mills Limited", "Sonapur Minerals and Oil Limited",
-    "Om Megashree Pharmaceuticals Limited", "Ghorahi Cement Industry Limited",
-    "Sagar Distillery Limited", "Shreenagar Agritech Industries Limited",
-    "SY Panel Nepal Limited", "Everest Colour Limited",
-    "Sopan Pharmaceuticals Limited", "Palpa Cement Industries Limited",
-    # Hydropower
-    "Arun Valley Hydropower Development Co. Ltd.", "Butwal Power Company Limited",
-    "Chilime Hydropower Company Limited", "National Hydro Power Company Limited",
-    "Sanima Mai Hydropower Ltd.", "Himalaya Urja Bikas Company Limited",
-    "Arun Kabeli Power Ltd.", "Barun Hydropower Co. Ltd.", "Api Power Company Ltd.",
-    "Ngadi Group Power Ltd.", "Mandakini Hydropower Limited", "Nyadi Hydropower Limited",
-    "Sanjen Jalavidhyut Company Limited", "Rasuwagadhi Hydropower Company Limited",
-    "United Modi Hydropower Ltd.", "Dordi Khola Jal Bidyut Company Limited",
-    "Peoples Hydropower Company Limited", "People's Power Limited",
-    "Universal Power Company Ltd", "Shuvam Power Company Limited",
-    "Synergy Power Development Ltd.", "Mailung Khola Jal Vidhyut Company Limited",
-    "Sahas Urja Limited", "Khanikhola Hydropower Co. Ltd.",
-    "Himalayan Power Partner Ltd.", "Dibyashwori Hydropower Ltd.",
-    "Barahi Hydropower Public Limited", "Mountain Hydro Nepal Limited",
-    "Chhyangdi Hydropower Ltd.", "Upper Syange Hydropower Limited",
-    "Sayapatri Hydropower Limited", "Nepal Hydro Developers Ltd.",
-    "Radhi Bidyut Company Ltd", "Buddhabhumi Nepal Hydropower Company Limited",
-    "Rapti Hydro and General Construction Limited", "Kalika power Company Ltd",
-    "Sanima Middle Tamor Hydropower Limited", "Ghalemdi Hydro Limited",
-    "Eastern Hydropower Limited", "Maya Khola Hydropower Company Limited",
-    "Bhugol Energy Development Company Limited", "Panchakanya Mai Hydropower Ltd",
-    "Kutheli Bukhari Small Hydropower Limited", "Madhya Bhotekoshi Jalavidyut Company Limited",
-    "Greenlife Hydropower Limited", "Upper Solu Hydro Electric Company Limited",
-    "Ankhu Khola Jalvidhyut Company Ltd", "Liberty Energy Company Limited",
-    "Terhathum Power Company Limited", "Singati Hydro Energy Limited",
-    "Panchthar Power Company Limited", "Three Star Hydropower Limited",
-    "Shiva Shree Hydropower Limited", "Joshi Hydropower Development Company Ltd",
-    "Upper Tamakoshi Hydropower Ltd", "Trishuli Jal Vidhyut Company Limited",
-    "Union Hydropower Limited", "Samling Power Company Limited",
-    "Swet-Ganga Hydropower & Construction Limited", "Asian Hydropower Limited",
-    "Bindyabasini Hydropower Development Company Limited",
-    "Himal Dolakha Hydropower Company Limited", "Molung Hydropower Company Limited",
-    "Super Mai Hydropower Limited", "River Falls Power Limited",
-    "Mountain Energy Nepal Limited", "Upper Hewakhola Hydropower Company Limited",
-    "Himalayan Hydropower Limited", "United IDI Mardi RB Hydropower Limited",
-    "Sikles Hydropower Limited", "Modi Energy Limited", "Ru Ru Jalbidhyut Pariyojana Limited",
-    "Makar Jitumaya Suri Hydropower Limited", "Daramkhola Hydro Energy Limited",
-    "Sagarmatha Jalabidhyut Company Limited", "Mai Khola Hydropower Limited",
-    "Chirkhwa Hydropower Limited", "Mathillo Mailun Khola Jalvidhyut Limited",
-    "Dolti Power Company Limited", "Balephi Hydropower Limited", "Green Ventures Limited",
-    "Mid-Solu Hydropower Limited", "Bungal Hydro Limited", "Sanigad Hydro Limited",
-    "Kalanga Hydro Limited", "Taksar Pikhuwa Khola Hydropower Limited",
-    "Ridi Power Company Limited", "Him Star Urja Company Limited",
-    "Manakamana Engineering Hydropower Limited", "Appolo Hydropower Limited",
-    "Ingwa Hydropower Limited", "Super Madi Hydropower Limited",
-    "Menchhiyam Hydropower Limited", "Kalinchock Hydropower Limited",
-    "Bikash Hydropower Company Limited", "Sanvi Energy Limited",
-    "Yambaling Hydropower Limited", "Rawa Energy Development Limited",
-    "Upper Lohore Khola Hydropower Company Limited",
-    "Bhagawati Hydropower Development Company Ltd.", "Mandu Hydropower Ltd.",
-    "Mabilung Energy Limited", "Shikhar Power Development Limited",
-    "Snow Rivers Limited", "Vision Lumbini Urja Company Limited",
-    "Super Khudi Hydropower Limited", "Bhujung Hydropower Limited",
-    "Suryakunda Hydro Electric Limited", "Ridge Line Energy Limited",
-    "Solu Hydropower Limited",
-    # Microfinance
-    "Chhimek Laghubitta Bittiya Sanstha Limited", "Deprosc Laghubitta Bittiya Sanstha Limited",
-    "First Micro Finance Laghubitta Bittiya Sanstha Limited",
-    "Kalika Laghubitta Bittiya Sanstha Limited", "Nirdhan Utthan Laghubitta Bittiya Sanstha Limited",
-    "Sana Kisan Bikas Laghubitta Bittiya Sanstha Limited",
-    "Swarojgar Laghubitta Bittiya Sanstha Ltd.", "Swabalamban Laghubitta Bittiya Sanstha Limited",
-    "Mithila Laghubitta Bittiya Sanstha Ltd.", "Laxmi Laghubitta Bittiya Sanstha Ltd.",
-    "Janautthan Samudayic Laghubitta Bittiya Sanstha Limited",
-    "Vijaya laghubitta Bittiya Sanstha Ltd.", "RSDC Laghubitta Bittiya Sanstha Ltd.",
-    "NMB Laghubitta Bittiya Sanstha Ltd.", "Meromicrofinance Laghubitta Bittiya Sanstha Ltd.",
-    "Nadep Laghubitta Bittiya Sanstha Ltd.", "Asha Laghubitta Bittiya Sanstha Limited",
-    "National Laghubitta Bittiya Sanstha Limited", "Ganapati Microfinance Bittiya Sanstha Ltd",
-    "Himalayan Laghubitta Bittiya Sanstha Limited", "Infinity Laghubitta Bittiya Sanstha Limited",
-    "Forward Microfinance Laghubitta Bittiya Sanstha Ltd.",
-    "Samata Gharelu Laghubitta Bittiya Sanstha Limited", "Mahuli Laghubitta Bittiya Sanstha Ltd.",
-    "Global IME Laghubitta Bittiya Sanstha Ltd.", "Support Laghubitta Bittiya Sanstha Limited",
-    "Grameen Bikas Laghubitta Bittiya Sanstha Ltd.",
-    "NESDO Sambridha Laghubitta Bittiye Sanstha Limited",
-    "Mahila Laghubitta Bittiya Sanstha Limited", "Gurans Laghubitta Bittiya Sanstha Limited",
-    "NIC Asia Laghubitta Biitiya Sanstha Limited", "Samudayik Laghubitta Bittiya Sanstha Limited",
-    "Unique Nepal Laghubitta Bittiya Sanstha Limited", "Swastik Laghubitta Bittiya Sanstha Limited",
-    "Jeevan Bikas Laghubitta Bittiya Sanstha Limited", "Shrijanshil Laghubitta Bittiya Sanstha Limited",
-    "Upakar Laghubitta Bittiya Sanstha Limited", "Swabhimaan Laghubitta Bittiya Sanstha Ltd",
-    "WEAN Nepal Laghubitta Bittiya Sanstha Limited", "Dhaulagiri Laghubitta Bittiya Sanstha Limited",
-    "Aatmanirbhar Laghubitta Bittiya Sanstha Limited", "Manushi Laghubitta Bittiya Sanstha Limited",
-    "Aviyan Laghubitta Bittiya Sanstha Limited", "Aarambha Chautari Laghubitta Bittiya Sanstha Limited",
-    "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited", "CYC Nepal Laghubitta Bittiya Sanstha Limited",
-    "Suryodaya Womi Laghubitta Bittiya Sanstha Limited", "Nerude Mirmire Laghubitta Bittiya Sanstha Limited",
-    "Matribhumi Laghubitta Bittiya Sanstha Limited", "Sampada Laghubitta Bittiya Sanstha Limited",
+# Short names people actually write in headlines (Nepali + English brands),
+# plus market-infrastructure terms. Any hit = always send (overrides exclude).
+COMPANY_KEYWORDS = [
+    # Banks
+    "नबिल", "एनआईसी एशिया", "एनआईसी एसिया", "सिटिजन्स", "ग्लोबल आईएमई", "ग्लोबल आइएमई",
+    "प्रभु बैंक", "कुमारी बैंक", "लक्ष्मी सनराइज", "सिद्धार्थ बैंक", "सानिमा", "एनएमबी",
+    "नेपाल बैंक", "कृषि विकास बैंक", "एभरेष्ट बैंक", "एभरेस्ट बैंक", "हिमालयन बैंक",
+    "माछापुच्छ्रे", "प्राइम कमर्सियल", "स्ट्यान्डर्ड चार्टर्ड", "स्ट्याण्डर्ड चार्टर्ड",
+    "एसबीआई बैंक", "इन्भेष्टमेन्ट मेगा", "इन्भेस्टमेन्ट मेगा", "पूर्वाधार बैंक",
+    "मुक्तिनाथ", "गरिमा विकास", "ज्योति विकास", "कामना सेवा", "महालक्ष्मी", "लुम्बिनी विकास",
+    "शाइन रेसुंगा", "सांग्रिला",
+    # Telecom / hydro / insurance / others
+    "टेलिकम", "टेलिकमको", "एनटीसी", "telecom",
+    "चिलिमे", "तामाकोशी", "बुटवल पावर", "अरुण भ्याली", "सान्जेन", "रसुवागढी", "भोटेकोशी",
+    "हाइड्रोइलेक्ट्रिसिटी इन्भेस्टमेन्ट", "नेपाल लाइफ", "नेसनल लाइफ", "रिइन्स्योरेन्स",
+    "पुनर्बीमा", "नागरिक लगानी कोष", "युनिलिभर", "सोल्टी", "शिवम सिमेन्ट", "साल्ट ट्रेडिङ",
+    # Market infrastructure & corporate actions
+    "सेबोन", "धितोपत्र", "सीडीएससी", "मेरोसेयर", "मेरो सेयर", "स्टक एक्सचेन्ज",
+    "मर्चेन्ट बैंकर", "ब्रोकर", "सूचीकरण", "साधारण सभा", "बुक क्लोज", "ऋणपत्र", "डिबेन्चर",
+    "चुक्ता पुँजी", "बोनस", "नगद लाभांश", "प्राथमिक सेयर", "सर्वसाधारण", "खुद नाफा", "त्रैमासिक",
+    "sebon", "cdsc", "debenture", "bonus share", "stock exchange",
 ]
 
 # Strong financial signals — checked FIRST, override exclude list
@@ -268,36 +149,41 @@ STRONG_KEYWORDS = [
     "बजेट", "budget", "मर्जर", "merger",
     # Finance/Energy ministers moved here so "मन्त्री" exclude doesn't block them
     "अर्थमन्त्री", "ऊर्जामन्त्री",
-] + LISTED_COMPANIES
+] + COMPANY_KEYWORDS
 _STRONG_RE = re.compile(
     '|'.join(re.escape(k) for k in STRONG_KEYWORDS),
     re.IGNORECASE
 )
 
+# NEPSE tickers (NTC, NABIL, CHCL...) — fetched live, matched case-sensitive as
+# whole words. Lookarounds instead of \b: Devanagari counts as \w, so "NTCको"
+# would fail \b. Denylist = tickers that are also common English words/acronyms.
+TICKER_DENYLIST = {"API", "CITY", "MEN", "UPPER", "MEL", "BBC", "PURE", "NIL", "TTL"}
 
-def is_relevant(news):
+
+def build_ticker_re(symbols):
+    symbols = sorted(set(symbols) - TICKER_DENYLIST, key=len, reverse=True)
+    if not symbols:
+        return None
+    return re.compile(r'(?<![A-Za-z0-9])(?:' + '|'.join(map(re.escape, symbols)) + r')(?![A-Za-z0-9])')
+
+
+def is_relevant(news, ticker_re=None):
     """
-    Send if:
-      - STRONG financial keyword in HEADLINE (always send), OR
-      - INCLUDE keyword in HEADLINE AND no EXCLUDE keyword in headline
-    Summary intentionally excluded from all checks — too noisy (political articles
-    often mention financial terms in their summary).
+    Send if (headline only — summaries are too noisy):
+      1. STRONG keyword or a NEPSE ticker → always
+      2. EXCLUDE keyword → never
+      3. finance-only portal → always ("every penny" coverage)
+      4. INCLUDE keyword → yes
     """
     headline = news.get('headline', '')
-
-    # Strong signal in headline → always send (overrides exclude list)
-    if _STRONG_RE.search(headline):
+    if _STRONG_RE.search(headline) or (ticker_re and ticker_re.search(headline)):
         return True
-
-    # Exclude check on headline
     if _EXCLUDE_RE.search(headline):
         print(f"[FILTER] Excluded (off-topic): {headline[:70]}")
         return False
-
-    # Include check on headline only
-    if _INCLUDE_RE.search(headline):
+    if news.get('source') in FINANCE_SOURCES or _INCLUDE_RE.search(headline):
         return True
-
     print(f"[FILTER] Skipped (no match): {headline[:70]}")
     return False
 
@@ -358,9 +244,9 @@ def is_duplicate(headline, link, history):
     Fuzzy headline ≥0.65 → duplicate (catches cross-portal reposts).
     Longest common block ≥12 chars + ratio ≥0.45 → same event (different wording).
     """
+    if link in {s.get('link') for s in history}:  # cheap exact check before fuzzy loop
+        return True
     for sent in history:
-        if link == sent.get('link'):
-            return True
         sent_h = sent.get('headline', '')
         if sent_h and headline:
             m = difflib.SequenceMatcher(None, headline, sent_h)
@@ -398,6 +284,7 @@ def main():
     print("=== NEPSE News Agent starting ===")
 
     sent_history   = load_sent_news()
+    ticker_re      = build_ticker_re(get_listed_symbols())
     all_news       = get_all_latest_news()
     new_found      = False
     sent_this_run  = []   # headlines sent THIS run (for same-event cross-portal dedup)
@@ -408,7 +295,7 @@ def main():
             print(f"[INFO] MAX_PER_RUN ({MAX_PER_RUN}) reached — stopping.")
             break
         # ── Relevance gate ──
-        if not is_relevant(news):
+        if not is_relevant(news, ticker_re):
             continue
 
         # ── Duplicate gate (history) ──
