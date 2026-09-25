@@ -187,6 +187,60 @@ def get_latest_news_from_bikashnews():
         return []
 
 
+def get_latest_news_from_capitalnepal_share():
+    """CapitalNepal's site-wide RSS only holds 5 items and gets flooded by non-
+    finance categories (tourism, auto, politics) within the hour, so real share-
+    market stories scroll off before we ever see them. Scrape /share directly;
+    its listing divs (class "items ...") are the real article list, unlike the
+    "item-news" sidebar widget which repeats the generic site-wide latest news.
+    """
+    try:
+        soup, out, seen = _get("https://www.capitalnepal.com/share"), [], set()
+        for div in soup.select('div.items'):
+            a = div.select_one('a[href*="/detail/"]')
+            if not a:
+                continue
+            href, text = a['href'], a.get_text(' ', strip=True)
+            if href in seen or len(text) < 15:
+                continue
+            seen.add(href)
+            out.append({"source": "CapitalNepal", "headline": text, "link": href, "ts": None})
+        return out[:UNDATED_MAX]
+    except Exception as e:
+        print(f"[ERROR] CapitalNepal share: {e}")
+        return []
+
+
+def get_latest_news_from_nepalipaisa():
+    """NepaliPaisa has no RSS/HTML listing (client-rendered SPA) — it loads news
+    through a JSON API instead. NepaliPaisa is finance-only end to end (NEPSE
+    data, IPOs, corporate actions), but its "all news" feed still carries some
+    off-topic filler (cricket, UN speeches), so this isn't a FINANCE_SOURCES
+    bypass — headlines still go through the normal keyword filter. Returns only
+    today's items since the API gives date-only granularity, not a timestamp.
+    """
+    try:
+        payload = {"dateType": "", "dateFrom": "", "dateTo": "", "sectors": [],
+                   "companies": [], "categoryId": 0, "subCategoryId": 0,
+                   "pageNo": 1, "itemsPerPage": 20, "pagePerDisplay": 10,
+                   "newsType": "", "sectorGroup": ""}
+        r = requests.post("https://nepalipaisa.com/api/GetNewsList", json=payload,
+                           headers=HEADERS, timeout=12)
+        data = r.json().get("result", {}).get("data", []) or []
+        today = datetime.datetime.utcnow().strftime('%Y-%m-%d')  # Nepal is UTC+5:45; close enough for a same-day cutoff
+        out = []
+        for day in data:
+            if day.get("newsDate") != today:
+                break  # newest-first by day; older days are outside MAX_AGE_HOURS anyway
+            for n in day.get("newsData", []):
+                out.append({"source": "NepaliPaisa", "headline": n.get("newsTitle", ""),
+                            "link": f"https://nepalipaisa.com/news-detail/{n['newsId']}", "ts": None})
+        return out
+    except Exception as e:
+        print(f"[ERROR] NepaliPaisa: {e}")
+        return []
+
+
 def get_listed_symbols():
     """All NEPSE ticker symbols, fetched live so new listings are covered automatically."""
     try:
@@ -200,7 +254,8 @@ def get_listed_symbols():
 
 def get_all_latest_news():
     news = (get_latest_news_from_rss() + get_latest_news_from_sharesansar()
-            + get_latest_news_from_merolagani() + get_latest_news_from_bikashnews())
+            + get_latest_news_from_merolagani() + get_latest_news_from_bikashnews()
+            + get_latest_news_from_capitalnepal_share() + get_latest_news_from_nepalipaisa())
     # Newest first; undated (HTML-scraped) items count as "now".
     now = time.time()
     news.sort(key=lambda n: n['ts'] or now, reverse=True)

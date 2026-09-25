@@ -88,8 +88,11 @@ EXCLUDE_KEYWORDS = [
     "रिचार्ज अफर",
     # Crime / accident
     "हत्या", "दुर्घटना", "बलात्कार", "चोरी", "लुट", "अपहरण",
-    # Weather / disaster
-    "मौसम", "भूकम्प", "बाढी", "पहिरो", "हिमपात",
+    # Weather forecast chatter (routine "today's weather" — no economic signal).
+    # Earthquake/flood/landslide EVENTS moved to DISASTER_KEYWORDS below: a
+    # national disaster disrupting highways/hydropower/trade is economic news,
+    # not noise, and blanket-excluding these words was hiding exactly that.
+    "मौसम", "हिमपात",
     # Religious / cultural (non-financial)
     "तीर्थ", "धार्मिक", "पूजा", "जात्रा", "पर्व",
     # Health (unless economic)
@@ -142,6 +145,25 @@ COMPANY_KEYWORDS = [
     "sebon", "cdsc", "debenture", "bonus share", "stock exchange",
 ]
 
+# National disasters with real economic/infrastructure impact — earthquake,
+# flood, landslide cutting highways, damaging hydropower or bridges. These
+# override EXCLUDE (see note above) because "national disaster affecting the
+# economy" is explicitly in scope, not filler weather chatter.
+DISASTER_KEYWORDS = [
+    "भूकम्प", "बाढी", "पहिरो",
+    "राजमार्ग अवरुद्ध", "सडक अवरुद्ध", "यातायात अवरुद्ध", "यातायात बन्द",
+    "यातायात आवागमन बन्द", "सवारी आवागमन बन्द",
+    "पुल भत्कियो", "पुल बगियो", "पुल क्षतिग्रस्त", "पुल डुब्यो", "पुल भासियो",
+    "राष्ट्रिय विपद्", "विपद् व्यवस्थापन", "प्राकृतिक प्रकोप",
+    # English-language coverage (OnlinekhabarEN, RatopatiEN etc. report the
+    # same disasters in English — the Nepali terms above don't match those).
+    "landslide", "landslides", "flood", "floods", "flooding",
+    "earthquake", "highway blocked", "highways blocked", "highways closed",
+    "highway closed", "roads blocked", "road blocked", "bridge collapsed",
+    "bridge washed away", "traffic disrupted", "national disaster",
+    "remain closed", "remain blocked", "obstructed",
+]
+
 # Strong financial signals — checked FIRST, override exclude list
 STRONG_KEYWORDS = [
     "नेप्से", "nepse", "शेयर", "सेयर", "आईपीओ", "एफपीओ", "ipo", "fpo",
@@ -149,7 +171,7 @@ STRONG_KEYWORDS = [
     "बजेट", "budget", "मर्जर", "merger",
     # Finance/Energy ministers moved here so "मन्त्री" exclude doesn't block them
     "अर्थमन्त्री", "ऊर्जामन्त्री",
-] + COMPANY_KEYWORDS
+] + COMPANY_KEYWORDS + DISASTER_KEYWORDS
 _STRONG_RE = re.compile(
     '|'.join(re.escape(k) for k in STRONG_KEYWORDS),
     re.IGNORECASE
@@ -168,15 +190,33 @@ def build_ticker_re(symbols):
     return re.compile(r'(?<![A-Za-z0-9])(?:' + '|'.join(map(re.escape, symbols)) + r')(?![A-Za-z0-9])')
 
 
+# Corporate PR/CSR donation announcements ("Uber pledges Rs 50 lakh for flood
+# relief") — checked BEFORE STRONG, because bare disaster words like "flood"
+# are in DISASTER_KEYWORDS/STRONG and would otherwise wave these through.
+# A company doing a marketing campaign around a disaster isn't NEPSE news.
+PRE_EXCLUDE_KEYWORDS = [
+    "pledges rs", "pledges npr", "donates rs", "donates npr", " csr ",
+    "launches campaign", "launches ride for",
+]
+_PRE_EXCLUDE_RE = re.compile(
+    '|'.join(re.escape(k) for k in PRE_EXCLUDE_KEYWORDS),
+    re.IGNORECASE
+)
+
+
 def is_relevant(news, ticker_re=None):
     """
     Send if (headline only — summaries are too noisy):
+      0. CSR/PR pattern (e.g. brand "pledges Rs X" for a cause) → never
       1. STRONG keyword or a NEPSE ticker → always
       2. EXCLUDE keyword → never
       3. finance-only portal → always ("every penny" coverage)
       4. INCLUDE keyword → yes
     """
     headline = news.get('headline', '')
+    if _PRE_EXCLUDE_RE.search(headline):
+        print(f"[FILTER] Excluded (CSR/PR): {headline[:70]}")
+        return False
     if _STRONG_RE.search(headline) or (ticker_re and ticker_re.search(headline)):
         return True
     if _EXCLUDE_RE.search(headline):
