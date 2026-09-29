@@ -79,17 +79,6 @@ RSS_FEEDS = {
     "BeemaKaKura":       "https://beemakakura.com/?feed=rss2",
 }
 
-# Portals that publish only market/economy news → send everything they post
-# (still passes the exclude filter). Tighten this set if the channel gets noisy.
-FINANCE_SOURCES = {
-    "ArthaKhabar", "Arthasarokar", "BankingSamachar", "Bankingkhabar", "Bizmandu",
-    "Bizkhabar", "Bizpati", "CapitalNepal", "KarobarDaily", "AarthikNews",
-    "Aarthiksansar", "Arthadabali", "Arthapath", "BajarKoChirfar", "BeemaKaKura",
-    "NewBusinessAge", "MeroLagani", "BikashNews",
-    # ShareSansar deliberately excluded: /category/latest is general site news
-    # (world affairs, CSR), not finance-only — it passes the keyword filter instead.
-}
-
 UNDATED_MAX = 5  # feeds without pub dates: only trust the newest few entries
 
 

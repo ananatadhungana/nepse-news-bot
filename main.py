@@ -5,7 +5,7 @@ import difflib
 import re
 import datetime
 import html as _html
-from scraper import get_all_latest_news, get_listed_symbols, FINANCE_SOURCES
+from scraper import get_all_latest_news, get_listed_symbols
 import time
 
 # --- CONFIGURATION ---
@@ -54,12 +54,15 @@ RELEVANT_KEYWORDS = [
     "विप्रेषण", "रेमिट्यान्स", "remittance",
     "व्यापार घाटा", "trade deficit",
     "विदेशी मुद्रा", "foreign exchange", "forex",
-    "आयात", "निर्यात", "import", "export",
+    # bare "आयात"/"निर्यात"/"import"/"export" removed: matched ANY country's
+    # trade news globally (e.g. "US import ban on Canadian alcohol"). The
+    # Nepal-specific compound "व्यापार घाटा"/"trade deficit" above still covers it.
     "अर्थतन्त्र", "economic",
     "fiscal policy", "राजकोषीय",
     # ── Key political roles (only when economy-impacting) ──
     "बजेट अधिवेशन", "बजेट पेश",
-    "अध्यादेश", "ordinance",
+    # "अध्यादेश"/"ordinance" removed: matched ANY government-ordinance story,
+    # political or not (e.g. an MP's dissatisfaction with ordinance policy).
     "सरकार गठन", "नयाँ सरकार",
     # ── Hydro / Energy (major NEPSE sector) ──
     "जलविद्युत", "hydropower", "विद्युत",
@@ -69,8 +72,11 @@ RELEVANT_KEYWORDS = [
     # ── Cement / Manufacturing (NEPSE listed) ──
     "सिमेन्ट कम्पनी", "cement company",
     # ── Broad business stems ──
-    "टेलिकम", "हाइड्रो", "फाइनान्स", "सिमेन्ट", "होटल", "लगानी", "पुँजी", "कम्पनी",
-    "उद्योग", "व्यवसाय", "व्यापार", "नाफा", "मुनाफा", "सुनचाँदी", "सुनको मूल्य",
+    # "होटल"/"व्यवसाय"/"व्यापार" removed: too generic, matched any hotel or
+    # "business" story anywhere (a Nepali opening a hotel in the US, a Dashain
+    # idol-decoration "business" writeup) with no NEPSE/company connection.
+    "टेलिकम", "हाइड्रो", "फाइनान्स", "सिमेन्ट", "लगानी", "पुँजी", "कम्पनी",
+    "उद्योग", "नाफा", "मुनाफा", "सुनचाँदी", "सुनको मूल्य",
     "भन्सार", "राजस्व", "कर्जा", "company", "investment", "profit", "industry",
 ]
 
@@ -149,19 +155,22 @@ COMPANY_KEYWORDS = [
 # flood, landslide cutting highways, damaging hydropower or bridges. These
 # override EXCLUDE (see note above) because "national disaster affecting the
 # economy" is explicitly in scope, not filler weather chatter.
+# Bare "बाढी"/"पहिरो"/"flood"/"landslide" removed: Nepal gets dozens of routine,
+# single-house-scale landslide/flood reports every monsoon week (e.g. "One
+# injured as dry landslide buries house in Parbat") — not national disasters.
+# भूकम्प/earthquake stays bare since it's rare enough to always be significant.
+# Everything else here requires an actual INFRASTRUCTURE/ECONOMY-disruption
+# phrase, which is what distinguishes a national event from a local one.
 DISASTER_KEYWORDS = [
-    "भूकम्प", "बाढी", "पहिरो",
+    "भूकम्प", "earthquake",
     "राजमार्ग अवरुद्ध", "सडक अवरुद्ध", "यातायात अवरुद्ध", "यातायात बन्द",
     "यातायात आवागमन बन्द", "सवारी आवागमन बन्द",
     "पुल भत्कियो", "पुल बगियो", "पुल क्षतिग्रस्त", "पुल डुब्यो", "पुल भासियो",
     "राष्ट्रिय विपद्", "विपद् व्यवस्थापन", "प्राकृतिक प्रकोप",
-    # English-language coverage (OnlinekhabarEN, RatopatiEN etc. report the
-    # same disasters in English — the Nepali terms above don't match those).
-    "landslide", "landslides", "flood", "floods", "flooding",
-    "earthquake", "highway blocked", "highways blocked", "highways closed",
-    "highway closed", "roads blocked", "road blocked", "bridge collapsed",
-    "bridge washed away", "traffic disrupted", "national disaster",
-    "remain closed", "remain blocked", "obstructed",
+    "highway blocked", "highways blocked", "highways closed", "highway closed",
+    "roads blocked", "road blocked", "bridge collapsed", "bridge washed away",
+    "traffic disrupted", "national disaster", "remain closed", "remain blocked",
+    "obstructed",
 ]
 
 # Strong financial signals — checked FIRST, override exclude list
@@ -210,8 +219,9 @@ def is_relevant(news, ticker_re=None):
       0. CSR/PR pattern (e.g. brand "pledges Rs X" for a cause) → never
       1. STRONG keyword or a NEPSE ticker → always
       2. EXCLUDE keyword → never
-      3. finance-only portal → always ("every penny" coverage)
-      4. INCLUDE keyword → yes
+      3. INCLUDE keyword → yes
+      (no blanket "finance-only source" bypass — see note on FINANCE_SOURCES
+      removal above; STRONG/INCLUDE already give full "every penny" coverage)
     """
     headline = news.get('headline', '')
     if _PRE_EXCLUDE_RE.search(headline):
@@ -222,7 +232,7 @@ def is_relevant(news, ticker_re=None):
     if _EXCLUDE_RE.search(headline):
         print(f"[FILTER] Excluded (off-topic): {headline[:70]}")
         return False
-    if news.get('source') in FINANCE_SOURCES or _INCLUDE_RE.search(headline):
+    if _INCLUDE_RE.search(headline):
         return True
     print(f"[FILTER] Skipped (no match): {headline[:70]}")
     return False
