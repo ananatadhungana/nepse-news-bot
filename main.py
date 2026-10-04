@@ -27,19 +27,17 @@ RELEVANT_KEYWORDS = [
     "हकप्रद", "बोनस सेयर", "बोनस शेयर", "right share",
     "लाभांश", "dividend",
     "डिम्याट", "demat",
-    "दलाल", "broker",
     "म्युचुअल फन्ड", "mutual fund",
     "किताब बन्द", "book close",
-    "लिस्टिङ", "listing",
-    "कारोबार", "trade volume",
     "मर्जर", "merger", "acquisition",
-    "सूचकांक", "index",
+    "जलविद्युत", "hydropower", "नेपाल विद्युत प्राधिकरण", "NEA",
+    "सुनचाँदी", "सुनको मूल्य", "विदेशी मुद्रा सञ्चिति", "forex reserve",
+    "कर्जा", "loan", "खुद नाफा", "net profit",
     # ── Banking / Monetary ──
-    "बैंक", "bank", "बैंकिङ",
+    "बैंक", "bank", "banking", "बैंकिङ",
     "राष्ट्र बैंक", "नेपाल राष्ट्र बैंक", "nrb",
     "ब्याजदर", "बेस रेट", "interest rate",
     "तरलता", "liquidity",
-    "कर्जा", "ऋण", "loan", "credit",
     "निक्षेप", "deposit",
     "मौद्रिक नीति", "monetary policy",
     "लघुवित्त", "microfinance",
@@ -48,25 +46,19 @@ RELEVANT_KEYWORDS = [
     "बीमा", "बीमा कम्पनी", "जीवन बीमा", "insurance",
     # ── Economy / Budget ──
     "बजेट", "budget",
-    "राजस्व", "revenue",
     "जिडिपी", "gdp",
     "मुद्रास्फीति", "महँगी", "inflation",
     "विप्रेषण", "रेमिट्यान्स", "remittance",
     "व्यापार घाटा", "trade deficit",
-    "विदेशी मुद्रा", "foreign exchange", "forex",
     # bare "आयात"/"निर्यात"/"import"/"export" removed: matched ANY country's
     # trade news globally (e.g. "US import ban on Canadian alcohol"). The
     # Nepal-specific compound "व्यापार घाटा"/"trade deficit" above still covers it.
-    "अर्थतन्त्र", "economic",
     "fiscal policy", "राजकोषीय",
     # ── Key political roles (only when economy-impacting) ──
     "बजेट अधिवेशन", "बजेट पेश",
     # "अध्यादेश"/"ordinance" removed: matched ANY government-ordinance story,
     # political or not (e.g. an MP's dissatisfaction with ordinance policy).
-    "सरकार गठन", "नयाँ सरकार",
     # ── Hydro / Energy (major NEPSE sector) ──
-    "जलविद्युत", "hydropower", "विद्युत",
-    "नेपाल विद्युत प्राधिकरण", "nea",
     # ── Telecom (NEPSE listed) ──
     "नेपाल टेलिकम", "nepal telecom", "ntc",
     # ── Cement / Manufacturing (NEPSE listed) ──
@@ -75,9 +67,19 @@ RELEVANT_KEYWORDS = [
     # "होटल"/"व्यवसाय"/"व्यापार" removed: too generic, matched any hotel or
     # "business" story anywhere (a Nepali opening a hotel in the US, a Dashain
     # idol-decoration "business" writeup) with no NEPSE/company connection.
-    "टेलिकम", "हाइड्रो", "फाइनान्स", "सिमेन्ट", "लगानी", "पुँजी", "कम्पनी",
-    "उद्योग", "नाफा", "मुनाफा", "सुनचाँदी", "सुनको मूल्य",
-    "भन्सार", "राजस्व", "कर्जा", "company", "investment", "profit", "industry",
+]
+
+
+# WEAK: generic economy words. ONE alone is not enough — they appear in crime
+# ("गाँजा कारोबार"), foreign news ("Trump ... investment"), politics ("सरकार
+# गठन") etc. Need 2 DIFFERENT weak hits (or any CORE/STRONG hit) to send.
+WEAK_KEYWORDS = [
+    "कारोबार", "लगानी", "पुँजी", "कम्पनी", "उद्योग", "नाफा", "मुनाफा",
+    "भन्सार", "राजस्व", "विदेशी मुद्रा", "अर्थतन्त्र", "आर्थिक", "ऋण",
+    "विद्युत", "हाइड्रो", "टेलिकम", "फाइनान्स", "सिमेन्ट", "सूचकांक", "दलाल",
+    "लिस्टिङ", "निजी क्षेत्र", "उद्योगी", "व्यवसायी", "बजार",
+    "company", "investment", "profit", "industry", "revenue", "economic",
+    "economy", "credit", "index", "broker", "listing", "forex", "market",
 ]
 
 # EXCLUDE: if headline contains ANY of these → skip (entertainment/sports/crime/etc.)
@@ -94,6 +96,15 @@ EXCLUDE_KEYWORDS = [
     "रिचार्ज अफर",
     # Crime / accident
     "हत्या", "दुर्घटना", "बलात्कार", "चोरी", "लुट", "अपहरण",
+    "पक्राउ", "ठगी", "फरार", "गाँजा", "लागुऔषध", "तस्करी", "प्रहरी",
+    "पीडित", "victims", "survivors",
+    # Foreign politics / leaders (no direct Nepal-market link)
+    "ट्रम्प", "trump", "अलास्का", "alaska",
+    # Party politics
+    "महामन्त्री", "general secretary", "महाधिवेशन", "कांग्रेस", "एमाले", "माओवादी",
+    "राशिफल", "horoscope",
+    "रसिया", "युक्रेन", "russia", "ukraine", "इजरायल", "israel", "भारतीय बजार",
+    "party", "पार्टी",
     # Weather forecast chatter (routine "today's weather" — no economic signal).
     # Earthquake/flood/landslide EVENTS moved to DISASTER_KEYWORDS below: a
     # national disaster disrupting highways/hydropower/trade is economic news,
@@ -119,14 +130,19 @@ EXCLUDE_KEYWORDS = [
     "विपक्ष", "सत्तापक्ष",
 ]
 
-_INCLUDE_RE = re.compile(
-    '|'.join(re.escape(k) for k in RELEVANT_KEYWORDS),
-    re.IGNORECASE
-)
-_EXCLUDE_RE = re.compile(
-    '|'.join(re.escape(k) for k in EXCLUDE_KEYWORDS),
-    re.IGNORECASE
-)
+def _kw_re(words):
+    """Latin words get word boundaries (+ optional plural) so "nea" can't hit
+    "Nearly"; Devanagari stays substring (suffixes like -को/-मा attach)."""
+    parts = []
+    for k in words:
+        e = re.escape(k.strip())
+        parts.append(rf'(?<![A-Za-z]){e}(?:s|es)?(?![A-Za-z])' if re.search('[A-Za-z]', k) else e)
+    return re.compile('|'.join(parts), re.IGNORECASE)
+
+
+_INCLUDE_RE = _kw_re(RELEVANT_KEYWORDS)
+_WEAK_RE    = _kw_re(WEAK_KEYWORDS)
+_EXCLUDE_RE = _kw_re(EXCLUDE_KEYWORDS)
 
 # Short names people actually write in headlines (Nepali + English brands),
 # plus market-infrastructure terms. Any hit = always send (overrides exclude).
@@ -162,7 +178,8 @@ COMPANY_KEYWORDS = [
 # Everything else here requires an actual INFRASTRUCTURE/ECONOMY-disruption
 # phrase, which is what distinguishes a national event from a local one.
 DISASTER_KEYWORDS = [
-    "भूकम्प", "earthquake",
+    "भूकम्प गयो", "भूकम्पको धक्का", "शक्तिशाली भूकम्प", "रेक्टर स्केल",
+    "earthquake hits", "earthquake strikes", "earthquake jolts", "magnitude",
     "राजमार्ग अवरुद्ध", "सडक अवरुद्ध", "यातायात अवरुद्ध", "यातायात बन्द",
     "यातायात आवागमन बन्द", "सवारी आवागमन बन्द",
     "पुल भत्कियो", "पुल बगियो", "पुल क्षतिग्रस्त", "पुल डुब्यो", "पुल भासियो",
@@ -181,10 +198,7 @@ STRONG_KEYWORDS = [
     # Finance/Energy ministers moved here so "मन्त्री" exclude doesn't block them
     "अर्थमन्त्री", "ऊर्जामन्त्री",
 ] + COMPANY_KEYWORDS + DISASTER_KEYWORDS
-_STRONG_RE = re.compile(
-    '|'.join(re.escape(k) for k in STRONG_KEYWORDS),
-    re.IGNORECASE
-)
+_STRONG_RE = _kw_re(STRONG_KEYWORDS)
 
 # NEPSE tickers (NTC, NABIL, CHCL...) — fetched live, matched case-sensitive as
 # whole words. Lookarounds instead of \b: Devanagari counts as \w, so "NTCको"
@@ -206,11 +220,15 @@ def build_ticker_re(symbols):
 PRE_EXCLUDE_KEYWORDS = [
     "pledges rs", "pledges npr", "donates rs", "donates npr", " csr ",
     "launches campaign", "launches ride for",
+    # Hard never-market topics — even if a STRONG word appears (horoscope
+    # mentions "शेयर", party "merger", Ukraine "पुल क्षतिग्रस्त").
+    "राशिफल", "horoscope",
+    "रसिया", "युक्रेन", "russia", "ukraine", "इजरायल", "israel", "ट्रम्प", "trump",
+    "गाँजा", "लागुऔषध", "ठगी",
+    "कांग्रेस", "एमाले", "माओवादी", "samajwadi", "समाजवादी", "political party",
+    "महाधिवेशन", "general secretary",
 ]
-_PRE_EXCLUDE_RE = re.compile(
-    '|'.join(re.escape(k) for k in PRE_EXCLUDE_KEYWORDS),
-    re.IGNORECASE
-)
+_PRE_EXCLUDE_RE = _kw_re(PRE_EXCLUDE_KEYWORDS)
 
 
 def is_relevant(news, ticker_re=None):
@@ -219,13 +237,13 @@ def is_relevant(news, ticker_re=None):
       0. CSR/PR pattern (e.g. brand "pledges Rs X" for a cause) → never
       1. STRONG keyword or a NEPSE ticker → always
       2. EXCLUDE keyword → never
-      3. INCLUDE keyword → yes
+      3. CORE keyword → yes; or 2+ different WEAK keywords → yes
       (no blanket "finance-only source" bypass — see note on FINANCE_SOURCES
       removal above; STRONG/INCLUDE already give full "every penny" coverage)
     """
     headline = news.get('headline', '')
     if _PRE_EXCLUDE_RE.search(headline):
-        print(f"[FILTER] Excluded (CSR/PR): {headline[:70]}")
+        print(f"[FILTER] Excluded (hard): {headline[:70]}")
         return False
     if _STRONG_RE.search(headline) or (ticker_re and ticker_re.search(headline)):
         return True
@@ -233,6 +251,8 @@ def is_relevant(news, ticker_re=None):
         print(f"[FILTER] Excluded (off-topic): {headline[:70]}")
         return False
     if _INCLUDE_RE.search(headline):
+        return True
+    if len({m.group(0).lower() for m in _WEAK_RE.finditer(headline)}) >= 2:
         return True
     print(f"[FILTER] Skipped (no match): {headline[:70]}")
     return False
