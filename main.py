@@ -45,7 +45,7 @@ RELEVANT_KEYWORDS = [
     # ── Insurance ──
     "बीमा", "बीमा कम्पनी", "जीवन बीमा", "insurance",
     # ── Economy / Budget ──
-    "बजेट", "budget",
+    "बजेट वक्तव्य", "बजेट भाषण", "बजेट कार्यान्वयन", "बजेटको आकार", "budget speech",
     "जिडिपी", "gdp",
     "मुद्रास्फीति", "महँगी", "inflation",
     "विप्रेषण", "रेमिट्यान्स", "remittance",
@@ -77,7 +77,7 @@ WEAK_KEYWORDS = [
     "कारोबार", "लगानी", "पुँजी", "कम्पनी", "उद्योग", "नाफा", "मुनाफा",
     "भन्सार", "राजस्व", "विदेशी मुद्रा", "अर्थतन्त्र", "आर्थिक", "ऋण",
     "विद्युत", "हाइड्रो", "टेलिकम", "फाइनान्स", "सिमेन्ट", "सूचकांक", "दलाल",
-    "लिस्टिङ", "निजी क्षेत्र", "उद्योगी", "व्यवसायी", "बजार",
+    "लिस्टिङ", "निजी क्षेत्र", "उद्योगी", "बजेट", "budget",
     "company", "investment", "profit", "industry", "revenue", "economic",
     "economy", "credit", "index", "broker", "listing", "forex", "market",
 ]
@@ -194,7 +194,7 @@ DISASTER_KEYWORDS = [
 STRONG_KEYWORDS = [
     "नेप्से", "nepse", "शेयर", "सेयर", "आईपीओ", "एफपीओ", "ipo", "fpo",
     "लाभांश", "dividend", "डिम्याट", "हकप्रद", "राष्ट्र बैंक", "nrb",
-    "बजेट", "budget", "मर्जर", "merger",
+    "बजेट वक्तव्य", "बजेट पेश", "budget speech", "मर्जर", "merger",
     # Finance/Energy ministers moved here so "मन्त्री" exclude doesn't block them
     "अर्थमन्त्री", "ऊर्जामन्त्री",
 ] + COMPANY_KEYWORDS + DISASTER_KEYWORDS
@@ -308,6 +308,55 @@ def send_to_telegram(text):
         return False
 
 
+_SUFFIXES = ("हरूलाई", "हरूको", "हरू", "द्वारा", "लाई", "बाट", "सँग", "मा", "को", "का", "की", "ले", "ने")
+_STOP = {"र", "तथा", "पनि", "गर्न", "गर्दै", "गर्ने", "भयो", "छ", "हो", "लागि", "the", "and", "for", "of", "in", "to", "a", "on",
+         # finance words present in nearly every headline — sharing them proves nothing
+         "बैंक", "राष्ट्र", "नेप्से", "nepse", "nrb", "bank", "सुन", "मूल्य", "तोला", "तोलामा", "सेयर", "शेयर",
+         "कम्पनी", "अर्ब", "करोड", "लाख", "प्रतिशत", "percent", "billion", "million", "points", "अंक", "अंकले",
+         "बढ्यो", "घट्यो", "rises", "falls", "price", "rate"}
+_DEV_DIGITS = str.maketrans("०१२३४५६७८९", "0123456789")
+
+
+def _numbers(h):
+    return set(re.findall(r'\d+(?:\.\d+)?', h.translate(_DEV_DIGITS)))
+
+
+def _diff_numbers(h1, h2):
+    """Both carry figures and share none → different reports (today's vs yesterday's
+    gold price / NEPSE close), even if the wording is nearly identical."""
+    n1, n2 = _numbers(h1), _numbers(h2)
+    return bool(n1 and n2 and not (n1 & n2))
+
+
+def _tokens(h):
+    """Content words with Nepali case suffixes stripped, so 'व्यवसायीले' == 'व्यवसायी'."""
+    out = set()
+    for w in re.findall(r'[\w\u0900-\u097F]+', h.lower()):
+        for suf in _SUFFIXES:
+            if w.endswith(suf) and len(w) - len(suf) >= 3:
+                w = w[:-len(suf)]
+                break
+        if len(w) >= 3 and w not in _STOP:
+            out.add(w)
+    return out
+
+
+def _token_dup(h1, h2):
+    """Same story, reworded by another portal: 3+ shared content words making up
+    ≥50% of the shorter headline. Catches 'चितवनका व्यवसायीले भेटे रवि लामिछाने,
+    नारायणगढ बजार जोगाउन माग' vs 'नारायणगढ बजार जोगाउन माग गर्दै चितवनका व्यवसायी…'."""
+    a, b = _tokens(h1), _tokens(h2)
+    if not a or not b:
+        return False
+    if _diff_numbers(h1, h2):
+        return False
+    shared = len(a & b)
+    return shared >= 3 and shared / min(len(a), len(b)) >= 0.5
+
+
+DUP_WINDOW_HOURS = 48  # token-overlap only vs recent news — old stories on same place/topic are new events
+
+
 def is_duplicate(headline, link, history):
     """
     Exact link match → duplicate.
@@ -319,6 +368,8 @@ def is_duplicate(headline, link, history):
     for sent in history:
         sent_h = sent.get('headline', '')
         if sent_h and headline:
+            if _diff_numbers(headline, sent_h):
+                continue
             m = difflib.SequenceMatcher(None, headline, sent_h)
             ratio = m.ratio()
             if ratio > 0.65:
@@ -328,7 +379,18 @@ def is_duplicate(headline, link, history):
             if longest >= 12 and ratio > 0.45:
                 print(f"[SKIP] Same-event (cross-run): '{headline[:60]}…'")
                 return True
+            if _recent(sent) and _token_dup(headline, sent_h):
+                print(f"[SKIP] Same-story (word overlap): '{headline[:60]}…'")
+                return True
     return False
+
+
+def _recent(sent):
+    try:
+        t = datetime.datetime.fromisoformat(sent.get('sent_at', ''))
+    except ValueError:
+        return True
+    return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() < DUP_WINDOW_HOURS * 3600
 
 
 def _same_event(h1, h2):
@@ -338,6 +400,8 @@ def _same_event(h1, h2):
     Catches: 'महावीर पुन मन्त्री' vs 'महावीर पुनलाई मन्त्री' from different portals.
     """
     # Reuse one SequenceMatcher for both ratio() and get_matching_blocks()
+    if _diff_numbers(h1, h2):
+        return False
     matcher = difflib.SequenceMatcher(None, h1, h2)
     ratio   = matcher.ratio()
     if ratio > 0.72:
@@ -347,7 +411,7 @@ def _same_event(h1, h2):
     longest = max((b.size for b in blocks), default=0)
     if longest >= 12 and ratio > 0.50:
         return True
-    return False
+    return _token_dup(h1, h2)
 
 
 def main():
