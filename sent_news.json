@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.bbc.com/nepali/articles/c0ej03v8zlvo?at_medium=RSS&at_campaign=rss",
-    "headline": "मासिक ६० हजार टन ग्यास आयात गर्ने तयारी :  सङ्कट कसरी टर्ला",
-    "sent_at": "2026-08-20T10:54:22.214787+00:00"
-  },
-  {
     "link": "https://www.setopati.com/kinmel/banking/396361",
     "headline": "बैंकको धितो अधिकारमाथि प्रश्न उठेपछि सिबिफिनको चिन्ता, 'व्यावसायिक विवादलाई फौजदारीकरण नगरौं'",
     "sent_at": "2026-08-20T11:16:18.735415+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://bizpati.com/2026/10/222749/",
     "headline": "धितोपत्र नियमावली संशोधन, एनआरएनको सेयर कारोबार छुट्टै प्रणालीबाट",
     "sent_at": "2026-10-06T15:16:36.154795+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/82637/51-magnitude-earthquake-hits-uttarakhand-india-tremors-felt-in-the-far-west",
+    "headline": "Earthquake of Magnitude 5.1 Jolts India-Nepal Border Region",
+    "sent_at": "2026-10-06T17:26:15.841743+00:00"
   }
 ]
