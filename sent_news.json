@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://www.capitalnepal.com/detail/85256",
-    "headline": "तनहुँ वितरण केन्द्रबाट एक हजार ८९५ घरमा विद्युत् जडान",
-    "sent_at": "2026-09-09T13:56:22.344797+00:00"
-  },
-  {
-    "link": "https://bajarkochirfar.com/kalinchowk-darshan-has-announced-dividends-how-much-is-the-cash-and-bonus",
-    "headline": "कालिञ्चोक दर्शनले लाभांश घोषणा गर्यो, बोनस र नगद कति ?",
-    "sent_at": "2026-09-09T13:56:26.393611+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20260909221547.html",
-    "headline": "भ्यालुयर्स एशोसिएसनले गर्‍यो बाढी पीडितलाई दश लाख रुपैयाँ सहयोग, चेक अर्थमन्त्रीलाई हस्तान्तरण",
-    "sent_at": "2026-09-09T17:23:59.658816+00:00"
-  },
-  {
     "link": "https://www.capitalnepal.com/detail/85265",
     "headline": "ऊर्जामन्त्री श्रेष्ठ र युएनओपीएसका क्षेत्रीय निर्देशकबीच भेटवार्ता",
     "sent_at": "2026-09-09T17:24:03.767676+00:00"
@@ -7498,5 +7483,20 @@
     "link": "https://nepalkhabar.com/sudurpaschim/289432-2026-10-10-8-15-39",
     "headline": "झोलुंगे पुलसँगै चुँडिएको टेलिकमको तार तान्ने क्रममा सशस्त्रका असई महाकालीमा बेपत्ता",
     "sent_at": "2026-10-10T08:16:16.926018+00:00"
+  },
+  {
+    "link": "http://lokaantar.com/story/330960/2026/10/10/ntc-offer-",
+    "headline": "नेपाल टेलिकमको दशैँ तिहार अफर- एफटीटीएचदेखि मोबाइल डाटा प्याकेजसम्म छुट",
+    "sent_at": "2026-10-10T08:31:36.781370+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/10/10/selective-buying-fails-to-lift-nepse-as-turnover-falls",
+    "headline": "Selective buying fails to lift Nepse as turnover falls",
+    "sent_at": "2026-10-10T08:31:40.539388+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/10/2036352/dashain-bonus",
+    "headline": "दशैं बोनस",
+    "sent_at": "2026-10-10T08:31:44.499594+00:00"
   }
 ]
