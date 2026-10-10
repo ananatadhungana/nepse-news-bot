@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.ratopati.com/story/590506/more-than-20-million-rupees-donated-by-nepal-telecom-employees",
-    "headline": "नेपाल टेलिकमका कर्मचारीहरूको तर्फबाट २ करोडभन्दा बढी सहयोग",
-    "sent_at": "2026-09-07T16:04:45.882283+00:00"
-  },
-  {
     "link": "https://bankingsamachar.com/news/170556/",
     "headline": "भोलि सार्वजनिक बिदामा पनि बैंकिङ्ग सेवा सुचारु राख्न बैंकहरुलाई राष्ट्र बैंकको निर्देशन",
     "sent_at": "2026-09-07T16:04:49.789255+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://gorkhapatraonline.com/news/226110",
     "headline": "मालढुङ्गा पुल बन्द हुँदा दसैँको व्यापार प्रभावित, उपभोक्तालाई महँगीको मार",
     "sent_at": "2026-10-10T02:16:55.681336+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/10/bhotekoshi-flood-1457-lives-lost-so-far-1335-bodies-buried-under-the-ground/",
+    "headline": "भोटेकोशी बाढी : हालसम्म १४ सय ५७ गुमाए ज्यान, १३ सय ३५ माटोमुनि शव व्यवस्थापन",
+    "sent_at": "2026-10-10T02:51:15.262626+00:00"
   }
 ]
