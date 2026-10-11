@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.capitalnepal.com/detail/85624",
-    "headline": "विद्युतीय आयोजनाको पावर हाउस खोला छेउ राख्न नहुने बहस, विकल्पमा के?",
-    "sent_at": "2026-09-17T00:43:21.297708+00:00"
-  },
-  {
     "link": "https://www.osnepal.com/detail/590945",
     "headline": "भारत भ्रमणमा निस्किए अर्थमन्त्री वाग्ले, सीतारमण र जयशंकरसहित उच्च अधिकारीसँग भेटवार्ता गर्ने कार्यक्रम",
     "sent_at": "2026-09-17T05:23:31.772630+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://myrepublica.nagariknetwork.com/news/30-companies-seek-sebon-approval-for-rs-4015-billion-rights-shares-28-63.html",
     "headline": "30 companies seek SEBON approval for Rs 40.15 billion rights shares",
     "sent_at": "2026-10-11T14:26:03.804511+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/10/2037197/budhigandaki-flood-a-mini-version-of-bhotekoshi-disaster-baburam",
+    "headline": "बूढीगण्डकी बाढी भोटेकोशी महाविपत्तिकै मिनि संस्करण : बाबुराम",
+    "sent_at": "2026-10-11T14:46:16.435907+00:00"
   }
 ]
