@@ -1,15 +1,5 @@
 [
   {
-    "link": "http://lokaantar.com/story/329768/2026/9/25/news-",
-    "headline": "भक्तपुरमा बाढीको जोखिममा परेका १५ परिवारका ९२ जनाको उद्धार",
-    "sent_at": "2026-09-25T15:15:39.066912+00:00"
-  },
-  {
-    "link": "http://lokaantar.com/story/329767/2026/9/25/palpa-",
-    "headline": "पाल्पामा पहिरोले दुई घर भत्किए, एक महिला बेपत्ता",
-    "sent_at": "2026-09-25T15:15:42.727552+00:00"
-  },
-  {
     "link": "https://kathmandupost.com/national/2026/09/25/heavy-rain-disrupts-travel-raises-flood-and-landslide-risks-across-nepal",
     "headline": "Heavy rain disrupts travel, raises flood and landslide risks across Nepal",
     "sent_at": "2026-09-25T15:15:46.547475+00:00"
@@ -7498,5 +7488,15 @@
     "link": "https://arthasarokar.com/2026/10/citizens-share-brokers-announces-4-65-cash-dividend.html",
     "headline": "सिटिजन्स सेयर ब्रोकरको चौथो वार्षिक साधारण सभा सम्पन्न, ४.६५ प्रतिशत नगद लाभांश पारित",
     "sent_at": "2026-10-13T07:16:22.144867+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/83559/nepal-telecoms-autumn-offer-2083-announced-new-packages-in-voice-and-data",
+    "headline": "Nepal Telecom Launches 'Autumn Offer 2083' with New Voice and Data Packages",
+    "sent_at": "2026-10-13T07:26:05.382184+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/10/223778/",
+    "headline": "टेलिकमको अटम अफर सुरु, ६९९ रुपैयाँमा अनलिमिटेड अल नेट भ्वाइस र डाटा",
+    "sent_at": "2026-10-13T07:26:09.470837+00:00"
   }
 ]
