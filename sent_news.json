@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/95119",
-    "headline": "कुलेखानीमा जल सतह बढ्न नदिन पूर्ण क्षमतामा विद्युत् उत्पादन",
-    "sent_at": "2026-09-25T18:59:25.826294+00:00"
-  },
-  {
     "link": "https://nepalipaisa.com/news-detail/95116",
     "headline": "कान्ति राजमार्ग अवरुद्ध: पहिरो र अव्यवस्थित ढल निकासका कारण सडक जोखिममा",
     "sent_at": "2026-09-25T22:00:35.136981+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://www.onlinekhabar.com/2026/10/2038385/angry-relatives-block-postal-road-in-saptari-after-cyclists-death",
     "headline": "‎साइकलयात्रीको मृत्युपछि आक्रोशित आफन्तद्वारा सप्तरीमा हुलाकी सडक अवरुद्ध",
     "sent_at": "2026-10-13T08:21:37.017930+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/10/2038413/so-far-13-hydropower-companies-have-announced-dividends-how-much-each-one-has",
+    "headline": "हालसम्म १३ हाइड्रोपावर कम्पनीले घोषणा गरे लाभांश, कुनको कति ?",
+    "sent_at": "2026-10-13T08:41:19.544320+00:00"
   }
 ]
