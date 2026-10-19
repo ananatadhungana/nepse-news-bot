@@ -354,6 +354,113 @@ def _token_dup(h1, h2):
     return shared >= 3 and shared / min(len(a), len(b)) >= 0.5
 
 
+
+# ── Entity + event-type dedup ───────────────────────────────────────────────
+# Portals rewrite the same story in different words AND languages ("Nepal Telecom
+# is official partner of NPL-3" / "एनपीएलको अफिसियल टेलिकम पार्टनर बन्यो एनटीसी"),
+# so word overlap can't see it. Map every name variant to one ID, then: same
+# entity + same event type within 24h = same story.
+ENTITY_ALIASES = {
+    "NTC": ["नेपाल टेलिकम", "टेलिकम", "एनटीसी", "nepal telecom", "ntc"],
+    "NCELL": ["एनसेल", "ncell"],
+    "NPL": ["एनपीएल", "नेपाल प्रिमियर लिग", "npl", "nepal premier league"],
+    "CAN": ["क्यान", "क्रिकेट संघ", "cricket association of nepal"],
+    "NRB": ["राष्ट्र बैंक", "केन्द्रीय बैंक", "nrb", "nepal rastra bank", "central bank"],
+    "SEBON": ["सेबोन", "धितोपत्र बोर्ड", "sebon", "securities board"],
+    "NEPSE": ["नेप्से", "स्टक एक्सचेन्ज", "nepse", "stock exchange"],
+    "CDSC": ["सीडीएससी", "cdsc"],
+    "NEA": ["विद्युत प्राधिकरण", "nea", "electricity authority"],
+    "MOF": ["अर्थ मन्त्रालय", "अर्थमन्त्री", "finance minister", "finance ministry", "ministry of finance"],
+    "IMF": ["आईएमएफ", "मुद्राकोष", "imf"],
+    "WB": ["विश्व बैंक", "world bank"],
+    "NABIL": ["नबिल", "nabil"],
+    "NICA": ["एनआईसी एशिया", "एनआईसी एसिया", "nic asia"],
+    "GBIME": ["ग्लोबल आईएमई", "ग्लोबल आइएमई", "global ime"],
+    "PRVU": ["प्रभु", "prabhu"],
+    "KBL": ["कुमारी बैंक", "kumari bank"],
+    "LSL": ["लक्ष्मी सनराइज", "laxmi sunrise"],
+    "SBL": ["सिद्धार्थ", "siddhartha"],
+    "SANIMA": ["सानिमा", "sanima"],
+    "NMB": ["एनएमबी", "nmb"],
+    "NBL": ["नेपाल बैंक", "nepal bank"],
+    "ADBL": ["कृषि विकास बैंक", "agricultural development bank", "adbl"],
+    "EBL": ["एभरेष्ट बैंक", "एभरेस्ट बैंक", "everest bank"],
+    "HBL": ["हिमालयन बैंक", "himalayan bank"],
+    "MBL": ["माछापुच्छ्रे", "machhapuchchhre"],
+    "PCBL": ["प्राइम कमर्सियल", "prime commercial"],
+    "SCB": ["स्ट्यान्डर्ड चार्टर्ड", "स्ट्याण्डर्ड चार्टर्ड", "standard chartered"],
+    "NIMB": ["इन्भेष्टमेन्ट मेगा", "इन्भेस्टमेन्ट मेगा", "nimb", "investment mega"],
+    "CZBIL": ["सिटिजन्स", "citizens bank"],
+    "CHCL": ["चिलिमे", "chilime"],
+    "UTK": ["तामाकोशी", "tamakoshi"],
+    "BPCL": ["बुटवल पावर", "butwal power"],
+    "NLIC": ["नेपाल लाइफ", "nepal life"],
+    "NRIC": ["पुनर्बीमा", "रिइन्स्योरेन्स", "nepal reinsurance"],
+    "CIT": ["नागरिक लगानी कोष", "citizen investment trust"],
+    "UNL": ["युनिलिभर", "unilever"],
+    "SHIVM": ["शिवम सिमेन्ट", "shivam cement"],
+    "STC": ["साल्ट ट्रेडिङ", "salt trading"],
+    "GOLD": ["सुनचाँदी", "सुनको", "gold"],
+}
+EVENT_TYPES = {
+    "partner": ["पार्टनर", "साझेदार", "प्रायोजन", "प्रायोजक", "सम्झौता", "partner", "sponsor", "agreement", "mou"],
+    "dividend": ["लाभांश", "बोनस", "dividend", "bonus"],
+    "agm": ["साधारण सभा", "साधारणसभा", "agm", "general meeting"],
+    "issue": ["आईपीओ", "एफपीओ", "हकप्रद", "ऋणपत्र", "निष्कासन", "ipo", "fpo", "right share", "debenture"],
+    "earnings": ["नाफा", "मुनाफा", "त्रैमासिक", "वित्तीय विवरण", "profit", "earnings", "quarter"],
+    "merger": ["मर्जर", "गाभ्", "प्राप्ति", "merger", "acquisition"],
+    "rates": ["ब्याजदर", "बेस रेट", "नीतिगत दर", "interest rate", "policy rate", "base rate"],
+    "people": ["सीईओ", "नियुक्त", "राजीनामा", "अध्यक्ष", "ceo", "appoint", "resign", "chairman"],
+    "listing": ["सूचीकरण", "सूचीकृत", "listing", "listed"],
+    "price": ["मूल्य", "भाउ", "price"],
+    "forex": ["विनिमय दर", "exchange rate"],
+    "meeting": ["भेट", "भेटवार्ता", "छलफल", "meet", "talks"],
+}
+
+
+def _alias_re(groups):
+    out = {}
+    for key, words in groups.items():
+        parts = []
+        for w in words:
+            e = re.escape(w)
+            parts.append(rf'(?<![A-Za-z]){e}(?![A-Za-z])' if re.search('[A-Za-z]', w) else e)
+        out[key] = re.compile('|'.join(parts), re.IGNORECASE)
+    return out
+
+
+_ENTITY_RES = _alias_re(ENTITY_ALIASES)
+_EVENT_RES  = _alias_re(EVENT_TYPES)
+
+
+def _entities(h):
+    return {k for k, r in _ENTITY_RES.items() if r.search(h)}
+
+
+def _events(h):
+    return {k for k, r in _EVENT_RES.items() if r.search(h)}
+
+
+def _entity_dup(h1, h2):
+    """Same company/body + same kind of event → same story, any language/wording.
+    Two shared non-generic entities (e.g. NTC + NPL) also count on their own."""
+    e = _entities(h1) & _entities(h2)
+    if not e:
+        return False
+    if _events(h1) & _events(h2):
+        return True
+    return len(e - {"NEPSE", "NRB", "GOLD"}) >= 2
+
+
+def _diff_events(h1, h2):
+    """Both headlines name an event type and they differ → different news about
+    maybe the same company ("NTC profit" vs "NTC partners NPL")."""
+    e1, e2 = _events(h1), _events(h2)
+    return bool(e1 and e2 and not (e1 & e2))
+
+
+ENTITY_WINDOW_HOURS = 24
+
 DUP_WINDOW_HOURS = 48  # token-overlap only vs recent news — old stories on same place/topic are new events
 
 
@@ -368,7 +475,7 @@ def is_duplicate(headline, link, history):
     for sent in history:
         sent_h = sent.get('headline', '')
         if sent_h and headline:
-            if _diff_numbers(headline, sent_h):
+            if _diff_numbers(headline, sent_h) or _diff_events(headline, sent_h):
                 continue
             m = difflib.SequenceMatcher(None, headline, sent_h)
             ratio = m.ratio()
@@ -379,18 +486,21 @@ def is_duplicate(headline, link, history):
             if longest >= 12 and ratio > 0.45:
                 print(f"[SKIP] Same-event (cross-run): '{headline[:60]}…'")
                 return True
+            if _recent(sent, ENTITY_WINDOW_HOURS) and _entity_dup(headline, sent_h):
+                print(f"[SKIP] Same-story (entity+event): '{headline[:60]}…'")
+                return True
             if _recent(sent) and _token_dup(headline, sent_h):
                 print(f"[SKIP] Same-story (word overlap): '{headline[:60]}…'")
                 return True
     return False
 
 
-def _recent(sent):
+def _recent(sent, hours=DUP_WINDOW_HOURS):
     try:
         t = datetime.datetime.fromisoformat(sent.get('sent_at', ''))
     except ValueError:
         return True
-    return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() < DUP_WINDOW_HOURS * 3600
+    return (datetime.datetime.now(datetime.timezone.utc) - t).total_seconds() < hours * 3600
 
 
 def _same_event(h1, h2):
@@ -400,7 +510,7 @@ def _same_event(h1, h2):
     Catches: 'महावीर पुन मन्त्री' vs 'महावीर पुनलाई मन्त्री' from different portals.
     """
     # Reuse one SequenceMatcher for both ratio() and get_matching_blocks()
-    if _diff_numbers(h1, h2):
+    if _diff_numbers(h1, h2) or _diff_events(h1, h2):
         return False
     matcher = difflib.SequenceMatcher(None, h1, h2)
     ratio   = matcher.ratio()
@@ -411,7 +521,7 @@ def _same_event(h1, h2):
     longest = max((b.size for b in blocks), default=0)
     if longest >= 12 and ratio > 0.50:
         return True
-    return _token_dup(h1, h2)
+    return _token_dup(h1, h2) or _entity_dup(h1, h2)
 
 
 def main():
