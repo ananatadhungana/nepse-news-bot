@@ -364,7 +364,7 @@ ENTITY_ALIASES = {
     "NTC": ["नेपाल टेलिकम", "टेलिकम", "एनटीसी", "nepal telecom", "ntc"],
     "NCELL": ["एनसेल", "ncell"],
     "NPL": ["एनपीएल", "नेपाल प्रिमियर लिग", "npl", "nepal premier league"],
-    "CAN": ["क्यान", "क्रिकेट संघ", "cricket association of nepal"],
+    "CAN": ["क्रिकेट संघ", "cricket association of nepal"],  # "क्यान" alone matched क्यानडा / क्यान्सर
     "NRB": ["राष्ट्र बैंक", "केन्द्रीय बैंक", "nrb", "nepal rastra bank", "central bank"],
     "SEBON": ["सेबोन", "धितोपत्र बोर्ड", "sebon", "securities board"],
     "NEPSE": ["नेप्से", "स्टक एक्सचेन्ज", "nepse", "stock exchange"],
@@ -376,12 +376,12 @@ ENTITY_ALIASES = {
     "NABIL": ["नबिल", "nabil"],
     "NICA": ["एनआईसी एशिया", "एनआईसी एसिया", "nic asia"],
     "GBIME": ["ग्लोबल आईएमई", "ग्लोबल आइएमई", "global ime"],
-    "PRVU": ["प्रभु", "prabhu"],
+    "PRVU": ["प्रभु बैंक", "प्रभुका", "prabhu bank"],
     "KBL": ["कुमारी बैंक", "kumari bank"],
     "LSL": ["लक्ष्मी सनराइज", "laxmi sunrise"],
-    "SBL": ["सिद्धार्थ", "siddhartha"],
+    "SBL": ["सिद्धार्थ बैंक", "siddhartha bank"],
     "SANIMA": ["सानिमा", "sanima"],
-    "NMB": ["एनएमबी", "nmb"],
+    "NMB": ["एनएमबी बैंक", "nmb bank"],
     "NBL": ["नेपाल बैंक", "nepal bank"],
     "ADBL": ["कृषि विकास बैंक", "agricultural development bank", "adbl"],
     "EBL": ["एभरेष्ट बैंक", "एभरेस्ट बैंक", "everest bank"],
@@ -390,7 +390,7 @@ ENTITY_ALIASES = {
     "PCBL": ["प्राइम कमर्सियल", "prime commercial"],
     "SCB": ["स्ट्यान्डर्ड चार्टर्ड", "स्ट्याण्डर्ड चार्टर्ड", "standard chartered"],
     "NIMB": ["इन्भेष्टमेन्ट मेगा", "इन्भेस्टमेन्ट मेगा", "nimb", "investment mega"],
-    "CZBIL": ["सिटिजन्स", "citizens bank"],
+    "CZBIL": ["सिटिजन्स बैंक", "citizens bank"],  # not Citizens Capital / Citizens Super 50
     "CHCL": ["चिलिमे", "chilime"],
     "UTK": ["तामाकोशी", "tamakoshi"],
     "BPCL": ["बुटवल पावर", "butwal power"],
@@ -441,15 +441,29 @@ def _events(h):
     return {k for k, r in _EVENT_RES.items() if r.search(h)}
 
 
+# Bodies that are in the news every day for many different reasons, and event words that
+# describe a running saga or a daily figure rather than one announcement. One of these alone
+# is not enough to call two headlines the same story (checked on sent_news.json, 19 Oct 2026:
+# gold rose/fell on different days, SEBON approving two different issues, separate turns in
+# the Prabhu Bank CEO case were being merged).
+HUB_ENTITIES = {"NEPSE", "NRB", "SEBON", "MOF", "CDSC", "GOLD", "NEA", "IMF", "WB", "CIT"}
+SOFT_EVENTS = {"price", "meeting", "people", "forex"}
+
+
 def _entity_dup(h1, h2):
     """Same company/body + same kind of event → same story, any language/wording.
-    Two shared non-generic entities (e.g. NTC + NPL) also count on their own."""
+    Gold/forex never (a new price is new news). A hub body (SEBON, NRB…) or a soft event
+    (meeting, people, price) needs a second shared company, or real word overlap, too."""
     e = _entities(h1) & _entities(h2)
-    if not e:
+    if not e or e <= {"GOLD"} or _events(h1) & _events(h2) & {"price", "forex"}:
         return False
-    if _events(h1) & _events(h2):
+    firm = e - HUB_ENTITIES
+    ev = _events(h1) & _events(h2)
+    if len(firm) >= 2:
         return True
-    return len(e - {"NEPSE", "NRB", "GOLD"}) >= 2
+    if firm and ev - SOFT_EVENTS:
+        return True
+    return bool(e and ev) and _token_dup(h1, h2)
 
 
 def _diff_events(h1, h2):
