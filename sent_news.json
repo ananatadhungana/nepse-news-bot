@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/capital-market-reforms-underway-br-18-56.html",
-    "headline": "‘पुँजीबजार सुधारका काम भइरहेका छन्’",
-    "sent_at": "2026-09-30T08:21:32.342161+00:00"
-  },
-  {
     "link": "https://www.ratopati.com/story/596055/us-senate-rejects-report-on-children-killed-in-west-bank-in-us-and-israeli-custody",
     "headline": "वेस्ट बैंकमा मारिएका अमेरिकी र इजरायली हिरासतमा रहेका बालबालिकाबारे रिपोर्ट माग्ने प्रस्ताव अमेरिकी सिनेटद्वारा अस्वीकृत",
     "sent_at": "2026-09-30T08:31:47.131312+00:00"
@@ -7498,5 +7493,10 @@
     "link": "http://english.ratopati.com/story/84206/what-is-the-condition-of-which-road",
     "headline": "Main Highways Blocked Due to Disasters in Various Parts of the Country",
     "sent_at": "2026-10-20T04:01:51.961936+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/509834",
+    "headline": "भोटेकोशीको बाढी : रसुवाका १६३ विद्यार्थी र १७ शिक्षक अझै बेपत्ता",
+    "sent_at": "2026-10-20T06:16:20.314566+00:00"
   }
 ]
