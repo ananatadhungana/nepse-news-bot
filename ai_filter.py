@@ -8,14 +8,17 @@ If GEMINI_API_KEY is missing or the AI fails, main.py falls back to the keyword 
 """
 import json
 import os
+import time
 
 import requests
 
 CACHE_FILE = 'ai_decisions.json'
 CACHE_MAX = 5000
-BATCH = 40
+BATCH = 20
+BUDGET = 150  # seconds of AI time per run at most (the bot runs every 5 min)
+_deadline = [0.0]
 KEY = os.environ.get('GEMINI_API_KEY', '')
-MODELS = [m for m in [os.environ.get('GEMINI_MODEL'), 'gemini-3.5-flash-lite', 'gemini-3.8-flash', 'gemini-2.5-flash'] if m]
+MODELS = [m for m in [os.environ.get('GEMINI_MODEL'), 'gemini-3.5-flash-lite', 'gemini-flash-lite-latest', 'gemini-3.8-flash', 'gemini-flash-latest'] if m]
 
 PROMPT = """You filter news for a Telegram channel read by NEPSE (Nepal Stock Exchange) investors.
 For each item decide KEEP (true) only if it could matter to someone investing in Nepal's share market:
@@ -60,24 +63,51 @@ def _ask(batch):
         'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json', 'maxOutputTokens': 4096},
     }
     for model in MODELS:
-        try:
-            r = requests.post(
-                f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
-                headers={'Content-Type': 'application/json', 'x-goog-api-key': KEY},  # header, never in the URL
-                json=body, timeout=40,
-            )
-            if r.status_code != 200:
-                print(f'[AI] {model}: HTTP {r.status_code}')
+        for attempt in (1, 2):  # Google is often briefly busy (503) — one retry per model
+            if time.time() > _deadline[0]:
+                print('[AI] time budget used up — keyword rules for the rest')
+                return None
+            got = _try(model, body, len(batch))
+            if got == 'retry' and attempt == 1:
+                time.sleep(3)
                 continue
-            parts = r.json().get('candidates', [{}])[0].get('content', {}).get('parts', [])
-            text = ''.join(p.get('text', '') for p in parts if not p.get('thought'))
-            out = json.loads(text)
-            got = {int(x['i']): bool(x['keep']) for x in out if isinstance(x, dict) and 'i' in x and 'keep' in x}
-            if len(got) >= len(batch) * 0.8:  # a mostly-complete answer; missing ones fall back to keywords
+            if isinstance(got, dict):
                 return got
-            print(f'[AI] {model}: incomplete answer ({len(got)}/{len(batch)})')
-        except Exception as e:  # network, quota, bad JSON → try the next model
-            print(f'[AI] {model}: {type(e).__name__}')
+            break
+    return None
+
+
+def _try(model, body, size):
+    """→ {i: keep} on success, 'retry' when busy / timed out, None to move to the next model."""
+    try:
+        r = requests.post(
+            f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
+            headers={'Content-Type': 'application/json', 'x-goog-api-key': KEY},  # header, never in the URL
+            json=body, timeout=max(5, min(60, _deadline[0] - time.time())),
+        )
+    except requests.Timeout:
+        print(f'[AI] {model}: timeout')
+        return 'retry'
+    except requests.RequestException as e:
+        print(f'[AI] {model}: {type(e).__name__}')
+        return 'retry'
+    if r.status_code in (429, 500, 503):
+        print(f'[AI] {model}: HTTP {r.status_code}')
+        return 'retry'
+    if r.status_code != 200:  # 404 = model retired, 400/403 = not allowed — next model
+        print(f'[AI] {model}: HTTP {r.status_code}')
+        return None
+    try:
+        parts = r.json().get('candidates', [{}])[0].get('content', {}).get('parts', [])
+        text = ''.join(p.get('text', '') for p in parts if not p.get('thought'))
+        out = json.loads(text)
+        got = {int(x['i']): bool(x['keep']) for x in out if isinstance(x, dict) and 'i' in x and 'keep' in x}
+    except (ValueError, KeyError, TypeError, IndexError) as e:
+        print(f'[AI] {model}: bad answer ({type(e).__name__})')
+        return None
+    if len(got) >= size * 0.8:  # a mostly-complete answer; missing ones fall back to keywords
+        return got
+    print(f'[AI] {model}: incomplete answer ({len(got)}/{size})')
     return None
 
 
@@ -85,6 +115,7 @@ def classify(news_list, cache):
     """Adds {link: True/False} to cache for every item the AI judged. Returns how many it judged."""
     if not KEY:
         return 0
+    _deadline[0] = time.time() + BUDGET
     todo = [n for n in news_list if n.get('link') and n['link'] not in cache]
     judged = 0
     for k in range(0, len(todo), BATCH):
