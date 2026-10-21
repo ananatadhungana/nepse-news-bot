@@ -112,6 +112,8 @@ EXCLUDE_KEYWORDS = [
     "मौसम", "हिमपात",
     # Religious / cultural (non-financial)
     "तीर्थ", "धार्मिक", "पूजा", "जात्रा", "पर्व",
+    "टीका", "टिका", "दशैं", "दशैँ", "तिहार", "मन्दिर", "देवी", "देवता", "कुमारी", "तलेजु",
+    "झिलिमिली", "फोटोफिचर", "फोटो फिचर", "धानबाली", "रमाउँदै", "photo feature",
     # Health (unless economic)
     "अस्पताल", "रोग", "भाइरस",
     # Traffic
@@ -153,19 +155,37 @@ COMPANY_KEYWORDS = [
     "नेपाल बैंक", "कृषि विकास बैंक", "एभरेष्ट बैंक", "एभरेस्ट बैंक", "हिमालयन बैंक",
     "माछापुच्छ्रे", "प्राइम कमर्सियल", "स्ट्यान्डर्ड चार्टर्ड", "स्ट्याण्डर्ड चार्टर्ड",
     "एसबीआई बैंक", "इन्भेष्टमेन्ट मेगा", "इन्भेस्टमेन्ट मेगा", "पूर्वाधार बैंक",
-    "मुक्तिनाथ", "गरिमा विकास", "ज्योति विकास", "कामना सेवा", "महालक्ष्मी", "लुम्बिनी विकास",
-    "शाइन रेसुंगा", "सांग्रिला",
+    "गरिमा विकास", "ज्योति विकास", "कामना सेवा", "लुम्बिनी विकास",
+    "शाइन रेसुंगा",
     # Telecom / hydro / insurance / others
     "टेलिकम", "टेलिकमको", "एनटीसी", "telecom",
-    "चिलिमे", "तामाकोशी", "बुटवल पावर", "अरुण भ्याली", "सान्जेन", "रसुवागढी", "भोटेकोशी",
+    "बुटवल पावर",
     "हाइड्रोइलेक्ट्रिसिटी इन्भेस्टमेन्ट", "नेपाल लाइफ", "नेसनल लाइफ", "रिइन्स्योरेन्स",
     "पुनर्बीमा", "नागरिक लगानी कोष", "युनिलिभर", "सोल्टी", "शिवम सिमेन्ट", "साल्ट ट्रेडिङ",
     # Market infrastructure & corporate actions
     "सेबोन", "धितोपत्र", "सीडीएससी", "मेरोसेयर", "मेरो सेयर", "स्टक एक्सचेन्ज",
     "मर्चेन्ट बैंकर", "ब्रोकर", "सूचीकरण", "साधारण सभा", "बुक क्लोज", "ऋणपत्र", "डिबेन्चर",
-    "चुक्ता पुँजी", "बोनस", "नगद लाभांश", "प्राथमिक सेयर", "सर्वसाधारण", "खुद नाफा", "त्रैमासिक",
+    "चुक्ता पुँजी", "बोनस सेयर", "नगद लाभांश", "प्राथमिक सेयर", "खुद नाफा", "त्रैमासिक",
     "sebon", "cdsc", "debenture", "bonus share", "stock exchange",
 ]
+
+
+# Company names that are ALSO places, rivers, temples, deities or everyday words
+# (मुक्तिनाथ temple, तामाकोशी river, महालक्ष्मी व्रत, सर्वसाधारण = "general
+# public", Dashain बोनस). They only count when a business word is also in the
+# headline — "मुक्तिनाथ विकास बैंकको लाभांश" yes, "मुक्तिनाथ मन्दिरमा दशैं टिका" no.
+AMBIGUOUS_COMPANY = [
+    "मुक्तिनाथ", "महालक्ष्मी", "सांग्रिला", "चिलिमे", "तामाकोशी", "अरुण भ्याली",
+    "सान्जेन", "रसुवागढी", "भोटेकोशी", "सर्वसाधारण", "बोनस",
+]
+BUSINESS_CONTEXT = [
+    "बैंक", "विकास बैंक", "लघुवित्त", "फाइनान्स", "बिमा", "बीमा", "हाइड्रो", "जलविद्युत",
+    "पावर", "विद्युत", "आयोजना", "कम्पनी", "सेयर", "शेयर", "आईपीओ", "एफपीओ", "लाभांश",
+    "नाफा", "निष्कासन", "हकप्रद", "कित्ता", "धितोपत्र", "नेप्से", "उत्पादन", "मेगावाट",
+    "bank", "hydro", "power", "share", "ipo", "dividend", "profit", "megawatt",
+]
+_AMBIG_RE = _kw_re(AMBIGUOUS_COMPANY)
+_BIZ_RE   = _kw_re(BUSINESS_CONTEXT)
 
 # National disasters with real economic/infrastructure impact — earthquake,
 # flood, landslide cutting highways, damaging hydropower or bridges. These
@@ -246,6 +266,8 @@ def is_relevant(news, ticker_re=None):
         print(f"[FILTER] Excluded (hard): {headline[:70]}")
         return False
     if _STRONG_RE.search(headline) or (ticker_re and ticker_re.search(headline)):
+        return True
+    if _AMBIG_RE.search(headline) and _BIZ_RE.search(headline):
         return True
     if _EXCLUDE_RE.search(headline):
         print(f"[FILTER] Excluded (off-topic): {headline[:70]}")
