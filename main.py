@@ -98,6 +98,7 @@ EXCLUDE_KEYWORDS = [
     "हत्या", "दुर्घटना", "बलात्कार", "चोरी", "लुट", "अपहरण",
     "पक्राउ", "ठगी", "फरार", "गाँजा", "लागुऔषध", "तस्करी", "प्रहरी",
     "पीडित", "victims", "survivors",
+    "ग्रीस", "greece", "संसारका", "विश्वका धनी", "world's richest",
     # Foreign politics / leaders (no direct Nepal-market link)
     "ट्रम्प", "trump", "अलास्का", "alaska",
     # Party politics
@@ -247,6 +248,10 @@ PRE_EXCLUDE_KEYWORDS = [
     "गाँजा", "लागुऔषध", "ठगी",
     "कांग्रेस", "एमाले", "माओवादी", "samajwadi", "समाजवादी", "political party",
     "महाधिवेशन", "general secretary",
+    # Foreign companies/tycoons — their merger/IPO/share news isn't NEPSE news
+    "मस्क", "musk", "टेस्ला", "tesla", "स्पेसएक्स", "spacex", "अम्बानी", "ambani",
+    "रिलायन्स", "reliance", "जियो", "एप्पल", "apple inc", "माइक्रोसफ्ट", "microsoft",
+    "एनभिडिया", "nvidia", "अमेजन", "amazon", "गुगल", "alphabet",
 ]
 _PRE_EXCLUDE_RE = _kw_re(PRE_EXCLUDE_KEYWORDS)
 
