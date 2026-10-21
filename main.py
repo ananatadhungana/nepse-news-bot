@@ -6,6 +6,7 @@ import re
 import datetime
 import html as _html
 from scraper import get_all_latest_news, get_listed_symbols
+import ai_filter
 import time
 
 # --- CONFIGURATION ---
@@ -575,12 +576,24 @@ def main():
     sent_this_run  = []   # headlines sent THIS run (for same-event cross-portal dedup)
     run_count      = 0    # articles sent this run
 
+    # ── AI relevance (whole story, not blocked words) — new links only, judged once ──
+    sent_links = {h.get('link') for h in sent_history}
+    ai_cache = ai_filter.load_cache()
+    judged = ai_filter.classify([n for n in all_news if n.get('link') not in sent_links], ai_cache)
+    if judged:
+        ai_filter.save_cache(ai_cache)
+        print(f"[AI] judged {judged} new item(s)")
+
     for news in all_news:
         if run_count >= MAX_PER_RUN:
             print(f"[INFO] MAX_PER_RUN ({MAX_PER_RUN}) reached — stopping.")
             break
-        # ── Relevance gate ──
-        if not is_relevant(news, ticker_re):
+        # ── Relevance gate: the AI's decision when it has one, else the keyword rules ──
+        verdict = ai_cache.get(news.get('link'))
+        if verdict is False:
+            print(f"[AI] Not market news: {news['headline'][:70]}")
+            continue
+        if verdict is None and not is_relevant(news, ticker_re):
             continue
 
         # ── Duplicate gate (history) ──

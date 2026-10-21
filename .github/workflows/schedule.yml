@@ -42,6 +42,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # AI relevance gate (ai_filter.py); without it, keyword rules
         run: |
           python main.py
           
@@ -51,12 +52,15 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           # Save the freshly-written state file before any git operations
           cp sent_news.json /tmp/sent_news_new.json
+          [ -f ai_decisions.json ] && cp ai_decisions.json /tmp/ai_decisions_new.json || true
           # Sync to latest origin/main (handles concurrent bot commits)
           git fetch origin main
           git reset --hard origin/main
           # Restore the state file we just generated
           cp /tmp/sent_news_new.json sent_news.json
+          [ -f /tmp/ai_decisions_new.json ] && cp /tmp/ai_decisions_new.json ai_decisions.json || true
           git add sent_news.json
+          [ -f ai_decisions.json ] && git add ai_decisions.json || true
           # Skip commit if nothing changed
           git diff --cached --quiet && echo "[INFO] Nothing to commit." && exit 0
           git commit -m "chore: update sent news history"
