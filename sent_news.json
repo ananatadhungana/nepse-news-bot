@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/10/221878/",
-    "headline": "सन नेपाल लाइफको सूचना सुरक्षा प्रमाणीकरण नवीकरण",
-    "sent_at": "2026-10-01T05:16:27.313590+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2029796/rs-59-billion-burden-on-fertilizer-subsidy-budget-management-challenging",
     "headline": "‘मल अनुदानमा ५९ अर्ब रुपैयाँ भार, बजेट व्यवस्थापन चुनौतिपूर्ण’",
     "sent_at": "2026-10-01T05:16:31.461140+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/sauraha-sees-a-decrease-in-domestic-tourists-during-dashain-this-year-24-96.html",
     "headline": "दसैंमा सौराहामा घट्यो आन्तरिक पर्यटकको चहलपहल",
     "sent_at": "2026-10-23T04:01:59.817857+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/10/23/banks-and-government-agencies-take-websites-offline-over-php-security-flaws",
+    "headline": "Banks and government agencies take websites offline over PHP security flaws",
+    "sent_at": "2026-10-23T04:16:22.881992+00:00"
   }
 ]
