@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=131422",
-    "headline": "८१ लाख डिम्याट धारकलाई थाहा नभएको त्यो रहस्य: अर्थ समितिमा खुल्यो शेयर बजारको असली रूप !",
-    "sent_at": "2026-10-01T09:06:15.044286+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/95318",
-    "headline": "साल्ट ट्रेडिङको विक्री केन्द्रमा नुनदेखि चामलसम्ममा कति छ छुट ? ",
-    "sent_at": "2026-10-01T09:26:09.530816+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261001151417.html",
     "headline": "पासपोर्टको सर्भर डाउन, भुक्तानी नपाएका जर्मन कम्पनीले दिएका थिए कुर्न नसक्ने चेतावनी",
     "sent_at": "2026-10-01T09:31:37.031858+00:00"
@@ -7498,5 +7488,15 @@
     "link": "https://www.onlinekhabar.com/2026/10/2042909/supreme-courts-explanation-demonetized-money-is-not-recognized-as-currency",
     "headline": "सर्वोच्चको व्याख्या– नोटबन्दीमा परेका पैसाले मुद्राको मान्यता पाउँदैनन्",
     "sent_at": "2026-10-23T08:56:02.297647+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/505527",
+    "headline": "पीएचपीमा कमजोरी देखिएको भन्दै भेहिकल ट्र्याकिङ प्रणाली अस्थायी बन्द, बिल बोक्न आग्रह",
+    "sent_at": "2026-10-23T09:01:54.818803+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/finance-minister-wagle-s-q-a-with-indian-foreign-minister-jaishankar-appreciation-for-assistance-during-the-disaster-97-25.html",
+    "headline": "भारतीय विदेशमन्त्री जयशंकरसँग अर्थमन्त्री वाग्लेको प्रश्नोत्तर: विपद्‌मा गरेको सहयोगको तारिफ",
+    "sent_at": "2026-10-23T09:01:59.207788+00:00"
   }
 ]
