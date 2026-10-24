@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=131436",
-    "headline": "सूचीकृत कति कम्पनीको भयो साधारण सभा, के कस्ता एजेन्डा पास भए?",
-    "sent_at": "2026-10-02T00:21:19.894100+00:00"
-  },
-  {
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=131235",
     "headline": "के नेप्सेमा प्राविधिक विश्लेषणले वास्तवमै काम गर्छ? १४ फाइनान्स कम्पनीहरूको दश वर्षभन्दा बढीको तथ्याङ्कले के देखाउँछ?",
     "sent_at": "2026-10-02T00:21:23.963454+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://clickmandu.com/2026/10/501081.html",
     "headline": "दशैंपछि मुस्ताङमा पर्यटकको ओइरो, दुई दिनमै झन्डै ८ हजार पुगे",
     "sent_at": "2026-10-24T09:21:27.301807+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/87988",
+    "headline": "Tourist activity escalates in Mustang",
+    "sent_at": "2026-10-24T11:06:19.934579+00:00"
   }
 ]
