@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://annapurnapost.com/story/508783",
-    "headline": "नारायणी रंगशालाका लागि विशेष बजेट दिन सांसद कानुको माग",
-    "sent_at": "2026-10-02T03:11:21.960144+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/economy/global-ime-bank-takes-leaps-forward-in-digital-banking-and-automation-br-14-82.html",
     "headline": "डिजिटल बैंकिङ र अटोमेसनमा फड्को मार्दै ग्लोबल आइएमई बैंक",
     "sent_at": "2026-10-02T03:21:20.684153+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://risingnepaldaily.com/news/87991",
     "headline": "Historic FRLD decision opens climate finance support for Nepal",
     "sent_at": "2026-10-25T00:31:41.443574+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/10/2043382/agricultural-modernization-program-increases-area-under-vegetable-and-rice-cultivation-in-tanahun",
+    "headline": "कृषि आधुनिकीकरण कार्यक्रमले बढायो तनहुँमा तरकारी र धान खेतीको क्षेत्रफल",
+    "sent_at": "2026-10-25T00:36:13.744446+00:00"
   }
 ]
