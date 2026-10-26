@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.bbc.com/nepali/articles/cmp30341d3vzo?at_medium=RSS&at_campaign=rss",
-    "headline": "भोटेकोशी-त्रिशूली नदीमा बगेर भारत पुगेको शव पहिचानमा ट्याटू कसरी सहयोगी बन्यो",
-    "sent_at": "2026-10-05T01:11:24.805337+00:00"
-  },
-  {
     "link": "https://nepalpress.com/2026/10/05/770573/lumbini-bikas-bank-auctions-houses-businessmen-on-the-streets-doubts-over-auction/",
     "headline": "लुम्बिनी विकास बैंकद्वारा घर लिलामी, व्यवसायी सडकमा, लिलामीमा सन्देह",
     "sent_at": "2026-10-05T02:02:08.362238+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://himalpress.com/2026/10/oil-prices-fell/",
     "headline": "तेलको मूल्य घट्यो",
     "sent_at": "2026-10-26T08:02:02.333003+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/84590/parliamentary-special-committee-on-bhotekoshi-trishuli-disaster-makes-4-point-recommendations-to-government",
+    "headline": "Parliamentary Committee Studies Climate Change Impact and Bhote Koshi-Trishuli Flood",
+    "sent_at": "2026-10-26T08:16:24.402504+00:00"
   }
 ]
