@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/nrb-issuing-700-coins-of-denominations-re-1-and-rs-2-59-97.html",
-    "headline": "NRB issuing 700 million coins of denominations Re 1 and Rs 2",
-    "sent_at": "2026-10-05T13:56:14.484971+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/95464",
-    "headline": "विश्व बजार : फ्रान्सको ऋण संकटको छाया युरोमा, तेल सस्तिँदा सुन भने उकालो",
-    "sent_at": "2026-10-05T14:26:14.138158+00:00"
-  },
-  {
     "link": "https://bizkhabar.com/265139",
     "headline": "नेप्सेको सीईओ छनौट हुँदै : सर्टलिस्टमा परे यी ४ जना, असोज २३ गते अन्तर्वार्ता र प्रस्तुतीकरण",
     "sent_at": "2026-10-05T15:36:17.308669+00:00"
@@ -7498,5 +7488,15 @@
     "link": "https://clickmandu.com/2026/10/501533.html",
     "headline": "एक डलरको १५२.६० रुपैयाँ, कति छ अन्य विदेशी मुद्राको विनिमय दर ?",
     "sent_at": "2026-10-27T01:16:25.137804+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/society/290387-2026-10-27-1-38-8",
+    "headline": "आज पनि केही सडक अवरुद्ध",
+    "sent_at": "2026-10-27T01:41:22.727837+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/problem-viewing-exchange-rates-when-the-national-bank-website-does-not-open-17-35.html",
+    "headline": "राष्ट्र बैंकको वेबसाइट नखुल्दा विनिमय दर हेर्न समस्या",
+    "sent_at": "2026-10-27T01:41:29.454313+00:00"
   }
 ]
