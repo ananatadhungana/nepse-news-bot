@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=131563",
-    "headline": "प्रि ओपन सेसन अपडेटः साढे ७ अंक घट्यो नेप्से",
-    "sent_at": "2026-10-06T05:11:14.215522+00:00"
-  },
-  {
     "link": "https://arthasarokar.com/2026/10/gold-price-stable-silver-price-down-by-rs-15-per-tola.html",
     "headline": "सुनको मूल्य स्थिर, चाँदी १५ रुपैयाँले घट्यो",
     "sent_at": "2026-10-06T05:11:18.999675+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://clickmandu.com/2026/10/501296.html",
     "headline": "नेपालको विदेशी मुद्रा व्यवस्थापनमा वर्षौंदेखि चलिरहेको एक अनौठो चक्रः किन डलर बेचेर भारु किन्छ राष्ट्र बैंक ?",
     "sent_at": "2026-10-27T04:11:29.046648+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/loss-and-damage-grant-spend-unsure.html",
+    "headline": "Nepal secures $20 million loss and damage grant, but spending priorities remain undecided",
+    "sent_at": "2026-10-27T04:16:26.457123+00:00"
   }
 ]
