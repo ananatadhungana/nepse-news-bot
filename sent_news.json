@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.bbc.com/nepali/articles/cqz0vmle27l2o?at_medium=RSS&at_campaign=rss",
-    "headline": "स्वास्थ्य सेवामा नक्कली दाबी घटाउन बोर्डको नयाँ योजना, स्वास्थ्य बीमाको पछिल्लो अवस्था कस्तो छ",
-    "sent_at": "2026-10-07T01:16:26.539379+00:00"
-  },
-  {
     "link": "http://annapurnapost.com/story/509105",
     "headline": "बाढीले उद्योग बगायो, किस्ता तिर्न बैंकको ताकेता",
     "sent_at": "2026-10-07T02:16:30.510102+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://arthasarokar.com/2026/10/464-employees-resign-in-3-months-all-resignations-accepted.html",
     "headline": "३ महिनामै ४ सय ६४ कर्मचारीले दिए राजीनामा, सबैको राजीनामा स्वीकृत !",
     "sent_at": "2026-10-27T09:26:18.089690+00:00"
+  },
+  {
+    "link": "https://arthasarokar.com/2026/10/nepal-stock-exchange-nepse-trades-over-rs-5-79-billion.html",
+    "headline": "टुच्च बढ्यो नेप्से, ५ अर्ब ७९ करोडमाथिको कारोबार",
+    "sent_at": "2026-10-27T09:31:47.203346+00:00"
   }
 ]
