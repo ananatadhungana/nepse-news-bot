@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=131769",
-    "headline": "दुई महिनामै जीवन बीमा कम्पनीले उठाए ४१ अर्बभन्दा बढी प्रिमियम, नेपाल लाइफको हिस्सा २५ प्रतिशत",
-    "sent_at": "2026-10-12T08:01:51.477080+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/499387.html",
     "headline": "शृंखलाबद्ध आक्रमणपछि जापानले साइबर सुरक्षा कडा बनायो, बैंकहरूलाई चिपयुक्त परिचयपत्र प्रयोग गर्न निर्देशन",
     "sent_at": "2026-10-12T08:01:55.711995+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://www.thahakhabar.com/detail/311048",
     "headline": "आयो अण्डाको नयाँ मूल्य : कति पर्छ अब ?",
     "sent_at": "2026-10-29T08:46:39.145896+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/10/2046486/on-site-inspection-of-16-cooperatives-in-the-first-phase-duration-of-the-rastra-bank-team-extended-by-3-months",
+    "headline": "पहिलो चरणमा १६ सहकारी स्थलगत निरीक्षण, राष्ट्र बैंक टोलीको अवधि ३ महिना थप",
+    "sent_at": "2026-10-29T09:11:28.663577+00:00"
   }
 ]
