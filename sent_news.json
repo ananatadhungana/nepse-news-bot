@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/175705/",
-    "headline": "प्रि ओपन सेसनमा ७.२१ अंकले बढ्यो नेप्से",
-    "sent_at": "2026-10-14T05:16:13.529005+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/499842.html",
-    "headline": "एनआरएन इन्फ्रास्ट्रक्चरले ३ कम्पनीमा करिब १ अर्ब ३० करोड लगानी गर्ने, कुनमा कति ?",
-    "sent_at": "2026-10-14T05:16:17.431147+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2038960/gold-drops-by-rs-7000-per-tola-in-three-days",
     "headline": "तीन दिनमा सुनको मूल्य प्रतितोला ७ हजार घट्यो",
     "sent_at": "2026-10-14T05:16:21.301869+00:00"
@@ -7498,5 +7488,15 @@
     "link": "https://newsofnepal.com/2026/10/30/792627/",
     "headline": "मेडिकल टुरिजमको ढोका खोल्ने सरकारको पहल, निजी अस्पतालले मागे मेडिकल भिसा र नीतिगत सुधार",
     "sent_at": "2026-10-30T04:11:24.239531+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/290649-2026-10-30-4-12-31",
+    "headline": "यी ५ जिल्लामा शनिबार र आइतबार जाँदैछ ८ घण्टा बिजुली",
+    "sent_at": "2026-10-30T04:16:17.791516+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/nepals-public-debt-cross-3-trillion.html",
+    "headline": "Nepal’s public debt crosses Rs 3 trillion, with repayment costs squeezing development spending",
+    "sent_at": "2026-10-30T04:16:24.527831+00:00"
   }
 ]
