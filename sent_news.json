@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.sharesansar.com/newsdetail/nepse-records-sixth-day-consecutive-gain-benh-hits-positive-circuit-2026-10-15",
-    "headline": "NEPSE Records Sixth Day Consecutive Gain; BENH Hits Positive Circuit",
-    "sent_at": "2026-10-15T10:11:20.340362+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261015160326.html",
     "headline": "बैंकले दुई महिनामा गरे ९३.५२ अर्ब कर्जा लगानी, खनिज क्षेत्रतर्फ १०.४ प्रतिशतले वृद्धि",
     "sent_at": "2026-10-15T10:21:20.116891+00:00"
@@ -7534,6 +7529,12 @@
     "link": "https://english.onlinekhabar.com/govt-extends-deadline-for-inactive-companies-to-renew-or-cancel-registration.html",
     "headline": "Govt extends deadline for inactive companies to renew or cancel registration",
     "sent_at": "2026-10-30T10:51:44.133125+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/dinesh-thakali-elected-president-of-development-bankers-association-nepal-2026-10-30",
+    "headline": "Dinesh Thakali Elected President of Development Bankers Association Nepal",
+    "sent_at": "2026-10-30T10:56:35.688187+00:00",
     "dup": true
   }
 ]
