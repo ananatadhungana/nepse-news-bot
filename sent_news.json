@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261015132502.html",
-    "headline": "सिद्धार्थ बैंकको चुक्ता पुँजी डेढ अर्ब थपियो, विके अग्रवाल एण्ड कम्पनीलाई लेखापरीक्षणको जिम्मा",
-    "sent_at": "2026-10-15T07:41:13.447976+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/226802",
-    "headline": "सङ्कटले १३ करोडलाई गरिबीमा धकेल्ने जोखिम",
-    "sent_at": "2026-10-15T08:01:48.525229+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/224120/",
-    "headline": "लक्ष्मी सनराइज क्यापिटलको लाभांश पारित, दशैंको मुखैमा शेयरधनीलाई ५ करोड ३८ लाख वितरण !",
-    "sent_at": "2026-10-15T08:11:11.337890+00:00"
-  },
-  {
     "link": "https://www.sharesansar.com/newsdetail/nepse-lifts-trading-suspension-on-bindhyabasini-hydropower-after-human-error-clarification-2026-10-15",
     "headline": "NEPSE Lifts Trading Suspension on Bindhyabasini Hydropower After Human Error Clarification",
     "sent_at": "2026-10-15T08:16:08.105338+00:00"
@@ -7525,5 +7510,22 @@
     "link": "https://bankingsamachar.com/news/176901/",
     "headline": "‘राष्ट्र बैंक ऐन विधेयकमार्फत गभर्नरलाई २ वर्षको ललिपप देखाउन खोजिँदैछ’",
     "sent_at": "2026-10-30T09:52:33.119896+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96090",
+    "headline": "साताभर ५५ अंकले बढ्यो सेयर बजार, साताको अन्तिम कारोबार दिनमा गिरावट",
+    "sent_at": "2026-10-30T10:02:10.045795+00:00"
+  },
+  {
+    "link": "https://nepalsamaya.com/detail/147404",
+    "headline": "नेप्सेमा सामान्य गिरावट, ८ अर्ब ८९ करोडको कारोबार",
+    "sent_at": "2026-10-30T10:02:13.045962+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88233",
+    "headline": "New bridge to be constructed over Saptakoshi river with ADB support",
+    "sent_at": "2026-10-30T10:02:13.045995+00:00",
+    "dup": true
   }
 ]
