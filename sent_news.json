@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/nrb-directs-banks-to-designate-24-hour-contacts-to-curb-cyber-fraud-42-13.html",
-    "headline": "NRB directs banks to designate 24-hour contacts to curb cyber fraud",
-    "sent_at": "2026-10-15T06:29:44.202529+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/83817/nepal-clearing-houses-15th-annual-general-meeting-concluded",
-    "headline": "Nepal Clearing House Completes 15th Annual General Meeting, Approves Dividend",
-    "sent_at": "2026-10-15T06:36:04.802832+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/500129.html",
-    "headline": "सुनको मूल्य ११ सय रुपैयाँले घट्यो",
-    "sent_at": "2026-10-15T06:41:14.584603+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261015122727.html",
     "headline": "विपन्न क्षेत्रमा कर्जा प्रवाह १२.९९ प्रतिशतले वृद्धि, ग्रामिण अर्थतन्त्र चलायमान हुन थालेको हो?",
     "sent_at": "2026-10-15T06:46:18.625595+00:00"
@@ -7523,5 +7508,21 @@
     "link": "https://www.onlinekhabar.com/2026/10/2047339/grace-period-extended-for-renewal-or-dissolution-of-dormant-companies",
     "headline": "निष्क्रिय कम्पनी नवीकरण वा खारेज गर्न छुट अवधि थप",
     "sent_at": "2026-10-30T09:32:04.856227+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/510332",
+    "headline": "पूर्वका दुध कृषकलाई तिर्नुपर्ने बक्यौता रकम ३ करोड मात्र बाँकी",
+    "sent_at": "2026-10-30T09:41:51.527700+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/stock-market-fails-to-hold.html",
+    "headline": "Stock market fails to hold above 2,700, trading highest in seven months",
+    "sent_at": "2026-10-30T09:41:52.049188+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261030152109.html",
+    "headline": "राष्ट्र बैंकले सचेत गराउँदा सीइओको जागिर जाने भएपछि फास्ट ट्र्याकबाट बाफिया, अध्यादेश अर्थमा",
+    "sent_at": "2026-10-30T09:41:55.750428+00:00"
   }
 ]
