@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://arthakhabar.com/2026/10/14/115650/",
-    "headline": "अब नेपाल टेलिकमको सिमकार्ड हुलाकबाटै घरमा आइपुग्ने",
-    "sent_at": "2026-10-14T11:46:26.225685+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2039233/budget-payment-trend-did-not-improve-at-the-end-of-the-fiscal-year-31-percent-of-development-expenditure-in-ashar",
-    "headline": "सुध्रिएन आर्थिक वर्ष अन्तिममा बजेट भुक्तानी प्रवृत्ति, असारमै ३१ प्रतिशत विकास खर्च",
-    "sent_at": "2026-10-14T11:51:22.731700+00:00"
-  },
-  {
     "link": "https://nepalipaisa.com/news-detail/95765",
     "headline": "चौथो त्रैमासमा १.५४ प्रतिशतको आर्थिक वृद्धि, औद्योगिक उत्पादन वृद्धिदर ऋणात्मक",
     "sent_at": "2026-10-14T12:01:58.120233+00:00"
@@ -7514,5 +7504,16 @@
     "link": "http://english.ratopati.com/story/85078/sanga-dhulikhel-road-construction-at-a-rapid-pace",
     "headline": "Araniko Highway Road Construction Intensifies in Kavrepalanchok",
     "sent_at": "2026-10-30T07:06:36.871887+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/10/poultry-farmers-association-hikes-egg-prices/",
+    "headline": "कुखुरापालक संघले बढायो अण्डाको मूल्य बढ्यो",
+    "sent_at": "2026-10-30T07:11:28.372848+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/arrested-crypto-2-billion.html",
+    "headline": "One arrested for alleged involvement in crypto transactions worth over Rs 2 billion",
+    "sent_at": "2026-10-30T07:11:29.204461+00:00"
   }
 ]
