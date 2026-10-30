@@ -22,7 +22,7 @@ TESTS = [  # (already-sent side, new side, expected dup)
 (None,"नबिल बैंकले १५ प्रतिशत लाभांश प्रस्ताव गर्‍यो",False),
 (None,"एनसेलमा ५० पदका लागि रोजगारी",False),
 (None,"राष्ट्र बैंकले नीतिगत ब्याजदर घटायो",False),
-(None,"कोशी ब्यारेजको विकल्पमा ४३ अर्बको नयाँ पुल बनाउने तयारी",False),
+(None,"हिमालयन बैंकको साधारण सभा पुस ५ गते",False),
 (None,"सिद्धार्थ बैंकले १२ प्रतिशत बोनस सेयर दिने",False),
 (None,"हिमालयन बैंकको खुद नाफा ३५ प्रतिशतले बढ्यो",False),
 ]
@@ -31,7 +31,19 @@ pool = [e for e in hist if e['headline'] not in test_new and not e.get('dup')][-
 sent = [{'link': e['link'], 'headline': e['headline'], 'sent_at': (now - dt.timedelta(hours=1 + (k % 29))).isoformat()} for k, e in enumerate(pool)]
 sent += [{'link': f'old{i}', 'headline': a, 'sent_at': (now - dt.timedelta(hours=3)).isoformat()} for i, (a, b, e) in enumerate(TESTS) if a]
 cands = [{'link': f'new{i}', 'headline': b, 'source': 'T'} for i, (a, b, e) in enumerate(TESTS)]
-import time; t0 = time.time()
+import time
+# warm the embedding cache like steady state (gradual backfill), so the embedding path is tested
+ai_filter.EMB_PER_RUN = 60
+for _ in range(8):
+    emb = ai_filter._load_emb()
+    left = [x for x in sent if x['link'] not in emb]
+    if not left: break
+    v = ai_filter._embed([x['headline'] for x in left[:60]])
+    if v:
+        for x, vv in zip(left[:60], v): emb[x['link']] = ai_filter._pack(vv)
+        json.dump(emb, open(ai_filter.EMB_FILE, 'w'))
+    print('warm left', len(left)); time.sleep(40)
+t0 = time.time()
 d = ai_filter.find_dupes(cands, sent, {})
 ok = 0
 for i, (a, b, e) in enumerate(TESTS):

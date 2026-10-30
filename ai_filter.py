@@ -238,6 +238,7 @@ EMB_DIM = 256
 EMB_FILE = 'emb_cache.json'
 EMB_MIN = 0.80      # below this, never a candidate match
 TOP_K = 5
+EMB_PER_RUN = 60   # free tier ≈100 embeddings/min: backfill old headlines gradually
 
 VERIFY_PROMPT = """You de-duplicate a Telegram news channel for NEPSE (Nepal stock market) investors.
 Each NEW story comes with the most similar stories ALREADY POSTED (with hours ago).
@@ -268,10 +269,10 @@ def _norm(v):
 def _embed(texts):
     """→ list of unit vectors, or None on failure."""
     out = []
-    for k in range(0, len(texts), 100):
+    for k in range(0, len(texts), 50):
         body = {'requests': [{'model': EMB_MODEL, 'content': {'parts': [{'text': t}]},
                               'taskType': 'SEMANTIC_SIMILARITY', 'outputDimensionality': EMB_DIM}
-                             for t in texts[k:k + 100]]}
+                             for t in texts[k:k + 50]]}
         for attempt in (1, 2):
             try:
                 r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/{EMB_MODEL}:batchEmbedContents',
@@ -284,7 +285,7 @@ def _embed(texts):
             except (requests.RequestException, ValueError, KeyError) as e:
                 print(f'[AI-DUP] embed {type(e).__name__}')
             if attempt == 1:
-                time.sleep(3)
+                time.sleep(8)
         else:
             return None
     return out
@@ -344,7 +345,9 @@ def find_dupes(candidates, sent_history, cache, hours=DUP_HOURS):
         if age < hours and s.get('link') and s.get('headline'):
             recent.append((age, s))
     emb = _load_emb()
-    missing = [s for _, s in recent if s['link'] not in emb]
+    missing_all = [s for _, s in recent if s['link'] not in emb]
+    missing = missing_all[-EMB_PER_RUN:]          # newest first matter most
+    backlog = len(missing_all) > len(missing)
     texts = [s['headline'] for s in missing] + [n['headline'] for n in candidates]
     vecs = _embed(texts)
     if vecs is None:
@@ -353,7 +356,7 @@ def find_dupes(candidates, sent_history, cache, hours=DUP_HOURS):
     for s, v in zip(missing, vecs):
         emb[s['link']] = _pack(v)
     cvecs = vecs[len(missing):]
-    pool = [(a, s['headline'], _unpack(emb[s['link']])) for a, s in recent]
+    pool = [(a, s['headline'], _unpack(emb[s['link']])) for a, s in recent if s['link'] in emb]
     items, idx = [], []
     for n, v in zip(candidates, cvecs):
         sims = sorted(((sum(x * y for x, y in zip(v, pv)), a, h) for a, h, pv in pool), reverse=True)
@@ -370,5 +373,8 @@ def find_dupes(candidates, sent_history, cache, hours=DUP_HOURS):
             print('[AI-DUP] verifier unavailable — word rules only this run')
         else:
             dupes = {n['link'] for i, n in enumerate(idx) if got.get(i) is True}
+    if backlog:  # some older sent headlines not embedded yet — also run the list check
+        print(f'[AI-DUP] embedding backlog {len(missing_all) - len(missing)} — adding list check')
+        dupes |= _find_dupes_listwise(candidates, sent_history, cache)
     _save_emb(emb, {s['link'] for _, s in recent} | {n['link'] for n in candidates})
     return dupes
