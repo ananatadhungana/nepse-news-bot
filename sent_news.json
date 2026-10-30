@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261014162847.html",
-    "headline": "एनसीएचएलको साधारण सभाबाट १५% बोनस सेयरको प्रस्ताव पारित, चुक्ता पुँजी १.६७ अर्ब पुग्यो",
-    "sent_at": "2026-10-14T10:46:19.183236+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/10/nepal-clearing-house-to-issue-15-percent-bonus-shares/",
-    "headline": "नेपाल क्लियरिङ हाउसले १५ प्रतिशत बोनस सेयर दिने",
-    "sent_at": "2026-10-14T10:46:23.033087+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/nepse-surges-2132-points-as-daily-turnover-declines-to-rs-413-billion-57-23.html",
-    "headline": "NEPSE surges 21.32 points as daily turnover declines to Rs 4.13 billion",
-    "sent_at": "2026-10-14T10:46:26.940787+00:00"
-  },
-  {
     "link": "https://www.sharesansar.com/newsdetail/20-fintech-innovations-ready-for-market-under-nrb-digital-finance-innovation-hub-2026-10-14",
     "headline": "20 Fintech Innovations Ready for Market Under NRB Digital Finance Innovation Hub",
     "sent_at": "2026-10-14T11:16:16.722645+00:00"
@@ -7510,5 +7495,22 @@
     "link": "https://bankingkhabar.com/archives/169886",
     "headline": "स्वाभिमान लघुवित्तको पुँजी दोब्बर बनाउने प्रस्ताव, मर्जर पनि एजेन्डामा",
     "sent_at": "2026-10-30T06:51:52.188027+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261030123750.html",
+    "headline": "सेबोनले निकाल्यो आइपीओ अनुमति माग्ने कम्पनीको चरणवद्ध सूची, कुनको प्रक्रिया कहाँ पुग्यो?",
+    "sent_at": "2026-10-30T06:56:28.647220+00:00"
+  },
+  {
+    "link": "https://arthasarokar.com/2026/10/underground-power-line-to-be-expanded-in-kathmandu-power-supply-to-be-disrupted-in-various-places-for-8-days.html",
+    "headline": "काठमाडौँमा भूमिगत विद्युत लाइन विस्तार गरिँदै, ८ दिन विभिन्न ठाउँमा बत्ती जाने !",
+    "sent_at": "2026-10-30T06:56:31.647416+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/10/502488.html",
+    "headline": "धनी भइसक्दा पनि गरिबै रहने नेपालको चाहनालाई राष्ट्रसंघले गर्‍यो सदर, सुविधा र सहायत कटौतीको डर",
+    "sent_at": "2026-10-30T06:56:31.647445+00:00",
+    "dup": true
   }
 ]
