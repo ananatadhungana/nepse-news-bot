@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://baahrakhari.com/detail/504931",
-    "headline": "लक्ष्मी सन्‌राइज बैंकको सीईओमा सुमेद भट्टराई नियुक्त",
-    "sent_at": "2026-10-14T09:16:19.171900+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261014151439.html",
-    "headline": "सिटिजन्स बैंकको चुक्ता पुँजी ५८.९२ करोड थपियो, २०औं साधारण सभाबाट लाभांश प्रस्ताव पारित",
-    "sent_at": "2026-10-14T09:31:38.209534+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/95755",
-    "headline": "पन्ध्र दिनपछि नेप्से पुनः २६ सय विन्दुमाथि, सबै उपसूचकमा हरियाली ",
-    "sent_at": "2026-10-14T09:36:02.793766+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/504933",
-    "headline": "नेप्से २१ अंकले बढ्यो, १८८ कम्पनीका लगानीकर्ताले कमाए",
-    "sent_at": "2026-10-14T09:36:07.190305+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2039134/banking-boosts-stock-market-nepse-reaches-2621-points",
     "headline": "बैंकिङले उचाल्यो सेयर बजार, नेप्से २६२१ अंकमा",
     "sent_at": "2026-10-14T09:36:11.246631+00:00"
@@ -7502,5 +7482,27 @@
     "headline": "कर्णालीका १९ रुग्ण आयाेजना निर्माणबारे छलफल",
     "sent_at": "2026-10-30T05:51:35.046992+00:00",
     "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/85064/wholesale-price-of-eggs-increased-consumer-price-remained-unchanged",
+    "headline": "Egg Support Price Increased Due to Festival Demand",
+    "sent_at": "2026-10-30T05:56:19.142839+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/176844/",
+    "headline": "सांग्रिला डेभलपमेन्ट बैंक २३औं वर्षमा प्रवेश, विश्वसनीय बैंकिङ्ग सेवा दिने प्रतिवद्धता",
+    "sent_at": "2026-10-30T05:56:19.942976+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261030113644.html",
+    "headline": "सुनचाँदीको मूल्यमा गिरावट : सुन हिजोभन्दा प्रति तोला ३२०० र चाँदी १०५ रुपैयाँ सस्तो",
+    "sent_at": "2026-10-30T05:56:22.943137+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/85063/rain-during-rice-and-millet-storage-period-creates-problems-for-farmers",
+    "headline": "Rain hinders harvest of paddy and millet in Taplejung",
+    "sent_at": "2026-10-30T05:56:23.733783+00:00"
   }
 ]
