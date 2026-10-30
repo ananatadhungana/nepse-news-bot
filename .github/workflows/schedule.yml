@@ -53,12 +53,14 @@ jobs:
           # Save the freshly-written state file before any git operations
           cp sent_news.json /tmp/sent_news_new.json
           [ -f ai_decisions.json ] && cp ai_decisions.json /tmp/ai_decisions_new.json || true
+          [ -f emb_cache.json ] && cp emb_cache.json /tmp/emb_cache_new.json || true
           # Sync to latest origin/main (handles concurrent bot commits)
           git fetch origin main
           git reset --hard origin/main
           # Restore the state file we just generated
           cp /tmp/sent_news_new.json sent_news.json
           [ -f /tmp/ai_decisions_new.json ] && cp /tmp/ai_decisions_new.json ai_decisions.json || true
+          [ -f /tmp/emb_cache_new.json ] && cp /tmp/emb_cache_new.json emb_cache.json || true
           git add sent_news.json
           [ -f ai_decisions.json ] && git add ai_decisions.json || true
           [ -f emb_cache.json ] && git add emb_cache.json || true
