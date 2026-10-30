@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/nepal-receives-rs-436-billion-in-remittances-in-two-months-up-239-pct-39-72.html",
-    "headline": "Nepal receives Rs 436 billion in remittances in two months, up 23.9 pct",
-    "sent_at": "2026-10-15T16:36:07.505898+00:00"
-  },
-  {
     "link": "https://nepalipaisa.com/news-detail/95788",
     "headline": "चिप निर्माता कम्पनीका सेयरमा भारी गिरावट, डलर कमजोर हुँदा तेलको मूल्य घट्यो",
     "sent_at": "2026-10-15T17:01:59.458991+00:00"
@@ -7549,5 +7544,10 @@
     "headline": "एलडीसीमा स्तरोन्नतिको तयारी अवधि थपिएकोमा एफएनसीसीआई खुशी, ‘समय उपयोग गरौं’",
     "sent_at": "2026-10-30T13:21:41.620478+00:00",
     "dup": true
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/65955",
+    "headline": "टर्किस एयरलाइन्सको जहाजमा परेवा ठोक्कियो, विमानस्थल झन्डै सवा घण्टा बन्द",
+    "sent_at": "2026-10-30T13:26:33.771494+00:00"
   }
 ]
