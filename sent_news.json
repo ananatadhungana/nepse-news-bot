@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://baahrakhari.com/detail/505069",
-    "headline": "त्रिवि शिक्षण अस्पताल परिसरभित्र नेपाल बैंकको एटीएम सेवा सुरु",
-    "sent_at": "2026-10-15T14:36:07.529749+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/224171/",
-    "headline": "सामूहिक लगानी कोषमा नयाँ लगानी उपकरण थप्ने तयारी, सेबोनले माग्यो सुझाव",
-    "sent_at": "2026-10-15T14:46:28.668986+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2039969/imf-says-nepal-should-protect-central-bank-autonomy",
     "headline": "आईएमएफले भन्यो– नेपालले केन्द्रीय बैंकको स्वायत्तता जोगाओस्",
     "sent_at": "2026-10-15T14:51:28.862570+00:00"
@@ -7546,5 +7536,16 @@
     "link": "https://bankingkhabar.com/archives/169733",
     "headline": "स्टार्टअप कर्जा : १० हजारभन्दा बढी आवेदन, अवसर पाए ९२२ उद्यमले",
     "sent_at": "2026-10-30T12:16:48.005632+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/tourism/401632",
+    "headline": "कन्टेन्ट क्रिएटरमार्फत नेपालको पर्यटन प्रवर्द्धन गर्न बोर्डले माग्यो आवेदन",
+    "sent_at": "2026-10-30T12:21:56.870564+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85119/board-invites-applications-to-promote-nepals-tourism-through-content-creators",
+    "headline": "Nepal Tourism Board Seeks Content Creators for Promotion Campaign",
+    "sent_at": "2026-10-30T12:21:59.870699+00:00",
+    "dup": true
   }
 ]
