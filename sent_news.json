@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=131886",
-    "headline": "गतवर्ष आर्थिक वृद्धि ३.८५ प्रतिशत, पुँजीगत खर्च पाँच वर्षकै न्यून",
-    "sent_at": "2026-10-14T12:11:21.377528+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/224038/",
-    "headline": "कुमारी बैंक पुरानै लयमा फर्किदै, नोक्सानीबाट उठेर सेयरधनीलाई लाभांश बाँड्न सफल",
-    "sent_at": "2026-10-14T12:11:26.169661+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/224041/",
-    "headline": "राष्ट्रिय वाणिज्य बैंकको ऋणपत्र असोज २९ देखि खुल्ने, वार्षिक ब्याजदर छ प्रतिशत",
-    "sent_at": "2026-10-14T12:16:27.601102+00:00"
-  },
-  {
     "link": "https://bankingsamachar.com/news/175740/",
     "headline": "अदालतमा आर्थिक मुद्दाको चाङ, ‘फाइनान्सियल कोर्ट’ आवश्यक छ ?",
     "sent_at": "2026-10-14T12:31:41.491513+00:00"
@@ -7515,5 +7500,22 @@
     "link": "http://english.ratopati.com/story/85082/nearly-9-billion-rupees-of-concessional-agricultural-loans-flow-to-madhesh",
     "headline": "Madesh Province Sees Rs 8.99 Billion Investment in Subsidized Agricultural Loans",
     "sent_at": "2026-10-30T07:16:45.966817+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/266460",
+    "headline": "कर्णाली प्रदेश : औद्योगिक कर्जा २५.६३ प्रतिशतले बढ्यो, उद्योगको क्षमता उपयोग ३१ प्रतिशत",
+    "sent_at": "2026-10-30T07:26:41.303933+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85083/bhotekoshi-flood-37-bodies-found-inside-tunnel",
+    "headline": "37 Bodies Found in Bhote Koshi Corridor Flood After Rescue Efforts",
+    "sent_at": "2026-10-30T07:26:44.304154+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/fire-breaks-out-at-hotel-goodluck-in-solukhumbu.html",
+    "headline": "Fire breaks out at Hotel Goodluck in Solukhumbu",
+    "sent_at": "2026-10-30T07:26:44.304200+00:00",
+    "dup": true
   }
 ]
