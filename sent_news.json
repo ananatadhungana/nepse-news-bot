@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://ictsamachar.com//story/100007440",
-    "headline": "नेपाल टेलिकमको नयाँ अफर : ४,९९९ रुपैयाँमै वार्षिक इन्टरनेट प्याकेज, जडान शुल्क पनि नलाग्ने",
-    "sent_at": "2026-10-15T17:21:19.974383+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2040011/18-suspension-bridges-damaged-in-bhotekoshi-trishuli-floods-are-operational-after-repair",
     "headline": "भोटेकोशी–त्रिशूली बाढीमा क्षतिग्रस्त १८ झोलुङ्गे पुल मर्मतपछि सञ्चालनमा",
     "sent_at": "2026-10-15T23:46:25.321734+00:00"
@@ -7550,5 +7545,10 @@
     "headline": "Vehicles barred from plying Kanti Highway for two nights",
     "sent_at": "2026-10-30T13:32:11.818221+00:00",
     "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261030193317.html",
+    "headline": "भ्याली कोल्ड स्टोरसहितका फर्मसँग विभागले माग्यो कागजपत्र, तीन दिनको समय",
+    "sent_at": "2026-10-30T13:51:50.206421+00:00"
   }
 ]
