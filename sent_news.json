@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/annual-inflation-rises.html",
-    "headline": "Annual inflation rises to 6.34%",
-    "sent_at": "2026-10-15T12:16:16.988526+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/10/15/773999/nepal-telecom-launches-new-fiber-internet-package-including-wifi-6/",
-    "headline": "नेपाल टेलिकमले ल्यायो वाइफाइ ६ सहित नयाँ फाइबर इन्टरनेट प्याकेज",
-    "sent_at": "2026-10-15T12:21:20.179611+00:00"
-  },
-  {
     "link": "https://arthasarokar.com/2026/10/bhotekoshi-floods-18-companies-claim-insurance-worth-rs-21-billion-so-far-highest-in-himalayan-everest.html",
     "headline": "भोटेकोशी बाढीः हालसम्म १८ कम्पनीमा २१ अर्बको बीमा दाबी, सबैभन्दा धेरै हिमालयन एभरेष्टमा !",
     "sent_at": "2026-10-15T12:31:44.225804+00:00"
@@ -7542,6 +7532,17 @@
     "link": "https://baahrakhari.com/detail/506120",
     "headline": "कान्ति राजमार्गमा राति सवारी आवागमन बन्द",
     "sent_at": "2026-10-30T11:46:46.999613+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132180",
+    "headline": "सेयर बजारमा नयाँ वित्तीय उपकरण भित्र्याउन सेबोनले गठन गर्‍यो सात सदस्यीय समिति",
+    "sent_at": "2026-10-30T11:56:35.968786+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96095",
+    "headline": "धितोपत्र बजारमा नयाँ वित्तीय उपकरण भित्र्याउन सात सदस्यीय समिति गठन",
+    "sent_at": "2026-10-30T11:56:38.968973+00:00",
     "dup": true
   }
 ]
