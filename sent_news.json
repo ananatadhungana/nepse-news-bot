@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/10/2039969/imf-says-nepal-should-protect-central-bank-autonomy",
-    "headline": "आईएमएफले भन्यो– नेपालले केन्द्रीय बैंकको स्वायत्तता जोगाओस्",
-    "sent_at": "2026-10-15T14:51:28.862570+00:00"
-  },
-  {
     "link": "https://www.myrepublica.nagariknetwork.com/news/price-inflation-escalates-three-folds-to-634-percent-as-of-mid-september-14-97.html",
     "headline": "Inflation up by three-fold to 6.34 percent in mid-September",
     "sent_at": "2026-10-15T15:06:03.539330+00:00"
@@ -7547,5 +7542,10 @@
     "headline": "Nepal Tourism Board Seeks Content Creators for Promotion Campaign",
     "sent_at": "2026-10-30T12:21:59.870699+00:00",
     "dup": true
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96094",
+    "headline": "सरकारको 'बोल्ड कदम' अघि चलिरहेको मन्थन  ",
+    "sent_at": "2026-10-30T12:27:11.502374+00:00"
   }
 ]
