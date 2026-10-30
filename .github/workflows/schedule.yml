@@ -61,6 +61,7 @@ jobs:
           [ -f /tmp/ai_decisions_new.json ] && cp /tmp/ai_decisions_new.json ai_decisions.json || true
           git add sent_news.json
           [ -f ai_decisions.json ] && git add ai_decisions.json || true
+          [ -f emb_cache.json ] && git add emb_cache.json || true
           # Skip commit if nothing changed
           git diff --cached --quiet && echo "[INFO] Nothing to commit." && exit 0
           git commit -m "chore: update sent news history"

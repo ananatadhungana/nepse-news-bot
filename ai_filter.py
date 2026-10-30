@@ -149,7 +149,7 @@ in an ongoing case. When unsure, dup=false.
 Reply with JSON only: [{"i": <NEW index>, "dup": true|false}] covering every NEW index."""
 
 
-def find_dupes(candidates, sent_history, cache):
+def _find_dupes_listwise(candidates, sent_history, cache):
     """→ set of candidate links the AI says repeat an already-sent (or earlier) story.
     Empty set when no key / AI down — main.py's word rules still apply."""
     if not KEY or not candidates:
@@ -221,3 +221,154 @@ def _try_dup(model, body, size):
         print(f'[AI-DUP] {model}: bad answer ({type(e).__name__})')
         return None
     return got if len(got) >= size * 0.8 else None
+
+
+# ── Embedding shortlist + AI verdict (primary) ──────────────────────────────
+# One long list of 150 headlines made the small model miss obvious repeats
+# ("Government Blacklists 120 Firms" right after "सरकारले १२० फर्म कालोसूचीमा").
+# Now: multilingual embeddings find each new story's 5 closest already-sent
+# stories (Nepali/English land close together), then the model judges only those.
+# Calibrated on real channel pairs: every true repeat scored ≥0.857; unrelated
+# same-topic stories scored as low as 0.80 but also as high as 0.96 — so the
+# embedding only SHORTLISTS, the model decides.
+import base64, math, datetime as _dt
+
+EMB_MODEL = 'models/gemini-embedding-001'
+EMB_DIM = 256
+EMB_FILE = 'emb_cache.json'
+EMB_MIN = 0.80      # below this, never a candidate match
+TOP_K = 5
+
+VERIFY_PROMPT = """You de-duplicate a Telegram news channel for NEPSE (Nepal stock market) investors.
+Each NEW story comes with the most similar stories ALREADY POSTED (with hours ago).
+dup=true if the NEW story reports the SAME news event/announcement as any listed one — even if one is
+Nepali and the other English, worded differently, focusing on a different detail of the same report,
+or with numbers written differently (३ हजार २ सय = Rs 3,200; २७ सय = 2,700; ३० खर्ब = Rs 30 trillion;
+मंसिर ≈ December). Several outlets reporting today's NEPSE close / today's gold price / today's forex
+rates = the same story.
+dup=false if it is a different event or a NEW update: a different day's gold price or NEPSE close,
+a weekly summary vs a daily report, the same company's dividend vs its AGM date, a different company,
+a new development in an ongoing case. When unsure, dup=false.
+Reply with JSON only: [{"i": <NEW index>, "dup": true|false}] covering every NEW index."""
+
+
+def _pack(v):
+    return base64.b64encode(bytes((max(-127, min(127, round(x * 127))) & 0xFF) for x in v)).decode()
+
+
+def _unpack(s):
+    return [(b - 256 if b > 127 else b) / 127 for b in base64.b64decode(s)]
+
+
+def _norm(v):
+    n = math.sqrt(sum(x * x for x in v)) or 1.0
+    return [x / n for x in v]
+
+
+def _embed(texts):
+    """→ list of unit vectors, or None on failure."""
+    out = []
+    for k in range(0, len(texts), 100):
+        body = {'requests': [{'model': EMB_MODEL, 'content': {'parts': [{'text': t}]},
+                              'taskType': 'SEMANTIC_SIMILARITY', 'outputDimensionality': EMB_DIM}
+                             for t in texts[k:k + 100]]}
+        for attempt in (1, 2):
+            try:
+                r = requests.post(f'https://generativelanguage.googleapis.com/v1beta/{EMB_MODEL}:batchEmbedContents',
+                                  headers={'Content-Type': 'application/json', 'x-goog-api-key': KEY},
+                                  json=body, timeout=40)
+                if r.status_code == 200:
+                    out += [_norm(e['values']) for e in r.json()['embeddings']]
+                    break
+                print(f'[AI-DUP] embed HTTP {r.status_code}')
+            except (requests.RequestException, ValueError, KeyError) as e:
+                print(f'[AI-DUP] embed {type(e).__name__}')
+            if attempt == 1:
+                time.sleep(3)
+        else:
+            return None
+    return out
+
+
+def _load_emb():
+    try:
+        with open(EMB_FILE) as f:
+            d = json.load(f)
+        return d if isinstance(d, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def _save_emb(d, keep_links):
+    with open(EMB_FILE, 'w') as f:
+        json.dump({k: v for k, v in d.items() if k in keep_links}, f, separators=(',', ':'))
+
+
+def _verify(items):
+    """items: [(new_headline, [(hours_ago, headline), ...])] → {i: bool} or None."""
+    lines = []
+    for i, (h, ms) in enumerate(items):
+        lines.append(f'NEW {i}: {h}')
+        lines += [f'   - ({a:.0f}h ago) {mh}' for a, mh in ms]
+    body = {
+        'systemInstruction': {'parts': [{'text': VERIFY_PROMPT}]},
+        'contents': [{'role': 'user', 'parts': [{'text': '\n'.join(lines)}]}],
+        'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json', 'maxOutputTokens': 4096},
+    }
+    _deadline[0] = time.time() + 90
+    for model in MODELS:
+        for attempt in (1, 2):
+            if time.time() > _deadline[0]:
+                return None
+            r = _try_dup(model, body, len(items))
+            if r == 'retry' and attempt == 1:
+                time.sleep(3)
+                continue
+            if isinstance(r, dict):
+                return r
+            break
+    return None
+
+
+def find_dupes(candidates, sent_history, cache, hours=DUP_HOURS):
+    """→ set of candidate links that repeat a story already sent (or an earlier candidate)."""
+    if not KEY or not candidates:
+        return set()
+    now = _dt.datetime.now(_dt.timezone.utc)
+    recent = []
+    for s in sent_history[-800:]:
+        try:
+            age = (now - _dt.datetime.fromisoformat(s.get('sent_at', ''))).total_seconds() / 3600
+        except ValueError:
+            continue
+        if age < hours and s.get('link') and s.get('headline'):
+            recent.append((age, s))
+    emb = _load_emb()
+    missing = [s for _, s in recent if s['link'] not in emb]
+    texts = [s['headline'] for s in missing] + [n['headline'] for n in candidates]
+    vecs = _embed(texts)
+    if vecs is None:
+        print('[AI-DUP] embeddings unavailable — list check instead')
+        return _find_dupes_listwise(candidates, sent_history, cache)
+    for s, v in zip(missing, vecs):
+        emb[s['link']] = _pack(v)
+    cvecs = vecs[len(missing):]
+    pool = [(a, s['headline'], _unpack(emb[s['link']])) for a, s in recent]
+    items, idx = [], []
+    for n, v in zip(candidates, cvecs):
+        sims = sorted(((sum(x * y for x, y in zip(v, pv)), a, h) for a, h, pv in pool), reverse=True)
+        top = [(a, h) for sim, a, h in sims[:TOP_K] if sim >= EMB_MIN]
+        if top:
+            items.append((n['headline'], top))
+            idx.append(n)
+        pool.append((0.0, n['headline'], v))       # later candidates also compare against this one
+        emb[n['link']] = _pack(v)
+    dupes = set()
+    if items:
+        got = _verify(items)
+        if got is None:
+            print('[AI-DUP] verifier unavailable — word rules only this run')
+        else:
+            dupes = {n['link'] for i, n in enumerate(idx) if got.get(i) is True}
+    _save_emb(emb, {s['link'] for _, s in recent} | {n['link'] for n in candidates})
+    return dupes
