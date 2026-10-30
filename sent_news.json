@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/10/2039889/inflation-has-increased",
-    "headline": "बढ्यो महँगी",
-    "sent_at": "2026-10-15T11:41:13.388931+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/265955",
-    "headline": "धितोपत्र बोर्डले सार्वजनिक गर्यो संस्थागत लगानीकर्ता नीति, सुझाव माग",
-    "sent_at": "2026-10-15T11:41:17.266520+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/10/15/95155",
-    "headline": "ओरियण्टल होटल्सकाे साधारण सभा, कस्ताे छ वित्तिय अवस्था ?",
-    "sent_at": "2026-10-15T11:41:21.347041+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/224157/",
-    "headline": "सेयरबजारमा संस्थागत लगानीकर्ता बढाउँन बढाउन सेबोनको प्रस्तावित नीति सार्वजनिक, माग्यो सुझाब",
-    "sent_at": "2026-10-15T11:51:09.887640+00:00"
-  },
-  {
     "link": "https://khabarhub.com/2026/15/1037964/",
     "headline": "नेपालको अर्थतन्त्र : वैदेशिक सूचक बलियो बन्दा व्यापार घाटा र महँगी भने बढ्यो",
     "sent_at": "2026-10-15T11:51:14.207466+00:00"
@@ -7539,5 +7519,27 @@
     "link": "http://english.ratopati.com/story/85114/120-construction-entrepreneurs-and-companies-blacklisted-since-chaitra",
     "headline": "Government Blacklists 120 Firms for Procurement Violations",
     "sent_at": "2026-10-30T11:36:34.540730+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/society/290699-2026-10-30-11-35-14",
+    "headline": "काठमाडौंको ३०२ रोपनी जग्गा ल्याइयो सरकारको नाममा",
+    "sent_at": "2026-10-30T11:41:37.874793+00:00"
+  },
+  {
+    "link": "https://arthasarokar.com/2026/10/home-ministry-suspends-n-pabson.html",
+    "headline": "गृह मन्त्रालयद्वारा एन-प्याब्सन निलम्बन, सरकारी निर्देशनविपरीत गतिविधि गरेको ठहर !",
+    "sent_at": "2026-10-30T11:41:40.874961+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/10/218572/",
+    "headline": "रावल आयोगको प्रतिवेदन कार्यान्वयनको क्रममा : काठमाडौंको ३०२ रोपनी जग्गा नेपाल सरकारको नाममा ल्याइयो",
+    "sent_at": "2026-10-30T11:41:40.874985+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepal-telecom-opens-applications-for-80-vacancies-across-various-positions-13-27.html",
+    "headline": "Nepal Telecom opens applications for 80 vacancies across various positions",
+    "sent_at": "2026-10-30T11:41:41.671069+00:00"
   }
 ]
