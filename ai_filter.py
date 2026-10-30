@@ -128,3 +128,96 @@ def classify(news_list, cache):
                 cache[n['link']] = res[i]
                 judged += 1
     return judged
+
+
+# ── Same-story check ─────────────────────────────────────────────────────────
+# Portals rewrite one story in Nepali AND English with different words and number
+# formats ("सुन तोलामा ३ हजार २ सय घट्यो" / "Gold price drops by Rs 3,200"); word
+# rules can't see that, a model can. One call per run: new candidates vs what the
+# channel already sent in the last DUP_HOURS.
+DUP_HOURS = 36
+DUP_MAX_SENT = 150
+
+DUP_PROMPT = """You de-duplicate a Telegram news channel for NEPSE (Nepal stock market) investors.
+SENT = stories already posted (with how many hours ago). NEW = stories about to be posted, in order.
+For each NEW item decide dup=true if it reports the SAME news event/announcement as any SENT item
+or any EARLIER NEW item — even if one is Nepali and the other English, worded differently, or numbers
+are written differently (३ हजार २ सय = Rs 3,200; मंसिर ≈ December).
+dup=false if it is a genuinely different event or a NEW update: e.g. today's gold price vs an earlier
+day's, a different day's NEPSE close, the same company's dividend vs its AGM date, a new development
+in an ongoing case. When unsure, dup=false.
+Reply with JSON only: [{"i": <NEW index>, "dup": true|false}] covering every NEW index."""
+
+
+def find_dupes(candidates, sent_history, cache):
+    """→ set of candidate links the AI says repeat an already-sent (or earlier) story.
+    Empty set when no key / AI down — main.py's word rules still apply."""
+    if not KEY or not candidates:
+        return set()
+    import datetime
+    now = datetime.datetime.now(datetime.timezone.utc)
+    recent = []
+    for s in sent_history[-600:]:
+        try:
+            age = (now - datetime.datetime.fromisoformat(s.get('sent_at', ''))).total_seconds() / 3600
+        except ValueError:
+            continue
+        if age < DUP_HOURS:
+            recent.append((age, s.get('headline', '')))
+    recent = recent[-DUP_MAX_SENT:]
+    # Asked fresh every run (no cache): a dup gets written to sent history and never
+    # comes back; a "not dup" must be re-checked against whatever was sent since.
+    todo = candidates
+    if todo:
+        lines = ['SENT:'] + [f"S{k} ({a:.0f}h ago): {h}" for k, (a, h) in enumerate(recent)]
+        lines += ['', 'NEW:'] + [f"{i}. [{n.get('source', '')}] {n['headline']}" for i, n in enumerate(todo)]
+        body = {
+            'systemInstruction': {'parts': [{'text': DUP_PROMPT}]},
+            'contents': [{'role': 'user', 'parts': [{'text': '\n'.join(lines)}]}],
+            'generationConfig': {'temperature': 0, 'responseMimeType': 'application/json', 'maxOutputTokens': 4096},
+        }
+        _deadline[0] = time.time() + 90
+        got = None
+        for model in MODELS:
+            for attempt in (1, 2):
+                if time.time() > _deadline[0]:
+                    break
+                r = _try_dup(model, body, len(todo))
+                if r == 'retry' and attempt == 1:
+                    time.sleep(3)
+                    continue
+                got = r if isinstance(r, dict) else None
+                break
+            if got is not None:
+                break
+        if got is None:
+            print('[AI-DUP] unavailable — word rules only this run')
+            return set()
+        return {n['link'] for i, n in enumerate(todo) if got.get(i) is True}
+    return set()
+
+
+def _try_dup(model, body, size):
+    try:
+        r = requests.post(
+            f'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent',
+            headers={'Content-Type': 'application/json', 'x-goog-api-key': KEY},
+            json=body, timeout=max(5, min(60, _deadline[0] - time.time())),
+        )
+    except requests.RequestException as e:
+        print(f'[AI-DUP] {model}: {type(e).__name__}')
+        return 'retry'
+    if r.status_code in (429, 500, 503):
+        print(f'[AI-DUP] {model}: HTTP {r.status_code}')
+        return 'retry'
+    if r.status_code != 200:
+        print(f'[AI-DUP] {model}: HTTP {r.status_code}')
+        return None
+    try:
+        parts = r.json().get('candidates', [{}])[0].get('content', {}).get('parts', [])
+        out = json.loads(''.join(p.get('text', '') for p in parts if not p.get('thought')))
+        got = {int(x['i']): bool(x['dup']) for x in out if isinstance(x, dict) and 'i' in x and 'dup' in x}
+    except (ValueError, KeyError, TypeError, IndexError) as e:
+        print(f'[AI-DUP] {model}: bad answer ({type(e).__name__})')
+        return None
+    return got if len(got) >= size * 0.8 else None
