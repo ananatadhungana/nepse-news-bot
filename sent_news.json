@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/power-banks-banned-on-flights-to-india-from-nepal.html",
-    "headline": "Power banks banned on flights to India from Nepal",
-    "sent_at": "2026-10-14T08:11:12.477352+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/169423",
-    "headline": "फर्स्ट माइक्रोफाइनान्सको १४ करोड ८६ लाख लाभांश प्रस्ताव, बोनस सेयर नदिने",
-    "sent_at": "2026-10-14T08:16:21.079285+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/226665",
     "headline": "ऋण घटाउन उन्नत अर्थतन्त्रलाई आइएमएफको आग्रह",
     "sent_at": "2026-10-14T08:31:38.409279+00:00"
@@ -7492,12 +7482,23 @@
   {
     "link": "https://www.sharesansar.com/newsdetail/bajaj-re-ev-buyers-to-get-rs-50000-discount-exchange-benefits-2026-10-30",
     "headline": "Bajaj RE EV Buyers to Get Rs. 50,000 Discount, Exchange Benefits",
-    "sent_at": "2026-10-30T05:41:10.929487+00:00",
+    "sent_at": "2026-10-30T05:42:14.857927+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/10/502435.html",
+    "headline": "काम नगर्ने ठेकेदारलाई मुख्यमन्त्रीकै सामुन्ने सोधपुछ : १९ आयोजनाको ठेक्का तोड्नेसम्मको तयारी",
+    "sent_at": "2026-10-30T05:42:14.857947+00:00",
     "dup": true
   },
   {
     "link": "https://bizmandu.com/content/20261030112111.html",
     "headline": "स्वाभिमान लघुवित्तले १:१ को अनुपातमा हकप्रद सेयर जारी गर्ने, बोलायो १०औं साधारण सभा",
-    "sent_at": "2026-10-30T05:41:11.803082+00:00"
+    "sent_at": "2026-10-30T05:42:15.545515+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/10/30/121966/",
+    "headline": "पर्वतारोहण क्षेत्रका ४५ देशका प्रतिनिधि नेपालमा, ६ चुचुरालाई अन्तर्राष्ट्रिय मान्यता दिन नेपालको प्रस्ताव",
+    "sent_at": "2026-10-30T05:42:19.064526+00:00"
   }
 ]
