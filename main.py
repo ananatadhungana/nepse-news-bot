@@ -584,9 +584,10 @@ def main():
         ai_filter.save_cache(ai_cache)
         print(f"[AI] judged {judged} new item(s)")
 
+    # ── Pass 1: relevance + word-rule dedup → candidates (nothing sent yet) ──
+    candidates = []
     for news in all_news:
-        if run_count >= MAX_PER_RUN:
-            print(f"[INFO] MAX_PER_RUN ({MAX_PER_RUN}) reached — stopping.")
+        if len(candidates) >= 40:
             break
         # ── Relevance gate: the AI's decision when it has one, else the keyword rules ──
         verdict = ai_cache.get(news.get('link'))
@@ -598,6 +599,24 @@ def main():
 
         # ── Duplicate gate (history) ──
         if is_duplicate(news['headline'], news['link'], sent_history):
+            continue
+        candidates.append(news)
+
+    # ── AI same-story check (Nepali/English, any wording) vs last 36h + each other ──
+    ai_dupes = ai_filter.find_dupes(candidates, sent_history, ai_cache)
+    if ai_dupes:
+        new_found = True  # so the history (with the skipped dups) gets saved
+
+    # ── Pass 2: send ──
+    for news in candidates:
+        if run_count >= MAX_PER_RUN:
+            print(f"[INFO] MAX_PER_RUN ({MAX_PER_RUN}) reached — stopping.")
+            break
+        if news['link'] in ai_dupes:
+            print(f"[AI-DUP] Same story already sent: '{news['headline'][:60]}…'")
+            sent_history.append({"link": news['link'], "headline": news['headline'],
+                                 "sent_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                                 "dup": True})  # remembered so it's never re-checked; not posted
             continue
 
         # ── Same-event gate (within this run — catches cross-portal reposts) ──
