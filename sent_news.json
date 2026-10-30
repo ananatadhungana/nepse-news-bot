@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bizkhabar.com/265859",
-    "headline": "सिटिजन्स बैंकको साधारण सभा सम्पन्न, ४ प्रतिशत लाभांश पारित",
-    "sent_at": "2026-10-14T10:01:52.745808+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/10/224005/",
     "headline": "एनसीएचएलको १५ प्रतिशत बोनस पारित, २१० खर्बको कारोबार राफसाफ हुँदा नाफा घट्यो",
     "sent_at": "2026-10-14T10:06:07.547847+00:00"
@@ -7506,5 +7501,11 @@
     "link": "http://english.ratopati.com/story/85065/dg-of-irrigation-department-and-project-chief-of-sunkoshi-marine-under-control-of-prime-ministers-office",
     "headline": "Two Officials Detained by Prime Minister's Office Over Diversion Project Contract",
     "sent_at": "2026-10-30T06:11:49.645219+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/10/502477.html",
+    "headline": "प्रतिव्यक्ति ऋणभार १ लाख नाघ्यो, विकास बजेटभन्दा साँवाब्याज भुक्तानी धेरै खर्चनुपर्ने",
+    "sent_at": "2026-10-30T06:16:32.829133+00:00",
+    "dup": true
   }
 ]
