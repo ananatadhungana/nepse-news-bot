@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/10/2039134/banking-boosts-stock-market-nepse-reaches-2621-points",
-    "headline": "बैंकिङले उचाल्यो सेयर बजार, नेप्से २६२१ अंकमा",
-    "sent_at": "2026-10-14T09:36:11.246631+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/nepse-gains-21-points-to-close-at-2621.html",
-    "headline": "NEPSE gains 21 points to close at 2,621",
-    "sent_at": "2026-10-14T09:41:25.387187+00:00"
-  },
-  {
     "link": "https://arthasarokar.com/2026/10/nepse-index-surged-by-21-32-points-to-close-at-2621-26-points-on-wednesday.html",
     "headline": "बुधबार २१.३२ अंकले बढ्यो नेप्से परिसूचक, बजार २६२१.२६ बिन्दुमा",
     "sent_at": "2026-10-14T09:41:29.783154+00:00"
@@ -7504,5 +7494,16 @@
     "link": "http://english.ratopati.com/story/85063/rain-during-rice-and-millet-storage-period-creates-problems-for-farmers",
     "headline": "Rain hinders harvest of paddy and millet in Taplejung",
     "sent_at": "2026-10-30T05:56:23.733783+00:00"
+  },
+  {
+    "link": "https://nepalsamaya.com/detail/147397",
+    "headline": "धादिङको फुर्केखोलामा अस्थायी ‘पन्टुन ब्रिज’ जडान गरिने",
+    "sent_at": "2026-10-30T06:02:22.841622+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/karnali-collects-rs-41-76-million-in-revenue-from-medicinal-herb-exports.html",
+    "headline": "Karnali collects Rs 41.76 million in revenue from medicinal herb exports",
+    "sent_at": "2026-10-30T06:02:25.842197+00:00",
+    "dup": true
   }
 ]
