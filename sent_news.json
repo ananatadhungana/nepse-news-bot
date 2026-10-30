@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/Dharma-Saskriti/consumers-miserable-dashain-amid-disaster-and-high-prices-br-36-29.html",
-    "headline": "विपत्ति र महँगीबिच उपभोक्ताको खल्लो दसैं",
-    "sent_at": "2026-10-14T04:31:36.589063+00:00"
-  },
-  {
     "link": "https://bankingsamachar.com/news/175680/",
     "headline": "फस्र्ट माइक्रोफाइनान्सको ११ प्रतिशत नगद लाभांश घोषणा",
     "sent_at": "2026-10-14T04:36:09.480511+00:00"
@@ -7498,5 +7493,10 @@
     "link": "https://baahrakhari.com/detail/506072",
     "headline": "नेपाल र बंगलादेशको एलडीसी स्तरोन्नतिको तयारी अवधि २०२९ नोभेम्बर २४ सम्म थप",
     "sent_at": "2026-10-30T03:51:25.011115+00:00"
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/311090",
+    "headline": "जनकपुरधाम–अयोध्या विशेष रेल सेवा सञ्चालनको अन्तिम चरणमा",
+    "sent_at": "2026-10-30T03:56:18.661872+00:00"
   }
 ]
