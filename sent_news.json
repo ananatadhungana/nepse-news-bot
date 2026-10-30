@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/95781",
-    "headline": "रेमिट्यान्समा उछाल, दुई महिनामै ४ खर्ब ३६ अर्ब भित्रियो",
-    "sent_at": "2026-10-15T09:26:11.071104+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/remittance-inflows-rise-23-9-per-cent.html",
-    "headline": "Remittance inflows rise 23.9 per cent",
-    "sent_at": "2026-10-15T09:31:33.046829+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/500220.html",
     "headline": "मुकेश अम्बानीको जियो प्लेटफर्म्सको ३० हजार २१३ करोड भारुको ऐतिहासिक आईपीओ",
     "sent_at": "2026-10-15T09:31:37.047181+00:00"
@@ -7530,6 +7520,17 @@
     "link": "https://baahrakhari.com/detail/506094",
     "headline": "तीन महिनामै एक खर्ब २३ अर्ब ऋण थपिँदा सरकारको कुल ऋण ३० खर्बमाथि",
     "sent_at": "2026-10-30T10:21:43.685928+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261030160705.html",
+    "headline": "विकास बैंक संघको अध्यक्षमा दिनेश थकाली, ९ सदस्यीय कार्यसमितिमा को को भए निर्वाचित?",
+    "sent_at": "2026-10-30T10:26:27.702599+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261030160547.html",
+    "headline": "डेभलपमेन्ट बैंकर्स एसोसिएसनको साधारण सभाले दिनेश थकालीलाई दियो नयाँ नेतृत्वको जिम्मा",
+    "sent_at": "2026-10-30T10:26:30.702772+00:00",
     "dup": true
   }
 ]
