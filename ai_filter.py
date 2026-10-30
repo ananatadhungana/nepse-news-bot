@@ -238,7 +238,7 @@ EMB_DIM = 256
 EMB_FILE = 'emb_cache.json'
 EMB_MIN = 0.80      # below this, never a candidate match
 TOP_K = 5
-EMB_PER_RUN = 60   # free tier ≈100 embeddings/min: backfill old headlines gradually
+EMB_PER_RUN = 30   # free tier ≈100 embeddings/min: backfill old headlines gradually
 
 VERIFY_PROMPT = """You de-duplicate a Telegram news channel for NEPSE (Nepal stock market) investors.
 Each NEW story comes with the most similar stories ALREADY POSTED (with hours ago).
@@ -249,7 +249,9 @@ or with numbers written differently (३ हजार २ सय = Rs 3,200; २
 rates = the same story.
 dup=false if it is a different event or a NEW update: a different day's gold price or NEPSE close,
 a weekly summary vs a daily report, the same company's dividend vs its AGM date, a different company,
-a new development in an ongoing case. When unsure, dup=false.
+a new development in an ongoing case. For market/price updates (NEPSE points, turnover, gold, forex),
+it is the same story only if the key figures match (after converting formats) — different figures =
+different update = dup=false. When unsure, dup=false.
 Reply with JSON only: [{"i": <NEW index>, "dup": true|false}] covering every NEW index."""
 
 
@@ -348,14 +350,15 @@ def find_dupes(candidates, sent_history, cache, hours=DUP_HOURS):
     missing_all = [s for _, s in recent if s['link'] not in emb]
     missing = missing_all[-EMB_PER_RUN:]          # newest first matter most
     backlog = len(missing_all) > len(missing)
-    texts = [s['headline'] for s in missing] + [n['headline'] for n in candidates]
-    vecs = _embed(texts)
+    new_c = [n for n in candidates if n['link'] not in emb]   # candidates seen last run keep their vector
+    texts = [s['headline'] for s in missing] + [n['headline'] for n in new_c]
+    vecs = _embed(texts) if texts else []
     if vecs is None:
         print('[AI-DUP] embeddings unavailable — list check instead')
         return _find_dupes_listwise(candidates, sent_history, cache)
-    for s, v in zip(missing, vecs):
+    for s, v in zip(missing + new_c, vecs):
         emb[s['link']] = _pack(v)
-    cvecs = vecs[len(missing):]
+    cvecs = [_unpack(emb[n['link']]) for n in candidates]
     pool = [(a, s['headline'], _unpack(emb[s['link']])) for a, s in recent if s['link'] in emb]
     items, idx = [], []
     for n, v in zip(candidates, cvecs):
@@ -365,7 +368,6 @@ def find_dupes(candidates, sent_history, cache, hours=DUP_HOURS):
             items.append((n['headline'], top))
             idx.append(n)
         pool.append((0.0, n['headline'], v))       # later candidates also compare against this one
-        emb[n['link']] = _pack(v)
     dupes = set()
     if items:
         got = _verify(items)
