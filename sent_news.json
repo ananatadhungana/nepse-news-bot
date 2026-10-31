@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://aarthiksansar.com/archives/65825",
-    "headline": "नेपाल टेलिकमको सस्तो फाइबर इन्टरनेट अब ५ हजार रुपैयाँमै",
-    "sent_at": "2026-10-19T07:11:11.206678+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2041481/how-are-banknotes-printed-and-used",
     "headline": "कसरी हुन्छ बैंक नोट छपाइ र उपयोग ?",
     "sent_at": "2026-10-19T07:21:20.273890+00:00"
@@ -7601,6 +7596,12 @@
     "link": "https://myrepublica.nagariknetwork.com/news/un-grants-nepal-three-more-years-to-prepare-for-ldc-graduation-88-45.html",
     "headline": "UN grants Nepal three more years to prepare for LDC graduation",
     "sent_at": "2026-10-31T12:41:40.938002+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/10/31/first-stage-warning-siren-sounds-at-kulekhani-dam/",
+    "headline": "First-stage warning siren sounds at Kulekhani Dam",
+    "sent_at": "2026-10-31T12:46:36.286184+00:00",
     "dup": true
   }
 ]
