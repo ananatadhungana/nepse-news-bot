@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/10/2040190/rasuwagadhi-hydro-provides-rs-500000-relief-to-families-of-employees-missing-in-floods",
-    "headline": "बाढीमा बेपत्ता कर्मचारीका परिवारलाई रसुवागढी हाइड्रोले दियो ५ लाख रुपैयाँ राहत",
-    "sent_at": "2026-10-16T05:56:11.079212+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/nrb-raises-daily-wallet-deposit-limit-to-50-transactions-during-dashain-tihar-and-chhath-2026-10-16",
-    "headline": "NRB Raises Daily Wallet Deposit Limit to 50 Transactions During Dashain, Tihar and Chhath",
-    "sent_at": "2026-10-16T06:01:51.288198+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/500384.html",
     "headline": "शुभ लक्ष्मी कोषको आकार ३ अर्ब पुर्‍याउन धितोपत्र बोर्डको अनुमति, एसडब्ल्यूपी सुविधा पनि सुरू",
     "sent_at": "2026-10-16T06:06:28.583808+00:00"
@@ -7554,5 +7544,17 @@
     "link": "https://nepalpress.com/2026/10/31/777385/from-coffee-in-karesabari-to-a-national-campaign-dhakeshwor-ghimires-entrepreneurial-journey/",
     "headline": "करेसाबारीको कफीबाट राष्ट्रिय अभियानसम्म : ढकेश्वर घिमिरेको उद्यम यात्रा",
     "sent_at": "2026-10-31T02:02:08.363871+00:00"
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68363",
+    "headline": "Heavy rain disrupts life in Nepal; BP Highway blocked by landslide",
+    "sent_at": "2026-10-31T02:16:33.985979+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/85145/floods-and-landslides-block-roads-at-five-locations-vehicles-not-allowed-to-drive-on-kantilokpath-at-night",
+    "headline": "Roads Blocked in Gorkha, Kavrepalanchok, and Surkhet Due to Floods and Landslides",
+    "sent_at": "2026-10-31T02:16:33.985997+00:00",
+    "dup": true
   }
 ]
