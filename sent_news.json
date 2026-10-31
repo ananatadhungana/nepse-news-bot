@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/10/224479/",
-    "headline": "२१ दिनपछि खुल्यो विद्युत् प्रवाहको बाटो, पाँच जलविद्युत् आयोजना फेरि राष्ट्रिय प्रणालीमा",
-    "sent_at": "2026-10-18T12:51:18.295391+00:00"
-  },
-  {
     "link": "https://risingnepaldaily.com/news/87938",
     "headline": "Nepal Telecom is official partner of NPL-3",
     "sent_at": "2026-10-18T13:11:22.466703+00:00"
@@ -7595,6 +7590,12 @@
     "link": "http://english.ratopati.com/story/85219/vehicular-movement-suspended-on-bhimphedi-kulekhani-road-after-kulekhani-reservoir-level-rises",
     "headline": "Hetauda-Kathmandu Road Section to Close for 12 Hours Due to Potential Kulekhani Reservoir Flood Risk",
     "sent_at": "2026-10-31T09:56:25.440171+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68377",
+    "headline": "BP Highway obstructed",
+    "sent_at": "2026-10-31T10:06:27.600580+00:00",
     "dup": true
   }
 ]
