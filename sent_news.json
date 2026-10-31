@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.sharesansar.com/newsdetail/nepse-concludes-last-trading-day-before-dashain-with-031-gain-overall-volume-stood-at-rs-488-arba-2026-10-16",
-    "headline": "NEPSE Concludes Last Trading Day Before Dashain With 0.31% Gain; Overall Volume Stood at Rs. 4.88 Arba",
-    "sent_at": "2026-10-16T09:51:26.814320+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/nepse-rises-for-seventh-consecutive-day-closes-at-2634-points.html",
     "headline": "NEPSE rises for seventh consecutive day, closes at 2,634 points",
     "sent_at": "2026-10-16T10:16:15.528672+00:00"
@@ -7566,5 +7561,10 @@
     "headline": "निर्माण व्यवसायीमाथि सरकार निर्मम",
     "sent_at": "2026-10-31T04:06:52.152546+00:00",
     "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/10/502660.html",
+    "headline": "प्रोभिजन घट्दा एनएमबि बैंकको नाफा २७ प्रतिशतले बढ्यो, खुद नाफा १ अर्ब १६ करोड माथि",
+    "sent_at": "2026-10-31T04:11:58.418737+00:00"
   }
 ]
