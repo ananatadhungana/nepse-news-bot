@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nepalpress.com/2026/10/18/774698/sushil-bhatt-was-a-power-broker-preparations-to-extend-term-today/",
-    "headline": "सुशील भट्ट ‘पावर ब्रोकर’ थिए, आज म्याद थप्ने तयारी",
-    "sent_at": "2026-10-18T02:51:26.335087+00:00"
-  },
-  {
     "link": "https://bankingsamachar.com/news/175729/",
     "headline": "बैंकहरुले टेरेनन् गभर्नरको आग्रह, दसैंअघि ९ बैंकले घोषणा गरे लाभांश",
     "sent_at": "2026-10-18T03:31:39.323959+00:00"
@@ -7589,5 +7584,10 @@
     "headline": "Over 12 roads networks across the country obstructed",
     "sent_at": "2026-10-31T08:26:20.775456+00:00",
     "dup": true
+  },
+  {
+    "link": "https://bizkhabar.com/266515",
+    "headline": "माछापुच्छ्रे बैंकको नाफा ३२ प्रतिशतले वृद्धि, पहिलो त्रैमासमा ५५ करोड ११ लाख रुपैयाँ खुद नाफा",
+    "sent_at": "2026-10-31T08:46:48.945480+00:00"
   }
 ]
