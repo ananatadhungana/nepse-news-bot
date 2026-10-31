@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://ictsamachar.com//story/100007459",
-    "headline": "बोलपत्रमा एआईदेखि बैंक ग्यारेन्टी जाँचसम्म, नयाँ प्रणालीमा यस्ता छन् सुविधा",
-    "sent_at": "2026-10-17T15:41:20.789622+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/international/public-outrage-against-inflation-in-france-protests-across-the-country-10-71.html",
     "headline": "फ्रान्समा महँगीविरुद्ध जनआक्रोश, देशभर प्रदर्शन",
     "sent_at": "2026-10-18T00:21:14.252927+00:00"
@@ -7584,6 +7579,12 @@
     "link": "https://bizpati.com/2026/10/225548/",
     "headline": "कोप–३१ मा सत्तापक्ष र प्रतिपक्षलाई सँगै लैजाने तयारी, जलवायु वित्त र हिमाल संरक्षण प्राथमिकतामा",
     "sent_at": "2026-10-31T07:46:27.452734+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/10/2047846/budhi-gandaki-again-washes-away-khorlabesi-road",
+    "headline": "बूढीगण्डकीले फेरि बगायो खोर्लाबेसीको सडक",
+    "sent_at": "2026-10-31T07:56:23.423924+00:00",
     "dup": true
   }
 ]
