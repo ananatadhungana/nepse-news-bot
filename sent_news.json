@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/bhotekoshi-flood-causes-rs-79-17-billion-loss-over-32-000-directly-affected-br-61-67.html",
-    "headline": "भोटेकोशी बाढीबाट ७९ अर्ब १७ करोडको क्षति, ३२ हजार बढी प्रत्यक्ष प्रभावित",
-    "sent_at": "2026-10-17T06:31:33.634447+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/bhotekoshi-flood-507-hectares-of-land-belonging-to-3-610-families-damaged-br-51-55.html",
-    "headline": "भोटेकोशी बाढी : ३ हजार ६१० परिवारको ५०७ हेक्टर जमिनमा क्षति",
-    "sent_at": "2026-10-17T07:11:14.625413+00:00"
-  },
-  {
     "link": "https://kathmandupost.com/money/2026/10/17/bank-stocks-lead-market-rally-but-can-the-gains-last",
     "headline": "Bank stocks lead market rally, but can the gains last?",
     "sent_at": "2026-10-17T07:46:14.089297+00:00"
@@ -7572,6 +7562,17 @@
     "link": "http://english.ratopati.com/story/85185/two-roads-connecting-hetauda-kathmandu-blocked-pakhel-and-tribhuvan-highway-in-operation",
     "headline": "Two Roadways Connecting Hetauda and Kathmandu Blocked Due to Landslides and Mudslides",
     "sent_at": "2026-10-31T06:47:04.122895+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96114",
+    "headline": "नेपालमै ग्लोबल युनिकर्न कम्पनी निर्माण गर्न नीतिगत सुधार गरिने छः प्रधानमन्त्री ",
+    "sent_at": "2026-10-31T06:56:23.727348+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/227815",
+    "headline": "नेपालमै ग्लोबल युनिकर्न कम्पनी निर्माण गर्न नीतिगत सुधार गरिने छ : प्रधानमन्त्री शाह",
+    "sent_at": "2026-10-31T06:56:26.727488+00:00",
     "dup": true
   }
 ]
