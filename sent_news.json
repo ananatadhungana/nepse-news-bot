@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=131975",
-    "headline": "सेयर बजारमा १० लाखको कारोबारदेखि ग्राहकको वास्तविक धनीसम्म निगरानी, सेबोनको नयाँ निर्देशन लागू",
-    "sent_at": "2026-10-16T11:51:14.331996+00:00"
-  },
-  {
     "link": "https://arthadabali.com/2026/10/16/95166",
     "headline": "- एनपीएलको क्रेजमा सिद्धार्थ बैंकको डिजिटल दाउ, रन र विकेटमै पाइनेछ पोइन्ट",
     "sent_at": "2026-10-16T12:16:24.494544+00:00"
@@ -7567,5 +7562,10 @@
     "headline": "तपाईंको नयाँ सोचले पाउन सक्छ लगानी, स्टार्टअप ह्याकाथनका लागि आवेदन खुला",
     "sent_at": "2026-10-31T04:46:35.043000+00:00",
     "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/85162/we-will-review-the-gaming-and-it-sector-policies-to-make-nepal-a-global-unicorn-prime-minister-shah",
+    "headline": "PM Balen Shah Initiates Policy Review for Gaming and IT Sector Development",
+    "sent_at": "2026-10-31T04:56:20.973763+00:00"
   }
 ]
