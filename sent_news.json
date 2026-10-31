@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://risingnepaldaily.com/news/87938",
-    "headline": "Nepal Telecom is official partner of NPL-3",
-    "sent_at": "2026-10-18T13:11:22.466703+00:00"
-  },
-  {
     "link": "https://theannapurnaexpress.com/story/68047",
     "headline": "EU Strongly Condemns Settler Attacks in West Bank, Demands Full Accountability",
     "sent_at": "2026-10-18T13:16:16.797489+00:00"
@@ -7596,6 +7591,12 @@
     "link": "https://theannapurnaexpress.com/story/68377",
     "headline": "BP Highway obstructed",
     "sent_at": "2026-10-31T10:06:27.600580+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/10/502706.html",
+    "headline": "कुलेखानी जलाशय भरिएपछि भीमफेदी–कुलेखानी सडक १२ घण्टा बन्द, बाढीको जोखिम बढ्यो",
+    "sent_at": "2026-10-31T10:11:36.301784+00:00",
     "dup": true
   }
 ]
