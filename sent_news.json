@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.sharesansar.com/newsdetail/sebon-and-nepse-board-hold-discussions-to-advance-stock-exchange-reform-process-2026-10-16",
-    "headline": "SEBON And NEPSE Board Hold Discussions to Advance Stock Exchange Reform Process",
-    "sent_at": "2026-10-16T05:21:22.587911+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/226910",
     "headline": "सडक र टेलिकम सेवाको ढिलासुस्तीप्रति मन्त्री महावीर पुनको असन्तुष्टि",
     "sent_at": "2026-10-16T05:31:44.237629+00:00"
@@ -7551,5 +7546,11 @@
     "link": "http://annapurnapost.com/story/510370",
     "headline": "गण्डकी क्षेत्रमा भारी वर्षा: मर्स्याङ्दी र कालीगण्डकीसहितका नदीमा जलसतह बढ्दै",
     "sent_at": "2026-10-31T01:06:21.076947+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/227764",
+    "headline": "कर्णाली र सुदूरपश्चिमको आर्थिक गतिविधि सुस्त",
+    "sent_at": "2026-10-31T01:21:37.644880+00:00",
+    "dup": true
   }
 ]
