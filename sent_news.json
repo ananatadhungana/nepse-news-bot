@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261016152843.html",
-    "headline": "दसैं बिदाअघि सेयर बजारले लगानीकर्तालाई पारेन निराश, नेप्से ८.२३ अंकले उकालो",
-    "sent_at": "2026-10-16T09:46:20.393978+00:00"
-  },
-  {
     "link": "https://www.sharesansar.com/newsdetail/nepse-concludes-last-trading-day-before-dashain-with-031-gain-overall-volume-stood-at-rs-488-arba-2026-10-16",
     "headline": "NEPSE Concludes Last Trading Day Before Dashain With 0.31% Gain; Overall Volume Stood at Rs. 4.88 Arba",
     "sent_at": "2026-10-16T09:51:26.814320+00:00"
@@ -7565,5 +7560,11 @@
     "link": "https://nagariknews.nagariknetwork.com/economy/nepali-markets-on-the-china-side-closed-for-two-days-99-75.html",
     "headline": "चीनतर्फको नेपाली हाटबजार दुई दिनका लागि बन्द",
     "sent_at": "2026-10-31T03:56:46.817525+00:00"
+  },
+  {
+    "link": "https://rajdhanidaily.com/id/150747/",
+    "headline": "निर्माण व्यवसायीमाथि सरकार निर्मम",
+    "sent_at": "2026-10-31T04:06:52.152546+00:00",
+    "dup": true
   }
 ]
