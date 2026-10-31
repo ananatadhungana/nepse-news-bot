@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://lokaantar.com/story/331611/2026/10/19/taleju-",
-    "headline": "महानवमीमा तलेजु भवानी मन्दिर बिहान ५ बजेदेखि सर्वसाधारणका लागि खुला हुने",
-    "sent_at": "2026-10-19T14:01:51.924634+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/nea-restructuring-into-three-companies-reaches-final-stage.html",
     "headline": "NEA restructuring into three companies reaches final stage",
     "sent_at": "2026-10-19T14:26:09.632802+00:00"
@@ -7606,5 +7601,11 @@
     "link": "http://lokaantar.com/story/332287/2026/10/31/petrol-",
     "headline": "पेट्रोलियम पदार्थको मूल्य यथावत",
     "sent_at": "2026-10-31T15:32:00.146663+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/sebon-eyes-broader-range-of-financial-instruments-in-nepals-capital-market-27-89.html",
+    "headline": "SEBON eyes broader range of financial instruments in Nepal’s capital market",
+    "sent_at": "2026-10-31T15:56:25.179839+00:00",
+    "dup": true
   }
 ]
