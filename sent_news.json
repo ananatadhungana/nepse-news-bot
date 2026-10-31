@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://arthakhabar.com/2026/10/18/117466/",
-    "headline": "एनपीएलमा नेपाल टेलिकमको प्रायोजन, व्यावसायिक प्रवद्र्धनसँगै क्रिकेट विकासमा सहयोग गर्ने उद्देश्य",
-    "sent_at": "2026-10-18T08:41:15.138741+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/10/224463/",
     "headline": "एनपीएलसँग जोडियो नेपाल टेलिकम, आधिकारिक टेलिकम साझेदार बन्न क्यानसँग सम्झौता",
     "sent_at": "2026-10-18T09:11:10.027711+00:00"
@@ -7593,5 +7588,11 @@
     "link": "http://english.ratopati.com/story/85215/china-proposes-to-operate-ports-in-shared-border-areas",
     "headline": "China Proposes Joint Port Management Committee with Nepal",
     "sent_at": "2026-10-31T09:36:33.605445+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/10/2047889/19-stalled-projects-in-karnali-no-progress-despite-6-extensions",
+    "headline": "कर्णालीका सुस्त १९ आयोजना : ६ पटकसम्म म्याद थप्दा पनि बनेनन्",
+    "sent_at": "2026-10-31T09:46:30.466569+00:00",
+    "dup": true
   }
 ]
