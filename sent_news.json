@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://kathmandupost.com/money/2026/10/17/bank-stocks-lead-market-rally-but-can-the-gains-last",
-    "headline": "Bank stocks lead market rally, but can the gains last?",
-    "sent_at": "2026-10-17T07:46:14.089297+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/17/1038588/",
-    "headline": "सहायता कटौती र महँगीले अफगानिस्तानमा भोकमरी बढ्यो",
-    "sent_at": "2026-10-17T07:56:02.407779+00:00"
-  },
-  {
     "link": "https://bankingkhabar.com/archives/169447",
     "headline": "दसैँमा नोटको हिफाजत कसरी गर्ने ? राष्ट्र बैंकका महत्वपूर्ण सुझाव",
     "sent_at": "2026-10-17T08:41:18.466924+00:00"
@@ -7573,6 +7563,18 @@
     "link": "https://gorkhapatraonline.com/news/227815",
     "headline": "नेपालमै ग्लोबल युनिकर्न कम्पनी निर्माण गर्न नीतिगत सुधार गरिने छ : प्रधानमन्त्री शाह",
     "sent_at": "2026-10-31T06:56:26.727488+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/85188/nmb-banks-net-profit-increases-by-2711-percent",
+    "headline": "NMB Bank Reports 27.11% Profit Growth in First Quarter of FY 2083/84",
+    "sent_at": "2026-10-31T07:02:08.008387+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/kulekhani-reservoir-nears-full-capacity-downstream-residents-urged-to-stay--24-81.html",
+    "headline": "Kulekhani reservoir nears full capacity; downstream residents urged to stay alert",
+    "sent_at": "2026-10-31T07:02:08.008405+00:00",
     "dup": true
   }
 ]
