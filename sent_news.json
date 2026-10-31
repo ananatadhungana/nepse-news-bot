@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://aarthiksansar.com/archives/65793",
-    "headline": "पुनर्बीमा कम्पनीको विभिन्न क्षेत्रमा ३२ अर्बभन्दा बढी लगानी",
-    "sent_at": "2026-10-19T03:01:52.508177+00:00"
-  },
-  {
-    "link": "https://newsofnepal.com/2026/10/19/791847/",
-    "headline": "बाढी र पहिरोले तीन स्थानमा सडक अवरुद्ध, गोरखामा आवागमन पूर्ण ठप्प",
-    "sent_at": "2026-10-19T03:31:35.341728+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/shrimuktinath-rath-yatra-a-grand-campaign-connecting-mechi-and-mahakali-from-kartik-8-88-82.html",
     "headline": "श्रीमुक्तिनाथ रथयात्राः मेची-महाकाली जोड्ने महाअभियान कात्तिक ८ देखि",
     "sent_at": "2026-10-19T04:36:14.551231+00:00"
@@ -7599,5 +7589,16 @@
     "link": "https://nepalipaisa.com/news-detail/96119",
     "headline": "मिठाईमा लेबल अनिवार्य, नराखे सरकारले कारबाही गर्ने",
     "sent_at": "2026-10-31T10:51:47.314614+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/266523",
+    "headline": "नेपाल-मौरिससबीच श्रमिक पठाउन जिटुजी सम्झौताको तयारी, नेपालमा अन्तर्राष्ट्रिय रोजगार मेला आयोजना गर्न इच्छुक",
+    "sent_at": "2026-10-31T10:56:36.327131+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/investors-gain-96-billion-as-nepse-jumps-213-percent-in-a-week-42-68.html",
+    "headline": "Investors gain 96 billion as NEPSE jumps 2.13 percent in a week",
+    "sent_at": "2026-10-31T10:56:39.327305+00:00",
+    "dup": true
   }
 ]
