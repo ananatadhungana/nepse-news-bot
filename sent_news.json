@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bankingkhabar.com/archives/169447",
-    "headline": "दसैँमा नोटको हिफाजत कसरी गर्ने ? राष्ट्र बैंकका महत्वपूर्ण सुझाव",
-    "sent_at": "2026-10-17T08:41:18.466924+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/international/imf-committed-to-protecting-poor-countries-from-inflation-br-86-14.html",
     "headline": "गरिब देशलाई महँगीको मारबाट जोगाउन आईएमएफ प्रतिबद्ध",
     "sent_at": "2026-10-17T08:46:09.516531+00:00"
@@ -7575,6 +7570,12 @@
     "link": "https://myrepublica.nagariknetwork.com/news/kulekhani-reservoir-nears-full-capacity-downstream-residents-urged-to-stay--24-81.html",
     "headline": "Kulekhani reservoir nears full capacity; downstream residents urged to stay alert",
     "sent_at": "2026-10-31T07:02:08.008405+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/10/31/777623/landslide-in-mahakulung-risk-of-blocking-ingkhu-river/",
+    "headline": "महाकुलुङमा पहिरो खस्यो, इङखु खोला थुनिने जोखिम",
+    "sent_at": "2026-10-31T07:11:41.336411+00:00",
     "dup": true
   }
 ]
