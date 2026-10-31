@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nepalkhabar.com/society/290016-2026-10-18-2-29-17",
-    "headline": "लामो समयदेखि रिक्त लुम्बिनी विकास कोषको उपाध्यक्षमा आनी छोइङ डोल्मा",
-    "sent_at": "2026-10-18T02:31:40.934947+00:00"
-  },
-  {
     "link": "https://nepalpress.com/2026/10/18/774698/sushil-bhatt-was-a-power-broker-preparations-to-extend-term-today/",
     "headline": "सुशील भट्ट ‘पावर ब्रोकर’ थिए, आज म्याद थप्ने तयारी",
     "sent_at": "2026-10-18T02:51:26.335087+00:00"
@@ -7587,6 +7582,12 @@
     "link": "https://baahrakhari.com/detail/506192",
     "headline": "कुलेखानी जलाशयको सतह एक हजार ५२८.२९ मिटरमा पुग्यो, पूर्ण क्षमतामा चल्दै विद्युत् केन्द्र",
     "sent_at": "2026-10-31T08:21:56.821389+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88264",
+    "headline": "Over 12 roads networks across the country obstructed",
+    "sent_at": "2026-10-31T08:26:20.775456+00:00",
     "dup": true
   }
 ]
