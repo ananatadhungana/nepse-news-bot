@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://bankingkhabar.com/archives/169545",
-    "headline": "सभापोखरी हाइड्रोपावरको १०.७५ करोडको आईपीओमा गरिमा क्यापिटल जोडियो",
-    "sent_at": "2026-10-16T05:41:22.614840+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/83936/we-need-fair-finance-not-debt-burden",
-    "headline": "Youth Protest Against World Bank and IMF Policies in Kathmandu",
-    "sent_at": "2026-10-16T05:41:26.723729+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/95805",
-    "headline": "नेप्से सुधारको काम अघि बढाउन उच्चस्तरीय छलफल",
-    "sent_at": "2026-10-16T05:46:12.851635+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/500367.html",
     "headline": "कम्पनी रजिस्ट्रारको सर्भर डाउन हुँदा हजारौं व्यवसायी मारमा, अर्थमन्त्रीको घोषणा ललिपपमात्रै",
     "sent_at": "2026-10-16T05:48:20.073608+00:00"
@@ -7552,5 +7537,21 @@
     "link": "https://www.onlinekhabar.com/2026/10/2047695/dispute-over-construction-of-khadang-bridge-in-dolpa-work-has-not-started-even-after-5-years-of-contract",
     "headline": "डोल्पाको खदाङ पुल निर्माणमा विवाद, सम्झौताको ५ वर्ष पुग्दा पनि सुरु भएन काम",
     "sent_at": "2026-10-31T01:46:39.396540+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/266490",
+    "headline": "पिन्थलीमा पहिरो खसेपछि बिपी राजमार्ग अवरुद्ध, राजमार्गको अवस्था बुझेर मात्र यात्रा गर्न अनुरोध",
+    "sent_at": "2026-10-31T01:56:16.914199+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/farmers-interest-in-commercial-floriculture-increases-after-ban-on-flower-imports-br-33-96.html",
+    "headline": "भारतीय फूल आयातमा रोक, फस्टाउँदै व्यावसायिक फूलखेती",
+    "sent_at": "2026-10-31T01:56:20.675561+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/landslides-obstruct-bp-highway-in-kavre-54-83.html",
+    "headline": "Landslides obstruct BP Highway in Kavre",
+    "sent_at": "2026-10-31T01:56:23.675742+00:00",
+    "dup": true
   }
 ]
