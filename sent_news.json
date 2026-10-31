@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/international/imf-committed-to-protecting-poor-countries-from-inflation-br-86-14.html",
-    "headline": "गरिब देशलाई महँगीको मारबाट जोगाउन आईएमएफ प्रतिबद्ध",
-    "sent_at": "2026-10-17T08:46:09.516531+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/84049/imf-committed-to-helping-low-income-countries-affected-by-iran-war",
     "headline": "IMF Chief: Supporting Low-Income Countries Amidst Inflation and Energy Crisis is Our Responsibility",
     "sent_at": "2026-10-17T09:26:07.328446+00:00"
@@ -7576,6 +7571,12 @@
     "link": "https://nepalpress.com/2026/10/31/777623/landslide-in-mahakulung-risk-of-blocking-ingkhu-river/",
     "headline": "महाकुलुङमा पहिरो खस्यो, इङखु खोला थुनिने जोखिम",
     "sent_at": "2026-10-31T07:11:41.336411+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalkhabar.com/bagmati/290756-2026-10-31-7-14-7",
+    "headline": "तीव्र गतिमा भरिँदै कुलेखानी जलाशय, साइरन बजाउने तयारी",
+    "sent_at": "2026-10-31T07:16:27.953056+00:00",
     "dup": true
   }
 ]
