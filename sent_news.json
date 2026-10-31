@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/10/224501/",
-    "headline": "एक दिनको गिरावटपछि फेरि बढ्यो सुनचाँदीको भाउ",
-    "sent_at": "2026-10-19T06:31:38.521921+00:00"
-  },
-  {
-    "link": "https://newsofnepal.com/2026/10/19/791854/",
-    "headline": "सुनचाँदीको मूल्यमा वृद्धि, सुन तोलाको २ लाख ९० हजार २ सय",
-    "sent_at": "2026-10-19T06:36:06.453883+00:00"
-  },
-  {
     "link": "https://aarthiksansar.com/archives/65825",
     "headline": "नेपाल टेलिकमको सस्तो फाइबर इन्टरनेट अब ५ हजार रुपैयाँमै",
     "sent_at": "2026-10-19T07:11:11.206678+00:00"
@@ -7601,5 +7591,16 @@
     "link": "https://khabarhub.com/2026/31/1042661/",
     "headline": "पाल्पामा विपद्जन्य घटनाबाट १०२ जनाको मृत्यु, ३७ करोडभन्दा बढीको क्षति",
     "sent_at": "2026-10-31T12:32:00.402791+00:00"
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/10/31/around-200-tourists-stuck-in-manang-following-heavy-snowfall/",
+    "headline": "Around 200 tourists stuck in Manang following heavy snowfall",
+    "sent_at": "2026-10-31T12:41:37.937838+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/un-grants-nepal-three-more-years-to-prepare-for-ldc-graduation-88-45.html",
+    "headline": "UN grants Nepal three more years to prepare for LDC graduation",
+    "sent_at": "2026-10-31T12:41:40.938002+00:00",
+    "dup": true
   }
 ]
