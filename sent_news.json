@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/10/224298/",
-    "headline": "दूरसञ्चार बजारमा इन्टरनेटको राजस्व हिस्सा बढ्यो, भ्वाइस सेवामा टेलिकम अगाडि",
-    "sent_at": "2026-10-16T07:56:04.639248+00:00"
-  },
-  {
-    "link": "http://lokaantar.com/story/331436/2026/10/16/siddhababa",
-    "headline": "सिद्धबाबा सुरुङलाई भोटेकोशी र बुढीगण्डकी बाढीको झट्का; अड्किए उपकरण, रोकियो काम !",
-    "sent_at": "2026-10-16T08:16:20.415361+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/rasuwagadhi-hydropower-provides-rs-500000-each-in-relief-to-families-of-missing-deceased-employees.html",
     "headline": "Rasuwagadhi Hydropower provides Rs 500,000 each in relief to families of missing, deceased employees",
     "sent_at": "2026-10-16T08:26:05.514193+00:00"
@@ -7560,6 +7550,18 @@
     "link": "https://www.setopati.com/social/401666",
     "headline": "कान्ति लोकपथमा राति गाडी चलाउन रोक",
     "sent_at": "2026-10-31T03:01:57.614384+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/85150/sunkoshi-marine-diversion-project-contract-cancelled",
+    "headline": "SunKoshi-Marin Diversion Project Cancels New Tender Process",
+    "sent_at": "2026-10-31T03:06:22.193599+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88257",
+    "headline": "Rain damages paddy crops",
+    "sent_at": "2026-10-31T03:06:22.193619+00:00",
     "dup": true
   }
 ]
