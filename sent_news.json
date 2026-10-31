@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nepalpress.com/2026/10/16/774295/the-rashtriya-swayamsevak-sangh-rss-team-took-away-khagendras-audio-and-80-page-bank-statement-from-janaastha/",
-    "headline": "रास्वपाको टोलीले जनआस्थाबाट लग्यो खगेन्द्रको ‘विप’ नलागेको अडिओ र ८० पेज बैंक स्टेटमेन्ट",
-    "sent_at": "2026-10-16T09:31:33.789131+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/500480.html",
     "headline": "नेप्सेमा ८.२३ अंकको वृद्धि, अब बजार कात्तिक ९ गते मात्रै खुल्ने",
     "sent_at": "2026-10-16T09:31:38.010191+00:00"
@@ -7564,5 +7559,11 @@
     "link": "https://www.osnepal.com/detail/593193",
     "headline": "मनाङमा २४ घण्टामा १०४.४ मिलिमिटर वर्षा, आज पनि भारी वर्षाको सम्भावना",
     "sent_at": "2026-10-31T03:26:23.211806+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/society/290744-2026-10-31-3-45-35",
+    "headline": "बाढीपहिरो: काठमाडौँ आवतजावत गर्ने बीपी राजमार्ग र कान्तिलोकपथ अवरुद्ध",
+    "sent_at": "2026-10-31T03:47:37.050579+00:00",
+    "dup": true
   }
 ]
