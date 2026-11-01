@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://www.thahakhabar.com/detail/310674",
-    "headline": "सर्वसाधारणलाई टिका लगाइदिँदै मध्यपुर थिमीकी ‘जीवित देवी’ कुमारी",
-    "sent_at": "2026-10-21T08:41:21.534243+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/84257/musks-proposal-to-merge-spacex-and-tesla",
-    "headline": "Elon Musk Supports SpaceX and Tesla Merger Proposal Amidst Strong Financial Performance",
-    "sent_at": "2026-10-21T08:51:26.417065+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/505420",
-    "headline": "जियोले ल्यायो भारतीय इतिहासकै ठूलो आईपीओ",
-    "sent_at": "2026-10-21T09:51:23.792990+00:00"
-  },
-  {
     "link": "https://bankingkhabar.com/archives/169446",
     "headline": "सानै उमेरमा बैंकिङको नेतृत्वमा पुगेका संसारका ५ युवा बैंकर",
     "sent_at": "2026-10-21T11:26:08.894280+00:00"
@@ -7612,5 +7597,22 @@
     "headline": "महाकाली सिँचाइ आयोजनाः संरचना बने तर नहरमा पानी आएन",
     "sent_at": "2026-11-01T01:16:24.164449+00:00",
     "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261101070551.html",
+    "headline": "विदेशी मुद्राको विनिमय दर : पाउण्डको २०४.४७ रुपैयाँमा कारोबार, अन्यको कति?",
+    "sent_at": "2026-11-01T01:21:34.464708+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/227870",
+    "headline": "आयात प्रतिबन्धले फूल उत्पादक उत्साहित",
+    "sent_at": "2026-11-01T01:21:34.464727+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/502469.html",
+    "headline": "ग्रामीण मोडलको पुनर्व्याख्या: के नेपालको लघुवित्त क्षेत्र अब हाइब्रिड ऋण मोडलतर्फ उन्मुख भएको हो ?",
+    "sent_at": "2026-11-01T01:21:35.414819+00:00"
   }
 ]
