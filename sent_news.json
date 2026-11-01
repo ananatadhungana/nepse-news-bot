@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://risingnepaldaily.com/news/87975",
-    "headline": "Tourists' influx on rise in Myagdi",
-    "sent_at": "2026-10-23T06:51:17.041312+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/significant-but-a-drop-in-the-ocean-loss-and-damage-fund-allocates-20-milli-19-20.html",
-    "headline": "Significant, but a Drop in the Ocean: Loss and Damage Fund allocates $20 million to Nepal",
-    "sent_at": "2026-10-23T06:51:21.772152+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/500998.html",
     "headline": "विधवाले दोस्रो विवाह गरे पूर्वपतिबाट पाइसकेको अंश अबदेखि फिर्ता गर्नु नपर्ने, सर्वोच्चको यस्तो फैसला",
     "sent_at": "2026-10-23T07:00:24.088339+00:00"
@@ -7649,5 +7639,17 @@
     "link": "https://www.onlinekhabar.com/2026/11/2048571/budget-spending-system-being-made-more-systematic-in-madhesh",
     "headline": "मधेशमा बजेट खर्च प्रणाली थप व्यवस्थित बनाइँदै",
     "sent_at": "2026-11-01T10:41:39.785048+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/nepalgunj-customs-office-collects-rs-524-billion-revenue-in-first-three-months-2026-11-01",
+    "headline": "Nepalgunj Customs Office Collects Rs. 5.24 Billion Revenue in First Three Months",
+    "sent_at": "2026-11-01T10:56:19.063139+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/177021/",
+    "headline": "सिटिजन्स बैंकले रसुवा बाढीले क्षति पुर्याएको देविघाट शाखा बट्टारमा स्थानान्तरण गर्ने",
+    "sent_at": "2026-11-01T10:56:19.063158+00:00",
+    "dup": true
   }
 ]
