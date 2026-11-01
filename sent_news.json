@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://baahrakhari.com/detail/505535",
-    "headline": "डिप्रोक्स लघुवित्तले सुरु गर्‍यो एसटीसी कार्ड सेवा",
-    "sent_at": "2026-10-23T11:56:11.257797+00:00"
-  },
-  {
     "link": "https://www.thahakhabar.com/detail/310766",
     "headline": "चरम ‘जलवायु संकट’  भोग्दै नेपाल : हिमाली विपद्‍देखि जलवायु न्याय र हानिनोक्सानी कोषसम्म",
     "sent_at": "2026-10-23T12:02:01.941175+00:00"
@@ -7659,6 +7654,12 @@
     "link": "https://myrepublica.nagariknetwork.com/news/mustang-customs-surpasses-rs-9-billion-annual-revenue-targets-in-just-3-mon-48-65.html",
     "headline": "Mustang Customs surpasses Rs 9 billion annual revenue targets in just 3 months",
     "sent_at": "2026-11-01T12:46:34.836422+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/66067",
+    "headline": "सुनको मूल्य एकैदिन ११ हजार ७ सय रुपैयाँले घट्यो",
+    "sent_at": "2026-11-01T13:02:16.109995+00:00",
     "dup": true
   }
 ]
