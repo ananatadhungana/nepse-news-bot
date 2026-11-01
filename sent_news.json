@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/10/500965.html",
-    "headline": "हानिनोक्सानी कोषको २० मिलियन डलर नेपालले पाउने निर्णय, आगामी मार्चमा काठमाडौंमा बोर्ड वैठक",
-    "sent_at": "2026-10-23T03:06:13.198523+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/sauraha-sees-a-decrease-in-domestic-tourists-during-dashain-this-year-24-96.html",
-    "headline": "दसैंमा सौराहामा घट्यो आन्तरिक पर्यटकको चहलपहल",
-    "sent_at": "2026-10-23T04:01:59.817857+00:00"
-  },
-  {
     "link": "https://kathmandupost.com/money/2026/10/23/banks-and-government-agencies-take-websites-offline-over-php-security-flaws",
     "headline": "Banks and government agencies take websites offline over PHP security flaws",
     "sent_at": "2026-10-23T04:16:22.881992+00:00"
@@ -7641,5 +7631,16 @@
     "link": "https://bankingkhabar.com/archives/169956",
     "headline": "लक्ष्मी सनराइज बैंकको नाफामा उछाल, पहिलो त्रैमासमै ६५ करोडभन्दा बढी आर्जन",
     "sent_at": "2026-11-01T08:56:33.179916+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2048495/foreign-trade-is-handled-through-28-customs-points-birgunj-alone-bears-half-the-burden",
+    "headline": "२८ भन्सार विन्दुबाट हुन्छ वैदेशिक व्यापार, वीरगञ्ज एक्लैलाई आधा भार",
+    "sent_at": "2026-11-01T09:06:25.953516+00:00"
+  },
+  {
+    "link": "https://arthasarokar.com/2026/11/everest-bank-earns-net-profit-of-rs-1-25-billion-in-3-months.html",
+    "headline": "३ महिनामा एभरेष्ट बैंकले कमायो १ अर्ब २५ करोड नाफा !",
+    "sent_at": "2026-11-01T09:06:28.953670+00:00",
+    "dup": true
   }
 ]
