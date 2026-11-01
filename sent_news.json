@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261022115154.html",
-    "headline": "PHP ALERT : नेपालका सरकारी पोर्टल बन्द, विश्वका अधिकांश वेबसाइट ‘अफलाइन’ किन भयो?",
-    "sent_at": "2026-10-22T06:11:25.428133+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/84285/why-is-the-world-sensitive-about-money-laundering",
     "headline": "Nepal on FATF Grey List Due to Non-Compliance with Anti-Money Laundering Commitments",
     "sent_at": "2026-10-22T06:16:18.796257+00:00"
@@ -7624,5 +7619,11 @@
     "link": "https://clickmandu.com/2026/11/502815.html",
     "headline": "एकैदिन ८३ सय रुपैयाँले घट्यो सुनको भाउ, मूल्य कति ?",
     "sent_at": "2026-11-01T05:02:06.622446+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/gold-price-sees-sharp-296-decline-drops-to-rs-272000-per-tola-2026-11-01",
+    "headline": "Gold Price Sees Sharp 2.96% Decline, Drops to Rs. 272,000 Per Tola",
+    "sent_at": "2026-11-01T05:06:20.696710+00:00",
+    "dup": true
   }
 ]
