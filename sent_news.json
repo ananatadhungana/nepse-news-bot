@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/10/224668/",
-    "headline": "नेपालका बैंकिङ सेवासम्म असर पारेको पीएचपी प्रोग्राम के हो ? अहिले देखिएको समस्या के हो ?",
-    "sent_at": "2026-10-23T06:01:56.825961+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/500979.html",
-    "headline": "तीन महिनामै ताप्लेजुङमा खाद्यको एक करोडभन्दा बढीको कारोबार, चिनी र दाल किन्न उपभोक्ताको भीड",
-    "sent_at": "2026-10-23T06:06:11.180664+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2042859/finance-minister-wagle-raises-issues-of-cooperation-on-disasters-nutrition-and-clean-energy-with-jaishankar",
-    "headline": "अर्थमन्त्री वाग्लेले जयशंकरसँग उठाए विपद्, पोषण र स्वच्छ ऊर्जामा सहकार्यको विषय",
-    "sent_at": "2026-10-23T06:06:16.728373+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/169602",
-    "headline": "PHP मा देखिएको गम्भीर सुरक्षा जोखिम के हो ? बैंकिङ क्षेत्र किन त्रसित ?",
-    "sent_at": "2026-10-23T06:11:28.457051+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/no-budget-constraints-for-reconstruction-projects-minister-lamsal-31-41.html",
     "headline": "No budget constraints for reconstruction projects: Minister Lamsal",
     "sent_at": "2026-10-23T06:11:33.918445+00:00"
@@ -7646,5 +7626,27 @@
     "link": "http://english.ratopati.com/story/85339/beni-darwang-road-operation",
     "headline": "Beni-Darwang Road Reopens After Landslide",
     "sent_at": "2026-11-01T10:17:20.406150+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/national/2026/11/01/supreme-court-orders-government-to-regulate-cannabis-cultivation-for-medicinal-and-industrial-use",
+    "headline": "Supreme Court orders government to regulate cannabis cultivation for medicinal and industrial use",
+    "sent_at": "2026-11-01T10:31:57.739194+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/foreign-investment-commitments-drop-by-53-8-percent/",
+    "headline": "वैदेशिक लगानी प्रतिबद्धता ५३.८ प्रतिशतले घट्यो",
+    "sent_at": "2026-11-01T10:31:58.494264+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/169975",
+    "headline": "सर्वोच्चको नयाँ व्याख्याले बैंक र ऋणी दुवै अफ्ठेरोमा !",
+    "sent_at": "2026-11-01T10:32:01.494438+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/169964",
+    "headline": "कृषि विकास बैंकको नाफा चम्कियो, वितरणयोग्य नाफा ७९ करोड",
+    "sent_at": "2026-11-01T10:32:02.247560+00:00"
   }
 ]
