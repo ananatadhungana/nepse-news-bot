@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261023103957.html",
-    "headline": "तलबी खातादेखि क्यूआर प्रयोगकर्तासम्म, बैंकको फोन लोनमा कसले कति ऋण पाउँछन्?",
-    "sent_at": "2026-10-23T04:56:11.072014+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/84329/banking-sector-affected-by-php-software-vulnerability-which-services-were-shut-down",
     "headline": "PHP Security Flaw Disrupts Nepali Banking Services",
     "sent_at": "2026-10-23T05:11:27.455652+00:00"
@@ -7642,6 +7637,12 @@
     "link": "https://www.setopati.com/kinmel/business/401754",
     "headline": "दुई दिनमै तोलामा साढे ११ हजार घट्यो सुन, अब सुनको मूल्य अझै घट्छ कि फेरि बढ्छ?",
     "sent_at": "2026-11-01T09:21:38.452257+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/01/banks-collectively-earn-over-rs-19-billion-in-profit-in-first-three-months/",
+    "headline": "Banks collectively earn over Rs 19 billion in profit in first three months",
+    "sent_at": "2026-11-01T09:26:12.209920+00:00",
     "dup": true
   }
 ]
