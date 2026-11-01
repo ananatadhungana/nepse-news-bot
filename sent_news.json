@@ -1,15 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/84285/why-is-the-world-sensitive-about-money-laundering",
-    "headline": "Nepal on FATF Grey List Due to Non-Compliance with Anti-Money Laundering Commitments",
-    "sent_at": "2026-10-22T06:16:18.796257+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/500947.html",
-    "headline": "चप्पल कारखाना–धोबीखोला सडक ८ लेनको बन्दै, ४० करोडको ठेक्का: डेढ वर्षमा सक्ने लक्ष्य",
-    "sent_at": "2026-10-22T06:21:20.139183+00:00"
-  },
-  {
     "link": "https://peoplesreview.com.np/2026/10/22/global-diesel-supplies-have-been-disrupted-following-repeated-ukrainian-drone-attacks-on-russian-oil-refineries-and-export-infrastructure/",
     "headline": "Global diesel supplies have been disrupted following repeated Ukrainian drone attacks on Russian oil refineries and export infrastructure",
     "sent_at": "2026-10-22T06:46:17.175064+00:00"
@@ -7624,6 +7614,18 @@
     "link": "https://www.sharesansar.com/newsdetail/gold-price-sees-sharp-296-decline-drops-to-rs-272000-per-tola-2026-11-01",
     "headline": "Gold Price Sees Sharp 2.96% Decline, Drops to Rs. 272,000 Per Tola",
     "sent_at": "2026-11-01T05:06:20.696710+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132192",
+    "headline": "वाणिज्य बैंकहरूको पहिलो त्रैमास: खुद नाफा ४५% बढेर १९ अर्ब नाघ्यो, तर प्रोभिजनिङको भारले समग्र वितरणयोग्य नाफा ९ अर्ब ऋणात्मक",
+    "sent_at": "2026-11-01T05:11:25.611613+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://baahrakhari.com/detail/506250",
+    "headline": "सुनको मूल्य एकैदिन तोलामा ८३ सयले घट्यो",
+    "sent_at": "2026-11-01T05:11:25.611631+00:00",
     "dup": true
   }
 ]
