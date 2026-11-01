@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/20-million-un-climate-fund-for-nepal-a-breakthrough-but-only-a-first-step-88-44.html",
-    "headline": "$20 million UN climate fund for Nepal: A breakthrough, but only a first step",
-    "sent_at": "2026-10-24T00:36:09.687630+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/84374/it-is-estimated-that-the-reconstruction-of-the-beni-darwang-muna-road-will-cost-around-rs-90-million",
     "headline": "Road Reconstruction in Myagdi Estimated at NPR 7 Crore After Flood Damage",
     "sent_at": "2026-10-24T01:06:27.210868+00:00"
@@ -7667,5 +7662,10 @@
     "headline": "Govt terminates three infrastructure projects contracts over non-performance",
     "sent_at": "2026-11-01T14:51:33.572698+00:00",
     "dup": true
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/311235",
+    "headline": "रवि र बालेनलाई गगनको प्रश्नैप्रश्न, बेनको २८ पत्रकारको सूचीमा को–को ? ३ महिनामा कति कमाए बैंकहरूले",
+    "sent_at": "2026-11-01T15:10:20.982377+00:00"
   }
 ]
