@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://theannapurnaexpress.com/story/68166",
-    "headline": "772 tourists enter Mustang through Thorong La pass in two weeks",
-    "sent_at": "2026-10-23T07:36:17.097184+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227119",
-    "headline": "दसैं–तिहारबिच कृषकलाई धान भित्र्याउने चिन्ता",
-    "sent_at": "2026-10-23T07:36:21.559673+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/worm-castings-as-an-alternative-to-chemical-fertilizers-br-47-42.html",
     "headline": "रासायनिक मलको विकल्पमा गड्यौले मल",
     "sent_at": "2026-10-23T07:36:25.889740+00:00"
@@ -7652,5 +7642,15 @@
     "headline": "Government heading towards an arbitrary and autocratic style: Gagan Thapa",
     "sent_at": "2026-11-01T11:36:31.639493+00:00",
     "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/225695/",
+    "headline": "बेनी हाइड्रोका लगानीकर्ताले कमाए १०१ प्रतिशतसम्म",
+    "sent_at": "2026-11-01T11:41:44.025383+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/01/777950/morangs-keraun-132-kv-substation-in-operation/",
+    "headline": "मोरङको कानेपोखरीमा बनाइएको १३२ केभीको सबस्टेसन सञ्चालनमा",
+    "sent_at": "2026-11-01T11:41:47.895963+00:00"
   }
 ]
