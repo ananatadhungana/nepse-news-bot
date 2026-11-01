@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/10/2041990/520-million-budget-for-amkot-landslide-control-and-road-improvement-in-bajura",
-    "headline": "बाजुराको अम्कोट पहिरो नियन्त्रण र सडक सुधारका लागि ५२ करोड बजेट",
-    "sent_at": "2026-10-22T02:41:31.597014+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/10/22/95320",
-    "headline": "आज कुन देशकाे मुद्राकाे भाउ कति हाेला ?",
-    "sent_at": "2026-10-22T03:06:20.435626+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/500931.html",
-    "headline": "धमाधम नयाँ थपिँदै गर्दा वर्षौंदेखि किन बन्द छन् ६ वटा पाँचतारे होटल ?",
-    "sent_at": "2026-10-22T03:26:13.638600+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/500937.html",
-    "headline": "निक्षेपकर्ताको मृत्यु भएमा बैंकमा राखेको पैसा आफन्तले लिने यस्तो छ प्रक्रिया, इच्छाइएको व्यक्ति नभए के हुन्छ ?",
-    "sent_at": "2026-10-22T03:41:27.699488+00:00"
-  },
-  {
     "link": "https://arthakhabar.com/2026/10/22/118714/",
     "headline": "प्रदेश सरकारद्वारा वैकल्पिक ऊर्जासँग सहकार्य गरेर सिँचाइ , विद्युतीकरणमा लगानी गर्दै",
     "sent_at": "2026-10-22T03:41:32.746189+00:00"
@@ -7618,5 +7598,26 @@
     "headline": "बिपी राजमार्ग दिउँसो मात्रै खुल्ने, १० बजेको लक्ष्य पूरा भएन",
     "sent_at": "2026-11-01T04:26:21.530870+00:00",
     "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/502802.html",
+    "headline": "सिक्टा र बबई आयोजनाबाट थप १५० हेक्टरमा सिँचाइ सुविधा",
+    "sent_at": "2026-11-01T04:31:50.404868+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/01/777817/despite-having-the-capacity-to-accommodate-4-million-tourists-only-1-2-million-have-been-able-to-be-brought-in-binayak-shah/",
+    "headline": "४० लाख पर्यटक धान्ने क्षमता भएपनि १२ लाख मात्रै भित्र्याउन सकिएको छः विनायक शाह",
+    "sent_at": "2026-11-01T04:31:54.116585+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85307/irrigation-facilities-in-an-additional-150-hectares-from-sikta-and-babai-projects",
+    "headline": "National Irrigation Projects Expand Irrigation Facilities",
+    "sent_at": "2026-11-01T04:31:57.116763+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.setopati.com/social/401734",
+    "headline": "गाउँलेले १५ दिन लगाएर ४ वटा पुल बनाएका थिए, बाढीले बगाइदियो",
+    "sent_at": "2026-11-01T04:31:57.821396+00:00"
   }
 ]
