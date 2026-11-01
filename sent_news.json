@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://kathmandupost.com/money/2026/10/22/fungal-disease-threatens-rice-harvest-in-palpa",
-    "headline": "Fungal disease threatens rice harvest in Palpa",
-    "sent_at": "2026-10-22T13:27:50.074922+00:00"
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/310727",
-    "headline": "मन्त्री लम्सालको प्रतिबद्धता : विपद्‍ पुनःनिर्माणमा बजेटको कमी हुँदैन",
-    "sent_at": "2026-10-22T14:16:27.545451+00:00"
-  },
-  {
     "link": "https://khabarhub.com/2026/22/1039534/",
     "headline": "धरानमा दसैँमा २६ करोड बढीको खसीबोका कारोबार",
     "sent_at": "2026-10-22T14:16:31.618690+00:00"
@@ -7634,5 +7624,16 @@
     "link": "https://bizkhabar.com/266570",
     "headline": "‘एथर अपग्रेड फेस्टिभल’ घोषणा, स्कुटर किन्दा एक लाखसम्म क्यासब्याक",
     "sent_at": "2026-11-01T06:21:34.767933+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/01/123116/",
+    "headline": "भोलिदेखि सरकारी कार्यालय बिहान ९ बजेदेखि दिउँसो ५ बजेसम्म खुल्ने",
+    "sent_at": "2026-11-01T06:26:26.359765+00:00"
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/11/218682/",
+    "headline": "नेपाली बजारमा सुनचाँदीको मूल्यमा पहिरो, एकैदिन ठूलो गिरावट",
+    "sent_at": "2026-11-01T06:26:29.359932+00:00",
+    "dup": true
   }
 ]
