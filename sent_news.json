@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/84374/it-is-estimated-that-the-reconstruction-of-the-beni-darwang-muna-road-will-cost-around-rs-90-million",
-    "headline": "Road Reconstruction in Myagdi Estimated at NPR 7 Crore After Flood Damage",
-    "sent_at": "2026-10-24T01:06:27.210868+00:00"
-  },
-  {
     "link": "http://lokaantar.com/story/331806/2026/10/24/myagdi-",
     "headline": "बेनी–दरवाङ–मुना सडक पुनःनिर्माण गर्न करिब रु. नौ करोड लाग्ने अनुमान",
     "sent_at": "2026-10-24T01:11:28.370624+00:00"
@@ -7667,5 +7662,11 @@
     "link": "https://www.thahakhabar.com/detail/311235",
     "headline": "रवि र बालेनलाई गगनको प्रश्नैप्रश्न, बेनको २८ पत्रकारको सूचीमा को–को ? ३ महिनामा कति कमाए बैंकहरूले",
     "sent_at": "2026-11-01T15:10:20.982377+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261101205611.html",
+    "headline": "अवरुद्ध बिपी राजमार्ग पुनः सञ्चालनमा, शनिबारदेखि पहिरोका कारण थियो बन्द",
+    "sent_at": "2026-11-01T15:16:42.725312+00:00",
+    "dup": true
   }
 ]
