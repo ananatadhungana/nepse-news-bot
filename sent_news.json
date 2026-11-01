@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://theannapurnaexpress.com/story/68169",
-    "headline": "Vehicular movement on Beni-Darbang road resumes after a week",
-    "sent_at": "2026-10-23T14:06:26.933503+00:00"
-  },
-  {
     "link": "https://baahrakhari.com/detail/505544",
     "headline": "पोखरा–दुबई नियमित उडानको एक महिना, ६ हजार बढी यात्रु आउजाउ",
     "sent_at": "2026-10-23T15:31:57.079761+00:00"
@@ -7664,5 +7659,10 @@
     "headline": "नेपाल अन्तर्राष्ट्रिय व्यापार मेलाको ११औँ संस्करण हुँदै",
     "sent_at": "2026-11-01T13:56:33.220419+00:00",
     "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/132-kv-keraun-substation-comes-into-operation-boosting-power-supply-in-mora-69-84.html",
+    "headline": "132 kV Keraun Substation comes into operation, boosting power supply in Morang",
+    "sent_at": "2026-11-01T14:02:31.692845+00:00"
   }
 ]
