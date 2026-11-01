@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/95889",
-    "headline": "साइबर सुरक्षाको जोखिमपछि सरकारी प्रणालीहरू अस्थायी रूपमा बन्द",
-    "sent_at": "2026-10-22T10:01:55.243572+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261022160521.html",
-    "headline": "इभी बजारमा बिक्रीको आकर्षणसँगै सर्भिस नेटवर्क विस्तारमा कम्पनीहरुको आक्रामक रणनीति",
-    "sent_at": "2026-10-22T10:21:24.717964+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/10/22/775496/nepal-airlines-corporations-dammam-flight-canceled-due-to-security-situation-in-saudi-arabia/",
-    "headline": "साउदी अरेबियाको सुरक्षा स्थितिका कारण नेपाल वायुसेवा निगमको दमाम उडान रद्द",
-    "sent_at": "2026-10-22T11:11:26.206394+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2042670/iran-attacks-4-oil-tankers-in-persian-gulf",
     "headline": "फारसको खाडीमा तेल ओसारपसार गरिरहेका ४ जहाजहरूमा इरानको आक्रमण",
     "sent_at": "2026-10-22T11:11:30.285303+00:00"
@@ -7630,5 +7615,20 @@
     "link": "https://clickmandu.com/2026/11/502845.html",
     "headline": "खुद नाफा ६२% ले घट्दा सांग्रिला डेभलपमेन्ट बैंकको नाफा ३ करोड ३४ लाखमा सीमित",
     "sent_at": "2026-11-01T05:41:35.199260+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/tolls-at-nagdhunga-tunnel-expensive-travel-at-japanese-concessions/",
+    "headline": "नागढुंगा सुरुङमा शुल्क, जापानी सहुलियतमा महँगो यात्रा?",
+    "sent_at": "2026-11-01T05:46:40.933879+00:00"
+  },
+  {
+    "link": "https://newsofnepal.com/2026/11/01/792869/",
+    "headline": "उदयपुरमा गत असोजमा सवारी दूर्घटनामा ६ को ज्यान गयो ९१ घाइते",
+    "sent_at": "2026-11-01T05:46:44.770984+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/169929",
+    "headline": "एनआईसी एशिया बैंकको नाफा ४.३२ प्रतिशत बढ्यो, खराब कर्जा ९.८१ प्रतिशत",
+    "sent_at": "2026-11-01T05:46:48.784382+00:00"
   }
 ]
