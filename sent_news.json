@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://baahrakhari.com/detail/505539",
-    "headline": "सरकारी वेबसाइट खुलाउन के भइरहेको छ प्रयास ?",
-    "sent_at": "2026-10-23T14:02:10.354940+00:00"
-  },
-  {
     "link": "https://theannapurnaexpress.com/story/68169",
     "headline": "Vehicular movement on Beni-Darbang road resumes after a week",
     "sent_at": "2026-10-23T14:06:26.933503+00:00"
@@ -7663,5 +7658,11 @@
     "link": "https://www.onlinekhabar.com/2026/11/2048811/startup-and-innovation-summit-2083-begins-in-far-western-province",
     "headline": "सुदूरपश्चिम प्रदेशमा ‘स्टार्टअप एन्ड इनोभेसन समिट २०८३’ सुरु",
     "sent_at": "2026-11-01T13:51:38.657881+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/506303",
+    "headline": "नेपाल अन्तर्राष्ट्रिय व्यापार मेलाको ११औँ संस्करण हुँदै",
+    "sent_at": "2026-11-01T13:56:33.220419+00:00",
+    "dup": true
   }
 ]
