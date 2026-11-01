@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://lokaantar.com/story/331714/2026/10/22/kath-",
-    "headline": "सरकारी मापदण्डको मारमा स्वदेशी काठ : घाटगद्दीमै कुहिँदै ११ करोडको सम्पत्ति",
-    "sent_at": "2026-10-22T02:26:15.837872+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/nepali-national-killed-in-houthi-drone-attack-on-saudi-aramco-oil-field-64-49.html",
     "headline": "Nepali national killed in Houthi drone attack on Saudi Aramco oil field",
     "sent_at": "2026-10-22T02:26:21.296906+00:00"
@@ -7615,5 +7610,11 @@
     "link": "https://clickmandu.com/2026/11/502768.html",
     "headline": "हिमालयन बुलियनले नयाँ आउटलेट न्युरोडमा सञ्चालनमा ल्याउँदै, चाँदी खरिद र संकलन गर्न सहज हुने",
     "sent_at": "2026-11-01T03:16:31.094642+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/266543",
+    "headline": "ग्लोबल आइएमई बैंकको नाफा २४ प्रतिशत बढीले वृद्धि, कमायो २ अर्ब ३१ करोड",
+    "sent_at": "2026-11-01T03:21:31.900256+00:00",
+    "dup": true
   }
 ]
