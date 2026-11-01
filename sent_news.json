@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/no-budget-constraints-for-reconstruction-projects-minister-lamsal-31-41.html",
-    "headline": "No budget constraints for reconstruction projects: Minister Lamsal",
-    "sent_at": "2026-10-23T06:11:33.918445+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2042870/772-tourists-arrive-in-mustang-via-thorong-la-pass-in-two-weeks",
     "headline": "थोरङला पास हुँदै दुई सातामा ७७२ पर्यटक मुस्ताङमा",
     "sent_at": "2026-10-23T06:46:21.694492+00:00"
@@ -7648,5 +7643,11 @@
     "link": "https://bankingkhabar.com/archives/169964",
     "headline": "कृषि विकास बैंकको नाफा चम्कियो, वितरणयोग्य नाफा ७९ करोड",
     "sent_at": "2026-11-01T10:32:02.247560+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/506278",
+    "headline": "मुलुकको अर्थतन्त्र लथालिंग छ, सुधारमा सरकारको ध्यान जाओस् : गगन थापा",
+    "sent_at": "2026-11-01T10:36:15.581478+00:00",
+    "dup": true
   }
 ]
