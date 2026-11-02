@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://khabarhub.com/2026/25/1039900/",
-    "headline": "बाढी पहिरो प्रभावित स्थानमा विद्युत आपूर्ति पूर्ववत्",
-    "sent_at": "2026-10-25T05:46:22.323309+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/95931",
-    "headline": "बाढी पूर्वसूचना र जोखिम न्यूनीकरणका लागि यस्तो छ सरकारको रणनीति",
-    "sent_at": "2026-10-25T05:51:20.536424+00:00"
-  },
-  {
     "link": "http://annapurnapost.com/story/510007",
     "headline": "ढल्केवर ट्रमा सेन्टरको टेन्डर प्रक्रिया अगाडि बढिसकेको छ : मन्त्री मेहता",
     "sent_at": "2026-10-25T06:06:09.082665+00:00"
@@ -7682,5 +7672,17 @@
     "link": "https://bizpati.com/2026/11/225795/",
     "headline": "बीमा प्राधिकरणको अध्ययनले देखायो कर्मचारीका समस्या, तलबदेखि बढुवासम्म असन्तुष्टि",
     "sent_at": "2026-11-02T06:41:40.086670+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/government-to-extend-land-administration-services-to-all-local-levels-within-a-month-2026-11-02",
+    "headline": "Government to Extend Land Administration Services to All Local Levels Within a Month",
+    "sent_at": "2026-11-02T06:46:34.703715+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/16-individuals-win-prizes-under-taxpayer-incentive-scheme-38-45.html",
+    "headline": "16 individuals win prizes under taxpayer incentive scheme",
+    "sent_at": "2026-11-02T06:46:34.703736+00:00",
+    "dup": true
   }
 ]
