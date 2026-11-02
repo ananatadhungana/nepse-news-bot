@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://risingnepaldaily.com/news/88006",
-    "headline": "Govt steps up irrigation projects,  expands coverage by 4,000 hectares",
-    "sent_at": "2026-10-25T04:26:07.285578+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227184",
-    "headline": "बाढीले खोस्यो खुसी: सुनसान बन्यो सेतीबेनी बजार",
-    "sent_at": "2026-10-25T04:31:47.190217+00:00"
-  },
-  {
     "link": "http://lokaantar.com/story/331875/2026/10/25/trade-deficit-",
     "headline": "१५० बढी देशसँग नेपालको व्यापार, १३० देशसँग घाटा मात्रै !",
     "sent_at": "2026-10-25T04:46:23.139260+00:00"
@@ -7678,5 +7668,16 @@
     "link": "https://clickmandu.com/2026/11/503091.html",
     "headline": "फिनटेक नवप्रवर्तनलाई प्रोत्साहन गर्न अनुकूल वातावरण बनाउँदै छौं : गभर्नर पौडेल",
     "sent_at": "2026-11-02T05:46:32.558633+00:00"
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/11/218772/",
+    "headline": "म्याग्दीमा मनसुनको कहर : ८ सयभन्दा बढी घरपरिवार प्रभावित",
+    "sent_at": "2026-11-02T05:51:28.578770+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/dailekh-petroleum-exploration-further-studies-to-determine-commercial-production-br-81-82.html",
+    "headline": "दैलेख पेट्रोलियम अन्वेषण: व्यावसायिक उत्पादनको टुंगो गर्न थप अध्ययन",
+    "sent_at": "2026-11-02T05:51:29.478858+00:00"
   }
 ]
