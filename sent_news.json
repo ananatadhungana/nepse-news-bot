@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261026091057.html",
-    "headline": "विपत्तिले बढायो बीमा दाबी, पुनर्बीमा महँगिने जोखिमले बीमितमाथि थपिँदै आर्थिक भार",
-    "sent_at": "2026-10-26T03:31:52.498225+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/bhotekoshi-floods-damage-2.html",
-    "headline": "Bhotekoshi floods caused Rs 79.17 billion in damage to private property, preliminary assessment shows",
-    "sent_at": "2026-10-26T03:56:19.733146+00:00"
-  },
-  {
     "link": "https://arthasarokar.com/2026/10/budhigandaki-flood-destroys-shanti-bazaar-families-who-lost-their-homes-live-under-tarpaulin-photos.html",
     "headline": "बुढीगण्डकीको बाढीले उजाडियो शान्तिबजार, घरबास गुमाएका परिवारको बास त्रिपालमुनी ! (तस्वीरहरु)",
     "sent_at": "2026-10-26T03:56:24.181271+00:00"
@@ -7727,5 +7717,16 @@
     "link": "https://www.onlinekhabar.com/2026/11/2049705/deposit-gdp-ratio-at-129-percent-due-to-lack-of-remittance-spending",
     "headline": "रेमिट्यान्स खर्च नहुँदा निक्षेप-जीडीपी अनुपात १२९ प्रतिशत",
     "sent_at": "2026-11-02T14:56:29.549474+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/sudurpaschim-royals-beat-chitwan-rhinos.html",
+    "headline": "Sudurpaschim Royals beat Chitwan Rhinos by five wickets for second NPL win",
+    "sent_at": "2026-11-02T15:02:21.164397+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/sports/npl/401869",
+    "headline": "चितवनलाई पाँच विकेटले हराउँदै सुदूरपश्चिमले फर्कायो लय",
+    "sent_at": "2026-11-02T15:02:24.164546+00:00",
+    "dup": true
   }
 ]
