@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.osnepal.com/detail/592862",
-    "headline": "कच्चा तेलको मूल्य प्रतिब्यारेल ११५ डलर पुग्यो: नेपालमा महँगी बढ्ने जोखिम",
-    "sent_at": "2026-10-26T03:31:48.370756+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261026091057.html",
     "headline": "विपत्तिले बढायो बीमा दाबी, पुनर्बीमा महँगिने जोखिमले बीमितमाथि थपिँदै आर्थिक भार",
     "sent_at": "2026-10-26T03:31:52.498225+00:00"
@@ -7727,5 +7722,10 @@
     "headline": "Decoding Commercial Bank Q1 Report: Industry Profit Crosses 19 Arba",
     "sent_at": "2026-11-02T14:46:43.342426+00:00",
     "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2049705/deposit-gdp-ratio-at-129-percent-due-to-lack-of-remittance-spending",
+    "headline": "रेमिट्यान्स खर्च नहुँदा निक्षेप-जीडीपी अनुपात १२९ प्रतिशत",
+    "sent_at": "2026-11-02T14:56:29.549474+00:00"
   }
 ]
