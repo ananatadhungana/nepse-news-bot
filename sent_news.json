@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/84499/financial-transactions-worth-15-billion-will-be-conducted-in-npl",
-    "headline": "Nepal Premier League Third Edition Expected to Generate NPR 1.5 Billion in Economic Transactions",
-    "sent_at": "2026-10-25T11:26:14.150034+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2043738/95000-livestock-insured-in-6-months-76000-cattle-insured",
     "headline": "६ महिनामा ९५ हजार पशुपन्छीको बीमा, गाईभैँसी ७६ हजार",
     "sent_at": "2026-10-25T11:51:21.741945+00:00"
@@ -7702,5 +7697,11 @@
     "link": "https://www.setopati.com/kinmel/economy/401848",
     "headline": "चीनमा नेपाली सुन्तला र जुनारले खेपेको दु:ख",
     "sent_at": "2026-11-02T10:41:41.590200+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepse-plunges-3265-points-as-daily-turnover-slides-to-rs-718-billion-63-35.html",
+    "headline": "NEPSE plunges 32.65 points as daily turnover slides to Rs 7.18 billion",
+    "sent_at": "2026-11-02T10:51:42.644136+00:00",
+    "dup": true
   }
 ]
