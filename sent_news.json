@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/13-disasters-across-the-country-one-dead-eight-injured-75-84.html",
-    "headline": "२४ घण्टामा १३ विपद्का घटना: एकको मृत्यु, १३ लाखभन्दा बढीको क्षति",
-    "sent_at": "2026-10-25T13:11:33.323446+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/84506/3-billion-from-the-loss-and-damage-fund-nepals-only-moral-victory",
     "headline": "Nepal to Receive Nearly NPR 3 Billion from UN Loss and Damage Fund",
     "sent_at": "2026-10-25T13:16:31.968286+00:00"
@@ -7705,5 +7700,11 @@
     "link": "https://arthakhabar.com/2026/11/02/123763/",
     "headline": "विपद्पछि अन्तर्राष्ट्रिय सहयोग सन्तोषजनक, पर्यटन क्षेत्र सुरक्षित",
     "sent_at": "2026-11-02T11:41:58.224843+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503193.html",
+    "headline": "अब दुई प्रकारका ४ तौलका ग्यास सिलिन्डर : कार्ययोजना ल्याउन उद्योगीलाई बिहीबारसम्मको अल्टिमेटम",
+    "sent_at": "2026-11-02T11:46:48.437361+00:00",
+    "dup": true
   }
 ]
