@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/84546/shantibazaar-devastated-by-budhi-gandaki-floods-displaced-families-shelter-under-tents-photos",
-    "headline": "Flood Damages Shantibazar Settlement in Gorkha",
-    "sent_at": "2026-10-26T03:21:25.931129+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/227257",
     "headline": "पृथ्वी राजमार्ग भासिदा आवागमनमा सास्ती",
     "sent_at": "2026-10-26T03:26:14.791806+00:00"
@@ -7724,6 +7719,12 @@
     "link": "https://bankingkhabar.com/archives/170025",
     "headline": "राष्ट्र बैंकको डिजिटल प्रदर्शनी  : आफैँ आयोजक, आफ्नै कर्मचारी सहभागी !",
     "sent_at": "2026-11-02T14:32:03.014578+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96178",
+    "headline": "अलपत्र निर्माण ठेक्का तत्काल तोड्ने मन्त्री लम्सालको घोषणा",
+    "sent_at": "2026-11-02T14:41:41.723617+00:00",
     "dup": true
   }
 ]
