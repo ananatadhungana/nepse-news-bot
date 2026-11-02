@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/man-found-dead-near-keshaliya-river-in-biratnagar.html",
-    "headline": "Man found dead near Keshaliya River in Biratnagar",
-    "sent_at": "2026-10-25T09:02:05.083031+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/kinmel/economy/401267",
-    "headline": "अर्थमन्त्रालय अन्तर्गतका ५ सहसचिव रिक्त, दुई निकायमा छैनन् प्रमुख",
-    "sent_at": "2026-10-25T09:06:12.823525+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501218.html",
-    "headline": "तपाईंले राखेको पैसाको बैंकले गरिदिएको हुन्छ बिमा, बैंक नै डुब्यो भने कसरी गर्ने दाबी ?",
-    "sent_at": "2026-10-25T09:16:22.727092+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261025145558.html",
     "headline": "भारतमा सस्तो भएका सय वस्तु : भन्सार समान बनाए नेपाललाई फाइदा, के भन्छन् उद्योगी?",
     "sent_at": "2026-10-25T09:16:26.801526+00:00"
@@ -7696,5 +7681,21 @@
     "headline": "आयातित र कृत्रिम फूल नियन्त्रण गर्न निर्देशन",
     "sent_at": "2026-11-02T09:06:27.285366+00:00",
     "dup": true
+  },
+  {
+    "link": "https://nepalkhabar.com/politics/290899-2026-11-2-9-12-31",
+    "headline": "भोटेकोसी बाढीबारे चीनले आफ्नै नागरिकलाई समेत तत्काल सूचना दिन भ्याएन: परराष्ट्र सचिव राई",
+    "sent_at": "2026-11-02T09:17:54.794664+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/china-could-not-information-rai.html",
+    "headline": "China could not provide immediate information on Bhotekoshi flood, says Foreign Secretary Rai",
+    "sent_at": "2026-11-02T09:17:57.794814+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503185.html",
+    "headline": "औषधि बिक्री उच्च हुँदा म्याग्नस फर्माले एक वर्षमै गर्‍यो साढे १ अर्बको व्यापार",
+    "sent_at": "2026-11-02T09:17:58.663373+00:00"
   }
 ]
