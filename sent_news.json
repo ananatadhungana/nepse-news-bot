@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://peoplesreview.com.np/2026/10/24/banks-suspend-online-services-amid-web-security-risks/",
-    "headline": "Banks suspend online services amid web security risks",
-    "sent_at": "2026-10-24T08:46:13.411394+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2043177/signs-of-changing-weather-advice-to-bring-in-rice-crop-by-tuesday-npl-matches-may-be-affected",
-    "headline": "मौसम बदलीको संकेत : मंगलवारसम्म धानबाली भित्र्याउन सुझाव, एनपीएलका खेल प्रभावित हुनसक्ने",
-    "sent_at": "2026-10-24T09:11:21.083232+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501081.html",
-    "headline": "दशैंपछि मुस्ताङमा पर्यटकको ओइरो, दुई दिनमै झन्डै ८ हजार पुगे",
-    "sent_at": "2026-10-24T09:21:27.301807+00:00"
-  },
-  {
-    "link": "https://risingnepaldaily.com/news/87988",
-    "headline": "Tourist activity escalates in Mustang",
-    "sent_at": "2026-10-24T11:06:19.934579+00:00"
-  },
-  {
     "link": "http://lokaantar.com/story/331818/2026/10/24/bhotekoshi-flood-",
     "headline": "सत्ता र शासकहरू हो ! भोटेकोशीको डरलाग्दो आवाज सुन्यौँ ?",
     "sent_at": "2026-10-24T11:16:19.515991+00:00"
@@ -7670,5 +7650,26 @@
     "link": "https://gorkhapatraonline.com/news/227991",
     "headline": "भूउपयोग नीतिमा सुधार",
     "sent_at": "2026-11-02T02:11:40.078395+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/society/290868-2026-11-2-2-34-42",
+    "headline": "बीपी राजमार्गमा एकतर्फी गाडी चल्न थाल्यो, यी २ सडक पूर्ण रूपमा अवरुद्ध",
+    "sent_at": "2026-11-02T02:36:22.289523+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503016.html",
+    "headline": "विराटनगर नाकाको व्यापार ५९ प्रतिशतले बढ्यो, जुट उद्योगको अस्तित्व संकटमा",
+    "sent_at": "2026-11-02T02:36:23.276743+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/first-biweekly-taxpayer-incentive-award-to-be-announced-today-53-30.html",
+    "headline": "पहिलो पाक्षिक करदाता प्रोत्साहन पुरस्कार आज घोषणा हुँदै",
+    "sent_at": "2026-11-02T02:36:27.177340+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/sports/united-in-discomfort-and-uncertainty-br-40-99.html",
+    "headline": "असहज र अनिश्चिततामा युनाइटेड",
+    "sent_at": "2026-11-02T02:36:31.057672+00:00"
   }
 ]
