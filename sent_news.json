@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/95930",
-    "headline": "सुनको भाउ तोलामा ११ हजार ६०० घट्यो",
-    "sent_at": "2026-10-25T05:16:24.277659+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/84457/gold-prices-drop-sharply-after-dashain-falling-by-rs-11600-per-tola",
     "headline": "Gold Price Drops Significantly After Dashain Festival",
     "sent_at": "2026-10-25T05:16:28.330979+00:00"
@@ -7682,5 +7677,10 @@
     "headline": "सुनको मूल्य तोलामा २३ सयले बढ्यो",
     "sent_at": "2026-11-02T06:16:57.558444+00:00",
     "dup": true
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/66289",
+    "headline": "यी हुन् कुमारी बैंकका २२ ठूला शेयरधनी, कसको स्वामित्व कति ?",
+    "sent_at": "2026-11-02T06:21:33.173052+00:00"
   }
 ]
