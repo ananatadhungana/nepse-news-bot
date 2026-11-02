@@ -2,7 +2,7 @@ name: NEPSE News Bot
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # Every 5 min (GitHub's minimum; public repo = free minutes)
+    - cron: '*/15 * * * *' # Every 15 min (owner: fewer, calmer posts; main.py also enforces a 14-min gap)
   workflow_dispatch:        # Manual trigger from GitHub UI
   repository_dispatch:      # External cron trigger (cron-job.org → GitHub API)
     types: [run-bot]
@@ -43,6 +43,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # AI relevance gate (ai_filter.py); without it, keyword rules
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}   # manual run ignores the 15-min gap
         run: |
           python main.py
           

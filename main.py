@@ -13,7 +13,9 @@ import time
 TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
 SENT_NEWS_FILE      = "sent_news.json"
-MAX_PER_RUN         = 6     # max articles per 5-min run; the rest go next run
+MAX_PER_RUN         = 6     # max articles per batch; the rest go in the next batch
+MIN_GAP_MINUTES     = 14    # owner: one batch every ~15 min, not every 5 — fewer, calmer posts,
+                            # and all portals' versions of a story arrive before we pick one
 HISTORY_MAX_ENTRIES = 1500  # dedup memory size — NOT time-based anymore.
                             # (old 6h time-expiry caused same article to be
                             # re-sent every 6h if nothing new was published)
@@ -570,6 +572,20 @@ def main():
     print("=== NEPSE News Agent starting ===")
 
     sent_history   = load_sent_news()
+
+    # ── 15-minute pacing: whatever triggers us (cron-job.org, GitHub schedule),
+    #    post at most one batch per MIN_GAP_MINUTES. Manual runs (FORCE_RUN=1) skip this.
+    last_post = max((h.get('sent_at', '') for h in sent_history if not h.get('dup')), default='')
+    if last_post and os.environ.get('FORCE_RUN') != '1':
+        try:
+            gap = (datetime.datetime.now(datetime.timezone.utc)
+                   - datetime.datetime.fromisoformat(last_post)).total_seconds() / 60
+            if gap < MIN_GAP_MINUTES:
+                print(f"[INFO] Last batch {gap:.0f} min ago — next one after {MIN_GAP_MINUTES} min. Exiting.")
+                return
+        except ValueError:
+            pass
+
     ticker_re      = build_ticker_re(get_listed_symbols())
     all_news       = get_all_latest_news()
     new_found      = False
