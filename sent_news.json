@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/227136",
-    "headline": "हिल्सामा पुल बन्यो, सञ्चालनमा आउन सकेन",
-    "sent_at": "2026-10-24T07:31:43.450354+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/509966",
-    "headline": "जलवायु उत्थानशीलतामा नेपाललाई ऐतिहासिक सफलता, ३ परियोजना स्वीकृत",
-    "sent_at": "2026-10-24T07:36:07.646838+00:00"
-  },
-  {
     "link": "https://arthakhabar.com/2026/10/24/119340/",
     "headline": "होर्मुज जलडमरूमा विशाल तेलवाहक जहाज बारुदी सुरुङमा ठोक्किएर विस्फोट",
     "sent_at": "2026-10-24T07:41:18.579430+00:00"
@@ -7670,5 +7660,15 @@
     "link": "https://myrepublica.nagariknetwork.com/news/the-price-of-data-is-nepals-future-who-pays-for-the-digital-revolution-82-73.html",
     "headline": "The Price of Data Is Nepal’s Future: Who Pays for the Digital Revolution?",
     "sent_at": "2026-11-02T01:46:31.947319+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/11/02/jumla-s-prized-marsi-rice-is-in-demand-but-production-is-declining",
+    "headline": "Jumla’s prized Marsi rice is in demand, but production is declining",
+    "sent_at": "2026-11-02T01:51:24.794324+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/43-disasters-reported-across-nepal-13-injured-54-82.html",
+    "headline": "7,688 disaster incidents reported across Nepal in six months",
+    "sent_at": "2026-11-02T01:51:28.567256+00:00"
   }
 ]
