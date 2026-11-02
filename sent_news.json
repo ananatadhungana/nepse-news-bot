@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/84534/millet-cultivation-declining-demand-for-flour-high",
-    "headline": "Number of Farmers Cultivating Finger Millet Decreasing in Jumla",
-    "sent_at": "2026-10-26T01:26:10.793548+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2043885/underground-diesel-tank-explodes-causes-fire-in-jhapa-one-injured",
     "headline": "झापामा भूमिगत डिजेल ट्यांकी पड्किएर आगलागी, एक जना घाइते",
     "sent_at": "2026-10-26T01:26:14.805932+00:00"
@@ -7713,6 +7708,12 @@
     "link": "https://bizkhabar.com/266683",
     "headline": "ग्यासमा दोहोरो मूल्य प्रणाली ल्याउने तयारी, व्यावसायिक उपभोक्ताले अब परल मूल्यमै किन्नुपर्ने",
     "sent_at": "2026-11-02T12:41:44.525677+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalkhabar.com/politics/290923-2026-11-2-12-45-58",
+    "headline": "जलवायु परिवर्तनको जोखिमविरुद्धको पूर्वसूचना प्रणालीमा नेपाललाई सघाउन स्विट्जरल्यान्ड इच्छुक",
+    "sent_at": "2026-11-02T12:46:30.837647+00:00",
     "dup": true
   }
 ]
