@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://himalpress.com/2026/10/a-bailey-bridge-is-being-built-in-syafrubesi-to-allow-vehicular-movement/",
-    "headline": "स्याफ्रुबेँसीमा सवारी साधान आवतजावत गर्नसक्ने ‘बेलिब्रिज’ बनाइदै",
-    "sent_at": "2026-10-25T01:46:20.571885+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/227171",
     "headline": "डिजिटल अर्थतन्त्रतर्फको नवीन यात्रा",
     "sent_at": "2026-10-25T02:01:56.150725+00:00"
@@ -7675,5 +7670,10 @@
     "headline": "जलवायु वित्तलाई अनुदानमा आधारित, सहज र प्रत्यक्ष पहुँचयोग्य बनाउन माग",
     "sent_at": "2026-11-02T04:06:23.441694+00:00",
     "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228012",
+    "headline": "सात वर्षदेखि विद्युत् उत्पादन बन्द",
+    "sent_at": "2026-11-02T04:11:35.624732+00:00"
   }
 ]
