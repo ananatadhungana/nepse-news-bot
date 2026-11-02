@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://lokaantar.com/story/331928/2026/10/26/round-up-",
-    "headline": "एनपीएलमा डेढ अर्बको कारोबारदेखि देउवा समूहको समानान्तर अधिवेशनसम्म",
-    "sent_at": "2026-10-26T02:41:20.753006+00:00"
-  },
-  {
     "link": "https://arthakhabar.com/2026/10/26/119884/",
     "headline": "अलैँची टिप्दै किसान",
     "sent_at": "2026-10-26T02:41:26.909473+00:00"
@@ -7719,5 +7714,11 @@
     "link": "https://www.onlinekhabar.com/2026/11/2049647/godavari-flower-exhibition-extended-for-two-days-turnover-of-rs-7-5-million-till-sunday",
     "headline": "‘गोदावरी फूल प्रदर्शनी’ दुई दिन लम्बियो, आइतबारसम्म ७५ लाखको कारोबार",
     "sent_at": "2026-11-02T13:51:38.012220+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/02/778320/secretaries-meeting-at-singha-durbar-what-decisions-were-made/",
+    "headline": "सिंहदरबारमा सचिवहरूकाे बैठक : के-के भयाे निर्णय ?",
+    "sent_at": "2026-11-02T13:56:30.570139+00:00",
+    "dup": true
   }
 ]
