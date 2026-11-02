@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nepalpress.com/2026/10/26/776046/lumbini-cancer-hospital-in-bhairahawa-to-be-built-with-an-investment-of-rs-3-billion-285-people-will-be-employed/",
-    "headline": "तीन अर्ब लगानीमा भैरहवामा लुम्बिनी क्यान्सर अस्पताल, २८५ जनाले रोजगारी पाउने",
-    "sent_at": "2026-10-26T01:16:19.753512+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/bhojpur-farmers-worried-after-insects-damage-rice-br-84-73.html",
     "headline": "धान भित्राउने समय नजिकिँदै गर्दा धानबालीमा ‘लाइ किरा’को समस्या, किसान चिन्तित",
     "sent_at": "2026-10-26T01:16:24.063117+00:00"
@@ -7711,5 +7706,11 @@
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/historic-wait-for-underground-structure-construction-ends-upper-tamor-to-bring-tbm-into-operation-this-month-br-64-18.html",
     "headline": "तमोरमा सुरुङमार्गसहितको भूमिगत संरचना बनाइँदै",
     "sent_at": "2026-11-02T12:21:59.518350+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228066",
+    "headline": "करदाता प्रोत्साहन उपहार कार्यक्रम : १५ जना दैनिक उपहार विजेता सार्वजनिक",
+    "sent_at": "2026-11-02T12:36:33.119989+00:00",
+    "dup": true
   }
 ]
