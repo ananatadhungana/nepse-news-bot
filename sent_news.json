@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/176179/",
-    "headline": "मोरङमा एक महिनामा ३० वटा बैंकिङ्ग कसुरका उजुरी दर्ता",
-    "sent_at": "2026-10-25T05:01:53.621237+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/169626",
-    "headline": "विश्व अर्थतन्त्रको नेतृत्व एसियातर्फ, चीन पहिलो र भारत दोस्रो बन्ने प्रक्षेपण",
-    "sent_at": "2026-10-25T05:01:57.977419+00:00"
-  },
-  {
     "link": "https://nepalipaisa.com/news-detail/95930",
     "headline": "सुनको भाउ तोलामा ११ हजार ६०० घट्यो",
     "sent_at": "2026-10-25T05:16:24.277659+00:00"
@@ -7681,5 +7671,16 @@
     "link": "https://nagariknews.nagariknetwork.com/economy/brick-production-declining-due-to-labor-shortage-br-16-14.html",
     "headline": "कामदार अभावले इँटा उत्पादन घट्दै",
     "sent_at": "2026-11-02T06:11:35.136693+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261102115932.html",
+    "headline": "सुनको भाउ तोलामा २ हजार ३०० रुपैयाँ वृद्धि, चाँदीको मूल्य पनि उकालो",
+    "sent_at": "2026-11-02T06:16:54.558249+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/506341",
+    "headline": "सुनको मूल्य तोलामा २३ सयले बढ्यो",
+    "sent_at": "2026-11-02T06:16:57.558444+00:00",
+    "dup": true
   }
 ]
