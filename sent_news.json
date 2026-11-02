@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261025163745.html",
-    "headline": "जिउँदो कुखुराको मूल्य किलोमा १० रुपैयाँ घट्यो, उपभोक्ताका लागि कति छ तयारी मासुको भाउ?",
-    "sent_at": "2026-10-25T10:56:05.220321+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/510019",
-    "headline": "गोरखाको चुम उपत्यका जाने अस्थायी बाटो खुल्यो",
-    "sent_at": "2026-10-25T11:01:57.214280+00:00"
-  },
-  {
     "link": "https://kathmandupost.com/money/2026/10/25/chitwan-farmers-face-a-race-against-rain-and-wild-elephants",
     "headline": "Chitwan farmers face a race against rain and wild elephants",
     "sent_at": "2026-10-25T11:02:02.002770+00:00"
@@ -7700,5 +7690,16 @@
     "link": "https://clickmandu.com/2026/11/503202.html",
     "headline": "बंगलादेशमा कपडा मजदुरहरूको आन्दोलन हिंसात्मक : ५२९ कारखाना बन्द, झन्डै १० लाख श्रमिक प्रभावित",
     "sent_at": "2026-11-02T09:56:37.428964+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/11/02/extreme-poverty-has-nearly-disappeared-in-nepal-but-half-remain-economically-vulnerable",
+    "headline": "Extreme poverty has nearly disappeared in Nepal, but half remain economically vulnerable",
+    "sent_at": "2026-11-02T10:06:29.718316+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/nepal-proposes-cooperation-with-switzerland-to-establish-world-class-pharmaceutical-industry.html",
+    "headline": "Nepal proposes cooperation with Switzerland to establish world-class pharmaceutical industry",
+    "sent_at": "2026-11-02T10:06:32.718466+00:00",
+    "dup": true
   }
 ]
