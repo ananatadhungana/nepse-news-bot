@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.bbc.com/nepali/articles/c804056yn0xko?at_medium=RSS&at_campaign=rss",
-    "headline": "विदुरलाई नयाँ आर्थिक केन्द्र बनाउने पुनर्निर्माण प्रस्तावको आधार के, चीनसँग कस्तो सहकार्य",
-    "sent_at": "2026-10-24T06:32:42.517446+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/227136",
     "headline": "हिल्सामा पुल बन्यो, सञ्चालनमा आउन सकेन",
     "sent_at": "2026-10-24T07:31:43.450354+00:00"
@@ -7670,5 +7665,10 @@
     "link": "https://www.myrepublica.nagariknetwork.com/news/curbing-abuse-in-public-procurement-95-47.html",
     "headline": "Curbing Abuse in Public Procurement",
     "sent_at": "2026-11-02T01:41:27.685685+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/the-price-of-data-is-nepals-future-who-pays-for-the-digital-revolution-82-73.html",
+    "headline": "The Price of Data Is Nepal’s Future: Who Pays for the Digital Revolution?",
+    "sent_at": "2026-11-02T01:46:31.947319+00:00"
   }
 ]
