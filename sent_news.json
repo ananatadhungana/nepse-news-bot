@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://arthakhabar.com/2026/10/26/119884/",
-    "headline": "अलैँची टिप्दै किसान",
-    "sent_at": "2026-10-26T02:41:26.909473+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/10/26/95372",
-    "headline": "आज अमेरिकी एक डलरको बिक्री मूल्य १५२ रुपैयाँ २१ पैसा पर्ने, अन्य विदेशी मुद्रालाई कति ?",
-    "sent_at": "2026-10-26T02:51:18.005719+00:00"
-  },
-  {
     "link": "https://risingnepaldaily.com/news/88041",
     "headline": "Micro industrial estate dedicated exclusively to traditional industries",
     "sent_at": "2026-10-26T02:51:22.418977+00:00"
@@ -7719,6 +7709,18 @@
     "link": "https://nepalpress.com/2026/11/02/778320/secretaries-meeting-at-singha-durbar-what-decisions-were-made/",
     "headline": "सिंहदरबारमा सचिवहरूकाे बैठक : के-के भयाे निर्णय ?",
     "sent_at": "2026-11-02T13:56:30.570139+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/nrb-hosts-fintech-innovation-showcase-2026-to-promote-digital-financial-services-2026-11-02",
+    "headline": "NRB Hosts Fintech Innovation Showcase 2026 to Promote Digital Financial Services",
+    "sent_at": "2026-11-02T14:03:37.050488+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2049665/the-challenge-for-the-nrb-is-to-manage-the-risks-that-come-with-innovation-governor",
+    "headline": "राष्ट्र बैंकलाई नवप्रवर्तनसँगै आएका जोखिम व्यवस्थापन गर्ने चुनौती छ : गभर्नर",
+    "sent_at": "2026-11-02T14:03:37.050509+00:00",
     "dup": true
   }
 ]
