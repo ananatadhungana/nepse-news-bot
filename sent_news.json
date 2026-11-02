@@ -1,35 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/10/2043815/budget-cut-for-gola-muksar-lalpur-road-preparation-for-tender-for-rs-7-million",
-    "headline": "गोला मुक्सार–लालपुर सडकको बजेट कटौती, ७० लाखमा टेन्डरको तयारी",
-    "sent_at": "2026-10-25T14:11:23.698887+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/510028",
-    "headline": "बेनिघाट सडक दोभानसम्म सुचारु गर्ने तयारी",
-    "sent_at": "2026-10-25T14:16:24.496717+00:00"
-  },
-  {
-    "link": "https://peoplesreview.com.np/2026/10/25/a-fund-too-small-for-losses/",
-    "headline": "A fund too small for losses",
-    "sent_at": "2026-10-25T14:21:29.486524+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/interview/the-mountains-are-wet-the-risk-of-landslides-is-high-13-13.html",
-    "headline": "‘पहाडहरु भिजेका छन्, पहिरोको जोखिम उच्च छ’",
-    "sent_at": "2026-10-25T14:21:34.828340+00:00"
-  },
-  {
-    "link": "https://arthakhabar.com/2026/10/25/119856/",
-    "headline": "आर्थिक रूपमा शक्तिशाली बन्दै एनपीएल, यो संस्करणमा १५० करोडसम्मको कारोबार हुने",
-    "sent_at": "2026-10-25T14:41:17.292700+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/10/shakib-al-hasan-arrives-in-nepal-to-play-in-npl/",
-    "headline": "साकिब अल हसन एनपीएल खेल्न नेपाल आइपुगे",
-    "sent_at": "2026-10-25T15:31:37.527148+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/china-nepal-border-catastrophic-flood-a-planetary-health-alarm-37-29.html",
     "headline": "China–Nepal Border Catastrophic Flood: A Planetary Health Alarm",
     "sent_at": "2026-10-25T15:51:27.065986+00:00"
@@ -7707,5 +7677,38 @@
     "link": "https://bizmandu.com/content/20261102174759.html",
     "headline": "नर्थ भ्याली अटो स्टेसन र कुङ्फु नुडल्स विभागको कारबाहीमा, तिरायो जरिवाना",
     "sent_at": "2026-11-02T12:07:53.167265+00:00"
+  },
+  {
+    "link": "http://lokaantar.com/story/332411/2026/11/2/dry-port-",
+    "headline": "सुक्खा बन्दरगाह निर्माणको काम २६ प्रतिशत पूरा",
+    "sent_at": "2026-11-02T12:13:17.822188+00:00"
+  },
+  {
+    "link": "https://arthasarokar.com/2026/11/tata-bs-6-training-program-launched-for-tata-gurus.html",
+    "headline": "टाटा गुरुहरुकालागी टाटा बिएस-६ तालिम प्रशिक्षण कार्यक्रम सुरु",
+    "sent_at": "2026-11-02T12:13:20.822371+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228063",
+    "headline": "दार्मा र कुमाखका चार बस्ती राष्ट्रिय विद्युत् प्रसारणमा जोडिए",
+    "sent_at": "2026-11-02T12:13:21.457142+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/177141/",
+    "headline": "मुक्तिनाथ कृषि कम्पनीको ६० लाख ९३ हजार कित्ता शेयरको लकइन अवधि सकिँदै",
+    "sent_at": "2026-11-02T12:13:25.274749+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/construction-of-dry-port-in-dodhara-chandni-26-percent-complete/",
+    "headline": "दोधारा चाँदनीमा सुक्खा बन्दरगाहको निर्माण २६ प्रतिशत पूरा",
+    "sent_at": "2026-11-02T12:13:28.274905+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/85465/businessmen-demand-lifting-of-ban-on-sale-of-forest-produce",
+    "headline": "Kailali Forest Product Traders Demand Resumption of Operations",
+    "sent_at": "2026-11-02T12:13:28.274935+00:00",
+    "dup": true
   }
 ]
