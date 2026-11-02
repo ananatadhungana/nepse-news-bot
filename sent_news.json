@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/10/501168.html",
-    "headline": "बंगालको खाडीमा शक्तिशाली चक्रवात बन्दै, १५ गतेसम्म देशभर वर्षा र हिमपातको सम्भावनाः मौसमविद् उपाध्याय",
-    "sent_at": "2026-10-25T06:51:19.724611+00:00"
-  },
-  {
     "link": "https://baahrakhari.com/detail/505625",
     "headline": "वर्षाको सम्भावना कहाँ बढी ? तीन दिन पदयात्रा नगर्न र धानबालीमा ध्यान दिन सुझाव",
     "sent_at": "2026-10-25T07:06:17.660793+00:00"
@@ -7687,6 +7682,12 @@
     "link": "https://gorkhapatraonline.com/news/228028",
     "headline": "चाडपर्वमा पनि उखु किसानले पाएनन् भुक्तानी, ऋण र ब्याजकै चिन्ता",
     "sent_at": "2026-11-02T07:06:19.582201+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/85413/lp-gas-industry-merger-process-moves-forward",
+    "headline": "Nepal Moves to Consolidate LP Gas Industries",
+    "sent_at": "2026-11-02T07:11:35.723794+00:00",
     "dup": true
   }
 ]
