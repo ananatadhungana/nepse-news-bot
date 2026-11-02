@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/95945",
-    "headline": "दसैंपछि कुखुराको मासु सस्तियो, जिउँदो कुखुरा किलोमा २८० रुपैयाँ",
-    "sent_at": "2026-10-25T12:02:11.871414+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501227.html",
-    "headline": "क्रिकेट अब सोख होइन उद्योग हो, १० वर्ष करछुट आवश्यकः टीयूमा आँधी ल्याउने लुम्बिनीको चेतावनी",
-    "sent_at": "2026-10-25T12:02:17.577374+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2043745/chicken-meat-becomes-cheaper-as-dashain-ends-here-are-the-new-prices",
-    "headline": "दसैं सकिएसँगै सस्तियो कुखुरा मासु, यस्तो छ नयाँ मूल्य",
-    "sent_at": "2026-10-25T12:02:21.805051+00:00"
-  },
-  {
-    "link": "https://arthasarokar.com/2026/10/proposal-to-pay-drivers-salary-to-self-driving-government-vehicles-fuel-and-maintenance-expenses-will-also-be-given-in-cash.html",
-    "headline": "सरकारी गाडी आफैँ चलाउनेलाई ड्राइभरको तलबसमेत दिने प्रस्ताव, इन्धन र मर्मत खर्च पनि नगदमै दिइने !",
-    "sent_at": "2026-10-25T12:16:32.296245+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/10/2043759/pdna-preliminary-results-rasuwa-floods-cause-rs-79-billion-in-damage-to-private-property-and-businesses",
     "headline": "पीडीएनए प्रारम्भिक नतिजा : रसुवा बाढीले निजी सम्पत्ति र व्यवसायमा ७९ अर्बको क्षति",
     "sent_at": "2026-10-25T12:36:10.231048+00:00"
@@ -7703,5 +7683,26 @@
     "link": "https://www.onlinekhabar.com/2026/11/2049431/indian-foreign-secretary-mishri-to-visit-nepal-on-wednesday",
     "headline": "भारतीय विदेश सचिव मिश्री बुधबार नेपाल भ्रमणमा आउँदै",
     "sent_at": "2026-11-02T11:11:41.424206+00:00"
+  },
+  {
+    "link": "http://ictsamachar.com//story/100007574",
+    "headline": "टाटा गुरुहरूको दक्षता अभिवृद्धि गर्न सिप्रदीको ६ दिने BS-6 तालिम सुरु",
+    "sent_at": "2026-11-02T11:21:49.509955+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261102170355.html",
+    "headline": "पूर्व-पश्चिम राजमार्गको बागमती-पथलैया खण्ड चार लेनको बनाइँदै, ५३ किमि सडक स्तरोन्नति गरिने",
+    "sent_at": "2026-11-02T11:21:50.227390+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503230.html",
+    "headline": "त्रिवि क्रिकेट रंगशाला वरपरका सडक कालोपत्रे गरिने, ९० दिनमा काम सक्ने लक्ष्य",
+    "sent_at": "2026-11-02T11:21:54.060223+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85454/nepal-is-eager-to-cooperate-with-switzerland-president-poudel",
+    "headline": "President Paudel Expresses Nepal's Eagerness to Collaborate with Switzerland on Climate Change and Himalayan Environmental Issues",
+    "sent_at": "2026-11-02T11:21:57.900835+00:00"
   }
 ]
