@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://risingnepaldaily.com/news/88016",
-    "headline": "Power supply restored in disaster-hit area of Myagdi",
-    "sent_at": "2026-10-25T07:41:35.868256+00:00"
-  },
-  {
     "link": "https://himalpress.com/2026/10/milk-price-farmers-get-rs-65-consumers-pay-rs-100/",
     "headline": "दूधको मूल्य : किसानले पाउँछन् ६५ रुपैयाँ, उपभोक्ताले तिर्छन् १०० रुपैयाँ",
     "sent_at": "2026-10-25T07:46:28.118121+00:00"
@@ -7694,5 +7689,10 @@
     "headline": "एलपी ग्यास उद्योगलाई एकापसमा गाभिने",
     "sent_at": "2026-11-02T07:51:41.263629+00:00",
     "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503153.html",
+    "headline": "लगानीमैत्री वातावरण बनाउन १६६ कानुनलाई ‘फास्ट ट्र्याक’ मा संशोधन गर्दै बालेन सरकार",
+    "sent_at": "2026-11-02T08:02:13.241328+00:00"
   }
 ]
