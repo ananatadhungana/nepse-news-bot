@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.osnepal.com/detail/592858",
-    "headline": "8. आज कुन विदेशी मुद्राको मूल्य कति ? राष्ट्र बैंकले तोक्यो विनिमयदर",
-    "sent_at": "2026-10-26T02:11:26.404744+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/underground-tank-explodes-while-loading-diesel-destroying-9-500-liters-of-diesel-48-87.html",
-    "headline": "डिजेल लोड गर्दा जमिनमुनिको ट्यांकी पड्कियो, नौ हजार ५०० लिटर डिजेल नष्ट",
-    "sent_at": "2026-10-26T02:16:23.840155+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/10/224780/",
     "headline": "डलर स्थिर रहँदा स्विस फ्र्याङ्क सस्तियो, अस्ट्रेलियन र क्यानेडियन डलर महँगियो",
     "sent_at": "2026-10-26T02:21:20.921141+00:00"
@@ -7716,6 +7706,18 @@
     "link": "https://kathmandupost.com/money/2026/11/02/us-overtakes-india-as-nepal-s-largest-tourism-source-market-for-first-time",
     "headline": "US overtakes India as Nepal’s largest tourism source market for first time",
     "sent_at": "2026-11-02T13:32:02.166203+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/311296",
+    "headline": "सचिवहरुको बैठक : नीति तथा कार्यक्रम प्रभावकारी कार्यान्वयन गर्न सबै मन्त्रालयलाई निर्देशन",
+    "sent_at": "2026-11-02T13:36:34.607087+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/02/95704",
+    "headline": "सिद्धार्थ बैंकको खुद नाफा १६२.७५ प्रतिशतले बढ्यो, प्रतिशेयर आम्दानी कति ?",
+    "sent_at": "2026-11-02T13:36:34.607104+00:00",
     "dup": true
   }
 ]
