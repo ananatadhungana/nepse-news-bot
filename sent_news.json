@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/227257",
-    "headline": "पृथ्वी राजमार्ग भासिदा आवागमनमा सास्ती",
-    "sent_at": "2026-10-26T03:26:14.791806+00:00"
-  },
-  {
     "link": "https://www.osnepal.com/detail/592862",
     "headline": "कच्चा तेलको मूल्य प्रतिब्यारेल ११५ डलर पुग्यो: नेपालमा महँगी बढ्ने जोखिम",
     "sent_at": "2026-10-26T03:31:48.370756+00:00"
@@ -7725,6 +7720,12 @@
     "link": "https://nepalipaisa.com/news-detail/96178",
     "headline": "अलपत्र निर्माण ठेक्का तत्काल तोड्ने मन्त्री लम्सालको घोषणा",
     "sent_at": "2026-11-02T14:41:41.723617+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/decoding-commercial-bank-q1-report-industry-profit-crosses-19-arba-2026-11-02",
+    "headline": "Decoding Commercial Bank Q1 Report: Industry Profit Crosses 19 Arba",
+    "sent_at": "2026-11-02T14:46:43.342426+00:00",
     "dup": true
   }
 ]
