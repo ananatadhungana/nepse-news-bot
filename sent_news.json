@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/china-nepal-border-catastrophic-flood-a-planetary-health-alarm-37-29.html",
-    "headline": "China–Nepal Border Catastrophic Flood: A Planetary Health Alarm",
-    "sent_at": "2026-10-25T15:51:27.065986+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/176247/",
-    "headline": "अनुकूलन कोषबाट नेपालका परियोजना स्वीकृत हुनु महत्त्वपूर्ण उपलब्धि हो : मन्त्री चौधरी",
-    "sent_at": "2026-10-25T16:36:17.697022+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227238",
-    "headline": "केरुङ–काठमाडौँ रेलमार्ग: सम्भाव्यता अध्ययन पूरा",
-    "sent_at": "2026-10-25T23:56:13.712280+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=131990",
-    "headline": "लामो विदापछिको पहिलो कारोबार दिन: नेपाली शेयर बजार, लगानीकर्ताको मनोविज्ञान र अन्तर्राष्ट्रिय बजारको तुलनात्मक अध्ययन",
-    "sent_at": "2026-10-26T00:21:22.226163+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261026061052.html",
     "headline": "प्रविधि हात-हातमा पुग्दा पनि बिजुलीको पैसा तिर्न लाइन, काठमाडौं उपत्यकाकै ४२% ग्राहक पुग्छन् काउन्टर",
     "sent_at": "2026-10-26T00:31:38.858255+00:00"
@@ -7710,5 +7690,26 @@
     "headline": "Kailali Forest Product Traders Demand Resumption of Operations",
     "sent_at": "2026-11-02T12:13:28.274935+00:00",
     "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261102175931.html",
+    "headline": "वाणिज्य बैंकको बेसरेट ४ प्रतिशतबाट मुन्तिर, ग्राहकलाई कुनबाट कर्जा लिंदा सस्तो?",
+    "sent_at": "2026-11-02T12:17:26.032011+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2049519/132000-tourists-entered-in-one-month-surpassing-indians-and-ahead-of-americans",
+    "headline": "एक महिनामै भित्रिए १ लाख ३२ हजार पर्यटक, भारतीयलाई उछिन्दै अमेरिकी अगाडि",
+    "sent_at": "2026-11-02T12:17:29.957847+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/us-tourist-arrivals-in-october-hit-eight-year-high-52-84.html",
+    "headline": "अक्टोबरमा अमेरिकी पर्यटकको आगमन आठ वर्षयताकै उच्च",
+    "sent_at": "2026-11-02T12:17:32.958017+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2049515/ministry-of-finance-and-ministry-of-environment-collaborate-to-increase-nepals-access-to-climate-finance",
+    "headline": "जलवायु वित्तमा नेपालको पहुँच बढाउन अर्थ र पर्यावरण मन्त्रालयको सहकार्य",
+    "sent_at": "2026-11-02T12:17:34.099999+00:00"
   }
 ]
