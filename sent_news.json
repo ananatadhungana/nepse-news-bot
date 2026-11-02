@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://theannapurnaexpress.com/story/68202",
-    "headline": "Nepal plans to lower water levels in four high-risk glacial lakes",
-    "sent_at": "2026-10-25T09:01:53.799415+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/505634",
-    "headline": "प्रसारणलाइन निर्माणमा निजी लगानी",
-    "sent_at": "2026-10-25T09:02:00.829943+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/man-found-dead-near-keshaliya-river-in-biratnagar.html",
     "headline": "Man found dead near Keshaliya River in Biratnagar",
     "sent_at": "2026-10-25T09:02:05.083031+00:00"
@@ -7694,5 +7684,17 @@
     "link": "https://bankingsamachar.com/news/177108/",
     "headline": "स्वदेशमै विकसित प्रविधिमार्फत वित्तीय क्षेत्रलाई थप प्रभावकारी बनाउँदै एनएसएस सर्भिसेज",
     "sent_at": "2026-11-02T08:56:42.227562+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/nepal-airlines-saudi-flight-uncertain.html",
+    "headline": "Nepal Airlines’ Saudi flights in uncertainty as GSA contract remains unrenewed",
+    "sent_at": "2026-11-02T09:06:27.285348+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/guidelines-for-controlling-imported-and-artificial-flowers-br-75-66.html",
+    "headline": "आयातित र कृत्रिम फूल नियन्त्रण गर्न निर्देशन",
+    "sent_at": "2026-11-02T09:06:27.285366+00:00",
+    "dup": true
   }
 ]
