@@ -1,40 +1,5 @@
 [
   {
-    "link": "https://www.myrepublica.nagariknetwork.com/news/nepal-needs-a-climate-council-that-can-turn-science-into-action-ben-rhodes-12-17.html",
-    "headline": "Nepal Needs a Climate Council That Can Turn Science Into Action: Ben Rhodes",
-    "sent_at": "2026-10-26T17:08:12.007124+00:00"
-  },
-  {
-    "link": "https://risingnepaldaily.com/news/88077",
-    "headline": "State will not be strong unless private sector becomes strong: Speaker Aryal",
-    "sent_at": "2026-10-26T17:16:38.853376+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227324",
-    "headline": "तिहारसम्म मुस्ताङको ८० प्रतिशत स्याउ निकासी हुने अनुमान",
-    "sent_at": "2026-10-26T17:21:48.875600+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132006",
-    "headline": "नेप्सेमा दीर्घकालीन लगानी गर्नेहरूले कमाउँदैनन् भन्नेहरूलाई तथ्याङ्कसहितको जवाफ",
-    "sent_at": "2026-10-27T00:16:18.233516+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261027060115.html",
-    "headline": "अनलाइन सपिङका मूल्यले सटरका पसलमाथि दबाब, ग्राहक घटे कि फेरियो व्यापारको शैली?",
-    "sent_at": "2026-10-27T00:21:20.336266+00:00"
-  },
-  {
-    "link": "http://lokaantar.com/story/331978/2026/10/27/annapurna-",
-    "headline": "एक महिनामा  ३२ हजार ९६३ विदेशी पर्यटकले गरे अन्नपूर्ण संरक्षण क्षेत्रको भ्रमण",
-    "sent_at": "2026-10-27T00:37:59.893125+00:00"
-  },
-  {
-    "link": "http://lokaantar.com/story/331981/2026/10/27/pani-",
-    "headline": "बाढीपहिरोले पाइपलाइनमा क्षति, बेनी बजारमा खानेपानी अभाव",
-    "sent_at": "2026-10-27T00:46:15.536085+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261027063033.html",
     "headline": "अर्णव चक्रवातको असर नेपालसम्म पर्ने, भारी वर्षाको पूर्वानुमानसँगै सतर्कता अपनाउन आग्रह",
     "sent_at": "2026-10-27T00:46:21.083231+00:00"
@@ -7756,5 +7721,41 @@
     "link": "https://bizmandu.com/content/20261103115359.html",
     "headline": "एनएचपीसीको दाबी : दिल्लीमा ऊर्जा मन्त्रीको सचिवालय सदस्यसँग बैठक भएको छैन",
     "sent_at": "2026-11-03T06:32:20.287572+00:00"
+  },
+  {
+    "link": "http://lokaantar.com/story/332476/2026/11/3/leapmotor-b03x-",
+    "headline": "नेपालमा लिपमोटर B03X को डेलिभरी शुरू",
+    "sent_at": "2026-11-03T07:02:26.470050+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132277",
+    "headline": "बीमा क्षेत्रका कर्मचारी तलब र बढुवाप्रति असन्तुष्ट, कार्यवातावरणमा भने सन्तुष्ट",
+    "sent_at": "2026-11-03T07:02:30.052715+00:00"
+  },
+  {
+    "link": "https://nepalitimes.com/is-your-money-safe-when-banks-go-ai",
+    "headline": "Is your money safe when banks go AI?",
+    "sent_at": "2026-11-03T07:02:33.738497+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503392.html",
+    "headline": "निर्माणाधीन एड्भान्स हस्पिटलको लागत २२% ले बढेर ४ अर्ब २० करोड पुग्यो",
+    "sent_at": "2026-11-03T07:02:37.412140+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261103123906.html",
+    "headline": "दराजमार्फत सामान किन्ने महालक्ष्मी विकास बैंकका ग्राहकलाई २०% सम्म छुट, अफर २५ गतेसम्म",
+    "sent_at": "2026-11-03T07:02:41.105251+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170043",
+    "headline": "महालक्ष्मी बैंकका कार्ड प्रयोगकर्तालाई दराजको ११.११ अभियानमा २० प्रतिशतसम्म छुट",
+    "sent_at": "2026-11-03T07:02:44.105935+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503400.html",
+    "headline": "इन्जिनियरिङ बिमा दाबीमा १० प्रतिशत बढी रकम काट्न नपाइने, १ करोडमाथिका आयोजनामा स्थलगत निरीक्षण अनिवार्य",
+    "sent_at": "2026-11-03T07:02:44.948564+00:00"
   }
 ]
