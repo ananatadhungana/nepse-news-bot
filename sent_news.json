@@ -1,40 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132009",
-    "headline": "शेयर बजारमा सम्पत्ति शुद्धीकरण निर्देशनको तरङ्ग : लगानीकर्ताले डराउनु पर्छ कि पर्दैन?",
-    "sent_at": "2026-10-26T05:31:44.729482+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/10/the-price-of-gold-which-fell-yesterday-increased-today/",
-    "headline": "हिजो घटेको सुनको भाउ आज बढ्यो",
-    "sent_at": "2026-10-26T05:31:49.052037+00:00"
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/310879",
-    "headline": "सुन तोलाको ३ हजारले बढ्यो",
-    "sent_at": "2026-10-26T05:31:52.982073+00:00"
-  },
-  {
-    "link": "http://ictsamachar.com//story/100007497",
-    "headline": "डाटा सकिएपछि मोबाइलको ब्यालेन्स काटिन्छ ? एनटीसीको यो सुविधा प्रयोग गर्नुहोस्",
-    "sent_at": "2026-10-26T05:41:16.965645+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/demat-accounts-near-81-million-as-share-market-attracts-investors-37-30.html",
-    "headline": "Share market draws more investors as demat accounts hit 8.1 million",
-    "sent_at": "2026-10-26T05:46:18.348678+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261026113908.html",
-    "headline": "कर्णाली याक्स फरहानका लागि २५ हजार डलर पाकिस्तानलाई तिर्न तयार, अन्तिममा राष्ट्रिय टोलीमा राखेपछि फिर्ता",
-    "sent_at": "2026-10-26T05:56:07.281636+00:00"
-  },
-  {
-    "link": "https://onlinetvnepal.com/2026/10/217999/",
-    "headline": "प्रधानमन्त्री राहत कोषमा थुप्रियो १८ अर्ब रुपैयाँभन्दा बढी",
-    "sent_at": "2026-10-26T05:56:11.295013+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/501330.html",
     "headline": "एक हजारभन्दा बढी सरकारी वेवसाइट पुनः सञ्चालनमा आउँदासमेत महत्त्वपूर्ण साइट भने अझै बन्द",
     "sent_at": "2026-10-26T05:56:15.702172+00:00"
@@ -7730,5 +7695,41 @@
     "link": "https://www.bbc.com/nepali/articles/cmly05vq3rw0o?at_medium=RSS&at_campaign=rss",
     "headline": "भोटेकोशी-त्रिशूली बाढीपीडितका लागि अस्थायी आवास बनाउन 'साढे तीन दर्जन संस्था इच्छुक'",
     "sent_at": "2026-11-03T01:31:59.207384+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/225857/",
+    "headline": "तेलको मूल्य ७ प्रतिशतभन्दा बढी घटेपछि डलर दबाबमा, अस्ट्रेलियाको ब्याजदर निर्णयमा नजर",
+    "sent_at": "2026-11-03T02:02:09.649334+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85500/trade-union-activities-in-crisis-due-to-governments-non-cooperation",
+    "headline": "Trade Union Activities Decline in Nepal Amidst Government Pressure and Outsourcing",
+    "sent_at": "2026-11-03T02:02:13.314884+00:00"
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/03/95708",
+    "headline": "आज यी क्षेत्रमा तीन घण्टा बत्ती जाने",
+    "sent_at": "2026-11-03T02:02:17.009112+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503263.html",
+    "headline": "कोरिया–नेपाल सिधा उडान: प्रतिस्पर्धाको पर्खाइ कहिलेसम्म ?",
+    "sent_at": "2026-11-03T02:02:20.676432+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/03/778350/ministry-directs-to-provide-land-administration-services-within-a-month/",
+    "headline": "भूमि प्रशासनसम्बन्धी सेवा एक महिनाभित्र दिन मन्त्रालयको निर्देशन",
+    "sent_at": "2026-11-03T02:02:23.676589+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88337",
+    "headline": "Fortify Health Insurance",
+    "sent_at": "2026-11-03T02:02:24.380910+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228102",
+    "headline": "रात्रिकालीन व्यवसाय सञ्चालनको समय परिवर्तन",
+    "sent_at": "2026-11-03T02:02:28.058207+00:00"
   }
 ]
