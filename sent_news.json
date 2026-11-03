@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/10/501540.html",
-    "headline": "पूर्वमा सडकले चीन जोड्यो, व्यापारको ढोका कहिले खुल्छ ?",
-    "sent_at": "2026-10-27T08:51:25.216138+00:00"
-  },
-  {
     "link": "https://bankingkhabar.com/archives/169756",
     "headline": "बैंक सञ्चालक र व्यवसायीको मिलेमतो तोड्नुपर्छ : नरबहादुर थापाको विश्लेषण",
     "sent_at": "2026-10-27T08:56:16.135998+00:00"
@@ -7799,6 +7794,12 @@
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/rijal-canning-land-scam-corruption-case-of-rs-730-million-filed-against-97-people-including-former-prime-minister-madhav-nepal-and-dr-minendra-rijal-67-97.html",
     "headline": "तह-तह मिलेर ७३ करोडको सरकारी जग्गा ‘स्वाहा’",
     "sent_at": "2026-11-03T14:33:42.346289+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/11/03/nepal-has-two-decades-to-turn-its-youth-bulge-into-an-economic-dividend-world-bank-reports",
+    "headline": "Nepal has two decades to turn its youth bulge into an economic dividend, World Bank reports",
+    "sent_at": "2026-11-03T15:03:36.887819+00:00",
     "dup": true
   }
 ]
