@@ -1,40 +1,5 @@
 [
   {
-    "link": "https://www.osnepal.com/detail/592892",
-    "headline": "आगामी आर्थिक वर्षभित्रै एनआरएनए नागरिकता सम्बन्धि कानुनी बाधा हट्छ : मन्त्री खनाल",
-    "sent_at": "2026-10-26T10:16:32.121114+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/money/2026/10/26/tatopani-border-closure-disrupts-trade-and-livelihoods-after-brief-reopening",
-    "headline": "Tatopani border closure disrupts trade and livelihoods after brief reopening",
-    "sent_at": "2026-10-26T10:21:22.114197+00:00"
-  },
-  {
-    "link": "https://bajarkochirfar.com/meghauli-serai-in-nepal-one-of-the-9-best-wildlife-resorts-in-the-world-how-much-does-it-cost-to-stay",
-    "headline": "विश्वका ९ उत्कृष्ट वाइल्डलाइफ रिसोर्टमा नेपालको मेघौली सेराई, बस्न कति खर्च लाग्छ ?",
-    "sent_at": "2026-10-26T10:21:41.959751+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/224865/",
-    "headline": "अमेरिकासँग अनुदानभन्दा लगानी साझेदारी बढाउन सभामुख अर्यालको जोड",
-    "sent_at": "2026-10-26T10:26:10.760617+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/us-congressional-delegation-speaker-aryal.html",
-    "headline": "US congressional delegation meets Speaker Aryal, discusses economic partnership and climate resilience",
-    "sent_at": "2026-10-26T10:26:14.877298+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/224860/",
-    "headline": "निक्षेप महँगिँदा भारतीय बैंक दबाबमा, कर्जा विस्तार सुस्ताउन सक्ने आकलन",
-    "sent_at": "2026-10-26T10:26:18.959228+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227292",
-    "headline": "गुल्मीका फलाम र तामा खानीको अध्ययन गरिने",
-    "sent_at": "2026-10-26T10:34:14.948651+00:00"
-  },
-  {
     "link": "https://bankingsamachar.com/news/176368/",
     "headline": "वाणिज्य बैंकहरूमा गैरबैंकिङ्ग सम्पत्ति ४७ अर्ब ६९ करोड नाघ्यो, कुनको कति ?",
     "sent_at": "2026-10-26T10:41:28.980498+00:00"
@@ -7742,5 +7707,41 @@
     "headline": "पर्यटक आगमनको कीर्तिमान कायम होला त?",
     "sent_at": "2026-11-03T04:02:03.931061+00:00",
     "dup": true
+  },
+  {
+    "link": "https://nepalkhabar.com/society/290963-2026-11-3-4-31-1",
+    "headline": "नदी नियन्त्रणमा पहिलो त्रैमासमा ३४.९ प्रतिशत प्रगति",
+    "sent_at": "2026-11-03T04:31:51.380277+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/225903/",
+    "headline": "ऋण लिनुअघि ब्याजदर मात्रै नहेर्नूहोस्, शुल्कसहितको लागत तुलना पनि गर्नुहोस् : राष्ट्र बैंक",
+    "sent_at": "2026-11-03T04:31:55.053481+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2049802/karnali-corridor-deadline-will-be-extended-year-after-year-construction-speed-will-not-increase",
+    "headline": "कर्णाली करिडोर : वर्षैपिच्छे म्याद थपिने, निर्माण गति नबढ्ने",
+    "sent_at": "2026-11-03T04:31:58.735900+00:00"
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/03/95715",
+    "headline": "भैरहवा भन्सारले तीन महिनामै उठायो ३३ अर्ब राजस्व, लक्ष्यभन्दा ४ अर्ब बढी",
+    "sent_at": "2026-11-03T04:32:02.256400+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/malekhu-mugling-road-traffic-will-be-stopped-for-two-hours-in-majhimtar-this-morning-14-90.html",
+    "headline": "मलेखु-मुग्लिङ सडक : मझिमटारमा आज बिहान दुई घण्टा सवारी आवागमन रोकिने",
+    "sent_at": "2026-11-03T04:32:05.256571+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503110.html",
+    "headline": "एनपीएलसँगै फस्टाउँदै ‘खेल पर्यटन’, पाँचतारे होटल भरिए",
+    "sent_at": "2026-11-03T04:32:05.941825+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/sirsia-river-cleaning-campaign-intensifies-ahead-of-chhath-strict-action-against-polluting-industries-50-53.html",
+    "headline": "छठअघि सिर्सिया नदी सफाइ अभियान तीव्र, प्रदूषण गर्ने उद्योगमाथि कडाइ",
+    "sent_at": "2026-11-03T04:32:09.615584+00:00"
   }
 ]
