@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261026151735.html",
-    "headline": "दसैं विदापछिको पहिलो सेयर कारोबार ओरालो, नेप्से ४.३४ अंकले घट्दा ४ अर्बको किनबेच",
-    "sent_at": "2026-10-26T09:36:11.483388+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501449.html",
-    "headline": "गोल्छा ग्रुपको नियोटेरिक नेपालले एकै वर्ष गर्यो करिब ५ अर्ब रुपैयाँको व्यापार",
-    "sent_at": "2026-10-26T09:41:25.920898+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/nepse-declines-on-the-first-trading-day-after-dashain-intraday-turnover-stood-at-rs-4-arba-2026-10-26",
-    "headline": "NEPSE Declines on the First Trading Day After Dashain; Intraday Turnover Stood at Rs. 4 Arba",
-    "sent_at": "2026-10-26T10:06:08.714971+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/95965",
-    "headline": "संघीय संसदमा ३६ विधेयक विचाराधीन, सात नयाँ विधेयक दर्ता",
-    "sent_at": "2026-10-26T10:16:26.283665+00:00"
-  },
-  {
     "link": "https://www.osnepal.com/detail/592892",
     "headline": "आगामी आर्थिक वर्षभित्रै एनआरएनए नागरिकता सम्बन्धि कानुनी बाधा हट्छ : मन्त्री खनाल",
     "sent_at": "2026-10-26T10:16:32.121114+00:00"
@@ -7741,5 +7721,26 @@
     "link": "https://www.onlinekhabar.com/2026/11/2049786/tourism-minister-poudel-in-london-33-stalls-from-nepal-at-world-travel-market",
     "headline": "पर्यटनमन्त्री पौडेल लन्डनमा, वर्ल्ड ट्राभल मार्केटमा नेपालबाट ३३ स्टल",
     "sent_at": "2026-11-03T03:32:09.390772+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/national/2026/11/03/bhotekoshi-floods-leave-older-survivors-grappling-with-loss-uncertainty-and-trauma",
+    "headline": "Bhotekoshi floods leave older survivors grappling with loss, uncertainty and trauma",
+    "sent_at": "2026-11-03T04:01:53.455669+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85513/traffic-volume-increases-after-toll-collection-on-nagdhunga-tunnel-photos",
+    "headline": "Nagdhunga Tunnel Causes Passenger Hassle Due to Toll Tax Delays",
+    "sent_at": "2026-11-03T04:01:57.132320+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503309.html",
+    "headline": "एभरेष्ट सुगर मिलको व्यापार ४०% ले बढेर ३ अर्ब पुग्यो",
+    "sent_at": "2026-11-03T04:02:00.930921+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/will-the-record-for-tourist-arrivals-be-broken/",
+    "headline": "पर्यटक आगमनको कीर्तिमान कायम होला त?",
+    "sent_at": "2026-11-03T04:02:03.931061+00:00",
+    "dup": true
   }
 ]
