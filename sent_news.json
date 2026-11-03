@@ -1,30 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/national-pride-projects-crawl-despite-billions-in-spending-92-38.html",
-    "headline": "National Pride Projects crawl despite billions in spending",
-    "sent_at": "2026-10-26T04:51:24.994717+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/84564/balance-in-prime-ministers-relief-fund-exceeds-18-billion",
-    "headline": "Flood Relief Fund Contributions Continue to Grow",
-    "sent_at": "2026-10-26T05:11:23.197226+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/224798/",
-    "headline": "१० लाखको सेयर कारोबारमा प्रतिवेदन अनिवार्य, वैध लगानीमा डराउनुपर्ने व्यवस्था होइन",
-    "sent_at": "2026-10-26T05:16:20.002200+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/dinesh-lal-shrestha-resigns-as-ceo-of-asian-life-insurance-hom-bahadur-shrestha-appointed-acting-ceo-2026-10-26",
-    "headline": "Dinesh Lal Shrestha Resigns as CEO of Asian Life Insurance; Hom Bahadur Shrestha Appointed Acting CEO",
-    "sent_at": "2026-10-26T05:21:20.972940+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/gold-price-rises-by-rs-3000-per-tola-in-domestic-market-55-23.html",
-    "headline": "Gold price rises by Rs 3,000 per tola in domestic market",
-    "sent_at": "2026-10-26T05:21:25.489152+00:00"
-  },
-  {
     "link": "http://annapurnapost.com/story/510056",
     "headline": "दसैं बिदापछि खुल्यो सेयर बजार, प्रि-ओपन सेसनमा ३.३२ अंकले घट्यो",
     "sent_at": "2026-10-26T05:31:39.843251+00:00"
@@ -7728,5 +7703,32 @@
     "link": "https://risingnepaldaily.com/news/88331",
     "headline": "Cyber fraud drains billions,  but recovery is going low",
     "sent_at": "2026-11-03T00:32:04.609982+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/columns/2026/11/03/nepal-s-remittance-boom-is-hiding-a-hiring-bust",
+    "headline": "Nepal’s remittance boom is hiding a hiring bust",
+    "sent_at": "2026-11-03T01:02:17.836615+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/let-s-develop-butwal-as-an-economic-capital-general-secretary-pokharel-br-58-85.html",
+    "headline": "बुटवललाई आर्थिक राजधानीका रूपमा विकास गरौँ : महासचिव पोखरेल",
+    "sent_at": "2026-11-03T01:02:21.601826+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261103062755.html",
+    "headline": "पाउण्डको बिक्री मूल्य बढेर २०४.२२ रुपैयाँ, आज कुन विदेशी मुद्राको विनिमय दर कति?",
+    "sent_at": "2026-11-03T01:02:24.602017+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503271.html",
+    "headline": "एक डलरको १५२.१५ रुपैयाँ, कति छ अरु विदेशी मुद्राको विनिमय दर ?",
+    "sent_at": "2026-11-03T01:02:24.602044+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/industrialization-beyond-promises-towards-results-41-54.html",
+    "headline": "Industrialization: Beyond Promises, Towards Results",
+    "sent_at": "2026-11-03T01:02:25.329913+00:00"
   }
 ]
