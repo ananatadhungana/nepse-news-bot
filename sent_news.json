@@ -1,45 +1,5 @@
 [
   {
-    "link": "https://risingnepaldaily.com/news/88072",
-    "headline": "Country records 23 incidents of disaster in 24 hours, six deaths, three missing",
-    "sent_at": "2026-10-26T13:02:17.830500+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/84647/when-will-the-rasuwagadhi-border-crossing-which-has-been-closed-for-two-months-open",
-    "headline": "Rasuwagadhi Border Crossing Remains Closed for Two Months Due to Flood Damage",
-    "sent_at": "2026-10-26T13:16:41.694866+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/special-stories/international-feature/401330",
-    "headline": "भारतीय रूपैयाँ उकास्न आरबिआईको कसरत, नेपाली मुद्रामा कस्तो असर?",
-    "sent_at": "2026-10-26T13:26:38.388507+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2044446/the-state-cannot-be-strong-without-a-strong-private-sector-speaker-aryal",
-    "headline": "निजी क्षेत्र बलियो नभई राज्य बलियो हुँदैन : सभामुख अर्याल",
-    "sent_at": "2026-10-26T13:46:39.057300+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/95973",
-    "headline": "हावाबाटै निकाल्न सकिन्छ तीन हजार मेगावाट बिजुली, कहाँ-कहाँ छ सम्भावना?",
-    "sent_at": "2026-10-26T14:11:49.630672+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261026195431.html",
-    "headline": "अटो व्यवसायीले दसैंमा डेलिभरी गरे ३ हजारभन्दा धेरै गाडी, बाँकी ग्राहकले तिहारअघि पाउने",
-    "sent_at": "2026-10-26T14:11:54.615827+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2044435/gas-shortage-solution-motihari-sarlahi-pipeline-and-50000-tons-of-storage-being-built",
-    "headline": "ग्यास अभाव समाधान : मोतिहारी-सर्लाही पाइपलाइन र ५० हजार टनको भण्डारण बन्दै",
-    "sent_at": "2026-10-26T14:17:17.080643+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/10/26/776217/what-is-in-the-directive-on-prevention-of-money-laundering-and-financing-of-terrorism-that-has-left-stock-investors-panicking/",
-    "headline": "शेयर लगानीकर्ता त्रसित बनेको ‘सम्पत्ति शुद्धीकरण तथा आतङ्ककारी कार्यमा वित्तीय लगानी निवारण सम्बन्धी निर्देशन’मा के छ ?",
-    "sent_at": "2026-10-26T14:21:55.654521+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/noc-vat-bill-mandatory-lpg.html",
     "headline": "Nepal Oil Corporation makes VAT bills mandatory for LPG sales",
     "sent_at": "2026-10-26T14:26:43.996640+00:00"
@@ -7754,5 +7714,47 @@
     "link": "https://nagariknews.nagariknetwork.com/economy/ipo-worth-rs-71-billion-in-queue-99-85.html",
     "headline": "७१ अर्बका आइपिओ लाममा",
     "sent_at": "2026-11-03T05:32:21.168367+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/510597",
+    "headline": "ग्यास उद्योग मर्जर : ‘कानुन संशोधनबिना  एउटै ब्रान्ड असम्भव’",
+    "sent_at": "2026-11-03T06:02:04.053824+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68467",
+    "headline": "Gold price increases by Rs 700 per tola on Tuesday",
+    "sent_at": "2026-11-03T06:02:04.856701+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/10-nepse-stocks-trading-below-rs-220-where-do-they-stand-against-their-52-week-highs-and-lows-2026-11-03",
+    "headline": "10 NEPSE Stocks Trading Below Rs 220: Where Do They Stand Against Their 52 Week Highs and Lows?",
+    "sent_at": "2026-11-03T06:02:08.627737+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132270",
+    "headline": "बाढी प्रभावित बीमितलाई दाबी भुक्तानी सहज बनाउन बीमा प्राधिकरणको ८ बुँदे निर्देशन, किस्ता तिर्न ६ महिना म्याद थप",
+    "sent_at": "2026-11-03T06:02:12.379675+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170040",
+    "headline": "जीवन बीमामा विश्वासको संकट : लाखौँ पोलिसी निष्क्रिय, अर्बौँको बीमा जोखिममा",
+    "sent_at": "2026-11-03T06:02:16.180547+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2049938/solukhumbu-accident-update-pilots-of-both-helicopters-injured",
+    "headline": "सोलुखुम्बु दुर्घटना अपडेट : दुवै हेलिकप्टरका पाइलट पनि घाइते",
+    "sent_at": "2026-11-03T06:02:19.180721+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/66363",
+    "headline": "सेबोनबाट इम्पेरियल इनोभेसनले पायो लाइसेन्स",
+    "sent_at": "2026-11-03T06:02:19.935900+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/506436",
+    "headline": "वैकल्पिक विकास वित्त कोषको सीईओको ‘सर्टलिस्ट’मा परे पाँचजना",
+    "sent_at": "2026-11-03T06:02:23.771392+00:00"
   }
 ]
