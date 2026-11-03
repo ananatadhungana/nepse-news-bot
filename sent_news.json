@@ -1,45 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261027132529.html",
-    "headline": "बिजुलीमा भ्याट हटाउने ऊर्जामन्त्री विराजको निर्णय मन्त्रिपरिषद्को दसैंअघिको बैठकमाअटेन, किन देखिए कमजोर ?",
-    "sent_at": "2026-10-27T07:41:16.794553+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/176456/",
-    "headline": "सन नेपाल लाइफको ‘ट्रिपल बी प्लस’ रेटिङ पुनः पुष्टि, बीमा शुल्क ५ अर्ब नाघ्यो",
-    "sent_at": "2026-10-27T07:51:20.913143+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/nifras-profit-drops-20-percent.html",
-    "headline": "NIFRA’s profit drops 20 percent",
-    "sent_at": "2026-10-27T08:21:19.410534+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227402",
-    "headline": "बाँकेका महिलाको उद्यम : दसैंमा सात सय खसी–बोका बिक्री",
-    "sent_at": "2026-10-27T08:31:35.306014+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501676.html",
-    "headline": "बिक्की हार्डवेयरले एकै वर्ष गर्‍यो सवा ३ अर्ब रुपैयाँको व्यापार",
-    "sent_at": "2026-10-27T08:31:39.369263+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/266244",
-    "headline": "नेसनल लाइफ बन्याे कर्णाली याक्सको इन्स्योरेन्स पार्टनर",
-    "sent_at": "2026-10-27T08:41:19.694806+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/kamana-sewa-bank-ks-mitra.html",
-    "headline": "Kamana Sewa Bank launches digital AI assistant “KS Mitra”",
-    "sent_at": "2026-10-27T08:46:44.155538+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2044873/kamana-sewa-banks-digital-ai-assistant-ks-mitra-service-launched",
-    "headline": "कामना सेवा बैंकको डिजिटल एआई सहायक ‘केएस मित्र’ सेवा सुरु",
-    "sent_at": "2026-10-27T08:46:48.349222+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/501540.html",
     "headline": "पूर्वमा सडकले चीन जोड्यो, व्यापारको ढोका कहिले खुल्छ ?",
     "sent_at": "2026-10-27T08:51:25.216138+00:00"
@@ -7796,5 +7756,49 @@
     "link": "https://onlinetvnepal.com/2026/11/219014/",
     "headline": "राष्ट्रिय राजमार्गका आयोजना समयमै सक्न सभापति गजुरेलको निर्देशन",
     "sent_at": "2026-11-03T14:02:57.475738+00:00"
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68484",
+    "headline": "Cabinet recommends two ordinances to President for issuance",
+    "sent_at": "2026-11-03T14:33:26.691094+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261103201257.html",
+    "headline": "टिकौली जंगलमा फ्लाइओभर बनाउन एडीबीको ३ अर्ब अनुदान, दुई सडक बनाउन ४३ अर्ब ऋण",
+    "sent_at": "2026-11-03T14:33:26.691111+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://khabarhub.com/2026/03/1044234/",
+    "headline": "कर्णालीको कृषि विकासमा इजरायली प्रविधि भित्र्याउने विषयमा छलफल",
+    "sent_at": "2026-11-03T14:33:27.579722+00:00"
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/11/219022/",
+    "headline": "बागमतीका पूर्वमुख्यमन्त्री इन्द्र बानियाँका छोरा बैंकिङ कसुरमा पक्राउ",
+    "sent_at": "2026-11-03T14:33:31.549306+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/506483",
+    "headline": "नेपालको ‘एलडीसी ग्रेजुएसन’ : आठ वर्षको तयारीपछि कार्यान्वयनको अवसर",
+    "sent_at": "2026-11-03T14:33:35.442135+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/govt-to-distribute-coupons-for-farmers-selling-paddy-85-77.html",
+    "headline": "Govt to distribute coupons for farmers selling paddy",
+    "sent_at": "2026-11-03T14:33:38.442293+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/3-3-million-bribe-case-two-people-including-chief-administrative-officer-ghimire-to-remain-in-custody-96-11.html",
+    "headline": "३३ लाख घुस प्रकरण: प्रमुख प्रशाशकीय अधिकृत घिमिरेसहित दुई जना थुनामै रहने",
+    "sent_at": "2026-11-03T14:33:39.346111+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/rijal-canning-land-scam-corruption-case-of-rs-730-million-filed-against-97-people-including-former-prime-minister-madhav-nepal-and-dr-minendra-rijal-67-97.html",
+    "headline": "तह-तह मिलेर ७३ करोडको सरकारी जग्गा ‘स्वाहा’",
+    "sent_at": "2026-11-03T14:33:42.346289+00:00",
+    "dup": true
   }
 ]
