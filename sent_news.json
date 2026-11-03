@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://arthadabali.com/2026/10/27/95434",
-    "headline": "एनपीएल लक्षित नेपाल टेलिकमको ५९९ रुपैयाँको अनलिमिटेड प्याकेज, दैनिक ८ जीबी डेटा",
-    "sent_at": "2026-10-27T07:16:45.971655+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501652.html",
-    "headline": "नुप्चे लिखु हाइड्रोको निर्माण ९७% पूरा, कुल लागत ११ अर्ब ९२ करोड",
-    "sent_at": "2026-10-27T07:16:50.105110+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/95986",
-    "headline": "भारतको ४ करोड ४१ लाख सहयोगमा तेह्रथुममा कोल्ड स्टोर निर्माण हुँदै",
-    "sent_at": "2026-10-27T07:21:28.708606+00:00"
-  },
-  {
     "link": "https://kathmandupress.com/detail/132044",
     "headline": "‘अर्णब चक्रवात’ कमजोर हुँदै नेपालतर्फ, नेपालमा जोखिम",
     "sent_at": "2026-10-27T07:21:34.721083+00:00"
@@ -7795,5 +7780,21 @@
     "link": "https://nagariknews.nagariknetwork.com/economy/government-to-distribute-coupons-to-farmers-for-paddy-sales-42-86.html",
     "headline": "धान बिक्रीका लागि सरकारले किसानलाई कुपन वितरण गर्ने",
     "sent_at": "2026-11-03T12:32:08.396780+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503567.html",
+    "headline": "एडीबीसँग ४३ अर्ब ऋण लिँदै सरकार, ३ अर्ब अनुदान पनि स्वीकार गर्ने निर्णय",
+    "sent_at": "2026-11-03T13:03:34.155155+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2050455/reconstruction-of-damaged-hydropower-projects-in-bhotekoshi-halted-pending-government-decision",
+    "headline": "सरकारी निर्णय कुर्दै भोटेकोशीका क्षतिग्रस्त जलविद्युत् आयोजना, पुनर्निर्माण ठप्प",
+    "sent_at": "2026-11-03T13:03:34.914986+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/bhaktapur-ratnapark-metro-rail-operation-plan-br-17-16.html",
+    "headline": "भक्तपुर–रत्नपार्क मेट्रो रेल सञ्चालनको योजना",
+    "sent_at": "2026-11-03T13:03:38.462365+00:00"
   }
 ]
