@@ -1,30 +1,5 @@
 [
   {
-    "link": "https://bankingkhabar.com/archives/169756",
-    "headline": "बैंक सञ्चालक र व्यवसायीको मिलेमतो तोड्नुपर्छ : नरबहादुर थापाको विश्लेषण",
-    "sent_at": "2026-10-27T08:56:16.135998+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/politics/arjun-narsingh-kc-says-government-has-failed-to-control-inflation-br-87-87.html",
-    "headline": "महँगी नियन्त्रण गर्न सरकार असफल भएको अर्जुननरसिंह केसीको भनाइ",
-    "sent_at": "2026-10-27T08:56:20.979248+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/10/27/776482/labor-culture-party-suspects-that-the-statements-of-the-prime-minister-and-finance-minister-may-have-been-planned/",
-    "headline": "प्रधानमन्त्री र अर्थमन्त्रीको अभिव्यक्ति नियोजित रूपमा आएको हुनसक्ने श्रम संस्कृति पार्टीको आशंका",
-    "sent_at": "2026-10-27T09:02:00.457857+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/505807",
-    "headline": "विपद् प्रभावित वडाका क्षतिको विस्तृत विवरण माग्दै संसदीय विशेष समिति",
-    "sent_at": "2026-10-27T09:16:27.105133+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/locals-restore-tsum-valley.html",
-    "headline": "Budhigandaki floods: Locals spend two weeks restoring access to Tsum Valley",
-    "sent_at": "2026-10-27T09:16:31.605598+00:00"
-  },
-  {
     "link": "https://arthasarokar.com/2026/10/464-employees-resign-in-3-months-all-resignations-accepted.html",
     "headline": "३ महिनामै ४ सय ६४ कर्मचारीले दिए राजीनामा, सबैको राजीनामा स्वीकृत !",
     "sent_at": "2026-10-27T09:26:18.089690+00:00"
@@ -7800,6 +7775,32 @@
     "link": "https://kathmandupost.com/money/2026/11/03/nepal-has-two-decades-to-turn-its-youth-bulge-into-an-economic-dividend-world-bank-reports",
     "headline": "Nepal has two decades to turn its youth bulge into an economic dividend, World Bank reports",
     "sent_at": "2026-11-03T15:03:36.887819+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228199",
+    "headline": "उदयपुरमा  धान उत्पादन वृद्धि हुने अनुमान",
+    "sent_at": "2026-11-03T15:17:13.879378+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261103205706.html",
+    "headline": "इन्धन महंगो हुँदा बढ्दै ‘कस्ट अफ लिभिङ’, तेल उत्पादकहरु भने नाफामा",
+    "sent_at": "2026-11-03T15:17:17.885957+00:00"
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/03/95743",
+    "headline": "चाडपर्वले बनायो चलायमान अर्थतन्त्र",
+    "sent_at": "2026-11-03T15:17:21.829125+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/225981/",
+    "headline": "अझै पाउन सकेन नेप्सेले सीईओ, किन रोकियो प्रक्रिया ?",
+    "sent_at": "2026-11-03T15:17:25.735515+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85561/e-gp-which-was-hacked-is-back-in-operation-with-new-security-measures",
+    "headline": "National E-GP System Relaunches with Enhanced Security Features After Cyber Breach",
+    "sent_at": "2026-11-03T15:17:28.735697+00:00",
     "dup": true
   }
 ]
