@@ -1,45 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/176368/",
-    "headline": "वाणिज्य बैंकहरूमा गैरबैंकिङ्ग सम्पत्ति ४७ अर्ब ६९ करोड नाघ्यो, कुनको कति ?",
-    "sent_at": "2026-10-26T10:41:28.980498+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261026162228.html",
-    "headline": "तरकारी आयातमा प्रतिवन्ध लगाउने तयारी, कानुनले रोक्न दिँदैन, जुक्ति खोज्दै बालेन सरकार",
-    "sent_at": "2026-10-26T10:41:33.196652+00:00"
-  },
-  {
-    "link": "https://www.bbc.com/nepali/articles/cqvgrdyye643o?at_medium=RSS&at_campaign=rss",
-    "headline": "पानी र हिउँ पर्ने पूर्वानुमानमाझ काट्ने बेला भएको धान कसरी जोगाउने?",
-    "sent_at": "2026-10-26T10:41:38.123494+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227294",
-    "headline": "एक लाख पुग्यो अलैंचीको मूल्य",
-    "sent_at": "2026-10-26T10:46:25.575898+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/505721",
-    "headline": "अति शक्तिशाली चक्रवात बन्दै ‘अनर्ब’, नेपालका १२ जिल्लामा ‘रेड अलर्ट’",
-    "sent_at": "2026-10-26T10:46:29.826424+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227295",
-    "headline": "तमोर नदीमा व्यावसायिक रुपमा सञ्चालनमा आयो जेटबोट",
-    "sent_at": "2026-10-26T10:51:23.687197+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501486.html",
-    "headline": "ग्यास बिक्रीमा अनिवार्य भ्याट बिल जारी गर्न आयल निगमको निर्देशन",
-    "sent_at": "2026-10-26T10:56:34.938567+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/84629/cyclone-arnav-is-approaching-warning-of-heavy-rain-and-wind-in-five-provinces",
-    "headline": "Cyclone 'Arnab' Intensifies, Heavy Rain and Snow Expected in Nepal",
-    "sent_at": "2026-10-26T11:11:19.697567+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/10/224871/",
     "headline": "नेपालमा ‘अर्णव’ चक्रवातको प्रभाव पर्ने, बिहीबारअघि धान भित्र्याउन र उच्च हिमाली क्षेत्रमा नजान आग्रह",
     "sent_at": "2026-10-26T11:11:24.129707+00:00"
@@ -7743,5 +7703,47 @@
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/sirsia-river-cleaning-campaign-intensifies-ahead-of-chhath-strict-action-against-polluting-industries-50-53.html",
     "headline": "छठअघि सिर्सिया नदी सफाइ अभियान तीव्र, प्रदूषण गर्ने उद्योगमाथि कडाइ",
     "sent_at": "2026-11-03T04:32:09.615584+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/nepal-warehousing-company-announces-conclusion-of-lock-in-period-for-promoters-and-employees-shares-on-mangsir-19-2026-11-03",
+    "headline": "Nepal Warehousing Company Announces Conclusion of Lock-in Period for Promoters And Employees Shares on Mangsir 19",
+    "sent_at": "2026-11-03T05:02:17.582696+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/muktinath-krishi-company-announces-conclusion-of-lock-in-period-for-promoters-and-employees-shares-on-mangsir-18-2026-11-03",
+    "headline": "Muktinath Krishi Company Announces Conclusion of Lock-in Period for Promoters And Employees Shares on Mangsir 18",
+    "sent_at": "2026-11-03T05:02:21.464444+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88352",
+    "headline": "Bagmati Province spends only 6.69% of budget in three months",
+    "sent_at": "2026-11-03T05:02:25.401168+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/177176/",
+    "headline": "नेपाल वेयरहाउजीङको ५५ लाख कित्ता शेयरको लकइन अवधि सकिँदै",
+    "sent_at": "2026-11-03T05:02:28.401329+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/rudrabeni-burtibang-road-still-not-operational-br-63-73.html",
+    "headline": "अझै सञ्चालनमा आउन सकेन रुद्रबेणी‐बुर्तिवाङ सडक",
+    "sent_at": "2026-11-03T05:02:29.322476+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2049898/separate-office-opened-in-gandaki-to-collect-revenue-eyes-on-big-companies-and-sources",
+    "headline": "गण्डकीमा राजस्व उठाउन खुल्यो छुट्टै कार्यालय, ठूला कम्पनी र स्रोततर्फ नजर",
+    "sent_at": "2026-11-03T05:02:33.194498+00:00"
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/03/nepal-pakistan-seek-to-boost-trade-and-investment-ties/",
+    "headline": "Nepal, Pakistan seek to boost trade and investment ties",
+    "sent_at": "2026-11-03T05:02:36.194669+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/169739",
+    "headline": "ब्याज अनुदानमा साढे ५ अर्ब निकासा, २ अर्बभन्दा बढी रकम उपयोग भएन",
+    "sent_at": "2026-11-03T05:02:37.031148+00:00"
   }
 ]
