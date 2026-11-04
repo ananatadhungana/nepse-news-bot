@@ -1,55 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/immigration-department-urges-suspension-of-trekking-activities-for-three-da-54-57.html",
-    "headline": "Immigration Department urges suspension of trekking activities for three days",
-    "sent_at": "2026-10-28T02:36:10.536852+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/10/28/95460",
-    "headline": "अमेरिकी डलर, कतारी रियालदेखि कुवेती दिनारसम्मको विनिमयदर कति होला आज ?",
-    "sent_at": "2026-10-28T02:41:25.030135+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/84787/internet-pricing-dispute-how-much-has-been-resolved-by-the-authoritys-action",
-    "headline": "Internet Price Hike Sparks Conflict Between Providers and Government",
-    "sent_at": "2026-10-28T02:46:19.288751+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2045343/the-dollar-euro-pound-and-swiss-franc-fell-in-value",
-    "headline": "डलर, युरो, पाउण्ड र स्वीस फ्र्यांकको भाउ घट्यो",
-    "sent_at": "2026-10-28T02:51:34.050557+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/510183",
-    "headline": "तिहारमा फूलको कारोबार : उत्पादन बढे पनि आयातमा निर्भरता उस्तै",
-    "sent_at": "2026-10-28T02:56:07.415178+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/money/2026/10/28/users-turn-to-nepal-telecom-as-private-isps-raise-internet-prices",
-    "headline": "Users turn to Nepal Telecom as private ISPs raise internet prices",
-    "sent_at": "2026-10-28T03:01:49.651735+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/10/cyclone-weakens-after-entering-indian-land-meteorological-department-says-but-it-can-cause-heavy-rain/",
-    "headline": "भारतीय जमिनमा प्रवेशपछि कमजोर बन्दै चक्रपात, मौसम विभाग भन्छ : तर भारी वर्षा गराउन सक्छ",
-    "sent_at": "2026-10-28T03:01:54.134936+00:00"
-  },
-  {
-    "link": "https://nepalsamaya.com/detail/147313",
-    "headline": "सीमापार विद्युत् व्यापारका लागि निजी क्षेत्रलाई आशयपत्र, ऊर्जा व्यापारमा नयाँ अध्यायको सुरुवात",
-    "sent_at": "2026-10-28T03:06:14.905105+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/505865",
-    "headline": "भुटान र भारतमा आर्थिक वृद्धि तीव्र, नेपालमा लगानीकै जोखिम",
-    "sent_at": "2026-10-28T03:06:19.337099+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501723.html",
-    "headline": "त्रिभुवन विमानस्थलबाट नौ महिनामै ६५ लाख यात्रु उडे, देशभित्रै हवाइजहाजमार्फत २८ लाख गरे यात्रा",
-    "sent_at": "2026-10-28T03:16:26.826014+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261028090021.html",
     "headline": "हेटौंडा कपडासहितका उद्योग सरकारले निजी क्षेत्रलाई दिने, परीक्षण उत्पादनमा मात्र सेना",
     "sent_at": "2026-10-28T03:16:31.199016+00:00"
@@ -7818,5 +7768,59 @@
     "link": "https://nagariknews.nagariknetwork.com/politics/nepal-japan-discuss-expanding-cooperation-in-health-sector-br-67-87.html",
     "headline": "स्वास्थ्य क्षेत्रमा सहयोग विस्तारबारे नेपाल र जापानबीच छलफल",
     "sent_at": "2026-11-04T07:02:52.921649+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291070-2026-11-4-7-15-21",
+    "headline": "एनआईसी एसिया बैंकले हकप्रदबाट ७ अर्ब ४५ करोड पुँजी जुटाउने, सेबोनले दियो अनुमति",
+    "sent_at": "2026-11-04T07:32:16.958586+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96226",
+    "headline": "टाइम फर्मास्युटिकल्सको आईपीओ आवेदन सेबोनको सूचीमा समावेश",
+    "sent_at": "2026-11-04T07:32:17.772847+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261104131610.html",
+    "headline": "राष्ट्रिय एकद्वार प्रणाली कार्यान्वयन गर्न भन्सार विभाग र नेपाल नागरिक उड्डयन प्राधिकरणबीच सम्झौता",
+    "sent_at": "2026-11-04T07:32:21.346793+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226096/",
+    "headline": "एनआईसी एसिया बैंकलाई हकप्रद निष्कासनको अनुमति, खुल्यो ७० अर्बको ब्यापार विस्तारको ढोका !",
+    "sent_at": "2026-11-04T07:32:24.346992+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226095/",
+    "headline": "परराष्ट्रमन्त्री खनाल र भारतीय विदेश सचिव मिश्रीबीच ऊर्जा, उड्डयन र व्यापारबारे छलफल",
+    "sent_at": "2026-11-04T07:32:25.087083+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/return-on-equity-commercial-banks.html",
+    "headline": "Return on equity of commercial banks rises by 2 percentage points",
+    "sent_at": "2026-11-04T07:32:28.835299+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/266820",
+    "headline": "नेपाल लाइफको रेटिङ ‘डबल ए’ मा स्तरोन्नति, वित्तीय सुदृढीकरण र संस्थागत उत्कृष्टताको महत्त्वपूर्ण उपलब्धि",
+    "sent_at": "2026-11-04T07:32:31.835604+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261104125920.html",
+    "headline": "एनआइसी एसिया इक्विटी अपर्चुनिटी फण्डको इकाइ सूचीकृत, दोस्रो बजारमा कारोबार भोलिदेखि",
+    "sent_at": "2026-11-04T07:32:31.835629+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261104125516.html",
+    "headline": "सूचीकृत नभएका कम्पनीले पनि ऋणपत्रबाट पुँजी जुटाउन पाउने, नियमावलीको मस्यौदा अर्थमा",
+    "sent_at": "2026-11-04T07:32:32.592813+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/04/778731/valuable-radio-frequencies-are-being-turned-into-ashes-costing-the-state-rs-900-million-annually/",
+    "headline": "मूल्यवान ‘रेडियो फ्रिक्वेन्सी’भइरहेको छ खरानी, राज्यलाई वर्षेनी ९० करोड हानी",
+    "sent_at": "2026-11-04T07:32:36.308554+00:00"
   }
 ]
