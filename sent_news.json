@@ -1,45 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/227479",
-    "headline": "जग्गा कित्ताकाटमा आवश्यक सहजीकरण गरिने",
-    "sent_at": "2026-10-28T03:51:28.636034+00:00"
-  },
-  {
-    "link": "https://bajarkochirfar.com/reliable-venture-capitals-founder-shares-to-be-auctioned-minimum-bid-is-only-rs-126-per-share",
-    "headline": "रिलायबल भेन्चर क्यापिटलको संस्थापक सेयर लिलामीमा, प्रतिकित्ता न्यूनतम १२६ रुपैयाँ मात्रै",
-    "sent_at": "2026-10-28T03:51:41.510271+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/501821.html",
-    "headline": "लक्ष्मी ग्रुपको समृद्धि मेटालिकले एकै वर्ष गर्‍यो करिब ४ अर्बको व्यापार",
-    "sent_at": "2026-10-28T03:56:41.586174+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132079",
-    "headline": "मंसिर २ गतेदेखि ‘सिटिजन्स सुपर ५०’ निष्काशन गर्दै सिटिजन्स म्युचुअल फण्ड",
-    "sent_at": "2026-10-28T04:01:52.621372+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/169775",
-    "headline": "नेरुडे मिर्मिरे लघुवित्त घाटामा, खराब कर्जा २१.७३ प्रतिशत पुग्यो",
-    "sent_at": "2026-10-28T04:11:25.797108+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/225060/",
-    "headline": "कामना सेवाको नाफा १७ प्रतिशत बढ्यो, इम्पेयरमेन्ट खर्च घट्दा सुधार",
-    "sent_at": "2026-10-28T04:21:49.433126+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227483",
-    "headline": "बुटवल–गोरुसिङ्गे सडक : दुई वर्षमा तिस प्रतिशत काम",
-    "sent_at": "2026-10-28T04:21:53.621940+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/10/chaite-paddy-growth-forecast/",
-    "headline": "चैते धान बढ्ने प्रक्षेपण",
-    "sent_at": "2026-10-28T04:26:10.236468+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/227484",
     "headline": "स्वास्थ्य बिमा गर्ने बढ्दै",
     "sent_at": "2026-10-28T04:26:14.215885+00:00"
@@ -7822,5 +7782,47 @@
     "link": "https://bizpati.com/2026/11/225965/",
     "headline": "सन नेपाल लाइफको शेयर संरचना परिवर्तन प्रस्तावमै कानुनी प्रश्न, के भन्छ बिमा प्राधिकरण ?",
     "sent_at": "2026-11-04T08:02:49.536087+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291077-2026-11-4-8-27-34",
+    "headline": "नवीकरणीय ऊर्जालाई निजी लगानी, उद्यमशीलता, रोजगारी र उत्पादन वृद्धिसँग जोड्न ऊर्जामन्त्रीको आग्रह",
+    "sent_at": "2026-11-04T08:34:03.268573+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132345",
+    "headline": "सेबोनको नयाँ सूचना प्रविधि नीति जारी: एआई, एल्गोरिदमिक ट्रेडिङ र साइबर सुरक्षामा कडाइ, डाटा नेपालमै राख्नुपर्ने",
+    "sent_at": "2026-11-04T08:34:04.260818+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132343",
+    "headline": "विद्युत् बिक्री आम्दानीसँगै कुथेली बुखेरी स्मल हाइड्रोपावरको नाफामा वृद्धि",
+    "sent_at": "2026-11-04T08:34:08.111215+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85639/renewable-energy-should-be-linked-with-innovative-technology-and-local-entrepreneurship-energy-minister",
+    "headline": "Energy Minister Stresses Linking Renewable Energy with Private Investment and Local Entrepreneurship",
+    "sent_at": "2026-11-04T08:34:11.111406+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503791.html",
+    "headline": "सुलभ अग्रवालको जगदम्बा मोबाइल्सको व्यापार ३ वर्षदेखि निरन्तर घट्दै",
+    "sent_at": "2026-11-04T08:34:11.980088+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/503772.html",
+    "headline": "पर्यटन बोर्ड र वायुसेवा निगम प्रमुख नियुक्तिमा सहजीकरण गर्न अध्यादेशमार्फत ऐन संशोधन",
+    "sent_at": "2026-11-04T08:34:15.796100+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/tourists-flock-to-langtang-and-gosainkunda-after-rasuwa-floods/",
+    "headline": "रसुवा बाढीपछि लाङटाङ र गोसाइँकुण्डमा पर्यटकको चहलपहल",
+    "sent_at": "2026-11-04T08:34:19.628907+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226113/",
+    "headline": "अल्टिमा लाइफस्टाइलको खुद्रा सञ्जाल विस्तार :  शंखमूलमा रिसेलरका रूपमा वेल्ला ग्याजेट्स आबद्ध",
+    "sent_at": "2026-11-04T08:34:23.457054+00:00"
   }
 ]
