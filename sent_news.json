@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bajarkochirfar.com/market-watch-evening-walk-what-happened-in-the-stock-market-today",
-    "headline": "बजारको चिरफार Evening Walk – आज सेयरबजारमा केके भयो ?",
-    "sent_at": "2026-10-27T10:02:08.980004+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/501715.html",
     "headline": "रसुवा बाढीको ८२ करोड १३ लाख रुपैयाँ बराबरको बिमा दाबी भुक्तानी",
     "sent_at": "2026-10-27T10:21:38.454233+00:00"
@@ -7805,5 +7800,10 @@
     "headline": "कोषमा अर्ब पीडितको बेहाल",
     "sent_at": "2026-11-04T00:31:49.829538+00:00",
     "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261104063028.html",
+    "headline": "यातायात व्यवसायीको दसैं भयो खल्लो, बाटो बिग्रिँदा पोहोरभन्दा १ लाख कम यात्रु बाहिरिए",
+    "sent_at": "2026-11-04T00:47:50.846980+00:00"
   }
 ]
