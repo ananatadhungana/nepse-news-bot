@@ -1,40 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/10/501715.html",
-    "headline": "रसुवा बाढीको ८२ करोड १३ लाख रुपैयाँ बराबरको बिमा दाबी भुक्तानी",
-    "sent_at": "2026-10-27T10:21:38.454233+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/politics/401403",
-    "headline": "गुन्डु बैठकदेखि भनिमण्डलसम्म : कसरी बलियो भयो ओलीको पकड, किन पछि हटे शंकर पोखरेल?",
-    "sent_at": "2026-10-27T10:31:45.968269+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68257",
-    "headline": "Biratnagar locals bear the brunt of DDC dust pollution",
-    "sent_at": "2026-10-27T10:36:13.191293+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/nepse-witnessed-minimal-gain-today-unl-lost-rs-2455-per-share-2026-10-27",
-    "headline": "NEPSE Witnessed Minimal Gain Today; UNL lost Rs 2455 Per Share",
-    "sent_at": "2026-10-27T10:36:17.343049+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/10/4-5-million-sayapatri-garlands-and-600000-velvet-garlands-will-be-consumed-during-tihar/",
-    "headline": "तिहारमा सयपत्रीका ४५ लाख र मखमलीका ६ लाख माला खपत हुने",
-    "sent_at": "2026-10-27T10:36:21.987143+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/nepal-expects-demand-for-5-18-million-flower-garlands-during-tihar.html",
-    "headline": "Nepal expects demand for 5.18 million flower garlands during Tihar",
-    "sent_at": "2026-10-27T10:36:25.798606+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/share-prices-of-manjushree-finance-and-barun-hydropower-adjusted-2026-10-27",
-    "headline": "Share Prices of Manjushree Finance and Barun Hydropower Adjusted",
-    "sent_at": "2026-10-27T10:41:30.720106+00:00"
-  },
-  {
     "link": "https://nepalpress.com/2026/10/27/776508/mustang-apples-start-falling-on-the-tree-sales-slow-in-the-market/",
     "headline": "मुस्ताङको स्याउ बोटमै झर्न थाल्यो, बजारमा बिक्री सुस्त",
     "sent_at": "2026-10-27T10:51:27.364470+00:00"
@@ -7805,5 +7770,42 @@
     "link": "https://bizmandu.com/content/20261104063028.html",
     "headline": "यातायात व्यवसायीको दसैं भयो खल्लो, बाटो बिग्रिँदा पोहोरभन्दा १ लाख कम यात्रु बाहिरिए",
     "sent_at": "2026-11-04T00:47:50.846980+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/510657",
+    "headline": "पीपीए मापदण्ड अभाव : अलमलमा १७ हजार मेगावाट आयोजना",
+    "sent_at": "2026-11-04T01:17:42.909378+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96202",
+    "headline": "एआईमा लगानी बढाउन थप पुँजी आवश्यक, तर बजारमा ठूलो जोखिम   ",
+    "sent_at": "2026-11-04T01:17:46.586494+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/banking/401959",
+    "headline": "आजका कुन् देशको मुद्रा कति रूपैयाँमा साटिन्छ?",
+    "sent_at": "2026-11-04T01:17:49.586664+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261104064943.html",
+    "headline": "आजको विनिमय दर : घट्यो जापानी येन, चिनियाँ युआन र दक्षिण कोरियाली वोनको भाउ",
+    "sent_at": "2026-11-04T01:17:49.586693+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/04/778649/the-task-force-was-not-formed-until-the-time-came-to-submit-the-budget-amendment-report/",
+    "headline": "बजेट संशोधनको प्रतिवेदन बुझाउने समय आउँदासम्म बनेन कार्यदल",
+    "sent_at": "2026-11-04T01:17:50.105837+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2050623/indian-tourists-attraction-to-manang-is-increasing",
+    "headline": "मनाङ भ्रमणमा भारतीय पर्यटकको आकर्षण बढ्दो",
+    "sent_at": "2026-11-04T01:17:53.797496+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2050618/flower-farming-is-the-choice-of-young-people-who-have-studied-agriculture",
+    "headline": "कृषि पढेका युवाको रोजाइमा पुष्पखेती",
+    "sent_at": "2026-11-04T01:17:57.303686+00:00"
   }
 ]
