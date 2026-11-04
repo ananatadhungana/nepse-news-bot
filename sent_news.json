@@ -1,45 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/176576/",
-    "headline": "जलाशययुक्त आयोजनामा लगानी तथा प्रविधिमा सहकार्य गर्न अन्तर्राष्ट्रिय समुुदाय समक्ष इप्पान अध्यक्ष डाँगीको आह्वान",
-    "sent_at": "2026-10-28T05:36:32.064675+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261028111628.html",
-    "headline": "गैह्र उत्पादनमूलक उद्योगलाई औद्योगिक क्षेत्रमा कडाइ, ग्यारेज, वर्कशपको सम्झौता नवीकरण नहुने",
-    "sent_at": "2026-10-28T05:36:36.423051+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132088",
-    "headline": "सरकारले पूँजीगत लभकरको दर घटाए पनि संस्थागत लगानीकर्ता थप निस्क्रिय, दीर्घकालीन लगानीकर्ताको भरोसा भने बढ्दो",
-    "sent_at": "2026-10-28T05:41:31.181534+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2045475/him-parbats-ipo-opens-to-local-and-foreign-employed-people",
-    "headline": "स्थानीय र वैदेशिक रोजगारमा रहेकालाई हिम पर्वतको आईपीओ खुल्यो",
-    "sent_at": "2026-10-28T05:41:38.105577+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68278",
-    "headline": "Gold price increases by Rs 900 per tola on Wednesday",
-    "sent_at": "2026-10-28T05:46:24.589722+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/225091/",
-    "headline": "मलेसिया रोजगारी : सबै म्यानपावरलाई कामदार पठाउन दिने नेपालको प्रस्ताव अस्वीकार",
-    "sent_at": "2026-10-28T05:46:30.191139+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/snow-rivers-limited-appoints-rajan-babu-pant-as-new-director-2026-10-28",
-    "headline": "Snow Rivers Limited Appoints Rajan Babu Pant as New Director",
-    "sent_at": "2026-10-28T05:56:10.076506+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/restrict-import-indian-marigolds.html",
-    "headline": "Jhapa flower farmers urge authorities to restrict imports of Indian marigolds",
-    "sent_at": "2026-10-28T05:56:15.481310+00:00"
-  },
-  {
     "link": "https://bankingsamachar.com/news/176583/",
     "headline": "एलजी वाटर प्युरिफायरले नेपाली बजारमा बढाउँदै आफ्नो लोकप्रियता",
     "sent_at": "2026-10-28T06:02:01.553356+00:00"
@@ -7825,5 +7785,47 @@
     "link": "https://www.onlinekhabar.com/2026/11/2050934/oil-corporation-is-making-its-erp-system-smart-preparing-from-data-center-to-ai",
     "headline": "आयल निगम स्मार्ट बनाउँदै ईआरपी प्रणाली, डाटा सेन्टरदेखि एआईसम्म तयारी",
     "sent_at": "2026-11-04T10:32:55.676733+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261104170357.html",
+    "headline": "गोदावरी फूलको प्रदर्शनी सकियो, सात दिनमा १ करोड ४६ लाख रुपैयाँको कारोबार",
+    "sent_at": "2026-11-04T11:32:18.304049+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/506577",
+    "headline": "नेपाल–भारत विदेश सचिवस्तरीय द्विपक्षीय वार्ता : के-के विषयमा भयो छलफल ?",
+    "sent_at": "2026-11-04T11:32:22.112704+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/misri-looks-forward-to-discussing-key-initiatives-ahead-of-pms-india-visit-offers-support-for-bhotekoshi-reconstruction.html",
+    "headline": "Misri looks forward to discussing key initiatives ahead of PM’s India visit, offers support for Bhotekoshi reconstruction",
+    "sent_at": "2026-11-04T11:32:25.112861+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261104164445.html",
+    "headline": "विराट एक्स्पो पुस २ देखि ११ गतेसम्म, स्टल २५० वटा, थिमेटिक सेसन संचालन गरिने",
+    "sent_at": "2026-11-04T11:32:25.870567+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85654/meeting-between-foreign-secretary-rai-and-indian-foreign-secretary-misri",
+    "headline": "Foreign Secretaries of Nepal and India Hold Bilateral Talks",
+    "sent_at": "2026-11-04T11:32:28.870709+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://khabarhub.com/2026/04/1044513/",
+    "headline": "१६ वर्षपछि अघि बढ्यो भरतपुरको ल्यान्डफिल साइट निर्माण प्रक्रिया",
+    "sent_at": "2026-11-04T11:32:29.462949+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2050958/proposal-for-mediation-before-going-to-court-in-civil-disputes-up-to-rs-10-million",
+    "headline": "१ करोडसम्मका देवानी विवादमा अदालत जानुअघि मेलमिलापको प्रस्ताव",
+    "sent_at": "2026-11-04T11:32:33.018411+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepse-inches-up-140-points-as-daily-turnover-soars-to-rs-743-billion-31-49.html",
+    "headline": "NEPSE inches up 1.40 points as daily turnover soars to Rs 7.43 billion",
+    "sent_at": "2026-11-04T11:32:36.557536+00:00"
   }
 ]
