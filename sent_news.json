@@ -1,15 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/84956/current-noodles-owner-kamal-kishore-malpani-in-the-middle-of-controversy-video-report",
-    "headline": "Food and Tobacco Industrialist Kamal Kishor Malpani Faces New Controversy",
-    "sent_at": "2026-10-29T07:16:25.889222+00:00"
-  },
-  {
-    "link": "https://nepalitimes.com/syabrubesi-bailey",
-    "headline": "Syabrubesi Bailey",
-    "sent_at": "2026-10-29T07:26:20.689259+00:00"
-  },
-  {
     "link": "https://nepalitimes.com/flood-warning",
     "headline": "Flood warning",
     "sent_at": "2026-10-29T07:26:24.794642+00:00"
@@ -7888,6 +7878,17 @@
     "link": "http://english.ratopati.com/story/85792/preparations-for-the-infrastructure-conference-to-be-held-in-november-are-in-full-swing-roadshows-will-be-held-from-delhi-to-beijing",
     "headline": "Nepal Aims for $100 Billion Economy Through Infrastructure Development and Policy Reforms",
     "sent_at": "2026-11-05T15:48:45.116811+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://annapurnapost.com/story/510789",
+    "headline": "पोखरामा BAIC र ARCFOX को नयाँ शोरुम उद्घाटन",
+    "sent_at": "2026-11-05T16:17:21.633434+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226414/",
+    "headline": "पोखरामा बीएआईसी र आर्कफक्सको नयाँ शोरुम सञ्चालनमा",
+    "sent_at": "2026-11-05T16:17:24.633605+00:00",
     "dup": true
   }
 ]
