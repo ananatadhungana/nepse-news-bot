@@ -1,40 +1,5 @@
 [
   {
-    "link": "https://khabarhub.com/2026/28/1041395/",
-    "headline": "भौतिक पूर्वाधार निर्माणका लागि चीनद्वारा उपकरण प्रदान",
-    "sent_at": "2026-10-28T16:06:47.699325+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/225187/",
-    "headline": "सानिमा बैंकको नाफा १३१ प्रतिशत बढेर एक अर्ब नाघ्यो, वितरणयोग्य नाफामा पनि सुधार",
-    "sent_at": "2026-10-28T16:06:52.931108+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68293",
-    "headline": "CAAN issues 'Aviation Safety Alert'",
-    "sent_at": "2026-10-28T18:06:27.085521+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132112",
-    "headline": "दसैँपछि पनि नेप्सेमा चमक : दोहोरो अङ्कको वृद्धि र बलियो ‘बुलिश क्यान्डल’ ले के बजार बढ्ने संकेत गर्छ ? (विस्तृत चार्ट विश्लेषण)",
-    "sent_at": "2026-10-29T00:21:27.966755+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227556",
-    "headline": "प्रतिबन्धमा रोक, नियमनमा जोड",
-    "sent_at": "2026-10-29T00:26:15.727800+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227559",
-    "headline": "तनहुँमा विकास आयोजनालाई ७१८ हेक्टर वन क्षेत्र प्रयोग गर्न अनुमति",
-    "sent_at": "2026-10-29T00:41:28.603076+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/10/2046123/mustang-produces-apples-worth-over-rs-1-14-billion",
-    "headline": "मुस्ताङमा एक अर्ब १४ करोड बढीको स्याउ उत्पादन",
-    "sent_at": "2026-10-29T00:41:32.588140+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/84894/cyclone-arnab-jhapa-administration-urges-people-to-be-vigilant-for-three-days",
     "headline": "Jhapa Faces Flood Risk Due to Cyclone Arnab, Authorities Urge Caution",
     "sent_at": "2026-10-29T00:51:19.926877+00:00"
@@ -7858,5 +7823,41 @@
     "link": "https://myrepublica.nagariknetwork.com/news/pakistan-nepal-discuss-ways-to-strengthen-trade-ties-32-87.html",
     "headline": "Pakistan, Nepal discuss ways to strengthen trade ties",
     "sent_at": "2026-11-05T06:32:37.111936+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132390",
+    "headline": "आन्तरिक लेखापरीक्षणमा १० अर्ब ६८ करोड बेरुजु, एक वर्षमै १ अर्ब ४४ करोडले बढ्यो",
+    "sent_at": "2026-11-05T07:02:25.988708+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132388",
+    "headline": "अमेरिकी निर्वाचनको नतिजापछि विश्व बजारमा उत्साह : अमेरिका र युरोपमा ऐतिहासिक उछाल, एसियामा मिश्रित प्रतिक्रिया",
+    "sent_at": "2026-11-05T07:02:29.774709+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226342/",
+    "headline": "नेशनल लाइफ विराटनगर शाखामा उत्कृष्ट अभिकर्ताहरूको दबदबा, भव्य समारोहबीच सम्मानित",
+    "sent_at": "2026-11-05T07:02:33.527485+00:00"
+  },
+  {
+    "link": "https://www.osnepal.com/detail/593492",
+    "headline": "नयाँ सहर निर्माणको योजना प्रतिवेदनमै सीमित, बजेट अभावले पूर्वाधार निर्माण अघि बढेन",
+    "sent_at": "2026-11-05T07:02:37.306107+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170074",
+    "headline": "बैंकमा ८५ खर्ब थुप्रियो",
+    "sent_at": "2026-11-05T07:02:41.102743+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/rs-12-31-billion-allocated-under-karnali-tourism-master-plan.html",
+    "headline": "Rs 12.31 billion allocated under Karnali tourism master plan",
+    "sent_at": "2026-11-05T07:02:44.102905+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/nepal-australia-trade-and-investment.html",
+    "headline": "Minister and ambassador discuss promoting Nepal-Australia trade and investment",
+    "sent_at": "2026-11-05T07:02:44.915006+00:00"
   }
 ]
