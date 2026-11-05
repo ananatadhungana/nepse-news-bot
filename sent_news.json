@@ -1,40 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/economy/lumbini-s-industries-in-crisis-br-86-78.html",
-    "headline": "संकटमा लुम्बिनीका उद्योग",
-    "sent_at": "2026-10-29T01:11:41.505099+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227568",
-    "headline": "ग्यास विक्रेता करको दायरामा आउने",
-    "sent_at": "2026-10-29T01:16:26.533863+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227570",
-    "headline": "केरौन सबस्टेसन शनिबार चार्ज गरिने",
-    "sent_at": "2026-10-29T01:21:26.460352+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227572",
-    "headline": "कपास विकास समिति खारेज हुँदा छ सय किसान मर्कामा पर्ने",
-    "sent_at": "2026-10-29T01:26:24.888036+00:00"
-  },
-  {
-    "link": "https://www.osnepal.com/detail/593037",
-    "headline": "मोरङसहित पूर्वी नेपालमा विद्युत् आपूर्ति सुधार गर्न केरौन सबस्टेसन तयार",
-    "sent_at": "2026-10-29T01:32:14.214580+00:00"
-  },
-  {
-    "link": "https://www.bbc.com/nepali/articles/c53983kdzlrxo?at_medium=RSS&at_campaign=rss",
-    "headline": "चारवटा हिमतालको पानीको सतह घटाउने योजनाको काम कसरी अगाडि बढ्दैछ",
-    "sent_at": "2026-10-29T01:32:18.996934+00:00"
-  },
-  {
-    "link": "https://bajarkochirfar.com/global-ime-bank-shares-on-sale-to-the-public",
-    "headline": "सर्वसाधारणका लागि ग्लोबल आइएमई बैंकको सेयर बिक्रीमा",
-    "sent_at": "2026-10-29T01:46:33.260956+00:00"
-  },
-  {
     "link": "https://peoplesreview.com.np/2026/10/29/exports-surge-57-but-nepals-trade-gap-hits-rs-532-5-billion/",
     "headline": "Exports surge 57%, but Nepal’s trade gap hits Rs 532.5 billion",
     "sent_at": "2026-10-29T02:16:29.004709+00:00"
@@ -7859,5 +7824,41 @@
     "link": "https://gorkhapatraonline.com/news/228395",
     "headline": "कोशी तटबन्ध मर्मतका लागि नेपाल–भारतको संयुक्त निरीक्षण",
     "sent_at": "2026-11-05T07:32:23.136497+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291161-2026-11-5-7-46-7",
+    "headline": "ब्याजदर घटेसँगै बैंकमा घट्न थाल्यो मुद्दतीमा आउने बचत, ब्याज खाएर दैनिकी चलाउनेलाई तनाव",
+    "sent_at": "2026-11-05T08:02:31.526045+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96273",
+    "headline": "हिमालयन डिस्टिलरीको सिंगल मल्ट 'श्लोक' बजारमा, मूल्य साढे सात हजार",
+    "sent_at": "2026-11-05T08:02:35.377024+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/paanch-pandav-gets-green-light.html",
+    "headline": "Paanch Pandav clears hurdles, to run from Friday",
+    "sent_at": "2026-11-05T08:02:39.026440+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2051527/subsidy-payment-for-agricultural-electricity-meters-suspended-in-bodebarsain",
+    "headline": "बोदेबरसाईनमा कृषि विद्युत् मिटरको अनुदान भुक्तानी स्थगित",
+    "sent_at": "2026-11-05T08:02:42.857948+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/lpg-entrepreneurs-seek-two-years-to-introduce-cylinders-of-different-weights.html",
+    "headline": "LPG entrepreneurs seek two years to introduce cylinders of different weights",
+    "sent_at": "2026-11-05T08:02:46.516275+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85750/we-are-ready-to-merge-the-gas-industry-if-the-provisions-of-the-income-tax-act-are-removed-association",
+    "headline": "LP Gas Industry Association Seeks Merger Provision",
+    "sent_at": "2026-11-05T08:02:49.516417+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/504046.html",
+    "headline": "तीन महिनामै खानेपानीका ९२ आयोजनाको ठेक्का आह्वान, १३ लाख नागरिक लाभान्वित हुने",
+    "sent_at": "2026-11-05T08:02:50.393920+00:00"
   }
 ]
