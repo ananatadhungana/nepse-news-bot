@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/manaslu-apples-stranded-in-gorkha-warehouses-43-78.html",
-    "headline": "Manaslu apples stranded in Gorkha warehouses",
-    "sent_at": "2026-10-29T06:11:43.077588+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/energy-drinks-within-safe.html",
-    "headline": "Caffeine content in Nepal-made energy drinks within safe limits: Food Department",
-    "sent_at": "2026-10-29T06:16:27.476381+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/502187.html",
-    "headline": "अमेरिकी फेडद्वारा नीतिगत ब्याजदर यथावत, डिसेम्बरमा पुनः वृद्धि हुनसक्ने संकेत",
-    "sent_at": "2026-10-29T06:26:12.225423+00:00"
-  },
-  {
     "link": "https://bizkhabar.com/266383",
     "headline": "हालसम्म ११ बैंकको लाभांश घोषणा : तीन वटाको सेयर खरिद गर्नेले अझै पाउछन् लाभांश, कुनको कति ?",
     "sent_at": "2026-10-29T06:26:16.712588+00:00"
@@ -7881,5 +7866,22 @@
     "link": "https://bankingkhabar.com/archives/170135",
     "headline": "५ देखि ७ वर्षभित्र नेपालको अर्थतन्त्र १०० अर्ब डलर पुर्‍याउने सरकारको लक्ष्य",
     "sent_at": "2026-11-05T12:36:13.087280+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/economy/402112",
+    "headline": "सेयर बजारमा आउँदैछ नयाँ नियम– बिहान किन्ने, दिउँसै बेच्ने, नाफा–घाटा त्यही दिन!",
+    "sent_at": "2026-11-05T13:05:19.659452+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/05/779225/infrastructure-conference-important-to-showcase-investment-climate-finance-minister-wagle/",
+    "headline": "लगानीको वातावरण देखाउन पूर्वाधार सम्मेलन महत्त्वपूर्ण- अर्थमन्त्री वाग्ले",
+    "sent_at": "2026-11-05T13:05:19.659468+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/snowfall-makes-it-difficult-to-bring-goods-through-korala-border-crossing-br-91-37.html",
+    "headline": "हिमपातले कोरला नाकाबाट सामान ल्याउनै सकस",
+    "sent_at": "2026-11-05T13:05:20.596419+00:00"
   }
 ]
