@@ -1,40 +1,5 @@
 [
   {
-    "link": "https://arthakhabar.com/2026/10/29/121315/",
-    "headline": "मुख्य पर्यटकीय सिजनमै सगरमाथा राष्ट्रिय निकुञ्ज भ्रमण गर्ने पर्यटक घटे !",
-    "sent_at": "2026-10-29T03:41:48.061389+00:00"
-  },
-  {
-    "link": "https://nepalsamaya.com/detail/147351",
-    "headline": "आफ्नै आर्थिक क्षमता बढाएर जलवायु उत्थानशील पूर्वाधार बनाउनुपर्छ: गणेश पराजुली [भिडियो]",
-    "sent_at": "2026-10-29T03:46:27.958053+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/290489-2026-10-29-3-52-28",
-    "headline": "बाढी प्रभावितलाई अस्थायी आवास निर्माण प्रक्रिया अघि बढ्यो",
-    "sent_at": "2026-10-29T03:56:16.429528+00:00"
-  },
-  {
-    "link": "https://risingnepaldaily.com/news/88178",
-    "headline": "Kiwi farming expands in Mahabharat range as prices fall",
-    "sent_at": "2026-10-29T03:56:23.150483+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/505965",
-    "headline": "सचिवको खातामै जानेछ इन्धन–सवारी मर्मत खर्चका नाममा २ लाख ४० हजार रुपैयाँ",
-    "sent_at": "2026-10-29T03:56:28.053454+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/84915/only-45-percent-of-work-completed-in-five-years-contract-of-saksham-jv-cancelled-leaving-mechi-corridor-stranded",
-    "headline": "Road Division Office, Ilam Terminates Contract with Khadka Krishna-Saksham JV for Mechi Corridor Road Construction",
-    "sent_at": "2026-10-29T03:56:32.696764+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/exports-and-imports-rise-despite-closure-of-northern-border-points-57-70.html",
-    "headline": "Exports and imports rise despite closure of northern border points",
-    "sent_at": "2026-10-29T04:06:26.957504+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/502119.html",
     "headline": "सानिमा बैंकले ३ महिनामा कमायो १ अर्ब ५ करोड, निष्क्रिय कर्जामा सुधारसँगै प्रोभिजन घट्दा नाफा दोब्बरले बढ्यो",
     "sent_at": "2026-10-29T04:11:28.825953+00:00"
@@ -7868,5 +7833,41 @@
     "link": "http://english.ratopati.com/story/85766/foreign-investment-cannot-be-brought-in-unless-domestic-investors-are-happy-anjan-shrestha",
     "headline": "FNCCI Senior Vice President: Domestic Investors Must Be Encouraged First to Attract Foreign Investment",
     "sent_at": "2026-11-05T09:32:56.983871+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/garima-bikas-bank-opens-127th-branch-in-kathmandus-baluwatar-2026-11-05",
+    "headline": "Garima Bikas Bank Opens 127th Branch in Kathmandu’s Baluwatar",
+    "sent_at": "2026-11-05T10:04:40.710864+00:00"
+  },
+  {
+    "link": "https://rajdhanidaily.com/id/151045/",
+    "headline": "१३ अंकले घट्यो नेप्से, कारोबारमा भारी गिरावट",
+    "sent_at": "2026-11-05T10:04:44.505637+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2051795/we-will-clean-up-the-corrupt-system-and-emerge-as-an-even-greater-force-in-the-next-election-finance-minister",
+    "headline": "भ्रष्टतन्त्रको सफाइ गर्छौं, अर्को चुनावबाट झन् ठूलो शक्ति भएर आउँछौं : अर्थमन्त्री",
+    "sent_at": "2026-11-05T10:04:48.119269+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/economy/402077",
+    "headline": "१० अर्बको सरकारी ऋणपत्रमा ४८ अर्बको आवेदन, आठ वर्षका लागि २.४ प्रतिशत ब्याजमै ऋण",
+    "sent_at": "2026-11-05T10:04:51.688990+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/506668",
+    "headline": "नेप्से १२.९५ अंकले घट्यो, चार अर्ब ७२ करोडको कारोबार",
+    "sent_at": "2026-11-05T10:04:55.472554+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261105152912.html",
+    "headline": "सेयर बजार १२.९५ अंक घट्यो, सूचक २६५२ विन्दुमा आउँदा ४ अर्ब ७२ करोडको किनबेच",
+    "sent_at": "2026-11-05T10:04:58.472733+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizkhabar.com/266934",
+    "headline": "नेपाल पूर्वाधार सम्मेलन मंसिर २३ र २४ गते आयोजना हुने, तीन दर्जन लगानीयोग्य परियोजना प्रस्तुत गर्ने तयारी",
+    "sent_at": "2026-11-05T10:04:59.336170+00:00"
   }
 ]
