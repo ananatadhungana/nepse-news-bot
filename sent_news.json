@@ -1,30 +1,5 @@
 [
   {
-    "link": "https://nepalitimes.com/nepal-ranks-103rd",
-    "headline": "Nepal ranks 103rd",
-    "sent_at": "2026-10-29T07:26:28.829618+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/169834",
-    "headline": "नाडेप लघुवित्तको नेतृत्वमा पवनकुमार श्रेष्ठ, कार्यकाल दुई वर्ष",
-    "sent_at": "2026-10-29T07:26:33.246816+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/505983",
-    "headline": "अन्तरनिकायकै असहयोगले कृषि आधुनिकीकरण परियोजनाको लक्ष्य अधुरै",
-    "sent_at": "2026-10-29T07:26:37.647493+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/money/2026/10/29/annapurna-circuit-sees-trekking-arrivals-rebound-after-floods",
-    "headline": "Annapurna Circuit sees trekking arrivals rebound after floods",
-    "sent_at": "2026-10-29T07:31:43.587051+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/502211.html",
-    "headline": "त्रिवि मैदानमा एनपीएलको रौनक : बाहिर साना व्यापारीलाई राहत",
-    "sent_at": "2026-10-29T07:31:51.943466+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/502220.html",
     "headline": "भारतको विद्युत् बजारमा चरम असन्तुलन : दिउँसो कौडीको भाउ, साँझको माग धान्न प्रतियुनिट ३७ भारुसम्म तिर्नुपर्ने बाध्यता",
     "sent_at": "2026-10-29T07:36:18.919161+00:00"
@@ -7890,5 +7865,31 @@
     "link": "https://nepalipaisa.com/news-detail/96293",
     "headline": "अमेरिकी मध्यावधि निर्वाचनको प्रभाव : एआई कम्पनीका सेयर र तेलको मूल्यमा गिरावट",
     "sent_at": "2026-11-05T16:48:00.146687+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228427",
+    "headline": "तिहारको चहलपहल बढ्यो, व्यापारी उत्साहित",
+    "sent_at": "2026-11-05T17:32:21.124853+00:00"
+  },
+  {
+    "link": "https://rajdhanidaily.com/id/151071/",
+    "headline": "दुई लाख विद्यार्थीको विवरण फर्जी, भ्रष्टाचार आशंकामा छानबिन समिति गठन",
+    "sent_at": "2026-11-05T17:32:24.940762+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261105184657.html",
+    "headline": "सुशासनलाई प्रमुख सर्त मानेको बालेन सरकारका कृत्य : ठूला ठेक्कामा आँखा लगाइ शक्तिको तुजुक",
+    "sent_at": "2026-11-05T17:32:28.776912+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85791/draft-ready-for-intra-day-trading-paving-the-way-for-selling-shares-on-the-same-day-of-purchase",
+    "headline": "Nepal Securities Board Advances Intra-Day Trading Policy",
+    "sent_at": "2026-11-05T17:32:31.777074+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/janakpur-ayodhya-special-train-service-undergoes-test-run-raising-hopes-for-tourism-and-trade.html",
+    "headline": "Janakpur-Ayodhya special train service undergoes test run, raising hopes for tourism and trade",
+    "sent_at": "2026-11-05T17:32:32.590629+00:00"
   }
 ]
