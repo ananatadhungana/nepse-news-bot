@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://bizkhabar.com/266386",
-    "headline": "नेपालको निर्यात खाने तेलमै निर्भर, व्यापार विविधीकरण थप कमजोर बन्दै",
-    "sent_at": "2026-10-29T06:41:26.593990+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/citizens-bank-customers-to-get-up-to-15-discount-at-athlete-land-2026-10-29",
-    "headline": "Citizens Bank Customers to Get Up to 15% Discount at Athlete Land",
-    "sent_at": "2026-10-29T06:46:20.797670+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/84952/nepal-needs-74-billion-to-implement-ndc-30-adb",
     "headline": "ADB Country Director States Nepal Needs $74 Billion for NDC 3.0 Implementation",
     "sent_at": "2026-10-29T06:46:27.306829+00:00"
@@ -7884,5 +7874,16 @@
     "link": "https://myrepublica.nagariknetwork.com/news/nepal-urges-for-more-indian-investment-and-faster-hydropower-projects-const-70-49.html",
     "headline": "Nepal urges for more Indian investment and faster hydropower projects construction",
     "sent_at": "2026-11-05T14:47:37.079433+00:00"
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/05/governments-six-months-success-on-paper-pressure-to-deliver/",
+    "headline": "Government’s six-months: Success on paper, pressure to deliver",
+    "sent_at": "2026-11-05T15:17:18.269927+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/federal-govts-arrears-increase-156-percent-to-cross-rs-10-billion-last-fy-87-81.html",
+    "headline": "Federal govt’s arrears rise 15.6 percent to Rs 10.68 billion in FY 2025/26",
+    "sent_at": "2026-11-05T15:17:21.270060+00:00",
+    "dup": true
   }
 ]
