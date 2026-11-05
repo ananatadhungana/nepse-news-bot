@@ -1,45 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/1400-plus-climbers-secure-autumn-permits-as-nepal-earns-rs-318-million-92-49.html",
-    "headline": "1,400 plus climbers secure autumn permits as Nepal earns Rs 318 million",
-    "sent_at": "2026-10-28T13:51:37.143111+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261028194246.html",
-    "headline": "दुई पाङ्ग्रे सवारी साधनको बजार बुम, तीन महिनामै भित्रिए १ लाख १२ हजार बाइक/स्कुटर",
-    "sent_at": "2026-10-28T14:04:31.882546+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227542",
-    "headline": "चक्रवात प्रभाव : अन्नपूर्ण पदयात्रा स्थगित गर्न आग्रह",
-    "sent_at": "2026-10-28T14:16:48.105226+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/10/28/776893/contract-of-construction-contractor-terminated-for-non-performance-letter-sent-to-pay-rs-382-3-million/",
-    "headline": "काम नगर्ने निर्माण व्यवसायीको ठेक्का तोडियो, ३८ करोड २३ लाख रुपैयाँ दाखिला गर्न पत्राचार",
-    "sent_at": "2026-10-28T14:46:49.101040+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/10/sudurpaschims-first-win-in-airis-all-round-performance-pokhara-defeated/",
-    "headline": "ऐरीको अलराउन्ड प्रदर्शनमा सुदूरपश्चिमको पहिलो जित, पोखरा पराजित",
-    "sent_at": "2026-10-28T15:11:44.443404+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/84885/government-policy-to-replace-blacktopped-roads-to-save-the-domestic-economy-or-in-the-interests-of-the-cement-industry",
-    "headline": "Government Discourages Bitumen for Road Construction, Promotes Cement Concrete Roads",
-    "sent_at": "2026-10-28T15:17:09.364064+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/225171/",
-    "headline": "विवादको भुमरीमा फसेको नेरुडे मिर्मिरे २ करोड ७९ लाख घाटामा, खराब कर्जा झन्डै २२ प्रतिशत पुग्यो",
-    "sent_at": "2026-10-28T15:21:50.209623+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/510230",
-    "headline": "स्थापनाको ३०औँ वर्षमा आर्य फार्माल्याब, एनपीएलको स्वास्थ्य साझेदारका रुपमा क्यानसँग तीन वर्षे सहकार्य",
-    "sent_at": "2026-10-28T15:26:32.961908+00:00"
-  },
-  {
     "link": "https://kathmandupost.com/money/2026/10/28/small-countries-must-defend-multilateral-trade-system-says-wto-chief",
     "headline": "Small countries must defend multilateral trade system, says WTO chief",
     "sent_at": "2026-10-28T15:26:37.305744+00:00"
@@ -7855,5 +7815,47 @@
     "link": "https://bankingsamachar.com/news/177498/",
     "headline": "भक्तपुरमा ग्यास अभाव कायमै, सिलिन्डर खोज्दै उपभोक्ता",
     "sent_at": "2026-11-05T05:34:41.638440+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226334/",
+    "headline": "पहिलो त्रैमासमा १४ फाइनान्समध्ये ६ घाटामा, गोर्खाज र बेष्ट नाफामा फर्किए",
+    "sent_at": "2026-11-05T06:03:03.337211+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/korala-border-point-faces-repeated-disruptions-from-floods-snowfall.html",
+    "headline": "Korala border point faces repeated disruptions from floods, snowfall",
+    "sent_at": "2026-11-05T06:03:07.064336+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85724/customers-have-been-lining-up-since-morning-to-buy-coins-see-the-photo",
+    "headline": "Nepal Rastra Bank Starts Selling Gold and Silver Medallions for Tihar Festival",
+    "sent_at": "2026-11-05T06:03:10.767104+00:00"
+  },
+  {
+    "link": "https://www.bbc.com/nepali/watch/cwnv0l87r7p6o?at_medium=RSS&at_campaign=rss",
+    "headline": "विषालु तुवाँलोबाट जोगिन मानिसहरू शपिङ मलभित्र दौडिन्छन्",
+    "sent_at": "2026-11-05T06:03:14.516835+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85723/how-much-does-a-gold-coin-cost",
+    "headline": "Nepal Rastra Bank Sells Gold Coins and Silver Medallions for Tihar",
+    "sent_at": "2026-11-05T06:03:17.517054+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226331/",
+    "headline": "सिँचाइमा पहिलो त्रैमासमै २ अर्ब खर्च, चार ठूला आयोजनामा ५८ प्रतिशत",
+    "sent_at": "2026-11-05T06:03:18.227359+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/sebon-rolls-out-it-policy-to-shield-stock-market-from-cyberattacks-64-63.html",
+    "headline": "SEBON rolls out IT policy to shield stock market from cyberattacks",
+    "sent_at": "2026-11-05T06:03:21.227513+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/35-people-from-kavre-go-missing-in-bhotekoshi-floods/",
+    "headline": "भोटेकोशी बाढीमा बेपत्ता भए काभ्रेका ३५ जना",
+    "sent_at": "2026-11-05T06:03:22.011185+00:00"
   }
 ]
