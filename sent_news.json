@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://www.setopati.com/kinmel/economy/401581",
-    "headline": "बिल माग्नेलाई मात्रै होइन, दिनेलाई पनि पुरस्कार दिँदै सरकार",
-    "sent_at": "2026-10-30T03:21:27.448635+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261030090827.html",
-    "headline": "अतिकम विकसित मुलुकको सूचीबाट स्तोरन्नति हुन नेपालले पायो २०२९ नोभेम्बर २४ सम्मको मिति",
-    "sent_at": "2026-10-30T03:26:14.870610+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/502377.html",
-    "headline": "नेपाल टेलिकममा ८० पदका लागि रोजगारीको अवसर, कसले दिन पाउँछन् आवेदन ?",
-    "sent_at": "2026-10-30T03:26:19.121890+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/bhotekoshi-flood-kavre-local-governments-seek-details-of-missing-residents-61-53.html",
-    "headline": "Bhotekoshi flood: Kavre local governments seek details of missing residents",
-    "sent_at": "2026-10-30T03:26:23.885444+00:00"
-  },
-  {
     "link": "https://nepalkhabar.com/bagmati/290645-2026-10-30-3-27-48",
     "headline": "आजदेखि ८ दिनसम्म काठमाडौँका यी स्थानमा साढे ५ घण्टा विद्युत् आपूर्ति बन्द हुने",
     "sent_at": "2026-10-30T03:31:43.269588+00:00"
@@ -7932,5 +7912,27 @@
     "link": "https://bizmandu.com/content/20261106191850.html",
     "headline": "सरकारका कामबाट रवि असन्तुष्ट, ‘निजी क्षेत्र, अदालत र कर्मचारीमा त्रासको वातावरण राम्रो होइन’",
     "sent_at": "2026-11-06T14:02:24.234081+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291266-2026-11-6-14-17-31",
+    "headline": "नेपालमा उत्पादन पोर्टफोलियो विस्तार गर्दै टीसीएल, दशैँतिहार अफरमा २५ प्रतिशतसम्म छुट र आकर्षक उपहार",
+    "sent_at": "2026-11-06T14:32:08.101928+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261106200442.html",
+    "headline": "सुनचाँदीको महँगो मूल्यको असर देखिएन बजारमा, धनतेरसमा गहना पसल ग्राहकले भरिभराउ",
+    "sent_at": "2026-11-06T14:32:11.102097+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/06/779653/nepal-prepares-to-raise-issues-ranging-from-the-pain-of-bhotekoshi-to-himalayan-risks-at-cop-31/",
+    "headline": "भोटेकोशीको पीडादेखि हिमाली जोखिमसम्मका मुद्दा कोप–३१ मा उठाउने नेपालको तयारी",
+    "sent_at": "2026-11-06T14:32:11.967952+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2053002/rasuwa-flood-500-million-rupees-damage-to-economy-700-million-rupees-needed-for-reconstruction",
+    "headline": "रसुवा बाढी : अर्थतन्त्रमा पौने ५ खर्ब क्षति, पुनरुत्थानमा ७ खर्ब आवश्यक",
+    "sent_at": "2026-11-06T14:32:14.968117+00:00",
+    "dup": true
   }
 ]
