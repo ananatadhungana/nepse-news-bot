@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/10/225353/",
-    "headline": "राष्ट्र बैंकद्वारा १६ सहकारीको अनुगमन, कर्जामा देखिए नियमविपरीतका गतिविधि",
-    "sent_at": "2026-10-29T14:52:04.394771+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/fdi-pledges-decline-by-more-than-half-to-rs-1623-billion-in-q1-67-51.html",
-    "headline": "FDI pledges decline by more than half to Rs 16.23 billion in Q1",
-    "sent_at": "2026-10-29T15:07:12.738398+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85023/consumers-victory-over-cg-motors-negligence-and-bullying",
-    "headline": "Consumer Court Rules Against CG Motors in EV Battery Dispute",
-    "sent_at": "2026-10-29T15:12:13.610580+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/506045",
-    "headline": "प्रधानमन्त्री बालेनको भारत भ्रमणमा भारतीय लगानी भित्र्याउन सीईओ गोलमेच बैठकको तयारी",
-    "sent_at": "2026-10-29T15:32:17.558960+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/politics/roads-on-prime-minister-s-election-agenda-contract-process-for-rs-1-22-billion-moves-forward-38-35.html",
     "headline": "प्रधानमन्त्रीको चुनावी एजेन्डामा परेको सडक : एक अर्ब २२ करोडको ठेक्का प्रक्रिया अघि बढ्यो",
     "sent_at": "2026-10-29T15:41:55.491275+00:00"
@@ -7915,5 +7895,27 @@
     "link": "https://bizpati.com/2026/11/226502/",
     "headline": "‘भिजिट नेप्से’ र ‘नेप्से विथ इन्भेस्टर’ कार्यक्रम सञ्चालन गर्ने सीईओ सुवेदीको पहिलो निर्णय",
     "sent_at": "2026-11-06T09:02:19.372936+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132446",
+    "headline": "तिहारको पूर्वसन्ध्यामा नेप्से सकारात्मक",
+    "sent_at": "2026-11-06T09:32:07.802972+00:00"
+  },
+  {
+    "link": "https://khabarhub.com/2026/06/1045372/",
+    "headline": "भोटेकोशी बाढी प्रभावित क्षेत्रमा राहत, पुनर्निर्माण र पुनरुत्थानका लागि बजेट अभाव हुन दिन्नौँ : अर्थमन्त्री",
+    "sent_at": "2026-11-06T09:32:10.803151+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/06/infrastructure-summit-investment-in-projects-worth-rs-2-45-trillion-sought/",
+    "headline": "Infrastructure Summit: Investment in projects worth Rs 2.45 trillion sought",
+    "sent_at": "2026-11-06T09:32:10.803182+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/special-court-seeks-details-of-china-loan-and-repayments-in-pokhara-airport-corruption-case.html",
+    "headline": "Special Court seeks details of China loan and repayments in Pokhara airport corruption case",
+    "sent_at": "2026-11-06T09:32:11.514886+00:00"
   }
 ]
