@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/176766/",
-    "headline": "आईपीओको पाइपलाइनमा रहेका ११७ कम्पनीलाई ६ चरणमा वर्गीकरण, कुन चरणमा कति ?",
-    "sent_at": "2026-10-29T09:16:27.268310+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/29/1041686/",
-    "headline": "अस्थायी शिक्षक-कर्मचारीलाई सामाजिक सुरक्षा कोषमा आबद्ध गर्न माग",
-    "sent_at": "2026-10-29T09:21:25.468938+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/10/29/95535",
-    "headline": "स्वदेशी फूलको उत्पादन बढाउन सरकार र व्यवसायीबीच सहकार्य आवश्यक : मन्त्री मगर",
-    "sent_at": "2026-10-29T09:21:30.976067+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/225279/",
-    "headline": "नेप्सेमा लगातार तेस्रो दिन वृद्धि, परिसूचक २६९५ बिन्दुमा",
-    "sent_at": "2026-10-29T09:26:18.638472+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/rs-16-23-billion-in-fdi-commitments-approved-in-first-quarter.html",
     "headline": "Rs 16.23 billion in FDI commitments approved in first quarter",
     "sent_at": "2026-10-29T09:26:22.704545+00:00"
@@ -7893,5 +7873,28 @@
     "link": "https://www.onlinekhabar.com/2026/11/2052214/meeting-of-parliamentary-special-committee-on-bhotekoshi-trishuli-disaster-underway-2",
     "headline": "भोटेकोशी-त्रिशूली विपद्सम्बन्धी संसदीय विशेष समितिको बैठक बस्दै",
     "sent_at": "2026-11-06T02:02:18.263704+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/510803",
+    "headline": "अलपत्र आयोजना र गाँठा फुकाउँदै लगानी बोर्ड",
+    "sent_at": "2026-11-06T02:31:44.627323+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226445/",
+    "headline": "तिहारमा भाइमसलाको मूल्य दोब्बर, तीन महिनामै साढे २ अर्बको आयात",
+    "sent_at": "2026-11-06T02:31:44.627341+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228474",
+    "headline": "अनुदानभन्दा ऋण दोब्बर",
+    "sent_at": "2026-11-06T02:31:45.122841+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/266951",
+    "headline": "अमेरिकी डलर एकको खरिददर १५० रुपैयाँ ८७ पैसा, यस्तो छ आजका लागि विदेशी मुद्राको विनिमय दर",
+    "sent_at": "2026-11-06T02:31:48.123012+00:00",
+    "dup": true
   }
 ]
