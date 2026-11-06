@@ -1,40 +1,5 @@
 [
   {
-    "link": "http://lokaantar.com/story/332180/2026/10/30/dhan-",
-    "headline": "सरकारले मूल्य तोक्यो तर किनेन- चाडपर्व खर्च जुटाउन व्यापारीलाई सस्तोमै धान बेच्दै किसान",
-    "sent_at": "2026-10-30T01:26:03.963431+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/10/30/777229/agriculture-jetty-flower-farming/",
-    "headline": "कृषि जेटिएको फूलखेती",
-    "sent_at": "2026-10-30T01:26:09.611922+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/cooperative-crisis-savers-in-stress-as-savings-are-not-returned-br-69-13.html",
-    "headline": "सहकारीको सकस: बचत फिर्ता नहुँदा तनावमा बचतकर्ता",
-    "sent_at": "2026-10-30T01:26:13.833423+00:00"
-  },
-  {
-    "link": "https://www.eadarsha.com/nep/216482.html",
-    "headline": "व्यावसायिक साझेदारीबारे सहमति",
-    "sent_at": "2026-10-30T01:26:17.858441+00:00"
-  },
-  {
-    "link": "https://www.bbc.com/nepali/articles/crje54np1w8po?at_medium=RSS&at_campaign=rss",
-    "headline": "नयाँ व्यवस्थाले आयोजनाहरूको लागत बढ्ने, सरकारलाई विज्ञका सुझाव कस्ता",
-    "sent_at": "2026-10-30T01:31:38.916574+00:00"
-  },
-  {
-    "link": "https://newsofnepal.com/2026/10/30/792600/",
-    "headline": "‘दुई दिन धान नकाट्नू, ट्रेकिङ नगर्नू, जहाँ हुनुहुन्छ सुरक्षित बस्नू’",
-    "sent_at": "2026-10-30T01:31:43.200431+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/10/225382/",
-    "headline": "पोखरामा थाइ लगानी भित्र्याउने पहल, संयुक्त बिजनेस एक्सपोको प्रस्ताव",
-    "sent_at": "2026-10-30T01:36:12.653115+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/10/225379/",
     "headline": "किलोको १५० रुपैयाँमै घरदैलोमा जुम्लाको स्याउ, दोहोर्‍याएर माग्दै स्याङ्जाका उपभोक्ता",
     "sent_at": "2026-10-30T01:36:16.716628+00:00"
@@ -7925,5 +7890,43 @@
     "link": "https://nagariknews.nagariknetwork.com/international/paraguay-s-president-resigns-after-banking-crisis-63-75.html",
     "headline": "बैंकिङ संकटपछि पाराग्वेका राष्ट्रपतिले दिए राजीनामा",
     "sent_at": "2026-11-06T11:02:09.980748+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/510854",
+    "headline": "CHERY Q नेपालमा औपचारिक रूपमा सार्वजनिक",
+    "sent_at": "2026-11-06T11:32:05.206375+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://annapurnapost.com/story/510853",
+    "headline": "‘RISE TO RULE’  थिममा कजारिया रमेश टायल्सको डिलर्स मिट २०२६ सम्पन्न",
+    "sent_at": "2026-11-06T11:32:05.206395+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132453",
+    "headline": "महालक्ष्मी विकास बैंकले ७.१८ प्रतिशत लाभांश बाँड्ने, बोनस र नगद कति?",
+    "sent_at": "2026-11-06T11:32:06.025299+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/504404.html",
+    "headline": "पोखरा विमानस्थल भ्रष्टाचार मुद्दामा ऋण र भुक्तानीको विवरण झिकाउन आदेश",
+    "sent_at": "2026-11-06T11:32:09.025473+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/504401.html",
+    "headline": "नागढुङ्गा सुरुङमार्ग यात्राका लागि आवश्यक ‘एन-ट्याग’ अब सानिमा बैंकबाट लिन सकिने",
+    "sent_at": "2026-11-06T11:32:09.766329+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/177773/",
+    "headline": "‘३५ अंकले घट्यो नेप्से, २७ अर्बको कारोबार’",
+    "sent_at": "2026-11-06T11:32:13.687220+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261106164951.html",
+    "headline": "पाकिस्तानी गायक अतिफ अस्लमको ‘लाइभ इन नेपाल’ कन्सर्टको डिजिटल टिकेटिङ पार्टनरमा खल्ती",
+    "sent_at": "2026-11-06T11:32:17.577850+00:00"
   }
 ]
