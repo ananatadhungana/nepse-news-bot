@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.sharesansar.com/newsdetail/cyclone-arnab-may-trigger-heavy-rainfall-and-rising-river-levels-across-nepal-2026-10-29",
-    "headline": "Cyclone ‘Arnab’ May Trigger Heavy Rainfall and Rising River Levels Across Nepal",
-    "sent_at": "2026-10-29T07:51:18.960494+00:00"
-  },
-  {
     "link": "http://lokaantar.com/story/332139/2026/10/29/tourist",
     "headline": "भोटेकोशी बाढीपछि पनि उठ्न थाल्यो पर्यटन, ६ प्रतिशतले बढ्यो पर्यटक आगमन",
     "sent_at": "2026-10-29T08:01:57.585364+00:00"
@@ -7891,5 +7886,10 @@
     "link": "https://english.onlinekhabar.com/nepal-hydropower-digital-wealth.html",
     "headline": "Should Nepal turn its hydropower surplus into digital wealth?",
     "sent_at": "2026-11-06T00:16:36.214899+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/06/779287/construction-on-the-middle-kali-gandaki-has-been-stalled-for-a-month/",
+    "headline": "मध्यकालीगण्डकी एक महिनादेखि निर्माण ठप्प",
+    "sent_at": "2026-11-06T00:31:42.362369+00:00"
   }
 ]
