@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://risingnepaldaily.com/news/88223",
-    "headline": "Who Pays For Nepal’s Transition?",
-    "sent_at": "2026-10-30T03:36:11.702288+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/10/502381.html",
     "headline": "६ निर्माण कम्पनी कालोसूचीमा, निलगिरी र लुम्बिनी इन्जिनियरिङलाई ३ वर्ष प्रतिबन्ध",
     "sent_at": "2026-10-30T03:41:19.767631+00:00"
@@ -7935,6 +7930,12 @@
     "link": "https://www.thahakhabar.com/detail/311556",
     "headline": "काठमाडौँलाई चौविसै घण्टा खुलाउने तयारी",
     "sent_at": "2026-11-06T15:02:09.259697+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226574/",
+    "headline": "तीन साता लगातार बढेको बजारमा ब्रेक, तिहारपछि कस्तो रहला ?",
+    "sent_at": "2026-11-06T15:31:49.119582+00:00",
     "dup": true
   }
 ]
