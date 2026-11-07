@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/176807/",
-    "headline": "वीरगञ्जका दुई शाखा गाभ्दै नेपाल बैंक",
-    "sent_at": "2026-10-30T04:36:12.376558+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/10/225408/",
     "headline": "पुँजीबजार बिहानी अपडेट : लाभांश, सेयर स्वामित्व परिवर्तनदेखि संस्थापक सेयर बिक्रीका गतिविधिसम्म",
     "sent_at": "2026-10-30T04:36:16.788137+00:00"
@@ -7940,5 +7935,11 @@
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/now-telecom-sim-cards-can-be-delivered-to-every-household-in-parsa-by-post-29-93.html",
     "headline": "अब पर्सामा हुलाकबाटै घरघरमा टेलिकमको सिमकार्ड",
     "sent_at": "2026-11-07T01:46:25.618917+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85922/janakpur-to-be-connected-by-rail-to-indias-religious-city-of-ayodhya",
+    "headline": "Nepal-India Rail Link to Boost Janakpur Tourism",
+    "sent_at": "2026-11-07T02:01:58.441389+00:00",
+    "dup": true
   }
 ]
