@@ -1,16 +1,5 @@
 [
   {
-    "link": "http://ictsamachar.com//story/100007546",
-    "headline": "नेपालमा एआईको भविष्य र सम्भावनाबारे बहस गर्न कात्तिक २१ गते राष्ट्रिय सम्मेलन हुँदै",
-    "sent_at": "2026-10-30T08:02:21.656680+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/10/30/777327/the-third-national-ai-conference-will-be-held-on-kartik-21-with-participation-from-international-experts/",
-    "headline": "तेस्रो राष्ट्रिय एआई सम्मेलन कात्तिक २१ गते हुँदै, अन्तर्राष्ट्रिय विज्ञसहितको सहभागिता रहने",
-    "sent_at": "2026-10-30T08:02:24.656863+00:00",
-    "dup": true
-  },
-  {
     "link": "https://risingnepaldaily.com/news/88230",
     "headline": "Man lands in police custody after 2.16 billion of transactions in cryptocurrency",
     "sent_at": "2026-10-30T08:02:24.656891+00:00",
@@ -7937,5 +7926,15 @@
     "headline": "चितवनका सयपत्री र मखमलीका माला बेलायत, हङकङ र दुबई निर्यात",
     "sent_at": "2026-11-07T15:46:20.181484+00:00",
     "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228645",
+    "headline": "स्वदेशी फूलबाटै तिहारको माग पुरा हुँदै",
+    "sent_at": "2026-11-07T16:02:07.968478+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/sudurpaschim-in-a-budget-dispute/",
+    "headline": "बजेट विवादमा सुदूरपश्चिम प्रदेशसभा बैठक अवरुद्ध",
+    "sent_at": "2026-11-07T16:02:11.815716+00:00"
   }
 ]
