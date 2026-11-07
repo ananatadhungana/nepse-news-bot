@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://www.osnepal.com/detail/593133",
-    "headline": "१९ अलपत्र आयोजना : काम गर्ने आधार देखाए मात्रै म्याद थपिने मुख्यमन्त्री शाहीको भनाइ",
-    "sent_at": "2026-10-30T07:32:08.538074+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261030131121.html",
-    "headline": "दीपक भट्टदेखि इनमकहाँ धाउने न्यायालयको कुरुप चित्र, सुधारका लागि अब शल्यक्रिया",
-    "sent_at": "2026-10-30T07:32:12.401116+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/10/30/777309/preparations-to-build-a-new-bridge-worth-rs-43-billion-as-an-alternative-to-the-koshi-barrage/",
-    "headline": "कोशी ब्यारेजको विकल्पमा ४३ अर्बको नयाँ पुल  बनाउने तयारी",
-    "sent_at": "2026-10-30T07:32:16.258154+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/290672-2026-10-30-7-35-23",
-    "headline": "अल्टिमा लाइफस्टाइलको क्रेजी ११.११ अभियान",
-    "sent_at": "2026-10-30T07:36:35.507471+00:00"
-  },
-  {
     "link": "https://nepalkhabar.com/society/290671-2026-10-30-7-37-18",
     "headline": "सप्तकोसीमा नयाँ पुल निर्माण गरिने",
     "sent_at": "2026-10-30T07:41:47.821864+00:00"
@@ -7936,5 +7916,26 @@
     "link": "https://myrepublica.nagariknetwork.com/news/investors-lose-rs-60-billion-as-nepse-decline-129-percent-in-a-week-90-77.html",
     "headline": "Investors lose Rs 60 billion as NEPSE decline 1.29 percent in a week",
     "sent_at": "2026-11-07T12:16:32.801301+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226660/",
+    "headline": "धनतेरसमा एलआरआर ग्रुपले हस्तान्तरण गर्‍यो २६ विद्युतीय गाडी",
+    "sent_at": "2026-11-07T12:31:48.247176+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226658/",
+    "headline": "दराजको ११.११ अभियान नोभेम्बर १९ सम्म विस्तार, ६० प्रतिशतभन्दा बढी भुक्तानी विद्युतीय माध्यमबाट",
+    "sent_at": "2026-11-07T12:31:51.973025+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/blog/402248",
+    "headline": "उत्पादन किसानको, मूल्य निर्धारण अरूकै?",
+    "sent_at": "2026-11-07T12:31:55.708409+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/main-headline-of-the-news-80-79.html",
+    "headline": "तिहारमा बिजुली जाँदैन, मागभन्दा धेरै उत्पादन छ: प्राधिकरण",
+    "sent_at": "2026-11-07T12:31:58.708547+00:00",
+    "dup": true
   }
 ]
