@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://nepalkhabar.com/society/290671-2026-10-30-7-37-18",
-    "headline": "सप्तकोसीमा नयाँ पुल निर्माण गरिने",
-    "sent_at": "2026-10-30T07:41:47.821864+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68341",
-    "headline": "Wholesale price of eggs increased",
-    "sent_at": "2026-10-30T07:41:50.821972+00:00",
-    "dup": true
-  },
-  {
     "link": "https://bizmandu.com/content/20261030132515.html",
     "headline": "समस्याग्रस्त कर्णालीका संस्थापकको सेयर स्वामित्व १% मा झारियो, दाबी विरोध भए प्रमाण पेस गर्न आग्रह",
     "sent_at": "2026-10-30T07:41:51.632773+00:00"
@@ -7937,5 +7926,15 @@
     "headline": "तिहारमा बिजुली जाँदैन, मागभन्दा धेरै उत्पादन छ: प्राधिकरण",
     "sent_at": "2026-11-07T12:31:58.708547+00:00",
     "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/100-days-of-karnali-government-major-projects-slow-limited-achievements-in-service-delivery-38-73.html",
+    "headline": "कर्णाली सरकारको सय दिन : ठूला आयोजना सुस्त, सेवा प्रवाहमा सीमित उपलब्धि",
+    "sent_at": "2026-11-07T13:01:59.638980+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226666/",
+    "headline": "काठमाडौं गोर्खाजका डेभिड वार्नरको हस्ताक्षरयुक्त ब्याट १ लाख १ हजारमा बिक्री",
+    "sent_at": "2026-11-07T13:02:03.591820+00:00"
   }
 ]
