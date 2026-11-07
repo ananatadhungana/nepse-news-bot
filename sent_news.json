@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://arthakhabar.com/2026/10/30/122121/",
-    "headline": "कालीकोटका तीन पालिका जोड्ने सडकका लागि नदी वाधक",
-    "sent_at": "2026-10-30T07:41:55.431712+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/kinmel/economy/401601",
-    "headline": "मापदण्ड पूरा गरेको ११ वर्षपछि पनि एलडिसी स्तरोन्नति भएन, नेपालले दोस्रोपटक पायो समय",
-    "sent_at": "2026-10-30T07:46:53.785700+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalkhabar.com/economy/290564-2026-10-30-7-48-59",
     "headline": "बाहिरी चक्रपथको अन्योलले खोकनाबाट चोभार सर्ने भयो काठमाडौं–तराई द्रुतमार्गको शून्य विन्दु",
     "sent_at": "2026-10-30T07:52:00.088562+00:00"
@@ -7936,5 +7925,16 @@
     "link": "https://rajdhanidaily.com/id/151160/",
     "headline": "काठमाडौंले लुम्बिनीलाई दियो १६१ रनको लक्ष्य",
     "sent_at": "2026-11-07T13:31:43.403539+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/details-of-2294-missing-victims-of-bhotekoshi-trishuli-flood-unveiled-74-11.html",
+    "headline": "Details of 2,294 missing victims of Bhotekoshi-Trishuli flood unveiled",
+    "sent_at": "2026-11-07T14:01:52.894001+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2053565/decision-to-provide-free-scholarships-up-to-higher-education-to-children-of-those-who-lost-their-lives-and-disappeared-in-the-bhotekoshi-flood",
+    "headline": "भोटेकोशी बाढीमा ज्यान गुमाएका र बेपत्ताका सन्तानलाई उच्च शिक्षासम्म निःशुल्क छात्रवृत्ति दिने निर्णय",
+    "sent_at": "2026-11-07T14:01:53.677753+00:00"
   }
 ]
