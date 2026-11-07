@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://aarthiksansar.com/archives/65943",
-    "headline": "विटिआई ग्रुपको सीईओमा दिलीपराज बराल नियुक्त",
-    "sent_at": "2026-10-30T06:21:41.794976+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/treasury-bill-alert-government-seeks-npr-14-billion-from-short-term-treasury-bills-2026-10-30",
-    "headline": "Treasury Bill Alert: Government Seeks NPR 14 Billion from Short Term Treasury Bills",
-    "sent_at": "2026-10-30T06:26:32.510560+00:00"
-  },
-  {
     "link": "https://nepalkhabar.com/economy/290662-2026-10-30-6-32-46",
     "headline": "विराटनगरमा १२औँ आउटलेट विस्तार गर्दै अल्टिमा लाइफस्टाइल",
     "sent_at": "2026-10-30T06:36:36.637554+00:00"
@@ -7941,5 +7931,16 @@
     "link": "https://bizpati.com/2026/11/226647/",
     "headline": "कस्तो छ पहिलो त्रैमासमा जीवन तथा निर्जीवन विमा कम्पनीहरुको व्यवसायको अवस्था ?",
     "sent_at": "2026-11-07T07:46:31.568862+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/267045",
+    "headline": "भोटेकोशी बाढी : हालसम्म यकिन भएका बेपत्ता दुई हजार २९४ जनाको सूची सार्वजनिक",
+    "sent_at": "2026-11-07T08:31:43.904707+00:00"
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/11/219505/",
+    "headline": "भोटेकोशी बाढीमा बेपत्ता २ हजार २९४ जनाको विवरण सार्वजनिक",
+    "sent_at": "2026-11-07T08:31:46.904863+00:00",
+    "dup": true
   }
 ]
