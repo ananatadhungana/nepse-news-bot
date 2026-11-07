@@ -1,37 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/96078",
-    "headline": "सुदूरपश्चिममा कृषि उत्पादन गर्ने क्षेत्र घट्यो, जीडीपी ४ खर्ब ६३ अर्ब",
-    "sent_at": "2026-10-30T06:41:51.886156+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/politics/discussions-among-three-parties-to-form-a-new-government-in-madhesh-br-17-70.html",
-    "headline": "मधेसमा नयाँ सरकार गठन गर्न तीन दलबिच छलफल",
-    "sent_at": "2026-10-30T06:41:52.848487+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/transport-federation-urges-caution-in-road-travel-amid-rainfall-forecast.html",
-    "headline": "Transport federation urges caution in road travel amid rainfall forecast",
-    "sent_at": "2026-10-30T06:41:56.715319+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/power-outages-for-eight-kathmandu.html",
-    "headline": "Power outages for eight days in various parts of Kathmandu for underground line expansion",
-    "sent_at": "2026-10-30T06:46:41.247735+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://annapurnapost.com/story/510321",
-    "headline": "समाजवाद र निजीकरणको पुनर्विचार",
-    "sent_at": "2026-10-30T06:51:48.171753+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/169886",
-    "headline": "स्वाभिमान लघुवित्तको पुँजी दोब्बर बनाउने प्रस्ताव, मर्जर पनि एजेन्डामा",
-    "sent_at": "2026-10-30T06:51:52.188027+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261030123750.html",
     "headline": "सेबोनले निकाल्यो आइपीओ अनुमति माग्ने कम्पनीको चरणवद्ध सूची, कुनको प्रक्रिया कहाँ पुग्यो?",
     "sent_at": "2026-10-30T06:56:28.647220+00:00"
@@ -7942,5 +7910,36 @@
     "link": "http://english.ratopati.com/story/85969/machhapuchhre-bank-chairman-roshan-kc-takes-oath-of-office-and-secrecy",
     "headline": "Machhapuchchhre Bank Chairman Roshan KC Takes Oath",
     "sent_at": "2026-11-07T09:02:06.562178+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/510903",
+    "headline": "कटनुखोलामा १४ महिनामै पुल तयार, जोखिमपूर्ण यात्रा अन्त्य",
+    "sent_at": "2026-11-07T09:31:45.352474+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261107151448.html",
+    "headline": "यात्रुवाहक सवारीको विद्युतीकरणमा फोर्स मोटर्सको प्रवेश, अर्को वर्ष इलेक्ट्रिक ट्राभलर आउने",
+    "sent_at": "2026-11-07T09:31:49.204769+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/85973/government-preparing-to-form-data-protection-board-bill-being-drafted",
+    "headline": "Government Prepares to Establish Data Protection Board for Cyber Security",
+    "sent_at": "2026-11-07T09:31:53.072628+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/construction-process-of-postal-road-connecting-banke-and-dang-begins-63-91.html",
+    "headline": "बाँके-दाङ जोड्ने हुलाकी सडक निर्माण सुरु, ३ वर्षभित्र ५८ किमी सडकसहित १६ वटा पुल बन्ने",
+    "sent_at": "2026-11-07T09:31:57.085074+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88498",
+    "headline": "Rs 8 billion budget to encourage youth entrepreneurship in Koshi Province: Chief Minister Karki",
+    "sent_at": "2026-11-07T09:32:00.085220+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.bbc.com/nepali/watch/crgj993lgxxzo?at_medium=RSS&at_campaign=rss",
+    "headline": "विगतभन्दा तिहार किन र कति महँगो?",
+    "sent_at": "2026-11-07T09:32:01.219193+00:00"
   }
 ]
