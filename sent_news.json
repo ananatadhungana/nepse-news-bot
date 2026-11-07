@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/96076",
-    "headline": "सुनको भाउ तोलामा ३२ सय घट्यो",
-    "sent_at": "2026-10-30T05:46:36.491577+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261030112806.html",
-    "headline": "बतास एमएडब्लुले सार्वजनिक गर्‍यो बीएसभीआई मापदण्डका आइसर ट्रक तथा बस",
-    "sent_at": "2026-10-30T05:46:37.186400+00:00"
-  },
-  {
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=132154",
     "headline": "सुदूरपश्चिमको कुल गार्हस्थ्य उत्पादन ४ खर्ब ६३ अर्ब पुग्ने अनुमान, आर्थिक वृद्धिदर ३.२८ प्रतिशत : नेपाल राष्ट्र बैंक प्रतिवेदन",
     "sent_at": "2026-10-30T05:51:32.046806+00:00"
@@ -7946,5 +7935,16 @@
     "link": "https://bizmandu.com/content/20261107112735.html",
     "headline": "इभीको ब्याट्री : विश्वको ८०% उत्पादन क्षमता एउटै देशमा, लिथियम महँगिन थालेपछि नयाँ चुनौती",
     "sent_at": "2026-11-07T05:46:23.317402+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132337",
+    "headline": "तिहार नजिकिँदै गर्दा झन महँगियो उपभोक्ताको भान्सा, सरकार रमिते",
+    "sent_at": "2026-11-07T06:01:48.022146+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/power-demand-to-reach-around-1700-mw-on-laxmi-puja-nea-99-20.html",
+    "headline": "Power demand to reach around 1,700 MW on Laxmi Puja: NEA",
+    "sent_at": "2026-11-07T06:01:51.022274+00:00",
+    "dup": true
   }
 ]
