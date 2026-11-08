@@ -1,26 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/economy/karnali-s-economy-is-sluggish-industry-is-weak-tourism-is-declining-75-percent-of-roads-are-unpaved-47-46.html",
-    "headline": "कर्णालीको अर्थतन्त्र सुस्त : उद्योग कमजोर, घट्दो पर्यटन, ७५ प्रतिशत सडक कच्ची",
-    "sent_at": "2026-10-30T12:16:44.294492+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/169733",
-    "headline": "स्टार्टअप कर्जा : १० हजारभन्दा बढी आवेदन, अवसर पाए ९२२ उद्यमले",
-    "sent_at": "2026-10-30T12:16:48.005632+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/kinmel/tourism/401632",
-    "headline": "कन्टेन्ट क्रिएटरमार्फत नेपालको पर्यटन प्रवर्द्धन गर्न बोर्डले माग्यो आवेदन",
-    "sent_at": "2026-10-30T12:21:56.870564+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85119/board-invites-applications-to-promote-nepals-tourism-through-content-creators",
-    "headline": "Nepal Tourism Board Seeks Content Creators for Promotion Campaign",
-    "sent_at": "2026-10-30T12:21:59.870699+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalipaisa.com/news-detail/96094",
     "headline": "सरकारको 'बोल्ड कदम' अघि चलिरहेको मन्थन  ",
     "sent_at": "2026-10-30T12:27:11.502374+00:00"
@@ -7933,5 +7912,26 @@
     "link": "https://english.onlinekhabar.com/flower-trade-booms-in-the-capital-during-tihar.html",
     "headline": "Flower trade booms in the capital during Tihar",
     "sent_at": "2026-11-08T10:31:51.722502+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/flower-trade-worth-over-npr-640-million/",
+    "headline": "६४ करोडबढीको फूलको व्यापार",
+    "sent_at": "2026-11-08T11:01:59.163559+00:00"
+  },
+  {
+    "link": "https://khabarhub.com/2026/08/1046083/",
+    "headline": "डिडिसीको बिक्री कक्ष भरतपुरमा",
+    "sent_at": "2026-11-08T11:02:02.974501+00:00"
+  },
+  {
+    "link": "https://nepalsamaya.com/detail/147688",
+    "headline": "मुगुमा स्याउखेती : व्यापारी गाउँमै पुग्दा किसानले पाए राम्रो मूल्य",
+    "sent_at": "2026-11-08T11:02:06.787119+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/08/126871/",
+    "headline": "मुगुमा स्याउखेती : व्यापारी गाउँमै पुग्दा किसानले पाए राम्रो मूल्य",
+    "sent_at": "2026-11-08T11:02:09.787278+00:00",
+    "dup": true
   }
 ]
