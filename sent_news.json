@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/stock-market-fails-to-hold.html",
-    "headline": "Stock market fails to hold above 2,700, trading highest in seven months",
-    "sent_at": "2026-10-30T09:41:52.049188+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261030152109.html",
-    "headline": "राष्ट्र बैंकले सचेत गराउँदा सीइओको जागिर जाने भएपछि फास्ट ट्र्याकबाट बाफिया, अध्यादेश अर्थमा",
-    "sent_at": "2026-10-30T09:41:55.750428+00:00"
-  },
-  {
     "link": "https://nepalkhabar.com/economy/290687-2026-10-30-9-43-44",
     "headline": "करिब ९ अर्बको सेयर कारोबार, नेप्से २७ सय नजिक",
     "sent_at": "2026-10-30T09:46:48.696928+00:00"
@@ -7939,5 +7929,15 @@
     "headline": "बढ्यो तिहारमा कारोबार",
     "sent_at": "2026-11-08T03:31:46.378501+00:00",
     "dup": true
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/08/126657/",
+    "headline": "घिउको बजार माग धान्न अस्थायी रुपमा बटर आयात खोल्नु पर्छ : केडिया",
+    "sent_at": "2026-11-08T03:46:21.548063+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228692",
+    "headline": "बजेट खर्च सात प्रतिशत राजस्व चौबिस करोड सङ्कलन",
+    "sent_at": "2026-11-08T03:46:25.382242+00:00"
   }
 ]
