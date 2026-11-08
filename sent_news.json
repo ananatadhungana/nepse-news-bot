@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://aarthiksansar.com/archives/66000",
-    "headline": "समावेशी बीमा सम्बन्धी अन्तर्राष्ट्रिय सम्मेलन, सस्तो र प्रभावकारी सेवा प्रदान गर्न बीमकलाई आग्रह",
-    "sent_at": "2026-10-30T15:02:30.421461+00:00"
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66003",
-    "headline": "स्थानीय मुद्रामा ऋण लगानी, आइएफसीको विश्वव्यापी रणनीतिबाट नेपालका उद्यमीले पाउने अवसर",
-    "sent_at": "2026-10-30T15:06:35.975805+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227749",
-    "headline": "बाढीमा यात्रुबाहक बस फस्यो, ३० यात्रुको सकुशल उद्धार",
-    "sent_at": "2026-10-30T15:06:40.249762+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/10/502655.html",
-    "headline": "मुस्ताङमा निरन्तर वर्षा: कोरला क्षेत्रमा थन्किए ५०० बढी कन्टेनर",
-    "sent_at": "2026-10-30T15:41:52.004046+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/85124/passenger-bus-gets-stuck-in-flood-30-passengers-rescued-safely",
     "headline": "Bus Stranded in Floodwaters on Tamor Corridor Road",
     "sent_at": "2026-10-30T15:46:50.100705+00:00"
@@ -7933,5 +7913,26 @@
     "link": "https://www.thahakhabar.com/detail/311639",
     "headline": "देशभर तिहारको रौनक, गरियो लक्ष्मीपूजा, देउवालाई महाधिवेशनको चटारो, पृथ्वी राजमार्गमा पहिरोले तनाव",
     "sent_at": "2026-11-08T14:31:37.651213+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/the-gandigad-bridge-connecting-achham-doti-has-been-abandoned-for-16-months-with-even-the-suspension-bridge-collapsing-making-travel-risky-60-66.html",
+    "headline": "गण्डीगाडमा नयाँ पुल बनेन, भएको पनि रहेन",
+    "sent_at": "2026-11-08T15:16:32.855271+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2054183/bridge-construction-in-achhams-gandigad-has-not-progressed-even-after-16-months-of-contract",
+    "headline": "अछामको गण्डीगाडमा ठेक्काको १६ महिना बित्दा पनि पुल निर्माण अघि बढेन",
+    "sent_at": "2026-11-08T15:16:35.855442+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/a-concrete-bridge-worth-rs-20-million-was-built-at-sundikhola-in-dhulikhel-81-88.html",
+    "headline": "धुलिखेलको सुन्डीखोलामा बन्यो पौने २ करोडको पक्की पुल",
+    "sent_at": "2026-11-08T15:16:36.728151+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/apples-changed-the-face-of-the-village-trucks-arrive-in-the-courtyard-millions-of-rupees-enter-a-single-village-68-85.html",
+    "headline": "स्याउले बदलिदियो फुङ्ग्रको दैनिकी: न बजारको चिन्ता, न भारी बोक्ने झन्झट",
+    "sent_at": "2026-11-08T15:16:40.619582+00:00"
   }
 ]
