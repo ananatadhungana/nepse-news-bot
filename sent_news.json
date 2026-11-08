@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/10/2047339/grace-period-extended-for-renewal-or-dissolution-of-dormant-companies",
-    "headline": "निष्क्रिय कम्पनी नवीकरण वा खारेज गर्न छुट अवधि थप",
-    "sent_at": "2026-10-30T09:32:04.856227+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/510332",
-    "headline": "पूर्वका दुध कृषकलाई तिर्नुपर्ने बक्यौता रकम ३ करोड मात्र बाँकी",
-    "sent_at": "2026-10-30T09:41:51.527700+00:00",
-    "dup": true
-  },
-  {
     "link": "https://english.onlinekhabar.com/stock-market-fails-to-hold.html",
     "headline": "Stock market fails to hold above 2,700, trading highest in seven months",
     "sent_at": "2026-10-30T09:41:52.049188+00:00"
@@ -7939,5 +7928,16 @@
     "link": "http://english.ratopati.com/story/86033/flower-sales-begin-at-33-locations-designated-by-kathmandu-metropolitan-city-photos",
     "headline": "Kathmandu Metropolitan City Allows Sale of Domestic Flowers at 33 Designated Locations",
     "sent_at": "2026-11-08T03:01:50.169926+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291373-2026-11-8-3-8-29",
+    "headline": "कालीमाटीमा च्याउको मूल्य किलोमै १०५ रुपैयाँ बढ्यो, अरु तरकारीको कति?",
+    "sent_at": "2026-11-08T03:31:43.378341+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228690",
+    "headline": "बढ्यो तिहारमा कारोबार",
+    "sent_at": "2026-11-08T03:31:46.378501+00:00",
+    "dup": true
   }
 ]
