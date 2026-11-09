@@ -1,28 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/85174/heavy-snowfall-and-rain-affect-normal-life-in-mustang-korala-road-blocked",
-    "headline": "Upper Mustang Affected by Heavy Snowfall and Landslides",
-    "sent_at": "2026-10-31T06:02:08.420961+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/society/290752-2026-10-31-6-7-1",
-    "headline": "कुलेखानी ड्याम केही घण्टामै भरिने भन्दै मकवानपुर प्रशासनले जारी गर्यो ‘अलर्ट’",
-    "sent_at": "2026-10-31T06:11:53.551506+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://lokaantar.com/story/332260/2026/10/31/rain",
-    "headline": "लगातार वर्षा : पृथ्वी राजमार्गसहित मुलुकका १२ भन्दा बढी सडक अवरुद्ध",
-    "sent_at": "2026-10-31T06:11:53.551526+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://kathmandupost.com/national/2026/10/31/rain-triggers-landslides-washes-away-roads-and-disrupts-travel-across-nepal",
-    "headline": "Rain triggers landslides, washes away roads and disrupts travel across Nepal",
-    "sent_at": "2026-10-31T06:11:53.551531+00:00",
-    "dup": true
-  },
-  {
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=132183",
     "headline": "सातामा २ प्रतिशतभन्दा बढी बढ्यो नेप्से, कुन उपसमूहको परिसूचक कति घटबढ?",
     "sent_at": "2026-10-31T06:16:42.453686+00:00"
@@ -7933,5 +7910,25 @@
     "link": "https://nepalsamaya.com/detail/147703",
     "headline": "उद्योगमन्त्री र भारतीय राजदूतबीच भेट, ग्यास पाइप लाइनबारे छलफल",
     "sent_at": "2026-11-09T10:02:02.627931+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291436-2026-11-9-10-16-34",
+    "headline": "कर्णालीमा एक चौथाईले घटे पर्यटक, खस्कियो औद्योगिक उत्पादन",
+    "sent_at": "2026-11-09T10:44:04.436660+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96392",
+    "headline": "फेसबुकदेखि केवाईसीसम्म ठगीको जालो: यसरी खाली हुन सक्छ तपाईंको बैंक खाता",
+    "sent_at": "2026-11-09T10:44:08.139995+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/09/127235/",
+    "headline": "तिहारमा पनि रोकिएन विदेशिनेको लर्को",
+    "sent_at": "2026-11-09T10:44:11.680741+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2054411/bonus-shares-burdens-greater-than-benefits-capital-gains-tax-even-on-losses",
+    "headline": "बोनस सेयर : लाभभन्दा भार ठूलो, नोक्सानीमा समेत पूँजीगत लाभकर",
+    "sent_at": "2026-11-09T10:44:15.396851+00:00"
   }
 ]
