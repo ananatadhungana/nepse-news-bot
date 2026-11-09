@@ -1,17 +1,5 @@
 [
   {
-    "link": "https://nepalpress.com/2026/10/31/777623/landslide-in-mahakulung-risk-of-blocking-ingkhu-river/",
-    "headline": "महाकुलुङमा पहिरो खस्यो, इङखु खोला थुनिने जोखिम",
-    "sent_at": "2026-10-31T07:11:41.336411+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalkhabar.com/bagmati/290756-2026-10-31-7-14-7",
-    "headline": "तीव्र गतिमा भरिँदै कुलेखानी जलाशय, साइरन बजाउने तयारी",
-    "sent_at": "2026-10-31T07:16:27.953056+00:00",
-    "dup": true
-  },
-  {
     "link": "https://himalpress.com/2026/10/12-highway-completely-blocked/",
     "headline": "१२ राजमार्ग पूर्ण अवरुद्ध",
     "sent_at": "2026-10-31T07:21:27.432967+00:00",
@@ -7929,5 +7917,15 @@
     "headline": "कोप-३१ मा सहभागी हुन अर्थमन्त्री वाग्ले पनि टर्कीए प्रस्थान, आर्थिक एजेण्डामा पैरवी गर्ने",
     "sent_at": "2026-11-09T13:02:27.591708+00:00",
     "dup": true
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291392-2026-11-9-13-8-28",
+    "headline": "आर्थिक विकासका लागि नेपालसँग अब मात्रै २ दशक समय छ",
+    "sent_at": "2026-11-09T13:16:29.696623+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2054790/the-loan-of-34-billion-taken-by-newani-to-buy-4-ships-has-increased-to-56-billion",
+    "headline": "नेवानिले ४ जहाज किन्न लिएको ३४ अर्ब ऋण बढेर ५६ अर्ब",
+    "sent_at": "2026-11-09T13:16:33.619400+00:00"
   }
 ]
