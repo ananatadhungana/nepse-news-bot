@@ -1,16 +1,5 @@
 [
   {
-    "link": "http://lokaantar.com/story/332300/2026/11/1/sadak-",
-    "headline": "बीपी र मध्यपहाडी लोकमार्गसहित ३ जिल्लाका सडक ठप्प",
-    "sent_at": "2026-11-01T01:11:49.624224+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261101065154.html",
-    "headline": "जलविद्युतमा ओपन एक्सेस र ह्विलिङ चार्ज: असर ऊर्जा बजारदेखि पूँजी बजारसम्म",
-    "sent_at": "2026-11-01T01:11:50.543742+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/request-for-opinions-and-suggestions-for-the-establishment-of-an-apple-development-board-br-50-46.html",
     "headline": "महाकाली सिँचाइ आयोजनाः संरचना बने तर नहरमा पानी आएन",
     "sent_at": "2026-11-01T01:16:24.164449+00:00",
@@ -7915,5 +7904,16 @@
     "link": "https://nepalpress.com/2026/11/10/780437/the-oblivion-of-white-gold-why-is-there-silence-in-the-fields-of-blooming-cotton/",
     "headline": "सेतो सुनको विस्मृति : कपास फुलेका खेतमा किन छायो सन्नाटा ?",
     "sent_at": "2026-11-10T15:32:04.296039+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/sports/sudurpaschim-s-sensational-win-janakpur-stunned-by-27-runs-97-51.html",
+    "headline": "सुदूरपश्चिमको सनसनीपूर्ण जित, जनकपुर २७ रनले स्तब्ध",
+    "sent_at": "2026-11-10T16:02:03.088996+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/sports/janakpur-in-serious-trouble-after-chasing-a-target-of-121-runs-5-wickets-lost-while-scoring-46-runs-71-64.html",
+    "headline": "जनकपुरको आधा टोली ४६ रनमै पेभेलियनमा",
+    "sent_at": "2026-11-10T16:02:06.089155+00:00",
+    "dup": true
   }
 ]
