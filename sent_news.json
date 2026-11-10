@@ -1,17 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/10/2047889/19-stalled-projects-in-karnali-no-progress-despite-6-extensions",
-    "headline": "कर्णालीका सुस्त १९ आयोजना : ६ पटकसम्म म्याद थप्दा पनि बनेनन्",
-    "sent_at": "2026-10-31T09:46:30.466569+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalkhabar.com/society/290762-2026-10-31-9-43-47",
-    "headline": "कुलेखानी हुँदै काठमाडौँ आउजाउ गर्ने सडकमा आवागमनमा रोक",
-    "sent_at": "2026-10-31T09:51:29.715984+00:00",
-    "dup": true
-  },
-  {
     "link": "https://www.setopati.com/opinion/401623",
     "headline": "विश्वभन्दा २० वर्षअघि नै जनसंख्याको शिखरमा पुग्दै नेपाल",
     "sent_at": "2026-10-31T09:51:30.527933+00:00"
@@ -7916,5 +7904,17 @@
     "link": "https://himalpress.com/2026/11/tea-exports-have-doubled/",
     "headline": "दोब्बर बन्यो चिया निर्यात",
     "sent_at": "2026-11-10T03:02:29.191448+00:00"
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68650",
+    "headline": "Nepal calls for greater climate finance for mountain resilience",
+    "sent_at": "2026-11-10T03:46:32.425880+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68649",
+    "headline": "Nepal inaugurates national pavilion at COP31",
+    "sent_at": "2026-11-10T03:46:32.425905+00:00",
+    "dup": true
   }
 ]
