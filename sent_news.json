@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132176",
-    "headline": "२०० मुनिका शेयर तीनवटामा सीमित, ३०० रुपैयाँमुनिका ४१ कम्पनीको यस्तो छ अवस्था",
-    "sent_at": "2026-11-01T00:21:31.232433+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/502740.html",
-    "headline": "एक अमेरिकी डलरको १५२.२३ रुपैयाँ, कति छ अन्य विदेशी मुद्राको विनिमय दर ?",
-    "sent_at": "2026-11-01T00:31:57.382366+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/120-firms-companies-blacklisted-since-formation-of-new-govt-71-65.html",
     "headline": "120 firms, companies blacklisted since formation of new govt",
     "sent_at": "2026-11-01T00:36:26.700203+00:00"
@@ -7914,5 +7904,16 @@
     "link": "https://bizmandu.com/content/20261110161038.html",
     "headline": "९०० मेगावाटको अरुण-३ निर्माणको निर्णायक चरणमा, भौतिक प्रगति ७५ प्रतिशत",
     "sent_at": "2026-11-10T10:31:39.819935+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/national/2026/11/10/indian-anti-dumping-duties-put-nepal-s-jute-industry-under-pressure",
+    "headline": "Indian anti-dumping duties put Nepal’s jute industry under pressure",
+    "sent_at": "2026-11-10T10:46:29.405123+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/despite-landslide-removal-heavy-traffic-in-ghoptebhir-traffic-management-struggling-to-clear-highway-br-93-62.html",
+    "headline": "पहिरो पन्छाए पनि घोप्टेभीरमा सवारीको अत्यधिक चाप, राजमार्ग खुलाउन ट्राफिकलाई हम्मेहम्मे",
+    "sent_at": "2026-11-10T10:46:32.405300+00:00",
+    "dup": true
   }
 ]
