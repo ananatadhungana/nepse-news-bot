@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/incessant-rainfall-disrupts-vehicular-traffic-on-several-highways-22-91.html",
-    "headline": "Incessant rainfall disrupts vehicular traffic on several highways",
-    "sent_at": "2026-10-31T14:46:28.166278+00:00",
-    "dup": true
-  },
-  {
     "link": "http://lokaantar.com/story/332287/2026/10/31/petrol-",
     "headline": "पेट्रोलियम पदार्थको मूल्य यथावत",
     "sent_at": "2026-10-31T15:32:00.146663+00:00"
@@ -7915,5 +7909,11 @@
     "link": "http://english.ratopati.com/story/86201/two-shree-airlines-planes-return-after-encountering-problems-during-takeoff",
     "headline": "Two Shree Airlines Planes Return to Parking Due to Technical Issues",
     "sent_at": "2026-11-10T08:02:13.496414+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/myagdis-zinnia-market-expands-abroad/",
+    "headline": "विदेशसम्म फैलियो म्याग्दीको झिनियाको बजार",
+    "sent_at": "2026-11-10T09:02:08.764211+00:00",
+    "dup": true
   }
 ]
