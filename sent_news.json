@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://baahrakhari.com/detail/506200",
-    "headline": "चुनावलगत्तै इरानमाथि आक्रमण हुन सक्ने भन्दै खाडीका सहयोगीलाई अमेरिकी चेतावनी",
-    "sent_at": "2026-10-31T11:46:41.086035+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/shankar-who-enjoys-being-with-ducks-sells-15-000-chicks-annually-64-72.html",
-    "headline": "हाँससँगै रमाएका शंकर, वर्षेनी बेच्छन् १५ हजार चल्ला",
-    "sent_at": "2026-10-31T12:06:55.212639+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/gold-price-plunges-rs-9900-as-silver-drops-rs-360-per-tola-in-a-week-47-84.html",
-    "headline": "Gold price plunges Rs 9,900 as silver drops Rs 360 per tola in a week",
-    "sent_at": "2026-10-31T12:16:42.060566+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/31/1042661/",
-    "headline": "पाल्पामा विपद्जन्य घटनाबाट १०२ जनाको मृत्यु, ३७ करोडभन्दा बढीको क्षति",
-    "sent_at": "2026-10-31T12:32:00.402791+00:00"
-  },
-  {
     "link": "https://peoplesreview.com.np/2026/10/31/around-200-tourists-stuck-in-manang-following-heavy-snowfall/",
     "headline": "Around 200 tourists stuck in Manang following heavy snowfall",
     "sent_at": "2026-10-31T12:41:37.937838+00:00"
@@ -7912,5 +7892,27 @@
     "link": "https://nepalipaisa.com/news-detail/96412",
     "headline": "ऋण वर्गीकरणको व्यवस्था अव्यवहारिक र कडा भयोः सिबिफिन अध्यक्ष उपाध्याय",
     "sent_at": "2026-11-10T06:02:08.663348+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/504747.html",
+    "headline": "नेपालमा विदेशी पर्यटकको दैनिक खर्च ३३ डलरमा खुम्चियो, किन बन्यो दक्षिण एसियाकै सस्तो गन्तव्य ?",
+    "sent_at": "2026-11-10T06:31:44.406191+00:00"
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/10/cardamom-worth-rs-988-8-million-exported-through-kakarbhitta/",
+    "headline": "Cardamom worth Rs 988.8 million exported through Kakarbhitta",
+    "sent_at": "2026-11-10T06:31:47.406341+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/cardamom-exports-contribute-nearly-one-billion-to-eastern-nepals-trade/",
+    "headline": "अलैँची निर्यातबाट पूर्वी नेपालको व्यापारमा झन्डै एक अर्बको योगदान",
+    "sent_at": "2026-11-10T06:31:47.406664+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/501109.html",
+    "headline": "बोनस, राइट, एफपीओ, मर्जर, स्प्लिट/एकीकरण पछि सेयरको मूल्य किन र कसरी हुन्छ समायोजन ?",
+    "sent_at": "2026-11-10T06:31:48.179092+00:00"
   }
 ]
