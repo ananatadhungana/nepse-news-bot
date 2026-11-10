@@ -1,22 +1,5 @@
 [
   {
-    "link": "https://peoplesreview.com.np/2026/10/31/around-200-tourists-stuck-in-manang-following-heavy-snowfall/",
-    "headline": "Around 200 tourists stuck in Manang following heavy snowfall",
-    "sent_at": "2026-10-31T12:41:37.937838+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/un-grants-nepal-three-more-years-to-prepare-for-ldc-graduation-88-45.html",
-    "headline": "UN grants Nepal three more years to prepare for LDC graduation",
-    "sent_at": "2026-10-31T12:41:40.938002+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://peoplesreview.com.np/2026/10/31/first-stage-warning-siren-sounds-at-kulekhani-dam/",
-    "headline": "First-stage warning siren sounds at Kulekhani Dam",
-    "sent_at": "2026-10-31T12:46:36.286184+00:00",
-    "dup": true
-  },
-  {
     "link": "http://english.ratopati.com/story/85259/road-from-sundarijal-to-sindhupalchowk-and-nuwakot-blocked",
     "headline": "Melamchi Project Blocks Sundarijal Road, Locals Protest",
     "sent_at": "2026-10-31T12:51:24.885759+00:00"
@@ -7914,5 +7897,22 @@
     "link": "https://clickmandu.com/2026/11/501109.html",
     "headline": "बोनस, राइट, एफपीओ, मर्जर, स्प्लिट/एकीकरण पछि सेयरको मूल्य किन र कसरी हुन्छ समायोजन ?",
     "sent_at": "2026-11-10T06:31:48.179092+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/504756.html",
+    "headline": "कर्जा वर्गीकरण र प्रोभिजनिङसम्बन्धी व्यवस्था पुनरावलोकन गर्न सिबिफिनको माग",
+    "sent_at": "2026-11-10T07:02:16.312355+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/86193/existing-system-of-loan-classification-and-provisioning-of-banks-and-financial-institutions-is-impractical-confederation",
+    "headline": "Confederation of Banks and Financial Institutions Nepal Demands Review of Loan Classification and Provisioning System",
+    "sent_at": "2026-11-10T07:02:16.312372+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/504751.html",
+    "headline": "खर्बौं सम्पत्ति हुनेहरू धन अनुसार धेरै कर किन तिर्दैनन् ?",
+    "sent_at": "2026-11-10T07:02:17.219105+00:00"
   }
 ]
