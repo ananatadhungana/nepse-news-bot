@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://risingnepaldaily.com/news/88264",
-    "headline": "Over 12 roads networks across the country obstructed",
-    "sent_at": "2026-10-31T08:26:20.775456+00:00",
-    "dup": true
-  },
-  {
     "link": "https://bizkhabar.com/266515",
     "headline": "माछापुच्छ्रे बैंकको नाफा ३२ प्रतिशतले वृद्धि, पहिलो त्रैमासमा ५५ करोड ११ लाख रुपैयाँ खुद नाफा",
     "sent_at": "2026-10-31T08:46:48.945480+00:00"
@@ -7920,5 +7914,10 @@
     "link": "https://bizmandu.com/content/20261110063140.html",
     "headline": "नेपाल कुन दिशामा छ? राजनीतिक क्रान्तिको निरन्तरता, परनिर्भर अर्थतन्त्र र राज्य पुनर्निर्माणको चुनौती",
     "sent_at": "2026-11-10T01:02:01.610760+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2054953/construction-of-48-km-embankment-on-rapti-river",
+    "headline": "राप्ती नदीमा ४८ किमी तटबन्ध निर्माण",
+    "sent_at": "2026-11-10T01:31:38.961797+00:00"
   }
 ]
