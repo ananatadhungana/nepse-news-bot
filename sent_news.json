@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/96119",
-    "headline": "मिठाईमा लेबल अनिवार्य, नराखे सरकारले कारबाही गर्ने",
-    "sent_at": "2026-10-31T10:51:47.314614+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/266523",
-    "headline": "नेपाल-मौरिससबीच श्रमिक पठाउन जिटुजी सम्झौताको तयारी, नेपालमा अन्तर्राष्ट्रिय रोजगार मेला आयोजना गर्न इच्छुक",
-    "sent_at": "2026-10-31T10:56:36.327131+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/investors-gain-96-billion-as-nepse-jumps-213-percent-in-a-week-42-68.html",
     "headline": "Investors gain 96 billion as NEPSE jumps 2.13 percent in a week",
     "sent_at": "2026-10-31T10:56:39.327305+00:00",
@@ -7913,5 +7903,16 @@
     "link": "https://bizpati.com/2026/11/226825/",
     "headline": "नेपालले सिक्नैपर्ने पाठ : वैदेशिक लगानी भित्र्याएर मात्रै हुँदैन, उत्पादन र निर्यात बढाउनुपर्छ",
     "sent_at": "2026-11-10T05:16:38.606911+00:00"
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/10/95963",
+    "headline": "दानाको मूल्य १५ प्रतिशत बढ्यो, पशुपन्छीपालनमा लागतको मार",
+    "sent_at": "2026-11-10T05:31:44.490364+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/86185/understand-intraday-trading-in-9-qas-why-should-you-sell-shares-on-the-same-day-you-buy-them",
+    "headline": "Nepal Prepares to Launch Intraday Share Trading",
+    "sent_at": "2026-11-10T05:31:45.205292+00:00"
   }
 ]
