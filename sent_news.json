@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://kathmandupost.com/money/2026/10/31/nepse-rebounds-after-dashain-as-trading-picks-up",
-    "headline": "Nepse rebounds after Dashain as trading picks up",
-    "sent_at": "2026-10-31T09:02:28.211095+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizkhabar.com/266519",
-    "headline": "एभरेष्ट बैंकको नाफा सवा अर्ब बढी, प्रतिसेयर नेटवर्थ २४३ रुपैयाँ १ पैसा",
-    "sent_at": "2026-10-31T09:02:28.975006+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261031145054.html",
     "headline": "प्रोभिजनिङ घटेसँगै माछापुच्छ्रे बैंकको नाफा २२.३० प्रतिशतले बढ्यो, ब्याज आम्दानीमा पनि वृद्धि",
     "sent_at": "2026-10-31T09:11:42.337669+00:00",
@@ -7919,5 +7908,16 @@
     "link": "https://rajdhanidaily.com/id/151224/",
     "headline": "मकै र भटमासको मूल्य वृद्धि : पशुपन्छीजन्यको उत्पादन लागत बढ्यो",
     "sent_at": "2026-11-10T01:46:36.968020+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291461-2026-11-10-1-46-13",
+    "headline": "कालीमाटीमा च्याउको भाउ किलोमै १४१ रुपैयाँ बढ्यो",
+    "sent_at": "2026-11-10T02:01:56.633636+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261110074403.html",
+    "headline": "१५ दिनमै मकैको मूल्य किलोमा १५ रुपैयाँ बढ्यो, दानाको लागत १५ प्रतिशत उकालो",
+    "sent_at": "2026-11-10T02:01:59.633861+00:00",
+    "dup": true
   }
 ]
