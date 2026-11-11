@@ -1,10 +1,5 @@
 [
   {
-    "link": "http://annapurnapost.com/story/510451",
-    "headline": "अम्बे स्टिल कम्पनीमा आगलागी, ८ जना घाइते",
-    "sent_at": "2026-11-01T04:41:24.700132+00:00"
-  },
-  {
     "link": "https://bankingkhabar.com/archives/169925",
     "headline": "प्राइम बैंकको नाफा घट्यो, खराब कर्जा ७.१५ प्रतिशत पुग्यो",
     "sent_at": "2026-11-01T04:41:28.432846+00:00"
@@ -7916,5 +7911,11 @@
     "link": "https://bizmandu.com/content/20261111173120.html",
     "headline": "आन्तरिक राजस्व विभागका ८३ लाख सेवाग्राही, १५ सय कर्मचारीले कसरी दिइरहेका छन् सेवा?",
     "sent_at": "2026-11-11T12:02:15.392573+00:00"
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68678",
+    "headline": "Minister Wagle wants special financial package for vulnerable countries",
+    "sent_at": "2026-11-11T13:02:07.773947+00:00",
+    "dup": true
   }
 ]
