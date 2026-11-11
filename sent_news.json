@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/bp-highway-to-open-only-in-the-afternoon-10-am-target-not-met-49-24.html",
-    "headline": "बिपी राजमार्ग दिउँसो मात्रै खुल्ने, १० बजेको लक्ष्य पूरा भएन",
-    "sent_at": "2026-11-01T04:26:21.530870+00:00",
-    "dup": true
-  },
-  {
     "link": "https://clickmandu.com/2026/11/502802.html",
     "headline": "सिक्टा र बबई आयोजनाबाट थप १५० हेक्टरमा सिँचाइ सुविधा",
     "sent_at": "2026-11-01T04:31:50.404868+00:00"
@@ -7915,6 +7909,12 @@
     "link": "https://arthakhabar.com/2026/11/11/128111/",
     "headline": "इलाममा असिना पानीले पाक्न लागेको धानबालीमा क्षति",
     "sent_at": "2026-11-11T10:46:26.859188+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/11/95993",
+    "headline": "खानेपानीको महसुलमा कटौती, अब उपभोक्ताले कति तिर्नुपर्ला ?",
+    "sent_at": "2026-11-11T11:16:26.752210+00:00",
     "dup": true
   }
 ]
