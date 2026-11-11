@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/502802.html",
-    "headline": "सिक्टा र बबई आयोजनाबाट थप १५० हेक्टरमा सिँचाइ सुविधा",
-    "sent_at": "2026-11-01T04:31:50.404868+00:00"
-  },
-  {
     "link": "https://nepalpress.com/2026/11/01/777817/despite-having-the-capacity-to-accommodate-4-million-tourists-only-1-2-million-have-been-able-to-be-brought-in-binayak-shah/",
     "headline": "४० लाख पर्यटक धान्ने क्षमता भएपनि १२ लाख मात्रै भित्र्याउन सकिएको छः विनायक शाह",
     "sent_at": "2026-11-01T04:31:54.116585+00:00"
@@ -7915,6 +7910,12 @@
     "link": "https://arthadabali.com/2026/11/11/95993",
     "headline": "खानेपानीको महसुलमा कटौती, अब उपभोक्ताले कति तिर्नुपर्ला ?",
     "sent_at": "2026-11-11T11:16:26.752210+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/nepal-cannot-bear-the-burden-of-climate-disaster-alone-special-financial-package-needed-finance-minister-69-21.html",
+    "headline": "जलवायु विपद्को भार नेपालले एक्लै धान्न सक्दैन, विशेष वित्तीय प्याकेज चाहियो: अर्थमन्त्री",
+    "sent_at": "2026-11-11T11:31:38.384105+00:00",
     "dup": true
   }
 ]
