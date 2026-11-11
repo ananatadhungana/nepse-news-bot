@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/nepse-report-superficial-ransomware-attack.html",
-    "headline": "NEPSE’s cybersecurity report offers only superficial solutions after ransomware attack",
-    "sent_at": "2026-11-01T02:51:23.901576+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/11/225600/",
     "headline": "नेपालगन्ज भन्सारको राजस्व लक्ष्यभन्दा कम, तीन महिनामा ५ अर्ब २४ करोड असुली",
     "sent_at": "2026-11-01T02:51:27.645108+00:00"
@@ -7915,5 +7910,10 @@
     "headline": "नेपालगन्जका तीन कृषि विद्यार्थीले गरे फूलखेती, १० कट्ठामा जग्गामा ११ क्वीन्टल उत्पादन",
     "sent_at": "2026-11-11T08:16:19.428670+00:00",
     "dup": true
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/311758",
+    "headline": "घट्यो खानेपानी महसुल शुल्क",
+    "sent_at": "2026-11-11T08:46:27.435708+00:00"
   }
 ]
