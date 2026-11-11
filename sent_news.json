@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bankingkhabar.com/archives/169925",
-    "headline": "प्राइम बैंकको नाफा घट्यो, खराब कर्जा ७.१५ प्रतिशत पुग्यो",
-    "sent_at": "2026-11-01T04:41:28.432846+00:00"
-  },
-  {
     "link": "https://bankingsamachar.com/news/176963/",
     "headline": "बाँकेको अम्बे स्टिल कम्पनीमा आगलागी, ८ जना घाइते",
     "sent_at": "2026-11-01T04:41:31.432944+00:00",
@@ -7917,5 +7912,10 @@
     "headline": "Minister Wagle wants special financial package for vulnerable countries",
     "sent_at": "2026-11-11T13:02:07.773947+00:00",
     "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/86284/7-revolutions-of-nepali-banking-from-monetization-to-digitization",
+    "headline": "The Evolution of Nepali Banking: A Journey Through Seven Milestones",
+    "sent_at": "2026-11-11T13:16:39.049901+00:00"
   }
 ]
