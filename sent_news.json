@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/11/2048205/daily-loss-of-150-million-rupees-in-petroleum-products-nac-executive-director-sah",
-    "headline": "पेट्रोलियम पदार्थमा दैनिक १५ करोड घाटा : निगमका कार्यकारी निर्देशक साह",
-    "sent_at": "2026-11-01T01:56:11.316578+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132189",
-    "headline": "साढे २ अर्ब नाघ्याे नबिल बैंकको खुद नाफा, इम्पेरमेन्ट चार्जमा आएको कमीले नाफा बढ्यो",
-    "sent_at": "2026-11-01T02:06:30.537123+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261101075924.html",
     "headline": "प्रभु बैंकको नाफा ८.१० प्रतिशतले बढेर पुग्यो ६० करोड ३७ लाख, कर्जा नोक्सानीमा सुधार",
     "sent_at": "2026-11-01T02:16:25.185351+00:00"
@@ -7913,5 +7903,16 @@
     "link": "http://english.ratopati.com/story/86265/tourism-board-ceo-selection-process-raises-suspicions",
     "headline": "Nepal Tourism Board CEO Selection Faces Scrutiny Amidst Allegations of Political Interference",
     "sent_at": "2026-11-11T03:02:09.647538+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88544",
+    "headline": "Minister Timilsina calls for global support to rebuild disaster-hit communication infrastructure",
+    "sent_at": "2026-11-11T03:31:41.147195+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/minister-timilsina-calls-for-global-support-to-rebuild-disaster-hit-communi-59-87.html",
+    "headline": "Minister Timilsina calls for global support to rebuild disaster-hit communication infrastructure",
+    "sent_at": "2026-11-11T03:31:44.147347+00:00",
+    "dup": true
   }
 ]
