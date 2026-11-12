@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132192",
-    "headline": "वाणिज्य बैंकहरूको पहिलो त्रैमास: खुद नाफा ४५% बढेर १९ अर्ब नाघ्यो, तर प्रोभिजनिङको भारले समग्र वितरणयोग्य नाफा ९ अर्ब ऋणात्मक",
-    "sent_at": "2026-11-01T05:11:25.611613+00:00",
-    "dup": true
-  },
-  {
     "link": "https://baahrakhari.com/detail/506250",
     "headline": "सुनको मूल्य एकैदिन तोलामा ८३ सयले घट्यो",
     "sent_at": "2026-11-01T05:11:25.611631+00:00",
@@ -7912,5 +7906,10 @@
     "link": "http://english.ratopati.com/story/86316/main-roads-including-the-prithvi-highway-and-kaligandaki-corridor-are-blocked",
     "headline": "Roads Blocked Across Nepal Due to Disasters",
     "sent_at": "2026-11-12T02:31:47.222681+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/86302/why-is-the-deadline-for-nepals-upgrading-being-extended-repeatedly",
+    "headline": "Nepal's Graduation from LDC Status Postponed to 2029",
+    "sent_at": "2026-11-12T03:16:23.848883+00:00"
   }
 ]
