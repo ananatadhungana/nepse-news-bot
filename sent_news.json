@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://bankingkhabar.com/archives/169949",
-    "headline": "ऋणको प्रयोजन बदले फौजदारी मुद्दा , सर्वोच्चको फैसलाले बैंकिङ क्षेत्रमा तरंग !",
-    "sent_at": "2026-11-01T07:32:09.899282+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261101131102.html",
-    "headline": "भूमि व्यवस्थामन्त्री प्रतिभा रावल चितवनपछि झापा जाँदै, सहकारी पीडित र भूमिहीनसँग अन्तर्क्रिया गर्ने",
-    "sent_at": "2026-11-01T07:32:13.859093+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/225649/",
-    "headline": "देशमा भू-राजनीतिक चलखेल र आर्थिक समस्याले संकट बढ्दैछः डा.भट्टराई",
-    "sent_at": "2026-11-01T07:36:37.916136+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/169952",
-    "headline": "प्रभु बैंकको नाफा वृद्धिमाथि प्रश्न, खराब कर्जा १४.८ प्रतिशत",
-    "sent_at": "2026-11-01T07:41:42.752631+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/11/225648/",
     "headline": "महालक्ष्मी विकास बैंकको नाफामा सुधार, वितरणयोग्य नाफा ४७ करोड नाघ्यो",
     "sent_at": "2026-11-01T07:46:39.588103+00:00"
@@ -7902,5 +7882,28 @@
     "link": "https://arthakhabar.com/2026/11/12/128485/",
     "headline": "शंकास्पद बिल भएको जिन्क ऐस लोड गरिएको ट्रक नियन्त्रणमा",
     "sent_at": "2026-11-12T11:02:15.961490+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/province-no-2/2026/11/12/madhesh-chief-minister-to-seek-confidence-vote-on-november-14",
+    "headline": "Madhesh chief minister to seek confidence vote on November 14",
+    "sent_at": "2026-11-12T11:27:41.140526+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/committee-formed-to-investigate-bhimphedi-accident/",
+    "headline": "भीमफेदी दुर्घटना छानबिन गर्न समिति गठन",
+    "sent_at": "2026-11-12T11:27:41.140551+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://baahrakhari.com/detail/507152",
+    "headline": "भीमफेदी दुर्घटना छानबिन गर्न समिति गठन",
+    "sent_at": "2026-11-12T11:27:41.140556+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170207",
+    "headline": "बैंकमा पैसा थपिँदै, व्यवसाय र ठूला परियोजनामा लगानी विस्तार हुन सकेन",
+    "sent_at": "2026-11-12T11:27:41.947307+00:00"
   }
 ]
