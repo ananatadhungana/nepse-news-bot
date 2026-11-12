@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.thahakhabar.com/detail/311213",
-    "headline": "सरकारले अघि बढायो श्रम ऐन संशोधनको प्रक्रिया",
-    "sent_at": "2026-11-01T08:11:45.953102+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/society/290819-2026-11-1-8-18-44",
-    "headline": "भोलिदेखि ३ महिनासम्म सरकारी कार्यालय दिउँसो ४ बजे नै बन्द हुने",
-    "sent_at": "2026-11-01T08:21:46.129765+00:00"
-  },
-  {
     "link": "https://baahrakhari.com/detail/506267",
     "headline": "मुलुक गम्भीर संकटतर्फ उन्मुखको संकेत : बाबुराम भट्टराई",
     "sent_at": "2026-11-01T08:32:00.623612+00:00",
@@ -7905,5 +7895,16 @@
     "link": "https://myrepublica.nagariknetwork.com/news/life-insurers-collect-rs-14-billion-in-new-premiums-in-q1-40-58.html",
     "headline": "Life insurers collect Rs 14 billion in new premiums in Q1",
     "sent_at": "2026-11-12T13:32:30.105151+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261112194339.html",
+    "headline": "दक्षिण एसियामा नेपाल सबैभन्दा ढिलो ‘वृद्ध समाज’ बन्ने, तयारीमा भने कमजोर",
+    "sent_at": "2026-11-12T14:04:56.771224+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/dhakal-urges-uae-investors-to-invest-in-tourism-infrastructure-from-hydropower-and-data-centers/",
+    "headline": "जलविद्युत् र डाटा सेन्टरदेखि पर्यटन पूर्वाधारमा लगानी गर्न यूएईका लगानीकर्तालाई ढकालको आग्रह",
+    "sent_at": "2026-11-12T14:04:59.771477+00:00",
+    "dup": true
   }
 ]
