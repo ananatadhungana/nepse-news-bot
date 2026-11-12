@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/225648/",
-    "headline": "महालक्ष्मी विकास बैंकको नाफामा सुधार, वितरणयोग्य नाफा ४७ करोड नाघ्यो",
-    "sent_at": "2026-11-01T07:46:39.588103+00:00"
-  },
-  {
     "link": "https://bajarkochirfar.com/himalayan-banks-mobile-and-internet-banking-services-suspended",
     "headline": "हिमालयन बैंकको मोबाइल र इन्टरनेट बैंकिङ सेवा बन्द",
     "sent_at": "2026-11-01T07:51:36.304198+00:00"
@@ -7905,5 +7900,11 @@
     "link": "https://bankingkhabar.com/archives/170207",
     "headline": "बैंकमा पैसा थपिँदै, व्यवसाय र ठूला परियोजनामा लगानी विस्तार हुन सकेन",
     "sent_at": "2026-11-12T11:27:41.947307+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/death-toll-of-bhimphedi-passenger-van-accident-reaches-14-56-78.html",
+    "headline": "Death toll of Bhimphedi passenger van accident reaches 14",
+    "sent_at": "2026-11-12T12:02:18.275125+00:00",
+    "dup": true
   }
 ]
