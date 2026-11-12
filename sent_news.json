@@ -1,17 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/225621/",
-    "headline": "बैंकहरूको नाफामा उल्लेख्य वृद्धि, हेर्नुहोस् कुनको अवस्था कस्तो ?",
-    "sent_at": "2026-11-01T04:51:24.075419+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizkhabar.com/266558",
-    "headline": "तीन महिनामा बैंकहरुको नाफा १९ अर्ब बढी, लाभांश वितरण क्षमतामा कुन अगाडि ?",
-    "sent_at": "2026-11-01T05:02:05.916029+00:00",
-    "dup": true
-  },
-  {
     "link": "https://clickmandu.com/2026/11/502815.html",
     "headline": "एकैदिन ८३ सय रुपैयाँले घट्यो सुनको भाउ, मूल्य कति ?",
     "sent_at": "2026-11-01T05:02:06.622446+00:00"
@@ -7914,5 +7902,15 @@
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=132418",
     "headline": "७३ कम्पनीले घोषणा गरे लाभांश, युनिलिभरको १ हजार ५४० प्रतिशतदेखि छिमेक लघुवित्तको २५ प्रतिशतसम्म",
     "sent_at": "2026-11-12T00:31:36.610015+00:00"
+  },
+  {
+    "link": "https://www.bbc.com/nepali/articles/cjx23ewv60kqo?at_medium=RSS&at_campaign=rss",
+    "headline": "सरकारले ६ प्रतिशत मात्रै लगानी गर्दा कसरी जुट्छ कर्मचारीको पेन्सनका लागि पुँजी",
+    "sent_at": "2026-11-12T01:31:52.287810+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/82-percent-complete-in-undergrounding-electrical-wires-in-pokhara-br-61-46.html",
+    "headline": "पोखरामा विद्युतीय तार भूमिगत गर्ने काम ८२ प्रतिशत सम्पन्न",
+    "sent_at": "2026-11-12T01:31:55.952677+00:00"
   }
 ]
