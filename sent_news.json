@@ -1,36 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/132-kv-keraun-substation-comes-into-operation-boosting-power-supply-in-mora-69-84.html",
-    "headline": "132 kV Keraun Substation comes into operation, boosting power supply in Morang",
-    "sent_at": "2026-11-01T14:02:31.692845+00:00"
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66111",
-    "headline": "ग्लोबल हंगर इन्डेक्स २०२६ मा नेपाल ‘मध्यम श्रेणी’मा उक्लियो",
-    "sent_at": "2026-11-01T14:11:45.824152+00:00"
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66120",
-    "headline": "कहिलेबाट सञ्चालन गर्दैछ प्रभु इन्स्योरेन्सले अभिकर्ता तालिम तथा परीक्षा ?",
-    "sent_at": "2026-11-01T14:16:43.033251+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2048829/despite-rising-bad-loans-banks-profits-reach-19-billion-provisioning-drops-2-5-times",
-    "headline": "खराब कर्जा बढ्दा पनि बैंकहरूको नाफा १९ अर्ब, ‘प्रोभिजनिङ’ घट्यो साढे २ गुणा",
-    "sent_at": "2026-11-01T14:16:46.033424+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66139",
-    "headline": "निफ्राको पहिलो त्रैमासको रिपोर्ट सार्वजनिक, यस्ता छन् वित्तीय सूचकहरु",
-    "sent_at": "2026-11-01T14:32:03.128266+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/disagreements-between-farmers-and-industrialists-over-sugarcane-price-determination-decisive-talks-to-be-held-at-the-ministry-on-monday-13-71.html",
-    "headline": "उखुको मूल्य निर्धारणमा किसान र उद्योगीबीच मतभेद, सोमबार मन्त्रालयमा निर्णायक वार्ता",
-    "sent_at": "2026-11-01T14:32:06.921554+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/all-highways-blocked-by-arnab-reopen-with-bp-highway-reopened-92-23.html",
     "headline": "बीपी राजमार्ग खुलेसँगै ‘अर्नब’ को प्रभावले अवरुद्ध सबै राजमार्ग सञ्चालनमा",
     "sent_at": "2026-11-01T14:51:33.572680+00:00",
@@ -7900,5 +7869,38 @@
     "link": "https://clickmandu.com/2026/11/504999.html",
     "headline": "पहिलो त्रैमासमै १ करोड घाटा बेहोरेको नेपाल रिपब्लिक मिडियाको सञ्चित नोक्सानी ५५ करोड पुग्यो",
     "sent_at": "2026-11-13T06:32:58.765698+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226983/",
+    "headline": "बुद्धभूमि नेपाल हाइड्रोपावरको लेखापरीक्षकमा सिन्हा एन्ड कम्पनी नियुक्त",
+    "sent_at": "2026-11-13T07:02:19.862675+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226981/",
+    "headline": "नेपाल एसबीआई बैंकले सेयरधनीलाई ५.२५ प्रतिशत लाभांश दिने प्रस्ताव",
+    "sent_at": "2026-11-13T07:02:22.862833+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/dhakal-urges-uae-investors-to-invest-in-nepals-different-sectors-72-77.html",
+    "headline": "Dhakal urges UAE investors to invest in Nepal's different sectors",
+    "sent_at": "2026-11-13T07:02:22.862860+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/13/96041",
+    "headline": "कृषि यान्त्रीकरणको प्रवर्द्धन गर्न आठौँ अन्तर्राष्ट्रिय प्रदर्शनी,  अब एक हप्तापछि शुरु हुँदै",
+    "sent_at": "2026-11-13T07:02:23.583344+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261113121654.html",
+    "headline": "नागढुंगा-मुग्लिन सडकमा नयाँ डिजाइन नहुँदा काम प्रभावित, आकाशे पुल बनाउन स्थानीयको अवरोध",
+    "sent_at": "2026-11-13T07:02:27.334090+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/13/128746/",
+    "headline": "महालक्ष्मी विकास बैंकले घोषणा ग¥यो ७.४८ प्रतिशत लाभांश",
+    "sent_at": "2026-11-13T07:02:30.334227+00:00",
+    "dup": true
   }
 ]
