@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://bizkhabar.com/266601",
-    "headline": "‘टिकटक’सँग पर्यटन बोर्डको सहकार्य, नेपालको पर्यटन विश्वमाझ पुर्याउने उद्देश्य",
-    "sent_at": "2026-11-01T10:08:13.940026+00:00"
-  },
-  {
-    "link": "https://arthasarokar.com/2026/11/govt-to-provide-free-training-on-ai-to-2000-youths.html",
-    "headline": "२ हजार युवालाई एआई सम्बन्धी निःशुल्क तालिम दिँदै सरकार, कसरी सहभागी हुने ?",
-    "sent_at": "2026-11-01T10:17:12.557083+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/225677/",
-    "headline": "बैंकहरूमा बढ्दो खराब कर्जाको दबाब",
-    "sent_at": "2026-11-01T10:17:16.475845+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/85339/beni-darwang-road-operation",
     "headline": "Beni-Darwang Road Reopens After Landslide",
     "sent_at": "2026-11-01T10:17:20.406150+00:00"
@@ -7902,5 +7887,20 @@
     "headline": "Nepal Rastra Bank Publishes Foreign Currency Exchange Rates",
     "sent_at": "2026-11-13T02:01:59.461839+00:00",
     "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/86405/budget-dispute-still-unresolved-in-far-west-process-of-bringing-supplementary-budget-stalled",
+    "headline": "Far-Western Province Budget Dispute Remains Unresolved",
+    "sent_at": "2026-11-13T02:46:23.915050+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2056566/demand-to-intensify-diplomatic-dialogue-with-china-to-fully-open-tatopani-border-crossing",
+    "headline": "तातोपानी नाका पूर्ण रूपमा खुलाउन चीनसँग कूटनीतिक संवाद तीव्र बनाउन माग",
+    "sent_at": "2026-11-13T02:46:27.660627+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/504940.html",
+    "headline": "धनगढीमा बन्दै गरेको होटल सनलाइटको लागत बढेर ७८ करोड पुग्यो, निर्माण कार्य अन्तिम चरणमा",
+    "sent_at": "2026-11-13T02:46:31.204897+00:00"
   }
 ]
