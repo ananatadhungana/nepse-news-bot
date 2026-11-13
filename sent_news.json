@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://nepalkhabar.com/economy/290860-2026-11-2-0-14-12",
-    "headline": "वैदेशिक रोजगारीबाट फर्किएर च्याउ खेती, खर्च कटाएर वर्षमा १५ लाख आम्दानी",
-    "sent_at": "2026-11-02T00:16:33.247345+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227970",
-    "headline": "रेल सञ्जालप्रति चीन सकारात्मक",
-    "sent_at": "2026-11-02T00:16:37.103156+00:00"
-  },
-  {
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=132178",
     "headline": "मार्जिन सेवा दिने ब्रोकरको संख्या २० पुग्यो : बजारमा २३ अर्ब कर्जा प्रवाह गर्न सक्ने क्षमता,कुन ब्रोकरको क्षमता कति ?",
     "sent_at": "2026-11-02T00:46:30.976643+00:00"
@@ -7900,5 +7890,16 @@
     "link": "https://arthakhabar.com/2026/11/13/128818/",
     "headline": "चीन भ्रमणलाई आर्थिक विकाससँग जोड्न प्रधानमन्त्रीको रास्वपा टोलीलाई निर्देशन",
     "sent_at": "2026-11-13T08:02:33.529481+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/soaltee-hotel-posts-1520-increase-in-net-profit-with-1489-revenue-growth-in-q1-208384-2026-11-13",
+    "headline": "Soaltee Hotel Posts 15.20% Increase in Net Profit with 14.89% Revenue Growth in Q1 2083/84",
+    "sent_at": "2026-11-13T08:31:51.295363+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/13/780873/nepal-rastra-bank-withdraws-200-billion-rupees-from-banking-system-auction-to-be-held-today/",
+    "headline": "राष्ट्र बैंकले बैंकिङ प्रणालीबाट २०० अर्ब निक्षेप तान्दै, आजै बोलकबोल हुने",
+    "sent_at": "2026-11-13T08:31:54.295535+00:00",
+    "dup": true
   }
 ]
