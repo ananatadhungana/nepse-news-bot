@@ -1,30 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/227982",
-    "headline": "चार वर्षपछि वीरगन्जको भन्सार लक्ष्य पूरा",
-    "sent_at": "2026-11-02T01:26:10.722579+00:00"
-  },
-  {
-    "link": "https://risingnepaldaily.com/news/88311",
-    "headline": "Industries in Karnali running at 31% capacity",
-    "sent_at": "2026-11-02T01:36:13.829245+00:00"
-  },
-  {
-    "link": "https://arthakhabar.com/2026/11/02/123436/",
-    "headline": "चार महिनामा यारी भन्सारद्वारा रु सोह्र लाख बढी राजश्ज संकलन",
-    "sent_at": "2026-11-02T01:41:23.902645+00:00"
-  },
-  {
-    "link": "https://www.myrepublica.nagariknetwork.com/news/curbing-abuse-in-public-procurement-95-47.html",
-    "headline": "Curbing Abuse in Public Procurement",
-    "sent_at": "2026-11-02T01:41:27.685685+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/the-price-of-data-is-nepals-future-who-pays-for-the-digital-revolution-82-73.html",
-    "headline": "The Price of Data Is Nepal’s Future: Who Pays for the Digital Revolution?",
-    "sent_at": "2026-11-02T01:46:31.947319+00:00"
-  },
-  {
     "link": "https://kathmandupost.com/money/2026/11/02/jumla-s-prized-marsi-rice-is-in-demand-but-production-is-declining",
     "headline": "Jumla’s prized Marsi rice is in demand, but production is declining",
     "sent_at": "2026-11-02T01:51:24.794324+00:00"
@@ -7902,5 +7877,32 @@
     "link": "https://khabarhub.com/2026/13/1047283/",
     "headline": "छठ पर्व : कात्तिक २९ र ३० गते दुवै दिन सार्वजनिक बिदा",
     "sent_at": "2026-11-13T09:16:34.880790+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/511176",
+    "headline": "विराटनगरका सबै वडाबाट जग्गाको कित्ताकाट हुने",
+    "sent_at": "2026-11-13T09:32:00.450039+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/government-declares-public-holiday-on-monday-following-chhath-festival-2026-11-13",
+    "headline": "Government Declares Public Holiday on Monday Following Chhath Festival",
+    "sent_at": "2026-11-13T09:32:03.450212+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizkhabar.com/267212",
+    "headline": "तिहार बिदापछिको पहिलो सेयर कारोबार : ६.४४ अंकले घट्यो परिसूचक, ३ अर्बको कारोबार",
+    "sent_at": "2026-11-13T09:32:04.143902+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/177994/",
+    "headline": "माउन्टेन इनर्जीको अध्यक्षमा डोलप्रसाद शर्मा नियुक्त",
+    "sent_at": "2026-11-13T09:32:07.144080+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/discussion-on-india-s-anti-dumping-duty-on-nepali-jute-66-26.html",
+    "headline": "नेपाली जुटमा भारतले लगाएको एन्टिडम्पिङ शुल्कबारे छलफल",
+    "sent_at": "2026-11-13T09:32:08.005620+00:00"
   }
 ]
