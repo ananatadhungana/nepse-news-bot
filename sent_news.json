@@ -1,36 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/227999",
-    "headline": "कर्णालीमा उन्नाइस विकास आयोजना रुग्ण",
-    "sent_at": "2026-11-02T03:06:23.110179+00:00"
-  },
-  {
-    "link": "https://arthasarokar.com/2026/11/first-quarter-report-kumari-banks-profit-and-eps-rise.html",
-    "headline": "फर्स्ट क्वाटर रिपोर्टः कुमारी बैंकको नाफा र ईपीएस दुवै बढ्यो",
-    "sent_at": "2026-11-02T03:11:34.891132+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/malekhu-mugling-road-to-close-for-three-hours-today-for-bridge-girder-installation-2026-11-02",
-    "headline": "Malekhu-Mugling Road to Close for Three Hours Today for Bridge Girder Installation",
-    "sent_at": "2026-11-02T03:16:38.988717+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://baahrakhari.com/detail/506326",
-    "headline": "स्वदेशमै ‘हरित युरिया’ प्लान्टको तयारी, अवधारणपत्र माग",
-    "sent_at": "2026-11-02T03:16:39.899051+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/development-spending-stuck-at-683-as-budget-execution-lags-66-52.html",
-    "headline": "Development spending stuck at 6.83% as budget execution lags",
-    "sent_at": "2026-11-02T03:26:09.248594+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/266633",
-    "headline": "भिभोले नेपालमा सार्वजनिक गर्‍यो भी ८०, मूल्य १ लाख ८ हजार ९९९ रुपैयाँदेखि",
-    "sent_at": "2026-11-02T03:36:17.381575+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/85398/see-the-damage-caused-by-the-budhi-gandaki-floods-in-gorkha-in-the-photo",
     "headline": "Budhi Gandaki Flood Causes Major Damage in Gorkha",
     "sent_at": "2026-11-02T03:41:27.043415+00:00"
@@ -7913,5 +7882,37 @@
     "link": "https://baahrakhari.com/detail/507228",
     "headline": "अब हरेक कार्यालयले ई–पेन्सन सेवा दिनुपर्ने",
     "sent_at": "2026-11-13T11:31:44.042742+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/507231",
+    "headline": "कति बन्यो काठमाडौं–तराई/मधेस द्रुतमार्ग सडक ?",
+    "sent_at": "2026-11-13T11:46:34.173340+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505072.html",
+    "headline": "जलवायु वित्तमा अनुदान बढाउन विकसित देशलाई सम्मेलनमा सांसद डा. कार्कीको आग्रह",
+    "sent_at": "2026-11-13T11:46:38.108161+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261113172457.html",
+    "headline": "नेपालले प्राप्त गरेको जलवायु वित्तमा ऋणको हिस्सा धेरै, ‘अरुको गल्तीमा ऋणको भार न्यायोचित भएन’",
+    "sent_at": "2026-11-13T11:46:41.108239+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228964",
+    "headline": "मंगलसेन सडक खण्डमा मार्किङको काम सन्पन्न",
+    "sent_at": "2026-11-13T11:46:42.064841+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/elephants-in-jhapa-villages-farmers-struggle-to-protect-crops-29-15.html",
+    "headline": "झापाका गाउँमा हात्तीको बिगबिगी: किसानलाई बाली जोगाउनै समस्या",
+    "sent_at": "2026-11-13T11:46:46.105585+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/collapsed-suspension-bridge-kanchanpur.html",
+    "headline": "Collapsed suspension bridge hits hotel businesses in Kanchanpur",
+    "sent_at": "2026-11-13T11:46:49.105716+00:00",
+    "dup": true
   }
 ]
