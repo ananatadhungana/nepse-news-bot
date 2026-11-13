@@ -1,48 +1,5 @@
 [
   {
-    "link": "https://theannapurnaexpress.com/story/68411",
-    "headline": "Government heading towards an arbitrary and autocratic style: Gagan Thapa",
-    "sent_at": "2026-11-01T11:36:31.639493+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizpati.com/2026/11/225695/",
-    "headline": "बेनी हाइड्रोका लगानीकर्ताले कमाए १०१ प्रतिशतसम्म",
-    "sent_at": "2026-11-01T11:41:44.025383+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/01/777950/morangs-keraun-132-kv-substation-in-operation/",
-    "headline": "मोरङको कानेपोखरीमा बनाइएको १३२ केभीको सबस्टेसन सञ्चालनमा",
-    "sent_at": "2026-11-01T11:41:47.895963+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/503008.html",
-    "headline": "अर्थतन्त्र उकास्न केन्द्रित हुनुपर्ने सरकारको अनिश्चित नीति र प्रशासनिक आतंकको भयले निजी क्षेत्र त्रसित छ",
-    "sent_at": "2026-11-01T11:46:38.678460+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://ictsamachar.com//story/100007559",
-    "headline": "नेपालमा ISO/IEC 27001:2022 प्रमाणपत्र पाउने एकमात्र एचआरएमएस कम्पनी बन्यो RigoHR",
-    "sent_at": "2026-11-01T11:51:36.490004+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/shangrila-development-bank-marks-22nd-anniversary-announces-csr-initiatives-2026-11-01",
-    "headline": "Shangrila Development Bank Marks 22nd Anniversary, Announces CSR Initiatives",
-    "sent_at": "2026-11-01T11:56:24.871325+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132215",
-    "headline": "ब्रोकरले मार्जिन कर्जा दिन थालेपछि फण्डामेन्टल कम्पनीहरूको मूल्य बढेको हो ? यस्तो देखियो महिना दिनको तथ्याङ्कमा ?",
-    "sent_at": "2026-11-01T11:56:28.602918+00:00"
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/311226",
-    "headline": "वाणिज्य बैंकको तीन महिनाकै नाफा १९ अर्ब १४ करोड",
-    "sent_at": "2026-11-01T12:02:17.025720+00:00",
-    "dup": true
-  },
-  {
     "link": "https://aarthiksansar.com/archives/66032",
     "headline": "बाढीपहिरोले मुख्य सडक प्रभावित, गोरखामा साना सवारी मात्रै चल्दै",
     "sent_at": "2026-11-01T12:02:17.025738+00:00",
@@ -7899,5 +7856,49 @@
     "link": "https://bizpati.com/2026/11/226960/",
     "headline": "नरैनापुरमै मालपोत सेवा, नेपालगञ्ज धाउनुपर्ने बाध्यता हट्यो",
     "sent_at": "2026-11-13T04:32:16.571892+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132473",
+    "headline": "एनएमबि बैंकले डाक्यो साधारण सभा, लाभांश प्रस्ताव पारित गर्दै",
+    "sent_at": "2026-11-13T05:02:37.775204+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96463",
+    "headline": "नेपाल एसबीआई बैंकले ८.२५ प्रतिशत लाभांश दिने",
+    "sent_at": "2026-11-13T05:02:41.507681+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/177956/",
+    "headline": "नेपाल एसबीआई बैंकले ८. २५ प्रतिशत लाभांश वितरण गर्ने",
+    "sent_at": "2026-11-13T05:02:44.507847+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/177954/",
+    "headline": "एनएमबी बैंकले मंसिर २५ गतेलाई डाक्यो साधारण सभा, अविमोच्यसहित शेयरसहित यस्ता छन् एजेन्डा",
+    "sent_at": "2026-11-13T05:02:44.507876+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/Bazar/gold-fell-by-more-than-12-000-in-the-market-that-opened-after-tihar-silver-also-became-cheaper-16-83.html",
+    "headline": "तिहारपछि खुलेको बजारमा सुन १२ हजार बढीले घट्यो, चाँदी पनि सस्तियो",
+    "sent_at": "2026-11-13T05:02:45.038861+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/13/780788/nmb-bank-calls-general-meeting-approves-dividend-proposal/",
+    "headline": "एनएमबि बैंकले बोलायो साधारण सभा, लाभांश प्रस्ताव पारित गर्ने",
+    "sent_at": "2026-11-13T05:02:48.039008+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/13/96036",
+    "headline": "विद्युतीय माइक्रोबसको सिट क्षमता र रुट परमिटमाथि छानबिन हुनुपर्छ : सरोज सिटौला",
+    "sent_at": "2026-11-13T05:02:48.778621+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/13/128700/",
+    "headline": "विद्युतीय माइक्रोबसको सिट क्षमता र रुट परमिटमाथि छानबिन हुनुपर्छ : सरोज सिटौला",
+    "sent_at": "2026-11-13T05:02:51.778775+00:00",
+    "dup": true
   }
 ]
