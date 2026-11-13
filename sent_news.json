@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/502973.html",
-    "headline": "नौ जनाले जितिसके मोटरसाइकल र स्कुटर, म्याक्स टाइगरको अर्को भाग्यशाली को ?",
-    "sent_at": "2026-11-01T09:51:54.313579+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/266603",
-    "headline": "पाँच दशकदेखि रोकिएको गाँजाखेति वैधानिक गर्न सरकारलाई सर्वोच्चको आदेश, ३ महिनाभित्र कानुन कार्यान्वयन गर्नु",
-    "sent_at": "2026-11-01T10:08:13.124460+00:00",
-    "dup": true
-  },
-  {
     "link": "https://bizkhabar.com/266601",
     "headline": "‘टिकटक’सँग पर्यटन बोर्डको सहकार्य, नेपालको पर्यटन विश्वमाझ पुर्याउने उद्देश्य",
     "sent_at": "2026-11-01T10:08:13.940026+00:00"
@@ -7902,5 +7891,16 @@
     "link": "https://baahrakhari.com/detail/507180",
     "headline": "तलबवृद्धिको माग गर्दै बंगलादेशमा १०० भन्दा बढी कपडा उद्योग बन्द",
     "sent_at": "2026-11-13T01:31:51.890346+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/86400/from-tomatoes-to-potatoes-and-onions-this-is-how-much-vegetables-cost-today-with-list",
+    "headline": "Kalimati Market Releases Wholesale Prices for Fruits and Vegetables on November 13, 2026",
+    "sent_at": "2026-11-13T02:01:56.461673+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/86399/us-dollar-to-qatari-riyal-todays-exchange-rate-with-list",
+    "headline": "Nepal Rastra Bank Publishes Foreign Currency Exchange Rates",
+    "sent_at": "2026-11-13T02:01:59.461839+00:00",
+    "dup": true
   }
 ]
