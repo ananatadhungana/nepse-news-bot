@@ -1,36 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/225732/",
-    "headline": "टाइगर फरेस्टको तीन महिनामा ३ करोड ६२ लाख कारोबार, डेढ अर्ब थप लगानीको योजना",
-    "sent_at": "2026-11-01T15:32:03.986941+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/225738/",
-    "headline": "नेपाल बैंकको नाफा ४१ प्रतिशत बढेर ८३ करोड, खराब कर्जा घट्यो",
-    "sent_at": "2026-11-01T15:41:30.997261+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68416",
-    "headline": "Karnali spends just 3.93 percent of capital budget in three months",
-    "sent_at": "2026-11-01T16:11:39.876627+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/banks-net-profits-hit-rs-1914-billion-a-4558-percent-rise-due-to-decline-in-36-40.html",
-    "headline": "Banks’ net profits hit Rs 19.14 billion, a 45.58 percent rise due to decline in costs of funds",
-    "sent_at": "2026-11-01T17:04:24.881464+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/227966",
-    "headline": "कालीगण्डकी बाढीको भएन अध्ययन",
-    "sent_at": "2026-11-01T18:21:40.110454+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/290856-2026-11-1-23-8-58",
-    "headline": "अस्ट्रेलियन डलर र बहराइन दिनारको भाउ बढ्यो, युरो र पाउन्डको घट्यो",
-    "sent_at": "2026-11-01T23:11:26.957383+00:00"
-  },
-  {
     "link": "https://nepalkhabar.com/economy/290860-2026-11-2-0-14-12",
     "headline": "वैदेशिक रोजगारीबाट फर्किएर च्याउ खेती, खर्च कटाएर वर्षमा १५ लाख आम्दानी",
     "sent_at": "2026-11-02T00:16:33.247345+00:00"
@@ -7899,5 +7868,37 @@
     "link": "https://bankingkhabar.com/archives/170222",
     "headline": "बैंकको ऋण दुरुपयोग गरे के हुन्छ ? यी काम गरे पर्न सक्छ कानुनी फन्दामा",
     "sent_at": "2026-11-13T07:32:12.507866+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132498",
+    "headline": "राष्ट्रिय परिचयपत्र प्रणाली १५ सरकारी निकायसँग जोडियो, सर्वोच्च अदालतदेखि स्थानीय तहसम्म अन्तरआवद्धताको तयारी",
+    "sent_at": "2026-11-13T08:02:22.395729+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/226986/",
+    "headline": "सिटिजन्स बैंकका ग्राहकलाई दरबारमार्गको चौतारी हस्पिटालिटीमा १० प्रतिशतसम्म छुट",
+    "sent_at": "2026-11-13T08:02:25.395900+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228943",
+    "headline": "दोधारा चाँदनी झोलुङ्गे पुल भत्किएपछि होटल व्यवसाय प्रभावित",
+    "sent_at": "2026-11-13T08:02:26.122685+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170226",
+    "headline": "सेयर बजारमा आईपीओ र हकप्रदको खेल फरक, लगानी गर्नुअघि बुझ्नुस् यी कुरा",
+    "sent_at": "2026-11-13T08:02:29.922093+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/13/128772/",
+    "headline": "अन्तर्राष्ट्रिय बजारमा गिरावट आएसँगै नेपाली बजारमा सुनको मूल्य तोलामा १२ हजार ६ सयले घट्यो",
+    "sent_at": "2026-11-13T08:02:32.922252+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/13/128818/",
+    "headline": "चीन भ्रमणलाई आर्थिक विकाससँग जोड्न प्रधानमन्त्रीको रास्वपा टोलीलाई निर्देशन",
+    "sent_at": "2026-11-13T08:02:33.529481+00:00"
   }
 ]
