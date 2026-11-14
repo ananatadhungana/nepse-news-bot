@@ -1,47 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/503116.html",
-    "headline": "यी हुन् १/१ लाख जित्ने १५ जना, तपाईं पनि पर्नुभयो ?",
-    "sent_at": "2026-11-02T06:26:23.687110+00:00"
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66296",
-    "headline": "झापाको बुधबारेमा एलआइसी नेपालको नयाँ शाखा विस्तार",
-    "sent_at": "2026-11-02T06:26:27.458885+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/266649",
-    "headline": "फाइनान्स कम्पनीहरुले कमाए पौने १५ करोड : सुध्रिएन खराब कर्जाको अवस्था, कुनको अवस्था कस्तो ?",
-    "sent_at": "2026-11-02T06:26:31.243061+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/225795/",
-    "headline": "बीमा प्राधिकरणको अध्ययनले देखायो कर्मचारीका समस्या, तलबदेखि बढुवासम्म असन्तुष्टि",
-    "sent_at": "2026-11-02T06:41:40.086670+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/government-to-extend-land-administration-services-to-all-local-levels-within-a-month-2026-11-02",
-    "headline": "Government to Extend Land Administration Services to All Local Levels Within a Month",
-    "sent_at": "2026-11-02T06:46:34.703715+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/16-individuals-win-prizes-under-taxpayer-incentive-scheme-38-45.html",
-    "headline": "16 individuals win prizes under taxpayer incentive scheme",
-    "sent_at": "2026-11-02T06:46:34.703736+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://arthadabali.com/2026/11/02/95686",
-    "headline": "५० हजार लगानीबाट सुरु भएको च्याउखेती, अहिले वार्षिक ३० टन उत्पादन",
-    "sent_at": "2026-11-02T06:51:36.335555+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/noc-moves-to-merge-lpg-industries-asks-operators-to-prepare-action-plans.html",
-    "headline": "NOC moves to merge LPG industries, asks operators to prepare action plans",
-    "sent_at": "2026-11-02T06:56:20.901291+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/85412/finance-ministers-from-6-provinces-meet-in-birendranagar-to-debate-fiscal-federalism",
     "headline": "Six Provincial Finance Ministers Convene in Birendranagar",
     "sent_at": "2026-11-02T06:56:24.577356+00:00"
@@ -7914,5 +7872,47 @@
     "link": "https://www.onlinekhabar.com/2026/11/2057276/relief-for-farmers-in-banke-from-rice-procurement-to-processing-with-cooperatives",
     "headline": "बाँकेमा धान खरिददेखि प्रशोधनसम्म सहकारीको साथ, किसानलाई राहत",
     "sent_at": "2026-11-14T01:02:01.731458+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/511208",
+    "headline": "५ वर्षमा ५ लाख टन ग्रिन युरिया उत्पादनको लक्ष्य",
+    "sent_at": "2026-11-14T01:31:41.460379+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228999",
+    "headline": "स्थानीय सरकारले बनाए जलविद्युत् आयोजना",
+    "sent_at": "2026-11-14T01:31:41.940501+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228998",
+    "headline": "निर्यातमा प्रमाणीकरणको झन्झट हटाउन आग्रह",
+    "sent_at": "2026-11-14T01:31:44.940680+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228997",
+    "headline": "आयातित दहीमा ढुसी",
+    "sent_at": "2026-11-14T01:31:45.611712+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228996",
+    "headline": "वैकल्पिक ऊर्जा अनुदानमै सीमित",
+    "sent_at": "2026-11-14T01:31:49.303564+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/romania-emerges-as-a-new-destination-for-nepali-migrant-workers-85-16.html",
+    "headline": "Romania emerges as a new destination for Nepali migrant workers",
+    "sent_at": "2026-11-14T01:31:53.008358+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/228995",
+    "headline": "श्रमिक आपूर्तिकर्तालाई सूचीकृत हुन आग्रह",
+    "sent_at": "2026-11-14T01:31:56.675300+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2057278/budget-allocation-of-rs-30-million-to-advance-khimti-those-shivalay-reservoir-project",
+    "headline": "खिम्ती–ठोसे–शिवालय जलाशययुक्त आयोजना अघि बढाउन तीन करोड बजेट विनियोजन",
+    "sent_at": "2026-11-14T01:32:00.338703+00:00"
   }
 ]
