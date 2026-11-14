@@ -1,17 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/11/2049070/meeting-of-finance-ministers-of-all-seven-provinces-begins-in-surkhet",
-    "headline": "सुर्खेतमा सातै प्रदेशका अर्थमन्त्रीहरूको भेला सुरु",
-    "sent_at": "2026-11-02T06:56:27.577569+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bankingsamachar.com/news/177100/",
-    "headline": "आरम्भ चौतारी लघुवित्तले लाभांश नदिने",
-    "sent_at": "2026-11-02T07:02:07.015089+00:00",
-    "dup": true
-  },
-  {
     "link": "https://bizkhabar.com/266659",
     "headline": "विदेशी लगानीका कुल परियोजनामा ६० प्रतिशत ‘सूचना प्रविधि’का, रकममा भने ‘पर्यटन क्षेत्र’ अगाडि",
     "sent_at": "2026-11-02T07:02:07.851577+00:00"
@@ -7913,5 +7901,16 @@
     "link": "https://bizpati.com/2026/11/227026/",
     "headline": "अमेरिकी डलरको बिक्रीदर १५१ रुपैयाँ नाघ्यो, अन्य प्रमुख मुद्रा पनि महँगिए",
     "sent_at": "2026-11-14T02:02:04.021807+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/11/14/nepal-s-high-value-exports-rise-23-85-percent-in-first-quarter",
+    "headline": "Nepal’s high-value exports rise 23.85 percent in first quarter",
+    "sent_at": "2026-11-14T02:31:38.426210+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261114080250.html",
+    "headline": "राष्ट्र बैंकले पाँच पदमा ६१ कर्मचारी नयाँ नियुक्त गर्दै, योग्य र इच्छुकलाई दरखास्त खुला",
+    "sent_at": "2026-11-14T02:31:41.426419+00:00",
+    "dup": true
   }
 ]
