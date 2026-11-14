@@ -1,11 +1,5 @@
 [
   {
-    "link": "http://ictsamachar.com//story/100007574",
-    "headline": "टाटा गुरुहरूको दक्षता अभिवृद्धि गर्न सिप्रदीको ६ दिने BS-6 तालिम सुरु",
-    "sent_at": "2026-11-02T11:21:49.509955+00:00",
-    "dup": true
-  },
-  {
     "link": "https://bizmandu.com/content/20261102170355.html",
     "headline": "पूर्व-पश्चिम राजमार्गको बागमती-पथलैया खण्ड चार लेनको बनाइँदै, ५३ किमि सडक स्तरोन्नति गरिने",
     "sent_at": "2026-11-02T11:21:50.227390+00:00"
@@ -7914,5 +7908,11 @@
     "link": "https://clickmandu.com/2026/11/505136.html",
     "headline": "नेपाल र साउथ पोलबीच ठूलो परिमाणको ‘जुरिडिक्सनल रेड प्लस’ कार्यक्रम सञ्चालन गर्ने सहमति",
     "sent_at": "2026-11-14T16:02:00.744710+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepal-telecom-earns-profits-of-rs-182-billion-a-37-percent-rise-in-q1-32-82.html",
+    "headline": "Nepal Telecom earns profits of Rs 1.82 billion, a 37 percent rise in Q1",
+    "sent_at": "2026-11-14T16:31:39.493178+00:00",
+    "dup": true
   }
 ]
