@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.setopati.com/kinmel/economy/401819",
-    "headline": "सडकमा कंक्रिट प्रयोग बढाउने सरकारी नीति, कहाँ कस्तो प्रभाव पर्छ?",
-    "sent_at": "2026-11-02T09:22:44.407138+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/177120/",
-    "headline": "ऋण तिर्न नसक्नेको लर्को, तीन वर्षमा कालोसूचीमा थपिए १ लाख ६६ हजार",
-    "sent_at": "2026-11-02T09:27:11.680770+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/11/503177.html",
     "headline": "सुनकोशी–मरिन ठेक्का रद्दको भित्री कथा: शक्तिशाली कम्पनीले पाएन, विभागले नियमावली मानेन",
     "sent_at": "2026-11-02T09:32:45.917436+00:00"
@@ -7909,6 +7899,18 @@
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/romania-is-the-new-destination-for-nepali-workers-50-23.html",
     "headline": "रोमानिया नेपाली कामदारको नयाँ गन्तव्य",
     "sent_at": "2026-11-14T08:01:59.941194+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68738",
+    "headline": "Ahead of PM’s New Delhi visit, Nepal’s ruling party seeks enhanced economic cooperation with Beijing",
+    "sent_at": "2026-11-14T08:31:36.130229+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizkhabar.com/267252",
+    "headline": "कृषि यान्त्रीकरण प्रदर्शनीको सपोर्टिङ पार्टनरमा थपिए ग्लोबल आइएमई बैंक र ओविफर्ट, प्रदर्शनीको तयारी तीव्र",
+    "sent_at": "2026-11-14T08:31:36.130249+00:00",
     "dup": true
   }
 ]
