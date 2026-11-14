@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/503230.html",
-    "headline": "त्रिवि क्रिकेट रंगशाला वरपरका सडक कालोपत्रे गरिने, ९० दिनमा काम सक्ने लक्ष्य",
-    "sent_at": "2026-11-02T11:21:54.060223+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/85454/nepal-is-eager-to-cooperate-with-switzerland-president-poudel",
     "headline": "President Paudel Expresses Nepal's Eagerness to Collaborate with Switzerland on Climate Change and Himalayan Environmental Issues",
     "sent_at": "2026-11-02T11:21:57.900835+00:00"
@@ -7914,5 +7909,11 @@
     "link": "http://english.ratopati.com/story/86675/nepals-proposal-to-the-uae-to-invest-in-the-budhigandaki-hydropower-project",
     "headline": "Nepal Proposes UAE Investment in Budhi Gandaki Hydropower Project",
     "sent_at": "2026-11-14T17:01:48.744041+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227065/",
+    "headline": "बूढीगण्डकीमा लगानी गर्न युएईलाई नेपालको प्रस्ताव",
+    "sent_at": "2026-11-14T17:16:27.397540+00:00",
+    "dup": true
   }
 ]
