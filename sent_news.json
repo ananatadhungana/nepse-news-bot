@@ -1,15 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/85431/secretary-meeting-directs-to-intensify-market-monitoring-targeting-festivals",
-    "headline": "Regular Secretary Meeting Decides to Intensify Market Monitoring During Festivals",
-    "sent_at": "2026-11-02T08:32:06.870043+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/02/778150/gagan-secretariat-objects-to-linking-the-congresss-official-status-dispute-to-middlemen/",
-    "headline": "कांग्रेसकाे आधिकारिकता विवादलाई बिचौलियासँग जोडेकोमा गगन सचिवालयको आपत्ति",
-    "sent_at": "2026-11-02T08:32:10.754947+00:00"
-  },
-  {
     "link": "https://onlinetvnepal.com/2026/11/218829/",
     "headline": "प्रधानमन्त्रीको उपस्थितिमा सचिव बैठक, के–के भए निर्णय ?",
     "sent_at": "2026-11-02T08:42:16.624843+00:00"
@@ -7908,5 +7898,16 @@
     "link": "https://himalpress.com/2026/11/vegetable-prices-in-kalimati-large-tomatoes-70-stem-and-body-90-how-much-for-others/",
     "headline": "कालिमाटीमा तरकारीको मूल्य : ठूलो गोलभेँडा ७०, तने बोडी ९० [अरू कति?]",
     "sent_at": "2026-11-14T06:02:24.627975+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/nepal-smart-infrastructure-development.html",
+    "headline": "Nepal must build, but it must build smarter",
+    "sent_at": "2026-11-14T06:31:49.680297+00:00"
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/11/219766/",
+    "headline": "सार्वजनिक खरिद अनुगमन कार्यालयको कारबाही, तीन कम्पनी कालोसूचीमा",
+    "sent_at": "2026-11-14T06:31:52.680466+00:00",
+    "dup": true
   }
 ]
