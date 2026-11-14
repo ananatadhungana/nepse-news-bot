@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/nepse-falls-32-points.html",
-    "headline": "NEPSE falls 32 points to 2,657 as all sub-indices decline",
-    "sent_at": "2026-11-02T09:43:53.529236+00:00"
-  },
-  {
     "link": "https://baahrakhari.com/detail/506370",
     "headline": "नाफा बुक गर्ने बढ्दा नेप्सेमा देखियो ३२ अंकको करेक्सन",
     "sent_at": "2026-11-02T09:43:56.529402+00:00",
@@ -7913,5 +7908,11 @@
     "link": "https://www.onlinekhabar.com/2026/11/2057443/elephant-affected-farmers-urged-to-bring-in-ripe-crops-on-time",
     "headline": "पाकेको बाली समयमै भित्र्याउन हात्ती प्रभावित किसानलाई आग्रह",
     "sent_at": "2026-11-14T09:01:50.894103+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/nepal-debt-manageable-fiscal-space-shrinking.html",
+    "headline": "The hidden cost of Nepal’s rising public debt",
+    "sent_at": "2026-11-14T09:16:27.292042+00:00",
+    "dup": true
   }
 ]
