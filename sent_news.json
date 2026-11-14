@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/11/2049250/nepal-airlines-saudi-flights-in-limbo-due-to-lack-of-gsa-renewal",
-    "headline": "जीएसए नवीकरण नहुँदा नेपाल एयरलाइन्सको साउदी उडान अन्योलमा",
-    "sent_at": "2026-11-02T08:46:38.496305+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/177108/",
-    "headline": "स्वदेशमै विकसित प्रविधिमार्फत वित्तीय क्षेत्रलाई थप प्रभावकारी बनाउँदै एनएसएस सर्भिसेज",
-    "sent_at": "2026-11-02T08:56:42.227562+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/nepal-airlines-saudi-flight-uncertain.html",
     "headline": "Nepal Airlines’ Saudi flights in uncertainty as GSA contract remains unrenewed",
     "sent_at": "2026-11-02T09:06:27.285348+00:00",
@@ -7909,6 +7899,18 @@
     "link": "https://arthakhabar.com/2026/11/14/129297/",
     "headline": "गोरखाको धार्चेमा खस्यो ठूलो सुख्खा पहिरो",
     "sent_at": "2026-11-14T06:46:31.656878+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505115.html",
+    "headline": "स्पेनबाट आएको दहीमा ढुसी, भाटभटेनीबाट सबै प्याकेट फिर्ता गर्न निर्देशन",
+    "sent_at": "2026-11-14T07:02:05.044229+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.myrepublica.nagariknetwork.com/news/minister-shah-meets-indian-counterpart-goyal-72-80.html",
+    "headline": "Minister Shah meets Indian counterpart Goyal",
+    "sent_at": "2026-11-14T07:02:05.044242+00:00",
     "dup": true
   }
 ]
