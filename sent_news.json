@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/nepal-proposes-cooperation-with-switzerland-to-establish-world-class-pharmaceutical-industry.html",
-    "headline": "Nepal proposes cooperation with Switzerland to establish world-class pharmaceutical industry",
-    "sent_at": "2026-11-02T10:06:32.718466+00:00",
-    "dup": true
-  },
-  {
     "link": "https://www.sharesansar.com/newsdetail/nepse-index-plummets-by-3265-points-all-index-close-at-red-2026-11-02",
     "headline": "NEPSE Index Plummets by 32.65 Points, All Index Close at Red",
     "sent_at": "2026-11-02T10:16:40.891385+00:00",
@@ -7912,5 +7906,11 @@
     "link": "https://gorkhapatraonline.com/news/229049",
     "headline": "हिमाली जल सुरक्षाका लागि विपद् पूर्वतयारी र एकीकृत विकासमा जोड",
     "sent_at": "2026-11-14T10:46:32.241389+00:00"
+  },
+  {
+    "link": "https://www.myrepublica.nagariknetwork.com/news/gold-cheaper-by-rs-11300-as-silver-slides-rs-110-per-tola-in-a-week-18-31.html",
+    "headline": "Gold cheaper by Rs 11,300 as silver slides Rs 110 per tola in a week",
+    "sent_at": "2026-11-14T11:01:53.270766+00:00",
+    "dup": true
   }
 ]
