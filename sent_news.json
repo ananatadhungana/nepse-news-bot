@@ -1,21 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/177089/",
-    "headline": "पैसा नभए पनि सामान किन्न पाइने, नेपालमा फैलिँदै ‘बाइ नाउ, पे लेटर’ कल्चर",
-    "sent_at": "2026-11-02T07:16:37.866912+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/11/02/95688",
-    "headline": "टाटा गुरुहरूलाई BS-6 प्रविधिको तालिम, देशभरका १४ स्थानमा प्रशिक्षण",
-    "sent_at": "2026-11-02T07:16:41.610467+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/225806/",
-    "headline": "टाटाका प्राविधिकलाई बीएस–६ तालिम, देशका कति स्थानमा सञ्चालन ?",
-    "sent_at": "2026-11-02T07:16:44.610648+00:00",
-    "dup": true
-  },
-  {
     "link": "https://onlinetvnepal.com/2026/11/218805/",
     "headline": "वीरेन्द्रनगरमा अर्थमन्त्रीहरूको जमघट, वित्तीय सङ्घीयतामाथि बहस",
     "sent_at": "2026-11-02T07:21:31.327585+00:00",
@@ -7911,5 +7895,20 @@
     "link": "https://bizpati.com/2026/11/227044/",
     "headline": "नेपाल टेलिकमको खुद नाफा ३७ प्रतिशतले बढ्यो, पहिलो त्रैमासमा १ अर्ब ८२ करोड नाफा",
     "sent_at": "2026-11-14T03:02:01.950801+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/there-is-a-lot-of-confusion-about-those-who-go-to-kope-they-should-make-it-public-whether-they-went-at-government-expense-or-not-ganesh-karki-45-65.html",
+    "headline": "कोपमा जानेहरूको लर्को छ, सरकारी खर्चमा गएका हुन् कि होइनन् सार्वजनिक गरून् : गणेश कार्की",
+    "sent_at": "2026-11-14T03:32:07.369633+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/86542/nepals-emphasis-on-strengthening-the-social-security-system",
+    "headline": "Nepal Prioritizes Job Creation, Social Security, and Socio-Economic Transformation",
+    "sent_at": "2026-11-14T03:32:11.023599+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227048/",
+    "headline": "नेपालमा हेलिकप्टर बुकिङ सहज बनाउँदै गो हेलि नेपाल, उद्धारदेखि पर्यटन उडानसम्म सेवा",
+    "sent_at": "2026-11-14T03:32:14.710164+00:00"
   }
 ]
