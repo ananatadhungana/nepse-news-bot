@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nepalpress.com/2026/11/02/778192/chief-minister-karki-expresses-strong-objection-to-the-administrations-order-to-close-hotels-and-restaurants-in-biratnagar-at-10-pm/",
-    "headline": "विराटनगरमा राति १० बजे नै होटल-रेष्टुराँ बन्द गर्न प्रशासनको उर्दी, मुख्यमन्त्री कार्कीले जनाए कडा आपत्ति",
-    "sent_at": "2026-11-02T10:26:44.385463+00:00"
-  },
-  {
     "link": "https://www.setopati.com/kinmel/economy/401848",
     "headline": "चीनमा नेपाली सुन्तला र जुनारले खेपेको दु:ख",
     "sent_at": "2026-11-02T10:41:41.590200+00:00"
@@ -7912,5 +7907,11 @@
     "link": "http://ictsamachar.com//story/100007687",
     "headline": "ह्वावेले ल्यायो एआईमा आधारित नयाँ आवासीय ऊर्जा प्रणाली ‘ल्युटेरा एस२’",
     "sent_at": "2026-11-14T12:01:48.103746+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nrb-operating-rtgs-on-public-holidays-for-smooth-payment-system-82-44.html",
+    "headline": "NRB operating RTGS on public holidays for smooth payment system",
+    "sent_at": "2026-11-14T12:32:00.978081+00:00",
+    "dup": true
   }
 ]
