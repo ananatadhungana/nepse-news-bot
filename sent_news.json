@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/11/2049802/karnali-corridor-deadline-will-be-extended-year-after-year-construction-speed-will-not-increase",
-    "headline": "कर्णाली करिडोर : वर्षैपिच्छे म्याद थपिने, निर्माण गति नबढ्ने",
-    "sent_at": "2026-11-03T04:31:58.735900+00:00"
-  },
-  {
     "link": "https://arthadabali.com/2026/11/03/95715",
     "headline": "भैरहवा भन्सारले तीन महिनामै उठायो ३३ अर्ब राजस्व, लक्ष्यभन्दा ४ अर्ब बढी",
     "sent_at": "2026-11-03T04:32:02.256400+00:00"
@@ -7912,6 +7907,12 @@
     "link": "http://ictsamachar.com//story/100007697",
     "headline": "नेपालबाट थ्रीजी प्रविधि विस्थापित हुँदै, एनसेल र टेलिकमले यसै वर्ष सेवा बन्द गर्ने",
     "sent_at": "2026-11-15T14:46:36.274223+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepal-maintains-bb-credit-ratings-the-constant-one-for-the-past-three-years-12-12.html",
+    "headline": "Nepal retains BB- sovereign credit rating for third consecutive year",
+    "sent_at": "2026-11-15T15:02:04.848386+00:00",
     "dup": true
   }
 ]
