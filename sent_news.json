@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://www.osnepal.com/detail/593345",
-    "headline": "कोषमा अर्बौं रकम, बाढीपीडित भने अझै राहत र पुनःस्थापनाको पर्खाइमा",
-    "sent_at": "2026-11-03T03:32:08.663945+00:00",
-    "dup": true
-  },
-  {
     "link": "https://baahrakhari.com/detail/506428",
     "headline": "सगरमाथा क्षेत्रमा दुईवटा हेलिकोप्टर ठोक्किए, एकजनाको मृत्यु",
     "sent_at": "2026-11-03T03:32:08.663971+00:00",
@@ -7913,5 +7907,10 @@
     "link": "https://nagariknews.nagariknetwork.com/economy/long-holidays-bring-domestic-visitors-to-pokhara-52-63.html",
     "headline": "लामो बिदाले पोखरामा आन्तरिक पाहुना भित्र्यायो",
     "sent_at": "2026-11-15T12:16:29.808551+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/229170",
+    "headline": "ताप्लेजुङमा अघि बढ्न सकेन विकास आयोजना",
+    "sent_at": "2026-11-15T12:31:39.918567+00:00"
   }
 ]
