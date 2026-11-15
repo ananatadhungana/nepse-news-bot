@@ -1,29 +1,5 @@
 [
   {
-    "link": "https://baahrakhari.com/detail/506428",
-    "headline": "सगरमाथा क्षेत्रमा दुईवटा हेलिकोप्टर ठोक्किए, एकजनाको मृत्यु",
-    "sent_at": "2026-11-03T03:32:08.663971+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/two-helicopters-collide-in-seoul-42-19.html",
-    "headline": "सोलुमा दुई हेलिकोप्टर आपसमा ठोक्किए",
-    "sent_at": "2026-11-03T03:32:08.663978+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/311311",
-    "headline": "सोलुखुम्बुमा २ वटा हेलिकोप्टर ठोक्किए, एक विदेशी नागरिकको मृत्यु",
-    "sent_at": "2026-11-03T03:32:08.663984+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261103085816.html",
-    "headline": "फेरिचेमा दुईवटा हेलिकोप्टर एकआपसमा ठोक्किए, थप विवरण आउन बाँकी",
-    "sent_at": "2026-11-03T03:32:08.663989+00:00",
-    "dup": true
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/11/2049786/tourism-minister-poudel-in-london-33-stalls-from-nepal-at-world-travel-market",
     "headline": "पर्यटनमन्त्री पौडेल लन्डनमा, वर्ल्ड ट्राभल मार्केटमा नेपालबाट ३३ स्टल",
     "sent_at": "2026-11-03T03:32:09.390772+00:00"
@@ -7912,5 +7888,27 @@
     "link": "https://gorkhapatraonline.com/news/229170",
     "headline": "ताप्लेजुङमा अघि बढ्न सकेन विकास आयोजना",
     "sent_at": "2026-11-15T12:31:39.918567+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291693-2026-11-15-12-33-42",
+    "headline": "परराष्ट्रले माग्यो प्रधानमन्त्रीसँग भारत जाने उद्योगी व्यवसायीको नाम, सानो टोली लैजाने तयारी",
+    "sent_at": "2026-11-15T12:46:24.884656+00:00"
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/15/96111",
+    "headline": "मिशेलिनको प्रिमियम टायर ‘प्राइमसी ५’ नेपाली बजारमा, पाँच साइजमा उपलब्ध",
+    "sent_at": "2026-11-15T12:46:28.775431+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/banking/402645",
+    "headline": "ग्लोबल फाइनान्सको मूल्यांकन: नेपालका गभर्नरले पाएको 'बी' स्कोरले के बताउॅंछ?",
+    "sent_at": "2026-11-15T12:46:31.775594+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/annapurna-welcomes-41758-foreign-tourists-in-october-65-98.html",
+    "headline": "Annapurna welcomes 41,758 foreign tourists in October",
+    "sent_at": "2026-11-15T12:46:31.775620+00:00",
+    "dup": true
   }
 ]
