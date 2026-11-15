@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/503309.html",
-    "headline": "एभरेष्ट सुगर मिलको व्यापार ४०% ले बढेर ३ अर्ब पुग्यो",
-    "sent_at": "2026-11-03T04:02:00.930921+00:00"
-  },
-  {
     "link": "https://himalpress.com/2026/11/will-the-record-for-tourist-arrivals-be-broken/",
     "headline": "पर्यटक आगमनको कीर्तिमान कायम होला त?",
     "sent_at": "2026-11-03T04:02:03.931061+00:00",
@@ -7912,5 +7907,10 @@
     "headline": "Prime Minister Balen Shah's India Visit Preparations Underway, Private Sector Seeks Economic Diplomacy",
     "sent_at": "2026-11-15T13:46:23.112503+00:00",
     "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/flood-hit-rasuwagadhi-hydropowers-cumulative-loss-reaches-rs-287-billion-93-24.html",
+    "headline": "Flood-hit Rasuwagadhi Hydropower’s cumulative loss reaches Rs 2.87 billion",
+    "sent_at": "2026-11-15T14:16:22.226979+00:00"
   }
 ]
