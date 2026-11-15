@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://kathmandupost.com/national/2026/11/03/bhotekoshi-floods-leave-older-survivors-grappling-with-loss-uncertainty-and-trauma",
-    "headline": "Bhotekoshi floods leave older survivors grappling with loss, uncertainty and trauma",
-    "sent_at": "2026-11-03T04:01:53.455669+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/85513/traffic-volume-increases-after-toll-collection-on-nagdhunga-tunnel-photos",
     "headline": "Nagdhunga Tunnel Causes Passenger Hassle Due to Toll Tax Delays",
     "sent_at": "2026-11-03T04:01:57.132320+00:00"
@@ -7910,5 +7905,11 @@
     "link": "http://english.ratopati.com/story/86767/sugarcane-farmers-angry-after-rs-8-increase-in-cost",
     "headline": "Sugarcane Farmers Protest Government's Minimum Support Price",
     "sent_at": "2026-11-15T13:16:33.459604+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261115190436.html",
+    "headline": "जीवन बीमा कम्पनीको नाफा १०.५६ प्रतिशतले खुम्चियो, कुनले कमाए कति?",
+    "sent_at": "2026-11-15T13:31:39.777259+00:00",
+    "dup": true
   }
 ]
