@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://rajdhanidaily.com/id/150906/",
-    "headline": "गभर्नरको मनोमानीमा जागिर दिने संस्थालाई राष्ट्र बैंकको १५ करोड निकासा",
-    "sent_at": "2026-11-03T03:32:01.962880+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85510/two-helicopters-collide-while-landing-in-solukhumbu-one-dead",
-    "headline": "Two Helicopters Collide in Solukhumbu, One Foreign Tourist Dead",
-    "sent_at": "2026-11-03T03:32:04.963071+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalpress.com/2026/11/03/778368/2-helicopters-collide-in-solukhumbus-feriche-details-yet-to-be-released/",
     "headline": "सोलुखुम्बुको फेरिचेमा २ वटा हेलिकप्टर ठोक्किए, विस्तृत विवरण आउन बाँकी",
     "sent_at": "2026-11-03T03:32:04.963099+00:00",
@@ -7914,5 +7903,16 @@
     "link": "https://bizpati.com/2026/11/227109/",
     "headline": "सेयर बजार बुझाउने ११ फिल्म र डकुमेन्ट्री : लोभ, ठगी, जोखिम र सफलताका कथाबाट नेपाली लगानीकर्ताले के सिक्ने ?",
     "sent_at": "2026-11-15T10:46:39.457900+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=131872",
+    "headline": "बाईब्याक भनेको के हो ?",
+    "sent_at": "2026-11-15T11:16:27.862658+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261115165032.html",
+    "headline": "अन्नपूर्ण संरक्षण क्षेत्रमा बढे विदेशी पर्यटक, अक्टोबरमा ४२ हजारले गरे भ्रमण",
+    "sent_at": "2026-11-15T11:16:30.862782+00:00",
+    "dup": true
   }
 ]
