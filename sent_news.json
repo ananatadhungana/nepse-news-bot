@@ -1,50 +1,5 @@
 [
   {
-    "link": "https://www.eadarsha.com/nep/216599.html",
-    "headline": "श्री बिहानी र बन्दीपुर केबलकारबीच सम्झौता",
-    "sent_at": "2026-11-02T17:33:16.982123+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85490/foreign-currency-exchange-rates-on-tuesday",
-    "headline": "Foreign Exchange Rates Determined by Nepal Rastra Bank",
-    "sent_at": "2026-11-02T23:46:27.840269+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132261",
-    "headline": "बीमा क्षेत्रमा महिला ग्राहकको पहुँच बलियो, नेतृत्व तहमा भने पुरुषकै वर्चस्व",
-    "sent_at": "2026-11-03T00:02:05.003015+00:00"
-  },
-  {
-    "link": "https://risingnepaldaily.com/news/88329",
-    "headline": "Public debt exceeds Rs. 3 T, stands at 45.59% of GDP",
-    "sent_at": "2026-11-03T00:02:08.534098+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228088",
-    "headline": "१३ अर्बका ६२ ठेक्का तोडिए",
-    "sent_at": "2026-11-03T00:02:12.290261+00:00"
-  },
-  {
-    "link": "http://lokaantar.com/story/332448/2026/11/3/bridge-",
-    "headline": "बागलुङका ग्रामीण सडकमा एक दर्जनभन्दा बढी बेलिब्रिज बन्ने",
-    "sent_at": "2026-11-03T00:31:57.061012+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261103060532.html",
-    "headline": "इभी गाडीले खोल्यो चार्जिङ पूर्वाधारको नयाँ बिजनेस, तीन महिनामै भित्रियो ५६ हजार चार्जर",
-    "sent_at": "2026-11-03T00:32:00.727881+00:00"
-  },
-  {
-    "link": "https://risingnepaldaily.com/news/88331",
-    "headline": "Cyber fraud drains billions,  but recovery is going low",
-    "sent_at": "2026-11-03T00:32:04.609982+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/columns/2026/11/03/nepal-s-remittance-boom-is-hiding-a-hiring-bust",
-    "headline": "Nepal’s remittance boom is hiding a hiring bust",
-    "sent_at": "2026-11-03T01:02:17.836615+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/politics/let-s-develop-butwal-as-an-economic-capital-general-secretary-pokharel-br-58-85.html",
     "headline": "बुटवललाई आर्थिक राजधानीका रूपमा विकास गरौँ : महासचिव पोखरेल",
     "sent_at": "2026-11-03T01:02:21.601826+00:00"
@@ -7906,5 +7861,54 @@
     "link": "https://bizmandu.com/content/20261115062257.html",
     "headline": "जलवायु परिवर्तनको मार नेपाललाई, कार्बन व्यापारको अवसर पनि नेपाललाई",
     "sent_at": "2026-11-15T07:02:06.760148+00:00"
+  },
+  {
+    "link": "http://ictsamachar.com//story/100007700",
+    "headline": "इ-पेन्सन सेवा अब सम्बन्धित सरकारी कार्यालयबाटै सञ्चालन हुने",
+    "sent_at": "2026-11-15T07:31:41.903264+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505259.html",
+    "headline": "कुमारी बैंकको रेटिङ स्तरोन्नति : पुँजीकोष र नाफा बलियो, खराब कर्जा मुख्य चुनौती",
+    "sent_at": "2026-11-15T07:31:45.691485+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/upper-tamakoshi-hydropower-earns-rs-1-65-billion-in-net-profit-in-3-months.html",
+    "headline": "Upper Tamakoshi Hydropower earns Rs 1.65 billion in net profit in 3 months",
+    "sent_at": "2026-11-15T07:31:49.459020+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/himalayan-distillerys-profit-rises.html",
+    "headline": "Himalayan Distillery’s first-quarter net profit rises 2.38 times to Rs 214.9 million",
+    "sent_at": "2026-11-15T07:31:52.459171+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://khabarhub.com/2026/15/1047788/",
+    "headline": "कर्णालीले जित्यो टस, चितवनविरुद्ध पहिले ब्याटिङ गर्ने",
+    "sent_at": "2026-11-15T07:31:53.329198+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/sports/npl-karnali-batting-against-chitwan-br-64-31.html",
+    "headline": "एनपिएल : चितवनविरुद्ध ब्याटिङ गर्दै कर्णाली",
+    "sent_at": "2026-11-15T07:31:56.329357+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://khabarhub.com/2026/15/1047774/",
+    "headline": "बाँदरको हैरानीले किसान अदुवाखेतीतर्फ आकर्षित",
+    "sent_at": "2026-11-15T07:31:56.329383+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://khabarhub.com/2026/15/1047770/",
+    "headline": "तमोर कोरिडोरले राँके बजारको व्यापार घटायो",
+    "sent_at": "2026-11-15T07:31:56.925685+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/tamor-corridor-reduces-business-in-ranke-bazaar-br-76-77.html",
+    "headline": "तमोर कोरिडोरले राँके बजारको व्यापार घटायो",
+    "sent_at": "2026-11-15T07:31:59.925832+00:00",
+    "dup": true
   }
 ]
