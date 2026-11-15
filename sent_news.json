@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/177141/",
-    "headline": "मुक्तिनाथ कृषि कम्पनीको ६० लाख ९३ हजार कित्ता शेयरको लकइन अवधि सकिँदै",
-    "sent_at": "2026-11-02T12:13:25.274749+00:00"
-  },
-  {
     "link": "https://himalpress.com/2026/11/construction-of-dry-port-in-dodhara-chandni-26-percent-complete/",
     "headline": "दोधारा चाँदनीमा सुक्खा बन्दरगाहको निर्माण २६ प्रतिशत पूरा",
     "sent_at": "2026-11-02T12:13:28.274905+00:00",
@@ -7915,5 +7910,11 @@
     "link": "https://nepalpress.com/2026/11/15/781275/home-minister-meets-uae-minister-makes-proposal/",
     "headline": "गृहमन्त्रीले भेटे यूएईका मन्त्री, राखे यस्ता प्रस्ताव",
     "sent_at": "2026-11-15T02:02:05.970961+00:00"
+  },
+  {
+    "link": "https://www.bbc.com/nepali/articles/cmvg2ljwnjngo?at_medium=RSS&at_campaign=rss",
+    "headline": "के सुनको भाउ अझै घट्ला, लगानी गर्ने यो उपयुक्त समय हो कि होइन?",
+    "sent_at": "2026-11-15T02:31:37.554265+00:00",
+    "dup": true
   }
 ]
