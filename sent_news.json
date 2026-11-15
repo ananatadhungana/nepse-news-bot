@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/11/2049786/tourism-minister-poudel-in-london-33-stalls-from-nepal-at-world-travel-market",
-    "headline": "पर्यटनमन्त्री पौडेल लन्डनमा, वर्ल्ड ट्राभल मार्केटमा नेपालबाट ३३ स्टल",
-    "sent_at": "2026-11-03T03:32:09.390772+00:00"
-  },
-  {
     "link": "https://kathmandupost.com/national/2026/11/03/bhotekoshi-floods-leave-older-survivors-grappling-with-loss-uncertainty-and-trauma",
     "headline": "Bhotekoshi floods leave older survivors grappling with loss, uncertainty and trauma",
     "sent_at": "2026-11-03T04:01:53.455669+00:00"
@@ -7910,5 +7905,10 @@
     "headline": "Annapurna welcomes 41,758 foreign tourists in October",
     "sent_at": "2026-11-15T12:46:31.775620+00:00",
     "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/86767/sugarcane-farmers-angry-after-rs-8-increase-in-cost",
+    "headline": "Sugarcane Farmers Protest Government's Minimum Support Price",
+    "sent_at": "2026-11-15T13:16:33.459604+00:00"
   }
 ]
