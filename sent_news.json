@@ -1,48 +1,5 @@
 [
   {
-    "link": "https://bankingkhabar.com/archives/170046",
-    "headline": "सम्झना श्रेष्ठको राजीनामापछि आरम्भ चौतारीमा कल्पना केसी",
-    "sent_at": "2026-11-03T08:02:28.271774+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/503476.html",
-    "headline": "दुईपांग्रे तथा साना चारपांग्रे सवारीमाथिको चर्को करविरुद्ध सर्वोच्च अदालतमा रिट दर्ता",
-    "sent_at": "2026-11-03T08:32:02.014133+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/503477.html",
-    "headline": "नयाँ इलेक्ट्रोनिक बिडिङ प्रणाली आजबाट सुरू हुँदै, मन्त्री लम्सालले उद्घाटन गर्ने",
-    "sent_at": "2026-11-03T08:32:05.832151+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/gandaki-province-to-build-15-bailey-bridges-in-baglung.html",
-    "headline": "Gandaki Province to build 15 Bailey bridges in Baglung",
-    "sent_at": "2026-11-03T08:32:08.832392+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://english.onlinekhabar.com/new-company-registration-otp-fails.html",
-    "headline": "New company registration stalled as OTP fails to arrive",
-    "sent_at": "2026-11-03T08:32:09.624196+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2050109/new-company-registration-stalled-due-to-non-receipt-of-otp",
-    "headline": "ओटीपी नआउँदा नयाँ कम्पनी दर्ता ठप्प",
-    "sent_at": "2026-11-03T08:32:12.624360+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228150",
-    "headline": "हत्या आरोपमा चार जना पक्राउ",
-    "sent_at": "2026-11-03T08:32:13.391464+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2049974/governments-emphasis-on-promoting-indigenous-flowers-and-developing-nursery-business-minister-chaudhary",
-    "headline": "स्वदेशी फूल प्रवर्द्धन र नर्सरी व्यवसाय विकासमा सरकारको जोड : मन्त्री चौधरी",
-    "sent_at": "2026-11-03T08:32:16.391643+00:00",
-    "dup": true
-  },
-  {
     "link": "http://english.ratopati.com/story/85534/285000-tourists-in-mustang",
     "headline": "Mustang Sees 77.62% Tourist Increase in First 10 Months of 2026",
     "sent_at": "2026-11-03T08:32:16.391672+00:00",
@@ -7906,5 +7863,47 @@
     "headline": "Gold Price Decreases in Nepali Market",
     "sent_at": "2026-11-16T06:02:32.982660+00:00",
     "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132548",
+    "headline": "बिक्री लागत बढेपछि सोनापुर मिनरल्स एण्ड आयलको नाफामा दबाब, ऊर्जा लागत घटाउन सौर्य ऊर्जा जडान गर्दै",
+    "sent_at": "2026-11-16T06:32:07.201330+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132541",
+    "headline": "५०% भौतिक प्रगति पछि हाइड्रोलाई आईपीओ, हकप्रद निष्कासनमा ३० दिने समयसीमा र पीई/भीसीमा एकमुष्ट विदेशी लगानी खुला",
+    "sent_at": "2026-11-16T06:32:10.201519+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132540",
+    "headline": "कम्पनी ऐनमा संशोधन : ‘श्रम शेयर’, इसप र विदेशी ऋण पूँजीकरण खुला, ‘निष्क्रिय कम्पनी’ र सञ्चालकको राजीनामामा कानुनी गाँठो फुकाइँदै",
+    "sent_at": "2026-11-16T06:32:10.913107+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132543",
+    "headline": "बीमा कम्पनीहरूलाई पूर्वाधारमा सहवित्तीयकरण कर्जाको ढोका खुल्यो, प्रिमियम शेयरको दोहोरो नियमन अन्त्य",
+    "sent_at": "2026-11-16T06:32:14.612366+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505430.html",
+    "headline": "कच्चा तेल सस्तिँदा पनि ब्याजदरको पासो कायम, एआई ऋण र महँगीले हल्लाउँदै विश्व बजार",
+    "sent_at": "2026-11-16T06:32:18.425255+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/507429",
+    "headline": "६ बैंकको ब्याजदर परिवर्तन, १४ वटाको यथावत्",
+    "sent_at": "2026-11-16T06:32:21.425411+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2058710/nepals-public-administration-needs-to-introspect-how-did-we-get-here",
+    "headline": "नेपालको सार्वजनिक प्रशासनले गर्नुपर्ने आत्मसमीक्षा : हामी यहाँसम्म कसरी आइपुग्यौँ ?",
+    "sent_at": "2026-11-16T06:32:22.134630+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505423.html",
+    "headline": "हिमालयन रिइन्स्योरेन्सको नाफा ५८%ले घट्यो, ईपीएस ३.८२ रुपैयाँ",
+    "sent_at": "2026-11-16T06:32:25.758860+00:00"
   }
 ]
