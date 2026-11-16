@@ -1,22 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/96202",
-    "headline": "एआईमा लगानी बढाउन थप पुँजी आवश्यक, तर बजारमा ठूलो जोखिम   ",
-    "sent_at": "2026-11-04T01:17:46.586494+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/kinmel/banking/401959",
-    "headline": "आजका कुन् देशको मुद्रा कति रूपैयाँमा साटिन्छ?",
-    "sent_at": "2026-11-04T01:17:49.586664+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261104064943.html",
-    "headline": "आजको विनिमय दर : घट्यो जापानी येन, चिनियाँ युआन र दक्षिण कोरियाली वोनको भाउ",
-    "sent_at": "2026-11-04T01:17:49.586693+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalpress.com/2026/11/04/778649/the-task-force-was-not-formed-until-the-time-came-to-submit-the-budget-amendment-report/",
     "headline": "बजेट संशोधनको प्रतिवेदन बुझाउने समय आउँदासम्म बनेन कार्यदल",
     "sent_at": "2026-11-04T01:17:50.105837+00:00"
@@ -7896,6 +7879,23 @@
     "link": "https://www.thahakhabar.com/detail/312019",
     "headline": "तीन महिनामै सार्वजनिक ऋणको ब्याज करिब एक खर्ब भुक्तान",
     "sent_at": "2026-11-16T15:16:42.746738+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/11/16/how-india-s-delay-is-set-to-leave-rs135m-of-nepal-s-electricity-unsold-daily",
+    "headline": "How India’s delay is set to leave Rs135m of Nepal’s electricity unsold daily",
+    "sent_at": "2026-11-16T15:32:02.303720+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/foreign-tourists-are-increasingly-flocking-to-the-streets-of-thamel-39-81.html",
+    "headline": "१० महिनामा भित्रिए १० लाख बढी पर्यटक, बाढीपछि लयमा फर्किँदै ठमेल",
+    "sent_at": "2026-11-16T15:32:05.303898+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/fuel-prices-remain-unchanged-nmc-loses-rs-1-62-billion-fortnight-72-24.html",
+    "headline": "इन्धनको मूल्य यथावत, निगमलाई पाक्षिक १ अर्ब ६२ करोड घाटा",
+    "sent_at": "2026-11-16T15:32:05.303925+00:00",
     "dup": true
   }
 ]
