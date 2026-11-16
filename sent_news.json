@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://nepalpress.com/2026/11/04/778649/the-task-force-was-not-formed-until-the-time-came-to-submit-the-budget-amendment-report/",
-    "headline": "बजेट संशोधनको प्रतिवेदन बुझाउने समय आउँदासम्म बनेन कार्यदल",
-    "sent_at": "2026-11-04T01:17:50.105837+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/11/2050623/indian-tourists-attraction-to-manang-is-increasing",
     "headline": "मनाङ भ्रमणमा भारतीय पर्यटकको आकर्षण बढ्दो",
     "sent_at": "2026-11-04T01:17:53.797496+00:00"
@@ -7896,6 +7891,12 @@
     "link": "https://nagariknews.nagariknetwork.com/economy/fuel-prices-remain-unchanged-nmc-loses-rs-1-62-billion-fortnight-72-24.html",
     "headline": "इन्धनको मूल्य यथावत, निगमलाई पाक्षिक १ अर्ब ६२ करोड घाटा",
     "sent_at": "2026-11-16T15:32:05.303925+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96565",
+    "headline": "ठमेलमा बढ्यो विदेशी पर्यटकको चहलपहल, पर्यटन व्यवसायीमा पलायो आशा",
+    "sent_at": "2026-11-16T16:02:20.699506+00:00",
     "dup": true
   }
 ]
