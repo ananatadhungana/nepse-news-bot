@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/228199",
-    "headline": "उदयपुरमा  धान उत्पादन वृद्धि हुने अनुमान",
-    "sent_at": "2026-11-03T15:17:13.879378+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261103205706.html",
-    "headline": "इन्धन महंगो हुँदा बढ्दै ‘कस्ट अफ लिभिङ’, तेल उत्पादकहरु भने नाफामा",
-    "sent_at": "2026-11-03T15:17:17.885957+00:00"
-  },
-  {
     "link": "https://arthadabali.com/2026/11/03/95743",
     "headline": "चाडपर्वले बनायो चलायमान अर्थतन्त्र",
     "sent_at": "2026-11-03T15:17:21.829125+00:00"
@@ -7894,5 +7884,16 @@
     "link": "https://nepalpress.com/2026/11/16/781674/despite-popularity-bhotekoshi-flood-affected-this-is-the-painful-reality-video/",
     "headline": "लोकप्रियताको ओझेलमा भोटेकोशी बाढी प्रभावित, यस्तो छ पीडादायी वास्तविकता (भिडिओ)",
     "sent_at": "2026-11-16T13:02:29.268289+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291758-2026-11-16-13-24-51",
+    "headline": "१२ वर्षको ताकेतापछि महेन्द्रनगरको ‘एयर रुट’ दिन भारत तयार",
+    "sent_at": "2026-11-16T13:31:57.158843+00:00"
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/16/closure-of-tatopani-border-point-becomes-costly-for-trading/",
+    "headline": "Closure of Tatopani Border Point becomes costly for trading",
+    "sent_at": "2026-11-16T13:32:00.159014+00:00",
+    "dup": true
   }
 ]
