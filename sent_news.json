@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/gold-price-rises-silver-falls-in-nepali-market-25-41.html",
-    "headline": "Gold price rises, silver falls in Nepali market",
-    "sent_at": "2026-11-03T05:32:20.433451+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/economy/ipo-worth-rs-71-billion-in-queue-99-85.html",
     "headline": "७१ अर्बका आइपिओ लाममा",
     "sent_at": "2026-11-03T05:32:21.168367+00:00"
@@ -7905,5 +7899,10 @@
     "link": "https://gorkhapatraonline.com/news/229197",
     "headline": "भारतको भन्सार महसुलले नेपाली जुट उद्योगलाई सकस",
     "sent_at": "2026-11-16T01:31:56.382961+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170251",
+    "headline": "नेपालको बैंकिङ यात्राका ९० वर्ष : साहु-महाजनको कारोबारदेखि डिजिटल बैंकिङसम्म",
+    "sent_at": "2026-11-16T02:01:57.284890+00:00"
   }
 ]
