@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/228211",
-    "headline": "उड्डयन सुरक्षामाथि प्रश्न",
-    "sent_at": "2026-11-04T00:31:49.829513+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/editorial/billions-of-victims-in-the-fund-are-in-distress-br-41-94.html",
     "headline": "कोषमा अर्ब पीडितको बेहाल",
     "sent_at": "2026-11-04T00:31:49.829538+00:00",
@@ -7896,5 +7890,11 @@
     "link": "https://baahrakhari.com/detail/507474",
     "headline": "पेट्रोलियम पदार्थको मूल्य यथावत्",
     "sent_at": "2026-11-16T14:31:59.685937+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/86894/foreign-tourists-are-increasingly-flocking-to-the-streets-of-thamel",
+    "headline": "Thamel Sees Influx of Foreign Tourists as Autumn Season Begins",
+    "sent_at": "2026-11-16T15:02:44.578681+00:00",
+    "dup": true
   }
 ]
