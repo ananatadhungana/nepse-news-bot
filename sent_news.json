@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/225981/",
-    "headline": "अझै पाउन सकेन नेप्सेले सीईओ, किन रोकियो प्रक्रिया ?",
-    "sent_at": "2026-11-03T15:17:25.735515+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/85561/e-gp-which-was-hacked-is-back-in-operation-with-new-security-measures",
     "headline": "National E-GP System Relaunches with Enhanced Security Features After Cyber Breach",
     "sent_at": "2026-11-03T15:17:28.735697+00:00",
@@ -7895,6 +7890,12 @@
     "link": "https://www.onlinekhabar.com/2026/11/2059022/transportation-costs-of-rs-60000-reached-rs-600000-when-tatopani-border-crossing-was-closed",
     "headline": "तातोपानी नाका बन्द हुँदा ६० हजारको ढुवानी खर्च ६ लाख पुग्यो",
     "sent_at": "2026-11-16T13:46:40.167783+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://kathmandupost.com/gen-z-view/2026/11/16/why-is-tatopani-border-still-closed-stakeholders-say-it-s-time-kathmandu-asked-beijing",
+    "headline": "Why is Tatopani border still closed? Stakeholders say it’s time Kathmandu asked Beijing",
+    "sent_at": "2026-11-16T14:02:07.757689+00:00",
     "dup": true
   }
 ]
