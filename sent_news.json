@@ -1,56 +1,5 @@
 [
   {
-    "link": "https://www.osnepal.com/detail/593357",
-    "headline": "पुष्प व्यवसायको प्रवद्र्धनका लागि नीतिगत र प्राविधिक सहयोग गर्छौँ : मन्त्री चौधरी",
-    "sent_at": "2026-11-03T07:32:26.613593+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/river-control-works-achieve-349-percent-progress-in-first-quarter-65-35.html",
-    "headline": "River control works achieve 34.9 percent progress in first quarter",
-    "sent_at": "2026-11-03T07:32:29.613734+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://english.ratopati.com/story/85535/mechi-customs-nears-revenue-collection-target",
-    "headline": "Mechi Customs Office Collects 95% of Revenue Target in First Three Months",
-    "sent_at": "2026-11-03T07:32:30.492553+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/177207/",
-    "headline": "सरकारी खातामा ३ खर्ब ८४ अर्ब बढी नगद मौज्दात",
-    "sent_at": "2026-11-03T07:32:35.698218+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/politics/no-need-for-favor-from-the-government-to-prove-the-legitimacy-of-the-congress-devraj-chalise-br-69-64.html",
-    "headline": "कांग्रेसको वैधानिकता प्रमाणित गर्न सत्ताको कृपापात्र आवश्यक छैन : देवराज चालिसे",
-    "sent_at": "2026-11-03T07:32:39.626068+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/national/2026/11/03/how-deepak-bhatta-became-nepal-s-most-influential-power-broker",
-    "headline": "How Deepak Bhatta became Nepal’s most influential power broker",
-    "sent_at": "2026-11-03T08:02:08.922729+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/infinix-opens-nepals-first-ever-brand-store-in-pulchowk-lalitpur-2026-11-03",
-    "headline": "Infinix Opens Nepal’s First-Ever Brand Store in Pulchowk, Lalitpur",
-    "sent_at": "2026-11-03T08:02:12.822206+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/290287-tourists-visit-mustang-in-10-months.html",
-    "headline": "290,287 tourists visit Mustang in 10 months",
-    "sent_at": "2026-11-03T08:02:16.678747+00:00"
-  },
-  {
-    "link": "https://arthasarokar.com/2026/11/meat-price-set-at-rs-350-per-kg-in-kathmandu.html",
-    "headline": "काठमाडौँमा मासुको मूल्य प्रतिकिलो ३५० रुपैयाँ तोकियो, बढी लिए खबर गर्न आग्रह !",
-    "sent_at": "2026-11-03T08:02:20.499446+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/503442.html",
-    "headline": "होटल रेस्टुरेन्टले प्रतिसिलिण्डर २७ सय तिर्नुपर्नेः ३०% दिन सरकारको निर्देशन, उद्योगी १०% मात्रै दिन तयार",
-    "sent_at": "2026-11-03T08:02:24.315638+00:00"
-  },
-  {
     "link": "https://bankingkhabar.com/archives/170046",
     "headline": "सम्झना श्रेष्ठको राजीनामापछि आरम्भ चौतारीमा कल्पना केसी",
     "sent_at": "2026-11-03T08:02:28.271774+00:00"
@@ -7901,5 +7850,61 @@
     "link": "https://english.onlinekhabar.com/india-seeks-nepali-airspace-bagdogra-raxaul-flights.html",
     "headline": "India seeks Nepali airspace access for Bagdogra and Raxaul flights",
     "sent_at": "2026-11-16T05:32:24.447819+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/nepal-rastra-bank-governor-bishwanath-poudel-receives-b-grade-in-global-finances-2026-report-card-2026-11-16",
+    "headline": "Nepal Rastra Bank Governor Bishwanath Poudel Receives ‘B’ Grade in Global Finance’s 2026 Report Card",
+    "sent_at": "2026-11-16T06:02:17.130700+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/16/96125",
+    "headline": "सञ्चारमाध्यमको स्वतन्त्रता खोस्न खोजेको आरोप, चेक गणतन्त्रमा लाखौँ मानिसले गरे विशाल प्रदर्शन",
+    "sent_at": "2026-11-16T06:02:18.180824+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505402.html",
+    "headline": "न्यून ब्याजदर र पोलिसी सरेन्डरको चपेटामा जीवन बिमा कम्पनी, वित्तीय स्थितिमा अझै आउन सकेन सुधार",
+    "sent_at": "2026-11-16T06:02:22.110303+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/178181/",
+    "headline": "मंसिरमा पनि घट्यो बैंकको ब्याजदर, कुन बैंकमा कति पाइन्छ ?",
+    "sent_at": "2026-11-16T06:02:25.110504+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261116113550.html",
+    "headline": "मुद्दती निक्षेपको ब्याजदर १५ वटा बैैंकमा यथावत, ५ वटाले भने मंसिरदेखि लागू हुने गरी घटाए",
+    "sent_at": "2026-11-16T06:02:25.110535+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/16/130500/",
+    "headline": "वंशजको नागरिकता निरन्तरताका लागि राज्यले बाटो खोल्नुपर्नेमा जोड",
+    "sent_at": "2026-11-16T06:02:26.072103+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505371.html",
+    "headline": "मुद्दती निक्षेपको औसत ब्याजदर ४% तल, मंसिरका लागि ६ वटाले घटाउँदा चौधको स्थिर",
+    "sent_at": "2026-11-16T06:02:29.072275+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/311982",
+    "headline": "चार दिनमा १५ हजार २ सयले घट्यो सुनको भाउ",
+    "sent_at": "2026-11-16T06:02:29.982496+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/16/781562/new-interest-rates-of-commercial-banks-for-mangsir-have-been-made-public-which-one-offers-the-highest-interest/",
+    "headline": "मंसिरका लागि वाणिज्य बैंकहरुको नयाँ ब्याजदर सार्वजनिक, कुनमा पाइन्छ सबैभन्दा बढी ब्याज ?",
+    "sent_at": "2026-11-16T06:02:32.982631+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/86817/the-price-of-gold-has-fallen-today-as-well-at-what-price-is-it-being-traded",
+    "headline": "Gold Price Decreases in Nepali Market",
+    "sent_at": "2026-11-16T06:02:32.982660+00:00",
+    "dup": true
   }
 ]
