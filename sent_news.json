@@ -1,43 +1,5 @@
 [
   {
-    "link": "https://www.sharesansar.com/newsdetail/unveiling-q1-208384-a-comprehensive-analysis-of-leading-commercial-banks-and-key-financial-insights-2026-11-03",
-    "headline": "Unveiling Q1 2083/84: A Comprehensive Analysis of Leading Commercial Banks and Key Financial Insights",
-    "sent_at": "2026-11-03T11:02:26.358612+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/bhatt-calls-for-balanced-public-and-private-investment.html",
-    "headline": "Bhatt calls for balanced public and private investment",
-    "sent_at": "2026-11-03T11:02:29.358770+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/03/778527/new-electronic-procurement-system-in-operation-call-for-bids-open/",
-    "headline": "नयाँ विद्युतीय खरिद प्रणाली सञ्चालनमा, बोलपत्र आह्वान खुला",
-    "sent_at": "2026-11-03T11:02:29.358804+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228170",
-    "headline": "नगरकोटमा वर्ल्डलिंकको नयाँ सम्पर्क कार्यालय",
-    "sent_at": "2026-11-03T11:02:30.181927+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/kinmel/economy/401922",
-    "headline": "सरकारी लगानीको प्रभावकारितामाथि प्रश्न, निजी क्षेत्रलाई अवसर दिनुपर्ने सुझाव",
-    "sent_at": "2026-11-03T11:02:33.182111+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132300",
-    "headline": "नेपाल पुनर्बीमाको हकप्रदमा सरकारको लगानी गर्ने बाटो खुल्यो, रोकिएको पूँजी वृद्धि प्रक्रिया अघि बढ्ने",
-    "sent_at": "2026-11-03T11:32:01.394519+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228180",
-    "headline": "सिदिङ्वामा उत्पादित गोलभेँडा तराईका बजारमा निर्यात हुँदै",
-    "sent_at": "2026-11-03T11:32:05.164402+00:00"
-  },
-  {
     "link": "https://arthasarokar.com/2026/11/the-government-will-take-a-loan-of-285-million-from-adb-invest-more-right-shares-in-the-reinsurance-company.html",
     "headline": "सरकारले एडिबीबाट २८५ मिलियन डलर ऋण लिने, पुनर्बीमा कम्पनीमा थप हकप्रद सेयर लगानी गरिने !",
     "sent_at": "2026-11-03T11:32:08.164533+00:00",
@@ -7901,5 +7863,41 @@
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=132559",
     "headline": "पिपुल्स हाइड्रोपावरको नाफा २४ करोड १३ लाख, विद्युत् बिक्री आम्दानी ६२ प्रतिशतले बढ्यो",
     "sent_at": "2026-11-16T09:32:45.791929+00:00"
+  },
+  {
+    "link": "http://ictsamachar.com//story/100007703",
+    "headline": "आयल निगमलाई डिजिटल बनाइँदै, इन्धन अर्डरदेखि भुक्तानीसम्म अनलाइन",
+    "sent_at": "2026-11-16T10:02:13.307845+00:00"
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68796",
+    "headline": "AgriMech International Expo 2026 set to begin Friday",
+    "sent_at": "2026-11-16T10:02:18.562081+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261116154247.html",
+    "headline": "एसियन क्लियरिङ युनियनको ५४औं बैठक भोलिदेखि काठमाडौंमा, ११ देशका गभर्नर सहभागी हुने",
+    "sent_at": "2026-11-16T10:02:22.385465+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/86864/george-manse-signs-with-sudurpaschim-royals",
+    "headline": "George Munsey Signs for Sudurpashchim Royals in Nepal Premier League",
+    "sent_at": "2026-11-16T10:02:26.178366+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505514.html",
+    "headline": "युद्ध र आक्रमणका बीच साउदी अरबको तेल उत्पादन लयमा, तर ‘भिजन २०३०’ को महत्त्वाकांक्षी योजना पछि धकेलिँदै",
+    "sent_at": "2026-11-16T10:02:30.023453+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2058774/george-manse-to-play-npl-for-sudurpaschim-royals",
+    "headline": "जर्ज मन्सेले सुदूरपश्चिम रोयल्सबाट एनपीएल खेल्ने",
+    "sent_at": "2026-11-16T10:02:33.023621+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227242/",
+    "headline": "ताप्लेजुङको हातेकागज जापानदेखि जर्मनीसम्म, कच्चापदार्थ अभावले विस्तारमा चुनौती",
+    "sent_at": "2026-11-16T10:02:33.831817+00:00"
   }
 ]
