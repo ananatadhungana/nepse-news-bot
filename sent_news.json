@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/11/2050191/nepal-exports-22-million-liters-of-juice-in-3-months",
-    "headline": "नेपालबाट ३ महिनामै सवा २ करोड लिटर जुस निर्यात",
-    "sent_at": "2026-11-03T10:32:17.658201+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291003-2026-11-3-10-39-8",
-    "headline": "२५ वर्षका लागि ‘नेपाल विकास दृष्टिकोण’ तर्जुमाको गृहकार्यमा योजना आयोग",
-    "sent_at": "2026-11-03T11:02:22.503734+00:00"
-  },
-  {
     "link": "https://www.sharesansar.com/newsdetail/unveiling-q1-208384-a-comprehensive-analysis-of-leading-commercial-banks-and-key-financial-insights-2026-11-03",
     "headline": "Unveiling Q1 2083/84: A Comprehensive Analysis of Leading Commercial Banks and Key Financial Insights",
     "sent_at": "2026-11-03T11:02:26.358612+00:00"
@@ -7902,5 +7891,15 @@
     "headline": "नेपालको पहिलो बैंक खुलेको दिन कात्तिक ३०: बैंकिङ क्षेत्रको जननी र पाठशालाले ९० वर्षमा के सिकायो ?",
     "sent_at": "2026-11-16T09:02:18.102870+00:00",
     "dup": true
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68795",
+    "headline": "Dusit Thani Himalayan Resort hosts first-ever cake mixing ceremony",
+    "sent_at": "2026-11-16T09:32:41.887611+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132559",
+    "headline": "पिपुल्स हाइड्रोपावरको नाफा २४ करोड १३ लाख, विद्युत् बिक्री आम्दानी ६२ प्रतिशतले बढ्यो",
+    "sent_at": "2026-11-16T09:32:45.791929+00:00"
   }
 ]
