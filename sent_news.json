@@ -1,60 +1,5 @@
 [
   {
-    "link": "https://www.setopati.com/kinmel/economy/402049",
-    "headline": "कार्यसञ्चालन कोषको ६३ अर्ब खर्चमा ३ अर्ब बेरूजु, सामान्य बजेटभन्दा ८ गुणा बढी जोखिम",
-    "sent_at": "2026-11-05T05:02:24.539037+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291141-2026-11-5-5-3-3",
-    "headline": "आज सुनचाँदीकै मूल्यमा उच्च वृद्धि",
-    "sent_at": "2026-11-05T05:34:22.290980+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://ictsamachar.com//story/100007603",
-    "headline": "विराटनगरमा ‘विराट एक्स्पो २०२६’ आयोजना हुँदै : स्टार्टअपलाई लगानी, युवालाई रोजगारीसँग जोड्ने उद्देश्य",
-    "sent_at": "2026-11-05T05:34:23.154758+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/nepal-bank-customers-to-get-interest-free-emi-facility-for-up-to-18-months-2026-11-05",
-    "headline": "Nepal Bank Customers to Get Interest-Free EMI Facility for Up to 18 Months",
-    "sent_at": "2026-11-05T05:34:26.904239+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/big-jump-in-gold-price-increased-by-rs-13300-today-2026-11-05",
-    "headline": "Big Jump in Gold Price, Increased by Rs. 13,300 Today",
-    "sent_at": "2026-11-05T05:34:29.904405+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/ankhukhola-hydropower-company-receives-preliminary-approval-from-erc-to-issue-right-shares-at-the-ratio-of-1-1-2026-11-05",
-    "headline": "Ankhukhola Hydropower Company Receives Preliminary Approval from ERC to Issue Right Shares at the Ratio of 1: 1",
-    "sent_at": "2026-11-05T05:34:30.620265+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132385",
-    "headline": "सुन र चाँदी दुवैको मूल्य उल्लेख्य वृद्धि",
-    "sent_at": "2026-11-05T05:34:33.620417+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261105110925.html",
-    "headline": "आँखुखोला जलविद्युत कम्पनीले दुधकोशी-२ आयोजनामा १०० करोड रुपैयाँ लगानी गर्ने",
-    "sent_at": "2026-11-05T05:34:33.620444+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/496411.html",
-    "headline": "२० ठूला ऋणीलाई बैंकले दिए ३६ प्रतिशत कर्जा: २०० ऋणीलाई ८ खर्ब, कुन बैंककाे कति ?",
-    "sent_at": "2026-11-05T05:34:34.196665+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226326/",
-    "headline": "सुनचाँदी दुवैको मुल्य आकाशियो, कतिमा हुदैछ कारोबार ?",
-    "sent_at": "2026-11-05T05:34:37.196825+00:00",
-    "dup": true
-  },
-  {
     "link": "https://bizpati.com/2026/11/226315/",
     "headline": "तेलको मूल्य घट्दा भारतीय सेयर बजारमा उछाल, तीन महिनायताकै उच्चस्तरनजिक",
     "sent_at": "2026-11-05T05:34:37.909774+00:00"
@@ -7929,5 +7874,59 @@
     "link": "https://rajdhanidaily.com/id/151593/",
     "headline": "आर्थिक नगरीमा कर दिवसः संकलन सदुपयोगको सवाल",
     "sent_at": "2026-11-17T14:33:18.427439+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/nepals-sovereign-credit-rating-score-rises-to-366-2026-11-17",
+    "headline": "Nepal's Sovereign Credit Rating Score Rises to 3.66",
+    "sent_at": "2026-11-17T15:03:39.334112+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/87034/if-giving-up-the-bagdora-will-not-have-any-impact-one-should-not-miss-taking-the-mahendranagar-route",
+    "headline": "Nepal Seeks Additional Air Routes from India Amidst Strategic Discussions",
+    "sent_at": "2026-11-17T15:03:39.334135+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/police-arrest-three-persons-involved-in-hundi-transactions-62-12.html",
+    "headline": "Police arrest three persons involved in hundi transactions",
+    "sent_at": "2026-11-17T15:03:40.311532+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2059789/only-7-5-percent-of-development-expenditure-in-the-first-four-months",
+    "headline": "पहिलो चार महिनामा साढे ७ प्रतिशतमात्र विकास खर्च",
+    "sent_at": "2026-11-17T15:03:43.311689+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/67084",
+    "headline": "नेसनल इन्स्योरेन्सको १८.७६% ले बढ्यो कुल व्यापार, बीमा कोष रु. ३ अर्ब नजिक",
+    "sent_at": "2026-11-17T15:03:44.219332+00:00"
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/67080",
+    "headline": "नेपाल इन्स्योरेन्सको कुल बीमाशुल्क आर्जन ६७ प्रतिशतले बढ्यो, खुद व्यापार १८ करोड २५ लाख",
+    "sent_at": "2026-11-17T15:03:47.974717+00:00"
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/67075",
+    "headline": "राष्ट्रिय बीमा कम्पनीको नाफा सवा २८ करोड माथि, ईपीएस रु. १०६.१४",
+    "sent_at": "2026-11-17T15:03:51.903874+00:00"
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/67072",
+    "headline": "हिमालयन लाइफको जीवन बीमा कोषमा सवा ९३ अर्ब, व्यापार ५ अर्ब माथि",
+    "sent_at": "2026-11-17T15:03:55.822553+00:00"
+  },
+  {
+    "link": "https://arthasarokar.com/2026/11/gold-price-dropped-by-1900-rupees.html",
+    "headline": "सुनको मूल्य १९ सय रुपैयाँले घट्यो",
+    "sent_at": "2026-11-17T15:03:58.822691+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/67069",
+    "headline": "शिखर इन्स्योरेन्सले पहिलो त्रैमासमा ४ करोड कमायो",
+    "sent_at": "2026-11-17T15:03:59.757893+00:00"
   }
 ]
