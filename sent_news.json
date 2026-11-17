@@ -1,35 +1,5 @@
 [
   {
-    "link": "http://annapurnapost.com/story/510669",
-    "headline": "अर्थमन्त्रीसमक्ष व्यापारीको करुण क्रन्दन",
-    "sent_at": "2026-11-04T05:32:02.184318+00:00"
-  },
-  {
-    "link": "http://ictsamachar.com//story/100007593",
-    "headline": "आईएमई खल्तीको कार्यवाहक प्रमुख कार्यकारी अधिकृतमा आशिष गौतम नियुक्त",
-    "sent_at": "2026-11-04T05:32:05.934473+00:00"
-  },
-  {
-    "link": "http://ictsamachar.com//story/100007592",
-    "headline": "नेपाल बैंक र फिनतारा सोलुसन्सबीच सम्झौता : शून्य प्रतिशत डाउन पेमेन्टमै इएमआई सुविधा",
-    "sent_at": "2026-11-04T05:32:09.651119+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/177328/",
-    "headline": "तीन वर्षदेखि आईपीओ अनुमतिको पर्खाइमा ४० हाइड्रो कम्पनी",
-    "sent_at": "2026-11-04T05:32:13.539533+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/177336/",
-    "headline": "प्रि ओपन सेसनमा ४.२६ अंकले बढ्यो नेप्से",
-    "sent_at": "2026-11-04T05:32:17.241699+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228253",
-    "headline": "बजेट विवादले पछाडि धकेलियो विकासका काम",
-    "sent_at": "2026-11-04T05:32:20.964081+00:00"
-  },
-  {
     "link": "https://theannapurnaexpress.com/story/68501",
     "headline": "Gold price increases by Rs 600 per tola on Wednesday",
     "sent_at": "2026-11-04T06:03:09.052522+00:00"
@@ -7900,5 +7870,40 @@
     "link": "https://arthakhabar.com/2026/11/17/130844/",
     "headline": "प्रधानमन्त्री मंसिर ६ गते भारत भ्रमणमा जाँदै, मोदीसँग ३० मिनेट एक्लाएक्लै वार्ता हुने",
     "sent_at": "2026-11-17T03:32:05.615096+00:00"
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/68807",
+    "headline": "Minister Chaudhary requests additional support from ADB",
+    "sent_at": "2026-11-17T04:02:08.920034+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96570",
+    "headline": "सर्वोत्तम सिमेन्टले बोनस सेयर र नगद लाभांश दुवै दिने",
+    "sent_at": "2026-11-17T04:02:09.851784+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/86939/gold-nears-one-year-low-as-us-dollar-strengthens",
+    "headline": "Gold Prices Near One-Year Low Amid Strong Dollar and Fed Rate Hike Bets",
+    "sent_at": "2026-11-17T04:02:12.852015+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthasarokar.com/2026/11/the-animal-act-is-in-effect-in-kathmandu-and-unstamped-meat-is-not-allowed-to-be-sold.html",
+    "headline": "काठमाडौँमा पशु ऐन लागू, छाप नलगाइएका मासु बेच्न नपाइने !",
+    "sent_at": "2026-11-17T04:02:12.852047+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2059186/bhatbhatenis-tangal-branch-to-open-24-hours-from-today",
+    "headline": "भाटभटेनीको टंगाल शाखा आजदेखि २४ सै घण्टा खुल्ने",
+    "sent_at": "2026-11-17T04:02:12.852052+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/chitwan-milk-industry-starts-processing-after-10-months/",
+    "headline": "१० महिनापछि चितवन मिल्क उद्योगले थाल्यो प्रशोधन",
+    "sent_at": "2026-11-17T04:02:12.852056+00:00",
+    "dup": true
   }
 ]
