@@ -1,48 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261104164445.html",
-    "headline": "विराट एक्स्पो पुस २ देखि ११ गतेसम्म, स्टल २५० वटा, थिमेटिक सेसन संचालन गरिने",
-    "sent_at": "2026-11-04T11:32:25.870567+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85654/meeting-between-foreign-secretary-rai-and-indian-foreign-secretary-misri",
-    "headline": "Foreign Secretaries of Nepal and India Hold Bilateral Talks",
-    "sent_at": "2026-11-04T11:32:28.870709+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://khabarhub.com/2026/04/1044513/",
-    "headline": "१६ वर्षपछि अघि बढ्यो भरतपुरको ल्यान्डफिल साइट निर्माण प्रक्रिया",
-    "sent_at": "2026-11-04T11:32:29.462949+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2050958/proposal-for-mediation-before-going-to-court-in-civil-disputes-up-to-rs-10-million",
-    "headline": "१ करोडसम्मका देवानी विवादमा अदालत जानुअघि मेलमिलापको प्रस्ताव",
-    "sent_at": "2026-11-04T11:32:33.018411+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/nepse-inches-up-140-points-as-daily-turnover-soars-to-rs-743-billion-31-49.html",
-    "headline": "NEPSE inches up 1.40 points as daily turnover soars to Rs 7.43 billion",
-    "sent_at": "2026-11-04T11:32:36.557536+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/government-approves-additional-right-share-investment-in-nepal-reinsurance-nric-hits-15-positive-circuit-today-2026-11-04",
-    "headline": "Government Approves Additional Right Share Investment in Nepal Reinsurance; NRIC Hits 15% Positive Circuit Today",
-    "sent_at": "2026-11-04T12:02:55.348347+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132358",
-    "headline": "यसकारण नेप्से 'यु-टर्न'  : २६८६ पुगेको बजार सामान्य अंकले मात्र हरियो, कारोबार साढे ७ अर्ब नजिक",
-    "sent_at": "2026-11-04T12:02:55.348367+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226194/",
-    "headline": "भारतसँग विद्युत् निर्यात सीमा बढाउन नेपालको आग्रह",
-    "sent_at": "2026-11-04T12:02:56.102461+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/11/226192/",
     "headline": "बैंकिङ कसुरमा डेढ करोड जरिवाना तोकिएका व्यक्ति पक्राउ",
     "sent_at": "2026-11-04T12:03:00.070018+00:00"
@@ -7913,5 +7870,47 @@
     "link": "https://arthadabali.com/2026/11/17/96162",
     "headline": "नेपालको आर्थिक विश्वसनीयता बढ्दै, सार्वभौम क्रेडिट रेटिङ अङ्क ३.६६ पुग्यो",
     "sent_at": "2026-11-17T08:03:09.959300+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/511434",
+    "headline": "विराटनगर राति २ बजेसम्म जाग्ने, प्रशासनको सर्तसहित व्यवसायिक अनुमति",
+    "sent_at": "2026-11-17T08:32:35.025083+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291793-2026-11-17-8-28-51",
+    "headline": "सूर्य नेपालले तिर्यो सबैभन्दा धेरै आयकर, रेमिट्यान्समा आईएमई र बैंकमा नबिल अगाडि",
+    "sent_at": "2026-11-17T08:32:38.976650+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132612",
+    "headline": "राजस्व कानुनमा ऐतिहासिक ‘क्रमभङ्ग’ गर्दै लगानी अध्यादेश : दफा ५७ को विवाद अन्त्य, अरु के छन् ?",
+    "sent_at": "2026-11-17T08:32:42.748851+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/cg-impex-best-taxpayers.html",
+    "headline": "CG Impex and Nabil Bank honoured as best taxpayers",
+    "sent_at": "2026-11-17T08:32:45.749020+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/ime-honoured-as-highest-tax-paying.html",
+    "headline": "IME honoured as highest tax-paying remittance company",
+    "sent_at": "2026-11-17T08:32:45.749051+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/17/781921/flood-affected-nuwakot-residents-start-occupying-electricity-land-after-government-neglect/",
+    "headline": "सरकारको बेवास्तापछि विद्युतको जग्गा कब्जा गरेर बस्न थाले नुवाकोटका बाढी प्रभावित",
+    "sent_at": "2026-11-17T08:32:46.508666+00:00"
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/17/96165",
+    "headline": "नेपाल हाइड्रो डेभलपरको लाभांश प्रस्ताव, शेयरधनीले पाउने भए १० प्रतिशत बोनस शेयर",
+    "sent_at": "2026-11-17T08:32:50.273787+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227405/",
+    "headline": "सातै प्रदेशका १०० भन्दा बढी स्टार्टअप र नवप्रवर्तनका परियोजना एकै थलोमा प्रदर्शन हुँदै",
+    "sent_at": "2026-11-17T08:32:54.032515+00:00"
   }
 ]
