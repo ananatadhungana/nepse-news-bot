@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/indian-foreign-secretary-arriving-today-40-13.html",
-    "headline": "Indian Foreign Secretary arriving today",
-    "sent_at": "2026-11-04T03:02:16.063507+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226034/",
-    "headline": "के हो अमेरिकाको मध्यावधि निर्वाचन, ट्रम्पको राजनीति र नेपालको अर्थतन्त्रमा कस्तो प्रभाव पर्न सक्छ ?",
-    "sent_at": "2026-11-04T03:02:19.770279+00:00"
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66430",
-    "headline": "उत्पादन छ, बजारमा माग छैन",
-    "sent_at": "2026-11-04T03:02:23.453422+00:00"
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66423",
-    "headline": "ग्लोबल आइएमई बैंकको मुख्य वित्तीय सूचकहरुमा प्रगति, २४.४९%ले बढ्यो नाफा",
-    "sent_at": "2026-11-04T03:02:27.155245+00:00"
-  },
-  {
     "link": "https://arthasarokar.com/2026/11/chief-ministers-son-arrested-for-misappropriating-rs-34-crore-loan-from-underground-cement.html",
     "headline": "भूगर्भ सिमेन्टलाई भनेर ३४ करोड ऋण लिएर दुरुपयोग गर्ने ‘मुख्यमन्त्रीका छोरा’ पक्राउ !",
     "sent_at": "2026-11-04T03:32:06.914901+00:00"
@@ -7896,5 +7876,26 @@
     "link": "https://clickmandu.com/2026/11/505550.html",
     "headline": "बाढीपछिको पुनर्निर्माण र जलवायु अनुकूलनमा सहयोग बढाउन एडिबीसँग मन्त्री चौधरीको आग्रह",
     "sent_at": "2026-11-17T01:17:09.969912+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132573",
+    "headline": "हिम पर्वत हाइड्रोपावरको आईपीओमा आवेदन दिने आज अन्तिम दिन",
+    "sent_at": "2026-11-17T01:31:54.503547+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/why-is-8-trillion-rupees-piled-up-in-the-bank-95-68.html",
+    "headline": "बैंकमा किन थुप्रियो ८ खर्ब ?",
+    "sent_at": "2026-11-17T01:31:58.513021+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505229.html",
+    "headline": "कर दिवसको सान्दर्भिकता: कर प्रणाली सुधार र करदातामैत्री सेवाप्रतिको प्रतिबद्धता",
+    "sent_at": "2026-11-17T01:32:02.426535+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/electricity-export-to-bangladesh-halts-with-onset-of-dry-season-and-surge-i-29-21.html",
+    "headline": "Electricity export to Bangladesh comes to a halt with onset of dry season and surge in domestic demand",
+    "sent_at": "2026-11-17T01:32:05.426693+00:00",
+    "dup": true
   }
 ]
