@@ -1,81 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/228307",
-    "headline": "प्रभावित परिवारको आयआर्जनमा जलविद्युत आयोजनाको सहयोग",
-    "sent_at": "2026-11-04T12:03:15.570797+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85673/bharatpur-metropolitan-citys-landfill-site-construction-complete-after-16-years",
-    "headline": "Bharatpur Metropolitan City Begins Landfill Site Construction After 16 Years",
-    "sent_at": "2026-11-04T12:32:20.237686+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/04/1044579/",
-    "headline": "नेपालको जलवायु संकट : अर्बौँ आवश्यक, वित्तीय स्रोत खोई ?",
-    "sent_at": "2026-11-04T12:32:23.927011+00:00"
-  },
-  {
-    "link": "https://newsofnepal.com/2026/11/04/793303/",
-    "headline": "बैंकिङ कसूरमा दोषी ठहरिएका सुबिन बैदार पक्राउ",
-    "sent_at": "2026-11-04T12:32:27.616015+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226199/",
-    "headline": "शीर्ष १० ब्रोकरमध्ये ६ वटाबाट बिक्री दबाब",
-    "sent_at": "2026-11-04T12:32:31.350525+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/04/1044568/",
-    "headline": "‘प्रदेश सरकारले सार्वजनिक-निजी साझेदारी मोडलमार्फत विकासका आयोजना अघि बढाउने’",
-    "sent_at": "2026-11-04T12:32:35.045250+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85670/133-people-died-in-this-years-monsoon-related-disasters",
-    "headline": "133 Dead, 14 Missing in Monsoon Disasters",
-    "sent_at": "2026-11-04T12:32:38.738213+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/506594",
-    "headline": "फोनपे पेमेन्ट सर्भिसको सातौँ वार्षिक साधारणसभा सम्पन्न",
-    "sent_at": "2026-11-04T13:04:15.678138+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/506593",
-    "headline": "चितवनमा ‘द पोस्टकार्ड अन द राप्ती रिभर’ नोभेम्बर भित्रै सञ्चालनमा आउने",
-    "sent_at": "2026-11-04T13:04:19.492382+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2051110/initiative-to-build-a-transportation-park-in-chobhar",
-    "headline": "चोभारमा ढुवानी पार्क निर्माण पहल",
-    "sent_at": "2026-11-04T13:04:23.257807+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261104183708.html",
-    "headline": "दिदीबहिनीका लागि तिहार महँगो, भाइमसलाको मूल्य अचाक्ली, पेस्ता किलोकै ४ हजार रुपैयाँ",
-    "sent_at": "2026-11-04T13:04:26.982744+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/startup-summit-efforts-to-make-the-new-generation-entrepreneurs-13-27.html",
-    "headline": "स्टार्टअप समिट: ‘नयाँपुस्तालाई उद्यमी बनाउने प्रयास’",
-    "sent_at": "2026-11-04T13:04:30.808670+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/04/1044606/",
-    "headline": "तीन खर्बको कारोबार डिजिटल बनाउँदै आयल निगम, ईआरपी परियोजना अन्तिम चरणमा",
-    "sent_at": "2026-11-04T13:04:33.808817+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bankingsamachar.com/news/177465/",
-    "headline": "सेबोनद्धारा आजदेखि ‘सेबोन सूचना प्रविधि नीति २०८३’ लागू, के-के छन् प्रावधान ?",
-    "sent_at": "2026-11-04T13:04:34.898377+00:00"
-  },
-  {
-    "link": "https://rajdhanidaily.com/id/150996/",
-    "headline": "बससेवाले तिहार तथा छठलाई लक्षित गरी अग्रिम टिकट बुकिङ खुलायो",
-    "sent_at": "2026-11-04T13:32:20.707420+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/start-up-nepal-summit-2026-seeks-to-turn-young-people-into-job-creators-16-40.html",
     "headline": "‘Start-Up Nepal Summit 2026’ seeks to turn young people into job creators",
     "sent_at": "2026-11-04T13:32:23.707605+00:00",
@@ -7910,5 +7834,89 @@
     "link": "https://arthadabali.com/2026/11/17/96168",
     "headline": "सर्वाधिक करदाताका रूपमा आइएमई सम्मानित भएपछि अध्यक्ष ढकालले के भने ?",
     "sent_at": "2026-11-17T09:03:26.233166+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/511444",
+    "headline": "भारतबाट नेपालमा ३५० मेगावाट विद्युत आयात, ५६ मेगावाट निर्यातको अनुमति",
+    "sent_at": "2026-11-17T09:32:16.312115+00:00"
+  },
+  {
+    "link": "http://annapurnapost.com/story/511442",
+    "headline": "करको दायरा विस्तार र प्रविधिमैत्री प्रशासनका लागि आजदेखि साताव्यापी कर सप्ताह सुरू",
+    "sent_at": "2026-11-17T09:32:20.230333+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291800-2026-11-17-9-11-30",
+    "headline": "बालेनको भ्रमणअघि भारतले दियो ३५० मेगावाट विद्युत् आयात र ५६ मेगावाट निर्यातको अनुमति",
+    "sent_at": "2026-11-17T09:32:23.230474+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132616",
+    "headline": "भारतबाट ३५० मेगावाट विद्युत आयात र ५६ मेगावाट निर्यातको अनुमति",
+    "sent_at": "2026-11-17T09:32:23.230508+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96581",
+    "headline": "२८ वर्षपछि पशु बधशाला तथा मासु जाँच ऐन लागू, जथाभावी बध र बिक्रीमा रोक",
+    "sent_at": "2026-11-17T09:32:24.590838+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96579",
+    "headline": "एक दशकमा राजश्व दोब्बरभन्दा बढी, मुख्य आधार कर",
+    "sent_at": "2026-11-17T09:32:28.262624+00:00"
+  },
+  {
+    "link": "https://khabarhub.com/2026/17/1048606/",
+    "headline": "‘माग अनुसार उत्पादन नहुँदा कफीको आयात निरन्तर बढिरहेको छ’",
+    "sent_at": "2026-11-17T09:32:31.895645+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505808.html",
+    "headline": "बालेनको भ्रमणअघि भारतले दियो ३५० मेगावाट बिजुली आयात र ५६ मेगावाट निर्यातको अनुमति",
+    "sent_at": "2026-11-17T09:32:34.895780+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/17/781958/nepal-electricity-authority-to-import-350-megawatts-of-electricity-from-india-during-winter/",
+    "headline": "हिउँदयाममा विद्युत् प्राधिकरणले भारतबाट ३५० मेगावाट विद्युत् आयात गर्ने",
+    "sent_at": "2026-11-17T09:32:34.895808+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261117150534.html",
+    "headline": "हिउँदमा दैनिक ९०० मेगावाटसम्म विद्युत अपुग हुने, ३५० मेगावाट ल्याउन भारतको अनुमति",
+    "sent_at": "2026-11-17T09:32:34.895896+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/17/shah-tops-individual-taxpayer-list-surya-nepal-leads-corporate-list/",
+    "headline": "Shah tops individual taxpayer list; Surya Nepal leads corporate list",
+    "sent_at": "2026-11-17T09:32:34.895901+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/17/after-28-years-of-waiting-meat-inspection-rules-kick-in/",
+    "headline": "After 28 years of waiting, meat inspection rules kick in",
+    "sent_at": "2026-11-17T09:32:34.895904+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227417/",
+    "headline": "नेपाली कफीको माग बढ्दै, उत्पादनले धान्न नसक्दा १९ करोडको आयात",
+    "sent_at": "2026-11-17T09:32:34.895907+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/505794.html",
+    "headline": "खरानी टकटक्याएर वर्षदिनमै उठेको भाटभटेनीलाई विशेष सम्मान, अघिल्लो वर्ष तिर्‍यो १ अर्ब ४ करोड कर",
+    "sent_at": "2026-11-17T09:32:34.896001+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227421/",
+    "headline": "मंसिर ५  गते नास–आईटी एक्सपो, ३० भन्दा बढी प्रविधि कम्पनी सहभागी हुने",
+    "sent_at": "2026-11-17T09:32:35.740486+00:00"
   }
 ]
