@@ -1,46 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/226315/",
-    "headline": "तेलको मूल्य घट्दा भारतीय सेयर बजारमा उछाल, तीन महिनायताकै उच्चस्तरनजिक",
-    "sent_at": "2026-11-05T05:34:37.909774+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/177498/",
-    "headline": "भक्तपुरमा ग्यास अभाव कायमै, सिलिन्डर खोज्दै उपभोक्ता",
-    "sent_at": "2026-11-05T05:34:41.638440+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226334/",
-    "headline": "पहिलो त्रैमासमा १४ फाइनान्समध्ये ६ घाटामा, गोर्खाज र बेष्ट नाफामा फर्किए",
-    "sent_at": "2026-11-05T06:03:03.337211+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/korala-border-point-faces-repeated-disruptions-from-floods-snowfall.html",
-    "headline": "Korala border point faces repeated disruptions from floods, snowfall",
-    "sent_at": "2026-11-05T06:03:07.064336+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85724/customers-have-been-lining-up-since-morning-to-buy-coins-see-the-photo",
-    "headline": "Nepal Rastra Bank Starts Selling Gold and Silver Medallions for Tihar Festival",
-    "sent_at": "2026-11-05T06:03:10.767104+00:00"
-  },
-  {
-    "link": "https://www.bbc.com/nepali/watch/cwnv0l87r7p6o?at_medium=RSS&at_campaign=rss",
-    "headline": "विषालु तुवाँलोबाट जोगिन मानिसहरू शपिङ मलभित्र दौडिन्छन्",
-    "sent_at": "2026-11-05T06:03:14.516835+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85723/how-much-does-a-gold-coin-cost",
-    "headline": "Nepal Rastra Bank Sells Gold Coins and Silver Medallions for Tihar",
-    "sent_at": "2026-11-05T06:03:17.517054+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226331/",
-    "headline": "सिँचाइमा पहिलो त्रैमासमै २ अर्ब खर्च, चार ठूला आयोजनामा ५८ प्रतिशत",
-    "sent_at": "2026-11-05T06:03:18.227359+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/sebon-rolls-out-it-policy-to-shield-stock-market-from-cyberattacks-64-63.html",
     "headline": "SEBON rolls out IT policy to shield stock market from cyberattacks",
     "sent_at": "2026-11-05T06:03:21.227513+00:00",
@@ -7928,5 +7887,47 @@
     "link": "https://aarthiksansar.com/archives/67069",
     "headline": "शिखर इन्स्योरेन्सले पहिलो त्रैमासमा ४ करोड कमायो",
     "sent_at": "2026-11-17T15:03:59.757893+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96601",
+    "headline": "चिया उद्योगमा आगलागी, ३० लाखको क्षति",
+    "sent_at": "2026-11-17T15:32:24.775422+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261117211150.html",
+    "headline": "सुनको मूल्य ३० प्रतिशतले घट्दा बजारमा खैलाबैला, अर्को महिनाको यो निर्णयले तय हुनेछ दिशा",
+    "sent_at": "2026-11-17T15:32:27.775587+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261117210732.html",
+    "headline": "विराटनगरको कार्गोरेल यार्ड मर्मत गर्न ३० करोड, यसै वर्ष काम सक्ने लक्ष्य",
+    "sent_at": "2026-11-17T15:32:28.296767+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/govt-focuses-on-expanding-tax-base-and-reforming-tax-administration-90-36.html",
+    "headline": "Govt focuses on expanding tax base and reforming tax administration",
+    "sent_at": "2026-11-17T15:32:32.054488+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/507560",
+    "headline": "चांगानको अत्याधुनिक ड्राइभर असिस्टेन्स प्रणाली ‘एसडीए पाइलट’ सार्वजनिक",
+    "sent_at": "2026-11-17T15:32:35.766764+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/17/782092/durbar-marg-and-thamel-open-24-hours-a-day-this-is-the-arrangement-for-other-areas/",
+    "headline": "दरबारमार्ग र ठमेल २४सै घण्टा खुला, अन्य क्षेत्रका लागि यस्तो छ व्यवस्था",
+    "sent_at": "2026-11-17T15:32:38.766925+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/financial-crimes-are-increasing-due-to-misuse-of-technology-what-does-the-inspector-general-of-police-say/",
+    "headline": "प्रविधिको दुरुपयोगबाट बढ्दै वित्तीय अपराध, प्रहरी महानिरीक्षक के भन्छन्?",
+    "sent_at": "2026-11-17T15:32:39.342141+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/a-two-lane-bridge-will-be-built-in-jabdighat-at-a-cost-of-rs-674-569150/",
+    "headline": "जब्दीघाटमा ६७ करोड ४५ लाख ६९ हजार १५० लागतमा दुई लेनको पुल बन्ने",
+    "sent_at": "2026-11-17T15:32:43.028257+00:00"
   }
 ]
