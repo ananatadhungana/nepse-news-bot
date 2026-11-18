@@ -1,105 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/177679/",
-    "headline": "धनतेरसको दिन तोलामा ५ हजार ९ सय रुपैयाँले घट्यो सुन",
-    "sent_at": "2026-11-06T05:32:14.798860+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261106104756.html",
-    "headline": "एनआरएन इन्फ्रास्ट्रक्चर कम्पनी नोक्सानीमा, प्रति सेयर आम्दानी ०.२५ रुपैयाँ ऋणात्मक",
-    "sent_at": "2026-11-06T05:32:15.484664+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226474/",
-    "headline": "नेप्सेका सीईओ सुवेदीद्वारा पदभार ग्रहण",
-    "sent_at": "2026-11-06T06:01:54.516738+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261106114209.html",
-    "headline": "आइसीएफसी फाइनान्सको सीइओमा अमित श्रेष्ठ नियुक्त, ४ वर्ष नेतृत्व सम्हाल्ने",
-    "sent_at": "2026-11-06T06:01:57.516892+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://arthadabali.com/2026/11/06/95855",
-    "headline": "बजारमा ३० रुपैयाँ पर्ने नुन चुमनुब्रीमा २०० रुपैयाँ, विकट बस्तीमा महँगीको मार",
-    "sent_at": "2026-11-06T06:01:58.303082+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/506736",
-    "headline": "सुनको मूल्य तोलामा ५९ सयले घट्यो",
-    "sent_at": "2026-11-06T06:02:01.303279+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261106113441.html",
-    "headline": "स्वाभिमान लघुवित्तको नाफा २१६.३७ प्रतिशतले वृद्धि, तीन महिनामा कमायो २.५३ करोड",
-    "sent_at": "2026-11-06T06:02:02.151974+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/504266.html",
-    "headline": "धनतेरसका दिन करिब ६ हजार रुपैयाँले घट्यो सुनको मूल्य, कति पुग्यो ?",
-    "sent_at": "2026-11-06T06:02:05.152114+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/504014.html",
-    "headline": "सेवा प्रदायकबाट साढे १७ अर्ब उठाएको दूरसञ्चार प्राधिकरणको पूर्वाधारमा खर्च शून्य बराबर",
-    "sent_at": "2026-11-06T06:02:05.953121+00:00"
-  },
-  {
-    "link": "https://bankingkhabar.com/archives/170149",
-    "headline": "ग्लोबल आइएमई बैंकले बेच्दै रिलायबल नेपाल लाइफको ४६ लाख कित्ता सेयर",
-    "sent_at": "2026-11-06T06:02:09.768230+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/sarbottam-cements-net-profit-drops-6795-in-q1-revenue-grows-1157-eps-at-rs-796-2026-11-06",
-    "headline": "Sarbottam Cement’s Net Profit Drops 67.95% in Q1; Revenue Grows 11.57%, EPS at Rs. 7.96",
-    "sent_at": "2026-11-06T06:31:44.637053+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132433",
-    "headline": "भगवती हाइड्रोपावरको नाफा ५२ प्रतिशत बढ्याे",
-    "sent_at": "2026-11-06T06:31:48.428737+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96309",
-    "headline": "विश्व बजारमा एआई त्रास: एसियाली सेयर बजारमा पहिरो, निक्केई ६ प्रतिशतले घट्यो",
-    "sent_at": "2026-11-06T06:31:52.233563+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/504274.html",
-    "headline": "इन्ट्राडेका लागि ब्रोकरको चुक्ता पुँजी २० करोड, वास्तविक समयमै मार्जिन पुनर्मूल्यांक र स्वचालित ‘अटो स्क्वायर–अफ’ व्यवस्था",
-    "sent_at": "2026-11-06T06:31:55.233715+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizkhabar.com/266986",
-    "headline": "सूर्यज्योति लाइफले कमायो सवा १० करोड नाफा, खुद बीमा शुल्क आर्जन साढे ३ अर्बमाथि",
-    "sent_at": "2026-11-06T06:31:55.818111+00:00"
-  },
-  {
-    "link": "https://onlinetvnepal.com/2026/11/219382/",
-    "headline": "अर्थमन्त्रीको चिन्ता : यो वर्ष ७/८ अर्ब अनुदान आउन पनि मुस्किल",
-    "sent_at": "2026-11-06T06:31:59.556627+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261106114712.html",
-    "headline": "मिड सोलु हाइड्रोपावरले नाफा बढाउँदै पहिलो त्रैमासमा कमायो ५ करोड ७४ लाख रुपैयाँ",
-    "sent_at": "2026-11-06T06:32:03.350844+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/society/291246-2026-11-6-6-41-24",
-    "headline": "विपद् पुनर्निर्माणमा पाँच अर्ब डलर आवश्यक: अर्थमन्त्री वाग्ले",
-    "sent_at": "2026-11-06T07:02:18.533158+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96311",
-    "headline": "तीन अर्बमा अत्याधुनिक केन्द्रीय कार्यालय बनाउँदै ग्लोबल आइएमई बैंक",
-    "sent_at": "2026-11-06T07:02:22.237056+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/dry-landslide-blocks-kaligandaki-corridor-road-section.html",
     "headline": "Dry landslide blocks Kaligandaki Corridor road section",
     "sent_at": "2026-11-06T07:02:25.737507+00:00"
@@ -7939,5 +7839,113 @@
     "link": "https://www.onlinekhabar.com/2026/11/2060391/jagdish-khadka-appointed-as-vice-president-of-ime-group",
     "headline": "आईएमई ग्रुपको ‘भाइस प्रेसिडेन्ट’ पदमा जगदीश खड्का नियुक्त",
     "sent_at": "2026-11-18T12:02:49.233971+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/sebon-toronto-centre-hold-discussions-on-strengthening-regulatory-and-supervisory-capacity-2026-11-18",
+    "headline": "SEBON, Toronto Centre Hold Discussions on Strengthening Regulatory and Supervisory Capacity",
+    "sent_at": "2026-11-18T12:32:09.644878+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/nepals-economy-grows-368-in-fy-208283-foreign-exchange-reserves-cover-23-months-of-imports-2026-11-18",
+    "headline": "Nepal’s Economy Grows 3.68% in FY 2082/83; Foreign Exchange Reserves Cover 23 Months of Imports",
+    "sent_at": "2026-11-18T12:32:10.561133+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/267538",
+    "headline": "एमबान र नेप्सेबीच छलफल, संस्थापक सेयर कारोबार सहज बनाउन पहल",
+    "sent_at": "2026-11-18T12:32:13.561299+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/chinese-national-held-with-16-kg-of-gold-like-substance-at-tia-11-53.html",
+    "headline": "Chinese national held with 1.6 kg of gold-like substance at TIA",
+    "sent_at": "2026-11-18T12:32:13.561329+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://newsofnepal.com/2026/11/18/794478/",
+    "headline": "सेनाले उघार्‍यो नेपालको लामो सुरुङ",
+    "sent_at": "2026-11-18T12:32:13.561334+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506101.html",
+    "headline": "सिटिजन्स बैंकको मधेश केन्द्रित ‘छठ सम्बन्ध २०८३’ विशेष कार्यक्रम सम्पन्न",
+    "sent_at": "2026-11-18T12:32:14.467348+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227639/",
+    "headline": "चाडपर्व पछि पनि किन घटिरहेको छ सेयर बजार, प्राविधिक रुपमा कस्तो ?",
+    "sent_at": "2026-11-18T12:32:17.467542+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://baahrakhari.com/detail/507661",
+    "headline": "बरामद डेढ करोड रकमसहित पक्राउ परेकाहरूमाथि हुन्डी कारोबारको आशंकामा अनुसन्धान",
+    "sent_at": "2026-11-18T12:32:17.467571+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/178546/",
+    "headline": "सेबोन र टोरोन्टो सेन्टरका प्रतिनिधिबीच क्षमता अभिवृद्धि सम्बन्धमा अन्तर्किया कार्यक्रम सम्पन्न",
+    "sent_at": "2026-11-18T12:32:17.467575+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/178543/",
+    "headline": "बराह सहकारी ठगी प्रकरणमा दुई जना पक्राउ: १७ हजार बचतकर्ता पीडित, १० अर्बभन्दा बढी बिगो कायम",
+    "sent_at": "2026-11-18T12:32:17.467578+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506093.html",
+    "headline": "सहकारीमा ‘सुनको जलप’ लगाएर बराहले ठग्यो पौने ११ अर्ब, धरानदेखि दुबईसम्म फैलिएको साम्राज्य",
+    "sent_at": "2026-11-18T12:32:17.467582+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/18/96225",
+    "headline": "राष्ट्र बैंककाे प्रतिवेदन भन्छ - लक्ष्यभन्दा कम रह्यो मूल्यवृद्धि",
+    "sent_at": "2026-11-18T12:32:18.521280+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/foreign-investment-commitments-drop-by-46-7-percent/",
+    "headline": "विदेशी लगानी प्रतिबद्धता ४६.७ प्रतिशतले घट्यो",
+    "sent_at": "2026-11-18T12:32:22.429832+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87173/bc-got-it-manmohan-didnt-why-did-the-supreme-court-give-a-different-interpretation",
+    "headline": "Supreme Court Rejects Manmohan Medical College's Plea for MBBS Affiliation",
+    "sent_at": "2026-11-18T12:32:26.333886+00:00"
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/312122",
+    "headline": "‘एमाले सरकारमा गयो शेयर बजार उकालो लाग्छ, बाहिरियो पहिरो जान्छ’",
+    "sent_at": "2026-11-18T12:32:29.334074+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://rajdhanidaily.com/id/151640/",
+    "headline": "नेप्से घट्ने क्रम रोकिएन, दोहोरो अंकले गिरावट",
+    "sent_at": "2026-11-18T12:32:29.334133+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170347",
+    "headline": "राजस्व वृद्धिमा छलाङ, चार महिनामै उठ्यो ३७५ अर्ब रुपैयाँ",
+    "sent_at": "2026-11-18T12:32:29.334139+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/67130",
+    "headline": "नेपाल बीमा प्राधिकरणका नवनियुक्त अध्यक्षलाई बीमक संघले दियो बधाई तथा शुभकामना",
+    "sent_at": "2026-11-18T12:32:29.334142+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.bbc.com/nepali/articles/cw1mdrn1590no?at_medium=RSS&at_campaign=rss",
+    "headline": "भोटेकोशी-त्रिशूली बाढीसम्बन्धी पीडीएनएमा के छ?",
+    "sent_at": "2026-11-18T12:32:30.226688+00:00"
   }
 ]
