@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://bankingkhabar.com/archives/170169",
-    "headline": "विश्व फिनटेकको दौडमा, नेपाल अझै भुक्तानीमै सीमित ?",
-    "sent_at": "2026-11-06T09:02:03.920766+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228525",
-    "headline": "बर्दियामा मंसिर पहिलो साता खाद्यले धान खरिद गर्ने",
-    "sent_at": "2026-11-06T09:02:07.705724+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/11/cgs-smart-home-appliances-including-nepals-first-ai-air-fryer-hit-the-market/",
-    "headline": "नेपालकै पहिलो ‘एआई एयर फ्रायर’ सहित सिजीका स्मार्ट घरायसी उपकरणहरू बजारमा",
-    "sent_at": "2026-11-06T09:02:11.506127+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/228524",
     "headline": "प्रधानमन्त्रीको भारत भ्रमणको तयारी तीव्र, विपद्पछिको पुनर्निर्माण प्राथमिकतामा",
     "sent_at": "2026-11-06T09:02:15.424117+00:00"
@@ -7952,5 +7937,21 @@
     "link": "https://nepalipaisa.com/news-detail/96635",
     "headline": "सर्वोच्च अदालतबाट पशुपति गौशाला धर्मशालासम्बन्धी फैसला सदर, स्वामित्व कोषकै मातहत",
     "sent_at": "2026-11-18T15:46:48.431010+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/6-people-arrested-in-rs-1-69-billion-foreign-employment-fraud-case-two-former-labor-ministers-and-a-former-secretary-68-67.html",
+    "headline": "१ अर्ब ६९ करोडको संगठित ठगी आरोपमा दुई पूर्वश्रममन्त्री र पूर्वसचिवसहित ६ जना पक्राउ",
+    "sent_at": "2026-11-18T16:02:41.486766+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/prime-ministers-relief-funds-receive-rs-1847-billion-in-contributions-86-19.html",
+    "headline": "Prime Minister’s relief funds receive Rs 18.47 billion in contributions",
+    "sent_at": "2026-11-18T16:02:44.486930+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/112-000-tourists-enter-mustang-in-four-months-45-14.html",
+    "headline": "चार महिनामा मुस्ताङ भित्रिए १ लाख १२ हजार पर्यटक",
+    "sent_at": "2026-11-18T16:02:45.388494+00:00"
   }
 ]
