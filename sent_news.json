@@ -1,21 +1,5 @@
 [
   {
-    "link": "https://risingnepaldaily.com/news/88413",
-    "headline": "Surge in prices of gold and silver",
-    "sent_at": "2026-11-05T08:33:15.748797+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://peoplesreview.com.np/2026/11/05/on-off-the-record-debt-ridden-new-nepal/",
-    "headline": "On/Off the Record: Debt-ridden “new” Nepal",
-    "sent_at": "2026-11-05T08:33:16.485446+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/05/779099/investment-by-banks-and-financial-institutions-in-the-agricultural-sector-is-shrinking-why-has-credit-decreased-in-all-seven-provinces/",
-    "headline": "कृषि क्षेत्रमा बैंक तथा वित्तीय संस्थाहरूको लगानी खुम्चिँदै, सातै प्रदेशमा किन घट्यो कर्जा ?",
-    "sent_at": "2026-11-05T08:33:20.194236+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/11/226351/",
     "headline": "तिहारमा भाइमसलाका लागि विदेशियो झन्डै साढे ३ अर्ब रुपैयाँ, अर्बौंको आयात",
     "sent_at": "2026-11-05T08:33:23.920836+00:00"
@@ -7936,5 +7920,22 @@
     "link": "https://myrepublica.nagariknetwork.com/news/we-are-bringing-energy-investment-and-tourism-together-58-79.html",
     "headline": "‘We are bringing energy, investment and tourism together’",
     "sent_at": "2026-11-18T02:19:43.164590+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88745",
+    "headline": "Handling Sick Projects For Development",
+    "sent_at": "2026-11-18T02:46:30.696977+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227491/",
+    "headline": "अमेरिकी डलर घट्यो, २१ विदेशी मुद्राको बिक्रीदरमा गिरावट",
+    "sent_at": "2026-11-18T02:46:33.697129+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261118081023.html",
+    "headline": "रेकर्ड मूल्य बनाउने अनुमानविपरीत सुनको मूल्यमा निरन्तर गिरावट, १५ महिनायताकै सस्तो",
+    "sent_at": "2026-11-18T02:46:33.697161+00:00",
+    "dup": true
   }
 ]
