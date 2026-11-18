@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/rs-12-31-billion-allocated-under-karnali-tourism-master-plan.html",
-    "headline": "Rs 12.31 billion allocated under Karnali tourism master plan",
-    "sent_at": "2026-11-05T07:02:44.102905+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://english.onlinekhabar.com/nepal-australia-trade-and-investment.html",
-    "headline": "Minister and ambassador discuss promoting Nepal-Australia trade and investment",
-    "sent_at": "2026-11-05T07:02:44.915006+00:00"
-  },
-  {
     "link": "https://www.sharesansar.com/newsdetail/kantipur-pharmaceuticals-lab-gets-sebon-approval-to-launch-rs-17-crore-ipo-2026-11-05",
     "headline": "Kantipur Pharmaceuticals Lab Gets SEBON Approval to Launch Rs 17 Crore IPO",
     "sent_at": "2026-11-05T07:32:04.470861+00:00"
@@ -7930,6 +7919,18 @@
     "link": "https://risingnepaldaily.com/news/88733",
     "headline": "Enhance economic integration between Nepal, India: Experts",
     "sent_at": "2026-11-18T00:31:49.849378+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/11/18/at-nepal-tax-awards-finance-minister-raises-low-investment-paradox",
+    "headline": "At Nepal tax awards, finance minister raises low investment paradox",
+    "sent_at": "2026-11-18T00:46:40.398573+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88736",
+    "headline": "Govt pledges to continue tax reform",
+    "sent_at": "2026-11-18T00:46:40.398594+00:00",
     "dup": true
   }
 ]
