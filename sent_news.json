@@ -1,26 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/11/2052505/16-people-shortlisted-for-ceo-of-nepal-tourism-board",
-    "headline": "पर्यटन बोर्ड सीईओका लागि १६ जना सर्टलिस्टमा",
-    "sent_at": "2026-11-06T08:32:00.814704+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/politics/402163",
-    "headline": "सुनकोशी मरिण आयोजना ठेक्का रद्दबारे छानबिन गर्न कांग्रेसले माग्यो लेखा समिति बैठक",
-    "sent_at": "2026-11-06T08:32:04.500740+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/506754",
-    "headline": "बेलीब्रिज राख्नु जोखिमपूर्ण, वर्षायामअघि हटाउनुपर्ने सडक विभागको चेतावनी",
-    "sent_at": "2026-11-06T08:32:07.500874+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228519",
-    "headline": "६४ करोड ५० लाख रुपियाँको कारोबार हुने अनुमान",
-    "sent_at": "2026-11-06T08:32:08.353748+00:00"
-  },
-  {
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=132434",
     "headline": "८ करोडको ‘जुक्ति’ले अर्बौंको राजस्व : उपहारको लोभ देखाएर नागरिकलाई नै बनाइयो कर निरीक्षक, तर के यो दिगो रणनीति हो ?",
     "sent_at": "2026-11-06T09:02:00.156009+00:00"
@@ -7950,5 +7929,28 @@
     "link": "https://myrepublica.nagariknetwork.com/news/foreign-investors-repatriate-rs-384-billion-in-four-months-up-from-rs-290-b-12-97.html",
     "headline": "Foreign investors repatriate Rs 3.84 billion in four months, up from Rs 2.90 billion",
     "sent_at": "2026-11-18T14:32:16.205499+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/politics/291898-2026-11-18-14-38-39",
+    "headline": "जनकपुर र भैरहवा एयर रूट दिन भारत सहमत, नेपालको अडान महेन्द्रनगरमा",
+    "sent_at": "2026-11-18T15:02:46.584748+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/18/782408/flood-victims-living-in-encroached-land-complain-of-intentional-power-outages-in-the-dark/",
+    "headline": "विद्युत प्राधिकरणकाे जग्गामा आश्रय लिएका बाढीपीडित अन्धकारमा, काटियाे बत्ती",
+    "sent_at": "2026-11-18T15:02:47.550195+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/178556/",
+    "headline": "भोलि र पर्सि स्टार्टअप फेस्ट हुँदै",
+    "sent_at": "2026-11-18T15:02:50.550389+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.setopati.com/politics/402873",
+    "headline": "भारत भ्रमणमा प्रधानमन्त्रीसँग अर्थ र परराष्ट्रमन्त्री मात्र जाने",
+    "sent_at": "2026-11-18T15:02:50.550417+00:00",
+    "dup": true
   }
 ]
