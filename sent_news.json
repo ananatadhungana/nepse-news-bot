@@ -1,73 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/228563",
-    "headline": "‘व्यावसायिक प्रयोजनका ग्यास दस प्रतिशत मात्रै’",
-    "sent_at": "2026-11-07T00:46:31.268969+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/07/1040262/",
-    "headline": "विपी राजमार्ग : जाइकाबाट पुनःनिर्माण सुरु",
-    "sent_at": "2026-11-07T00:46:35.002254+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228578",
-    "headline": "ह्वात्तै बढ्यो सखरको माग",
-    "sent_at": "2026-11-07T01:31:33.865576+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/now-telecom-sim-cards-can-be-delivered-to-every-household-in-parsa-by-post-29-93.html",
-    "headline": "अब पर्सामा हुलाकबाटै घरघरमा टेलिकमको सिमकार्ड",
-    "sent_at": "2026-11-07T01:46:25.618917+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85922/janakpur-to-be-connected-by-rail-to-indias-religious-city-of-ayodhya",
-    "headline": "Nepal-India Rail Link to Boost Janakpur Tourism",
-    "sent_at": "2026-11-07T02:01:58.441389+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68584",
-    "headline": "Nepal flood causes Rs 472.66 billion in damage and losses; reconstruction needs estimated at Rs 706.65 billion",
-    "sent_at": "2026-11-07T02:16:28.766167+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://himalpress.com/2026/11/jica-advances-construction-of-collapsed-section-of-bp-highway-to-be-completed-in-3-phases/",
-    "headline": "जाइकाले ३ चरणमा सकिनेगरी अघि बढायो बीपी राजमार्गको भत्किएको खण्डको निर्माण",
-    "sent_at": "2026-11-07T02:16:28.766185+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://annapurnapost.com/story/510881",
-    "headline": "कोप ३१ मा नेपालको आफ्नै प्याभिलियन",
-    "sent_at": "2026-11-07T02:31:41.193569+00:00"
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/311569",
-    "headline": "हात्तीदह सिमसारः पर्यापर्यटनको विकासले उकासिँदै ग्रामीण अर्थतन्त्र",
-    "sent_at": "2026-11-07T02:31:45.096992+00:00"
-  },
-  {
-    "link": "https://www.bbc.com/nepali/articles/cx240j1gypmqo?at_medium=RSS&at_campaign=rss",
-    "headline": "प्रधानमन्त्री वालेन्द्र शाहले उड्ययन क्षेत्रका यी तीन जल्दाबल्दा विषयमा भारतसँग 'ब्रेक थ्रू' गर्न सक्लान्?",
-    "sent_at": "2026-11-07T02:31:49.042004+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/504375.html",
-    "headline": "तिहारमा मिठाईको व्यापार २५ गुणासम्म बढ्यो, चिनी र दूधको हाहाकारले मूल्य २०% सम्म महँगो",
-    "sent_at": "2026-11-07T02:46:28.329979+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228598",
-    "headline": "राजाबास–कञ्चनपुर पुलले जोडिँदै पूर्वी नेपाल र मधेश",
-    "sent_at": "2026-11-07T03:16:20.800770+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/kinmel/banking/402222",
-    "headline": "विदेशमा रहेका नेपालीको लगानीको संयुक्त ऊर्जा लिमिटेडले नगद लाभांश दिने",
-    "sent_at": "2026-11-07T03:16:24.601719+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261107091235.html",
     "headline": "विशेष आर्थिक क्षेत्र प्राधिकरणको कार्यकारी निर्देशकका लागि दरखास्त माग, के हुनुपर्छ योग्यता?",
     "sent_at": "2026-11-07T03:31:43.058646+00:00"
@@ -7947,5 +7879,79 @@
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/pancheshwar-is-limited-to-discussion-27-90.html",
     "headline": "चर्चामै सीमित पञ्चेश्वर",
     "sent_at": "2026-11-19T05:02:44.197150+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/291929-2026-11-19-5-24-48",
+    "headline": "५ दिनमै साढे २३ हजार घटेको सुनको मूल्य आज थप गिरावट, चाँदी पनि सस्तियो",
+    "sent_at": "2026-11-19T05:32:41.592166+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/gold-price-falls-2408-from-its-all-time-high-price-silver-by-5556-2026-11-19",
+    "headline": "Gold Price Falls 24.08% from It's All Time High Price; Silver by 55.56%",
+    "sent_at": "2026-11-19T05:32:41.592184+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132676",
+    "headline": "सरकारी जलविद्युतमा १ हजार मेगावाट बढीका आयोजनाको पीपीए खुल्दै. कुन कुनको हुदै छ पीपीए ?",
+    "sent_at": "2026-11-19T05:32:41.592189+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132673",
+    "headline": "आशुतोष इनर्जीले मंसिर १४ गतेदेखि आईपीओ निष्काशन गर्ने",
+    "sent_at": "2026-11-19T05:32:42.318863+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227739/",
+    "headline": "ऐतिहासिक उचाइबाट सुनचाँदीमा ठूलो पहिरो : अब के होला बजार ?",
+    "sent_at": "2026-11-19T05:32:45.319038+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://baahrakhari.com/detail/507713",
+    "headline": "लगातार घट्दै सुनको भाउ, प्रतितोला दुई लाख ५७ हजार ६०० रुपैयाँमा कारोबार",
+    "sent_at": "2026-11-19T05:32:45.319064+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizkhabar.com/267574",
+    "headline": "सुनको मूल्यमा ३३ सयको गिरावट, कतिमा हुँदैछ कारोबार ?",
+    "sent_at": "2026-11-19T05:32:45.319071+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/banking/402892",
+    "headline": "बैंकमा थुप्रिएको पैसा व्यवस्थापन गर्न राष्ट्र बैंकले एक वर्षमै तिर्‍यो २२ अर्ब ब्याज",
+    "sent_at": "2026-11-19T05:32:45.319076+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/178581/",
+    "headline": "प्रि ओपन सेसनमा ०.७५ अंकले घट्यो नेप्से",
+    "sent_at": "2026-11-19T05:32:46.038330+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227729/",
+    "headline": "१० प्रतिशतबाट १५ प्रतिशत मूल्य सीमा पुगेपछि सेयर बजारमा सर्किट किन दुर्लभ ?",
+    "sent_at": "2026-11-19T05:32:49.786494+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227726/",
+    "headline": "पुँजीबजार बिहानी अपडेट : आईपीओदेखि हकप्रदसम्म, कुन कम्पनीमा के हुँदैछ ?",
+    "sent_at": "2026-11-19T05:32:53.514778+00:00"
+  },
+  {
+    "link": "https://www.myrepublica.nagariknetwork.com/news/madhesh-receives-significant-budget-allocation-minister-lamsal-94-98.html",
+    "headline": "Madhesh receives significant budget allocation: Minister Lamsal",
+    "sent_at": "2026-11-19T05:32:56.514955+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.myrepublica.nagariknetwork.com/news/two-former-labor-ministers-ex-secretary-among-six-arrested-over-rs-169-bill-34-33.html",
+    "headline": "Two former labor ministers, ex-secretary among six arrested over Rs 1.69 billion fraud",
+    "sent_at": "2026-11-19T05:32:56.514980+00:00",
+    "dup": true
   }
 ]
