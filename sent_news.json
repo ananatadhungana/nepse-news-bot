@@ -1,48 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/fire-liquid-lounge-bar.html",
-    "headline": "Fire breaks out at Liquid Lounge in Durbarmarg",
-    "sent_at": "2026-11-08T05:01:52.852347+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/504516.html",
-    "headline": "घोप्टेभीरमा सुक्खा पहिरो, सडक अवरुद्ध",
-    "sent_at": "2026-11-08T05:31:48.916359+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizkhabar.com/267070",
-    "headline": "तिहारअघि १७ हाइड्रोपावरले घोषणा गरे लाभांश, कुनले कति दिदैंछन् ?",
-    "sent_at": "2026-11-08T05:31:49.869363+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291279-2026-11-8-5-58-3",
-    "headline": "दूरसञ्चार कम्पनीको संकट टार्न नयाँ व्यवस्था गरिँदै, २० अर्बको नवीकरण बोझ हट्ने",
-    "sent_at": "2026-11-08T06:02:14.570600+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291375-2026-11-8-5-54-31",
-    "headline": "लक्ष्मीपूजाको दिन आज बढ्यो कि घट्यो सुनचाँदीको भाउ?",
-    "sent_at": "2026-11-08T06:02:18.364824+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96351",
-    "headline": "माउण्टेन इनर्जीको २१.०५ प्रतिशत लाभांश पारित",
-    "sent_at": "2026-11-08T06:02:22.173899+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/11/what-is-the-price-of-gold-on-the-day-of-lakshmi-puja/",
-    "headline": "लक्ष्मी पूजाका दिन कति छ सुनको भाउ?",
-    "sent_at": "2026-11-08T06:02:25.174053+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.setopati.com/kinmel/jewellery/402275",
-    "headline": "आइतबार सुन-चाँदीको भाउ स्थिर",
-    "sent_at": "2026-11-08T06:02:25.788174+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/11/226710/",
     "headline": "वैदेशिक रोजगारीका श्रमिकको सामाजिक सुरक्षा योगदान बढ्दै, नियमित योगदानकर्ता दुई लाख पुगे",
     "sent_at": "2026-11-08T06:02:29.590643+00:00"
@@ -7948,5 +7905,47 @@
     "link": "http://english.ratopati.com/story/87349/balance-of-payments-position-at-3-trillion-surplus-current-account-also-strong",
     "headline": "Nepal's Trade Deficit Widens by 34.7% to NPR 532 Billion in Three Months",
     "sent_at": "2026-11-19T12:32:52.441238+00:00"
+  },
+  {
+    "link": "http://ictsamachar.com//story/100007738",
+    "headline": "जाभा र एन्जिनक्समा गम्भीर साइबर सुरक्षा जोखिम, राष्ट्रिय साइबर सुरक्षा केन्द्रद्वारा चेतावनी जारी",
+    "sent_at": "2026-11-19T13:03:31.746634+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96676",
+    "headline": "तीन वर्षदेखि स्थिर दूधको मूल्य बढाउने तयारी, मन्त्रालयमा प्रतिवेदन पठाउँदै दुग्ध विकास बोर्ड",
+    "sent_at": "2026-11-19T13:03:35.508416+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/19/782733/tomorrows-hetauda-kathmandu-journey-via-kanti-lokpath-disruption-at-bhimphedi-kulekhani-section/",
+    "headline": "भोलिको हेटौंडा-काठमाडौँ यात्रा कान्ति लोकपथबाट, भीमफेदी-कुलेखानी खण्डमा अवरोध",
+    "sent_at": "2026-11-19T13:03:38.508604+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/19/782729/preparations-to-invite-bids-to-purchase-150-mw-of-electricity-from-india/",
+    "headline": "भारतबाट १५० मेगावाट विद्युत खरिद गर्न बाेलपत्र आह्वानकाे तयारी",
+    "sent_at": "2026-11-19T13:03:39.107461+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/229605",
+    "headline": "प्राधिकरणले भारतबाट १५० मेगावाट विद्युत खरिद गर्ने",
+    "sent_at": "2026-11-19T13:03:42.107676+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/19/96267",
+    "headline": "मुलुकको आर्थिक तथा वित्तीय स्थिति सार्वजनिक, यस्तो छ अर्थतन्त्रको अवस्था (पूर्णपाठसहित)",
+    "sent_at": "2026-11-19T13:03:42.971153+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2061272/government-indifference-to-buying-paddy-zero-purchases-in-all-offices-except-dhangadhi",
+    "headline": "धान किन्न सरकारी उदासीनता, धनगढी बाहेक सबै कार्यालयमा खरिद शून्य",
+    "sent_at": "2026-11-19T13:03:46.785680+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170411",
+    "headline": "निजी क्षेत्रमा बैंकको ६० खर्ब कर्जा, तीन महिनामै १ खर्ब ८४ अर्ब विस्तार",
+    "sent_at": "2026-11-19T13:03:50.612296+00:00"
   }
 ]
