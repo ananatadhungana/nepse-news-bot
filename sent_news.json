@@ -1,87 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261108160753.html",
-    "headline": "भन्सारबाट छुटाइएका २ हजार गाडी हिउँले कोरलामै अड्किए, तातोपानी नाका खुलाउन पुगेन पहल",
-    "sent_at": "2026-11-08T10:31:47.955114+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/flower-trade-booms-in-the-capital-during-tihar.html",
-    "headline": "Flower trade booms in the capital during Tihar",
-    "sent_at": "2026-11-08T10:31:51.722502+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/11/flower-trade-worth-over-npr-640-million/",
-    "headline": "६४ करोडबढीको फूलको व्यापार",
-    "sent_at": "2026-11-08T11:01:59.163559+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/08/1046083/",
-    "headline": "डिडिसीको बिक्री कक्ष भरतपुरमा",
-    "sent_at": "2026-11-08T11:02:02.974501+00:00"
-  },
-  {
-    "link": "https://nepalsamaya.com/detail/147688",
-    "headline": "मुगुमा स्याउखेती : व्यापारी गाउँमै पुग्दा किसानले पाए राम्रो मूल्य",
-    "sent_at": "2026-11-08T11:02:06.787119+00:00"
-  },
-  {
-    "link": "https://arthakhabar.com/2026/11/08/126871/",
-    "headline": "मुगुमा स्याउखेती : व्यापारी गाउँमै पुग्दा किसानले पाए राम्रो मूल्य",
-    "sent_at": "2026-11-08T11:02:09.787278+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2054011/bhotekoshi-flood-causes-damage-worth-rs-132-billion-to-the-energy-sector",
-    "headline": "भोटेकोशी बाढीले ऊर्जा क्षेत्रमा १ खर्ब ३२ अर्ब बराबर क्षति",
-    "sent_at": "2026-11-08T11:31:39.870675+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/dhading-local-govts-join-hands-to-install-temporary-pontoon-bridge-at-furke-khola.html",
-    "headline": "Dhading local govts join hands to install temporary pontoon bridge at Furke Khola",
-    "sent_at": "2026-11-08T11:31:42.870827+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2053933/cash-transaction-limit-in-nepal-when-and-why",
-    "headline": "नेपालमा नगद कारोबार सीमा : कहिले र किन ?",
-    "sent_at": "2026-11-08T11:31:43.484364+00:00"
-  },
-  {
-    "link": "https://arthakhabar.com/2026/11/08/126906/",
-    "headline": "सम्वत् सम्बन्धी नीति खोइ ?",
-    "sent_at": "2026-11-08T11:46:23.433896+00:00"
-  },
-  {
-    "link": "https://arthakhabar.com/2026/11/08/126922/",
-    "headline": "ढुवानी समस्यामा तरकारी कृषक !",
-    "sent_at": "2026-11-08T11:46:27.221939+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/along-with-the-consumer-who-receives-the-bill-the-business-person-who-issues-the-bill-would-also-receive-a-gift-92-67.html",
-    "headline": "बिल लिने उपभोक्तासँगै बिल जारी गर्ने व्यवसायीले पनि पाउने भए उपहार",
-    "sent_at": "2026-11-08T11:46:30.974519+00:00"
-  },
-  {
-    "link": "https://nepalitimes.com/nepal-must-lobby-for-climate-debt-relief",
-    "headline": "Nepal must lobby for climate debt relief",
-    "sent_at": "2026-11-08T12:31:44.375828+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132414",
-    "headline": "तिहारमा ६४ करोडको झिलिमिली बत्ती भित्रिँदा १९०० मेगावाट पुग्दै विद्युत्‌को ‘पिक डिमान्ड’ : भारततर्फको ५५० मेगावाट निर्यात पनि नरोकिने",
-    "sent_at": "2026-11-08T13:16:23.310332+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291390-2026-11-8-13-37-52",
-    "headline": "कोप३१ मा नेपालको अडान- १.३ ट्रिलियन डलर जलवायु वित्त परिचालन, क्षतिपूर्ति माग",
-    "sent_at": "2026-11-08T13:46:29.562511+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2054114/1813-mw-of-electricity-consumed-on-the-evening-of-lakshmi-puja-587-mw-exported-to-india-and-bangladesh",
-    "headline": "लक्ष्मीपूजाको साँझ एक हजार ८१३ मेगावाट विद्युत् खपत, ५८७ मेगावाट भारत र बंगलादेश निर्यात",
-    "sent_at": "2026-11-08T13:46:33.489877+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/86096/sujal-dairy-cib-probe-into-ddc-scam-worth-crores",
     "headline": "CIB Expands Investigation into Sujal Dairy's Multi-Crore Scam at Dairy Development Corporation",
     "sent_at": "2026-11-08T14:01:54.356794+00:00"
@@ -7948,5 +7866,95 @@
     "link": "https://www.setopati.com/kinmel/economy/402954",
     "headline": "तीन महिनामा भित्रियो बाहिरिनेभन्दा ३ खर्ब बढी विदेशी मुद्रा",
     "sent_at": "2026-11-19T15:04:35.497303+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227860/",
+    "headline": "एसियाली क्लियरिङ युनियनको अध्यक्षता नेपाल राष्ट्र बैंकलाई",
+    "sent_at": "2026-11-19T15:34:48.494723+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.osnepal.com/detail/594175",
+    "headline": "लुम्बिनीमा जग्गा वर्गीकरणमा ढिलाइ हुदाँ नागरिकलाई सास्ती",
+    "sent_at": "2026-11-19T15:34:49.538717+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepals-forex-reserves-reach-rs-416-trillion-sufficient-for-17-months-import-32-17.html",
+    "headline": "Nepal’s forex reserves reach Rs 4.16 trillion, sufficient for 17 months import",
+    "sent_at": "2026-11-19T15:34:52.538899+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/19/132143/",
+    "headline": "लुम्बिनीमा जग्गा वर्गीकरणमा ढिलाइ हुदाँ नागरिकलाई सास्ती",
+    "sent_at": "2026-11-19T15:34:52.538926+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506323.html",
+    "headline": "ऊर्जा क्षेत्रमा ‘ब्रेक थ्रु’ को अपेक्षासहित भारत भ्रमणमा इप्पानका ३ प्राथमिकता",
+    "sent_at": "2026-11-19T15:34:53.492930+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/nepal-record-remittance.html",
+    "headline": "Nepal receives record Rs 267.34 billion in remittances in October",
+    "sent_at": "2026-11-19T15:34:56.493101+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506318.html",
+    "headline": "बालेनको भ्रमणअघि नेपालले पायो थप ५९४ मेवा बिजुली निर्यातको अनुमति, कुल निर्यात क्षमता १,१९८ मेवा",
+    "sent_at": "2026-11-19T15:34:56.493127+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepal-lays-out-decade-long-climate-action-roadmap-but-11475-billion-needed--20-35.html",
+    "headline": "Nepal lays out decade-long climate action roadmap, but $114.75 billion needed to deliver it",
+    "sent_at": "2026-11-19T15:34:57.446482+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227844/",
+    "headline": "तीन महिनामा ५५ खर्ब ९५ अर्ब तरलता प्रशोचन",
+    "sent_at": "2026-11-19T15:35:01.327401+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506309.html",
+    "headline": "प्रधानमन्त्रीको भारत भ्रमणमा आर्थिक एजेन्डा प्राथमिकतामा राख्न पूर्वअर्थमन्त्रीहरूको सुझाव",
+    "sent_at": "2026-11-19T15:35:05.086502+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/hetauda-bhimphedi-kathmandu-road-closed-on-friday/",
+    "headline": "शुक्रबार हेटौँडा-भीमफेदी-काठमाडौँ सडक बन्द",
+    "sent_at": "2026-11-19T15:35:08.086650+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepse-inches-up-362-points-as-daily-turnover-declines-to-rs-387-billion-64-17.html",
+    "headline": "NEPSE inches up 3.62 points as daily turnover declines to Rs 3.87 billion",
+    "sent_at": "2026-11-19T15:35:08.086678+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/19/782654/samsung-nepal-and-ncell-collaborate-to-expand-ai-access-and-facilitate-galaxy-upgrades/",
+    "headline": "एआई पहुँच विस्तार र ग्यालेक्सी अपग्रेड सहजका लागि सामसङ नेपाल र एनसेलबीच सहकार्य",
+    "sent_at": "2026-11-19T15:35:08.086684+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261119160831.html",
+    "headline": "पुँजीगत लाभकर ३८.६ प्रतिशत घट्यो, १९ दिन बिदाले कात्तिकमा ३२ करोड मात्रै संकलन",
+    "sent_at": "2026-11-19T15:35:08.086857+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/stock-market-rises-after-three-days.html",
+    "headline": "Stock market rises after three trading days, hotel group among top gainers",
+    "sent_at": "2026-11-19T15:35:08.086861+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://rajdhanidaily.com/id/151691/",
+    "headline": "विदेशबाट भित्रियो २३ खर्ब, व्यापार घाटा १७ खर्ब नाघ्यो",
+    "sent_at": "2026-11-19T15:35:09.371442+00:00"
   }
 ]
