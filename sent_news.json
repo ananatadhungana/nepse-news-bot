@@ -1,46 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/investors-lose-rs-60-billion-as-nepse-decline-129-percent-in-a-week-90-77.html",
-    "headline": "Investors lose Rs 60 billion as NEPSE decline 1.29 percent in a week",
-    "sent_at": "2026-11-07T12:16:32.801301+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226660/",
-    "headline": "धनतेरसमा एलआरआर ग्रुपले हस्तान्तरण गर्‍यो २६ विद्युतीय गाडी",
-    "sent_at": "2026-11-07T12:31:48.247176+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226658/",
-    "headline": "दराजको ११.११ अभियान नोभेम्बर १९ सम्म विस्तार, ६० प्रतिशतभन्दा बढी भुक्तानी विद्युतीय माध्यमबाट",
-    "sent_at": "2026-11-07T12:31:51.973025+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/blog/402248",
-    "headline": "उत्पादन किसानको, मूल्य निर्धारण अरूकै?",
-    "sent_at": "2026-11-07T12:31:55.708409+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/main-headline-of-the-news-80-79.html",
-    "headline": "तिहारमा बिजुली जाँदैन, मागभन्दा धेरै उत्पादन छ: प्राधिकरण",
-    "sent_at": "2026-11-07T12:31:58.708547+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/politics/100-days-of-karnali-government-major-projects-slow-limited-achievements-in-service-delivery-38-73.html",
-    "headline": "कर्णाली सरकारको सय दिन : ठूला आयोजना सुस्त, सेवा प्रवाहमा सीमित उपलब्धि",
-    "sent_at": "2026-11-07T13:01:59.638980+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226666/",
-    "headline": "काठमाडौं गोर्खाजका डेभिड वार्नरको हस्ताक्षरयुक्त ब्याट १ लाख १ हजारमा बिक्री",
-    "sent_at": "2026-11-07T13:02:03.591820+00:00"
-  },
-  {
-    "link": "https://rajdhanidaily.com/id/151160/",
-    "headline": "काठमाडौंले लुम्बिनीलाई दियो १६१ रनको लक्ष्य",
-    "sent_at": "2026-11-07T13:31:43.403539+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/details-of-2294-missing-victims-of-bhotekoshi-trishuli-flood-unveiled-74-11.html",
     "headline": "Details of 2,294 missing victims of Bhotekoshi-Trishuli flood unveiled",
     "sent_at": "2026-11-07T14:01:52.894001+00:00",
@@ -7951,5 +7910,47 @@
     "link": "https://clickmandu.com/2026/11/506202.html",
     "headline": "अध्यादेशमार्फत् हाइड्रोको लाइसेन्स अवधि ५० वर्ष बनाइँदै, विद्युत् ऐनमा गरिँदैछ यस्तो संशोधन",
     "sent_at": "2026-11-19T09:17:19.274256+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96658",
+    "headline": "बाजुरामा स्याउ उत्पादन बढ्यो, बजार र ढुवानी अभावले किसानलाई सास्ती",
+    "sent_at": "2026-11-19T09:46:54.791143+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87313/stock-market-rose-by-modest-percentage-points",
+    "headline": "Nepal Stock Exchange Index Rises by 3.62 Points",
+    "sent_at": "2026-11-19T09:46:58.404249+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261119152808.html",
+    "headline": "मंसिर २६ भित्र देशभर एनसेलको थ्रीजी पूणरुपमा बन्द हुने, भोल्टे चलाउन कम्पनीको आग्रह",
+    "sent_at": "2026-11-19T09:47:02.253125+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2061032/information-from-ipos-to-rights-shares-and-dividends-can-now-be-found-on-mero-share",
+    "headline": "आईपीओदेखि हकप्रद र लाभांशसम्मका सूचना अब मेरो सेयरमा पाइने",
+    "sent_at": "2026-11-19T09:47:06.060237+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/19/131925/",
+    "headline": "बिहिबार ३.६२ अंकले बढ्यो नेप्से परिसूचक",
+    "sent_at": "2026-11-19T09:47:09.060511+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://baahrakhari.com/detail/507742",
+    "headline": "नेप्से ३.६२ अंकले बढ्यो, तीन अर्ब ८७ करोडको कारोबार",
+    "sent_at": "2026-11-19T09:47:09.060550+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/19/131926/",
+    "headline": "कर प्रणालीबारे सचेतना जगाउन व्यापारीलाई ‘करदाता शिक्षा’",
+    "sent_at": "2026-11-19T09:47:09.852504+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/178635/",
+    "headline": "सेबोनको नयाँ वैकल्पिक लगानी कोष नियमावली: निजी पुँजी, स्टार्टअप र विदेशी लगानीका लागि नयाँ ढोका",
+    "sent_at": "2026-11-19T09:47:13.649479+00:00"
   }
 ]
