@@ -1,46 +1,5 @@
 [
   {
-    "link": "https://bizkhabar.com/267045",
-    "headline": "भोटेकोशी बाढी : हालसम्म यकिन भएका बेपत्ता दुई हजार २९४ जनाको सूची सार्वजनिक",
-    "sent_at": "2026-11-07T08:31:43.904707+00:00"
-  },
-  {
-    "link": "https://onlinetvnepal.com/2026/11/219505/",
-    "headline": "भोटेकोशी बाढीमा बेपत्ता २ हजार २९४ जनाको विवरण सार्वजनिक",
-    "sent_at": "2026-11-07T08:31:46.904863+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://peoplesreview.com.np/2026/11/07/nepal-trust-proposes-30-year-lease-of-phewa-lakeside-land/",
-    "headline": "Nepal Trust proposes 30-year lease of Phewa Lakeside land",
-    "sent_at": "2026-11-07T08:46:23.128587+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/11/first-sunrise-tea-festival-2083-to-be-held-in-ilam-with-the-aim-of-promoting-tourism/",
-    "headline": "पर्यटन प्रवर्द्धन गर्ने उद्देश्यले इलाममा ‘प्रथम सूर्योदय चिया महोत्सव २०८३’ हुँदै",
-    "sent_at": "2026-11-07T08:46:27.034408+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85969/machhapuchhre-bank-chairman-roshan-kc-takes-oath-of-office-and-secrecy",
-    "headline": "Machhapuchchhre Bank Chairman Roshan KC Takes Oath",
-    "sent_at": "2026-11-07T09:02:06.562178+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/510903",
-    "headline": "कटनुखोलामा १४ महिनामै पुल तयार, जोखिमपूर्ण यात्रा अन्त्य",
-    "sent_at": "2026-11-07T09:31:45.352474+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261107151448.html",
-    "headline": "यात्रुवाहक सवारीको विद्युतीकरणमा फोर्स मोटर्सको प्रवेश, अर्को वर्ष इलेक्ट्रिक ट्राभलर आउने",
-    "sent_at": "2026-11-07T09:31:49.204769+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/85973/government-preparing-to-form-data-protection-board-bill-being-drafted",
-    "headline": "Government Prepares to Establish Data Protection Board for Cyber Security",
-    "sent_at": "2026-11-07T09:31:53.072628+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/economy/construction-process-of-postal-road-connecting-banke-and-dang-begins-63-91.html",
     "headline": "बाँके-दाङ जोड्ने हुलाकी सडक निर्माण सुरु, ३ वर्षभित्र ५८ किमी सडकसहित १६ वटा पुल बन्ने",
     "sent_at": "2026-11-07T09:31:57.085074+00:00"
@@ -7953,5 +7912,47 @@
     "link": "https://bankingsamachar.com/news/178618/",
     "headline": "तीन महिनामा ४५ आगलागीका घटना, १७ करोड बढीको क्षति",
     "sent_at": "2026-11-19T07:32:32.045137+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/525000-units-promoter-shares-of-corporate-development-bank-limited-converted-into-public-shares-2026-11-19",
+    "headline": "5,25,000 Units Promoter Shares of Corporate Development Bank Limited Converted Into Public Shares",
+    "sent_at": "2026-11-19T08:02:13.740753+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/119595371-units-promoter-shares-of-forward-microfinance-laghubitta-converted-into-public-shares-2026-11-19",
+    "headline": "11,95,953.71 Units Promoter Shares of Forward Microfinance Laghubitta Converted Into Public Shares",
+    "sent_at": "2026-11-19T08:02:17.558156+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/south-asias-economy-projected-to-grow-by-68-in-2026-27-world-bank-2026-11-19",
+    "headline": "South Asia’s Economy Projected to Grow by 6.8% in 2026-27: World Bank",
+    "sent_at": "2026-11-19T08:02:21.335612+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132694",
+    "headline": "मेरो शेयरमै उपलब्ध हुने भयो आईपीओ, बोनस र ‘लक-इन’को सूचना",
+    "sent_at": "2026-11-19T08:02:24.335771+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132694",
+    "headline": "मेरो शेयरमै उपलब्ध हुने भयो आईपीओ, बोनस र ‘लक-इन’को सूचना",
+    "sent_at": "2026-11-19T08:02:24.335818+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132691",
+    "headline": "एसियाली शेयर बजारबाट एक महिनामै ५० अर्ब डलरको विदेशी पूँजी पलायन: प्रविधि क्षेत्रको तीव्र गिरावट, ऊर्जा संकट र उच्च ब्याजदरले वित्तीय प्रणालीमा गम्भीर धक्का",
+    "sent_at": "2026-11-19T08:02:25.098186+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/267591",
+    "headline": "विश्व बजारमा कच्चा तेल सस्तिँदै, नेपाली उपभोक्ताले किन पाइरहेका छैनन् राहत ?",
+    "sent_at": "2026-11-19T08:02:28.698062+00:00"
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170403",
+    "headline": "सहकारीमा फसेको बचत कसरी फिर्ता हुन्छ ? यस्तो छ कानुनी प्रक्रिया",
+    "sent_at": "2026-11-19T08:02:32.506975+00:00"
   }
 ]
