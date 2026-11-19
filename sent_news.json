@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://www.sharesansar.com/newsdetail/nepse-concludes-last-trading-day-before-tihar-with-009-gain-all-sector-close-at-green-except-one-sector-2026-11-06",
-    "headline": "NEPSE Concludes Last Trading Day Before Tihar With 0.09% Gain; All Sector Close at Green Except One Sector",
-    "sent_at": "2026-11-06T10:16:53.724984+00:00",
-    "dup": true
-  },
-  {
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=132448",
     "headline": "डब्ल्यूटीएम २०२६ : वेलनेसदेखि दिगो पर्यटनसम्मको प्रवर्द्धन, विश्वका पर्यटकलाई नेपाल भ्रमणको आग्रह",
     "sent_at": "2026-11-06T10:16:54.649119+00:00"
@@ -7949,5 +7943,10 @@
     "link": "https://myrepublica.nagariknetwork.com/news/bri-remains-stuck-in-agreements-debate-42-12.html",
     "headline": "BRI caught between Beijing's ambitions and Kathmandu's caution",
     "sent_at": "2026-11-19T01:02:06.619453+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/teramocs-verdict-minister-nta-staff.html",
+    "headline": "TERAMOCS case exposes legal divide as minister walks free, three NTA officials convicted",
+    "sent_at": "2026-11-19T01:33:02.710870+00:00"
   }
 ]
