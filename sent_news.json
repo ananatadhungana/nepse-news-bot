@@ -1,37 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132339",
-    "headline": "तिहारका लागि तीन अर्ब बढीको भाइमसला आयात, बजारमा मूल्य पनि बढ्यो",
-    "sent_at": "2026-11-08T03:01:45.252655+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228683",
-    "headline": "सुशासनमै आर्थिक समृद्धि",
-    "sent_at": "2026-11-08T03:01:46.161793+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/86033/flower-sales-begin-at-33-locations-designated-by-kathmandu-metropolitan-city-photos",
-    "headline": "Kathmandu Metropolitan City Allows Sale of Domestic Flowers at 33 Designated Locations",
-    "sent_at": "2026-11-08T03:01:50.169926+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291373-2026-11-8-3-8-29",
-    "headline": "कालीमाटीमा च्याउको मूल्य किलोमै १०५ रुपैयाँ बढ्यो, अरु तरकारीको कति?",
-    "sent_at": "2026-11-08T03:31:43.378341+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228690",
-    "headline": "बढ्यो तिहारमा कारोबार",
-    "sent_at": "2026-11-08T03:31:46.378501+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://arthakhabar.com/2026/11/08/126657/",
-    "headline": "घिउको बजार माग धान्न अस्थायी रुपमा बटर आयात खोल्नु पर्छ : केडिया",
-    "sent_at": "2026-11-08T03:46:21.548063+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/228692",
     "headline": "बजेट खर्च सात प्रतिशत राजस्व चौबिस करोड सङ्कलन",
     "sent_at": "2026-11-08T03:46:25.382242+00:00"
@@ -7949,5 +7917,35 @@
     "link": "https://nepalpress.com/2026/11/19/782683/current-account-surplus-of-279-billion-foreign-exchange-reserves-increase-by-6-8-percent/",
     "headline": "चालु खाता २७९ अर्बले बचतमा, विदेशी विनिमय सञ्चिति ६.८ प्रतिशतले वृद्धि",
     "sent_at": "2026-11-19T11:32:22.213242+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132713",
+    "headline": "शेयर बजारमा कर वृद्धिको ‘ब्याकफायर’ र बिदाको मार: पहिलो चौमासमै सवा १ अर्ब लाभकर गुम्यो, राजस्वमा ३८.६ प्रतिशतको धक्का",
+    "sent_at": "2026-11-19T12:02:30.790152+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96671",
+    "headline": "महँगीको मारमा जनता, मुद्रास्फिती ६ प्रतिशत नाघ्यो ",
+    "sent_at": "2026-11-19T12:02:34.675069+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227850/",
+    "headline": "सस्तिदै ऋण, बैंकहरूको आधार दर ४.६९ प्रतिशतमा सीमित",
+    "sent_at": "2026-11-19T12:02:38.559757+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87342/267-billion-remittances-entered-in-a-single-month-inflow-increased-by-272-percent",
+    "headline": "Remittance Inflow Rises 27.2% to NPR 703 Billion in First Three Months",
+    "sent_at": "2026-11-19T12:02:42.622501+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/19/782702/price-increase-more-than-4-times-in-a-year/",
+    "headline": "एक वर्षमै ४ गुणा नाघ्यो मूल्यवृद्धि",
+    "sent_at": "2026-11-19T12:02:47.717398+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/227827/",
+    "headline": "नेप्से परिसूचक र बजार पुँजीकरण दुवै बढे, सूचीकृत कम्पनी ३०५ पुगे",
+    "sent_at": "2026-11-19T12:02:51.595803+00:00"
   }
 ]
