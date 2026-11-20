@@ -1,41 +1,5 @@
 [
   {
-    "link": "https://himalpress.com/2026/11/the-taste-of-tihar-is-expensive/",
-    "headline": "तिहारको स्वादै महँगो",
-    "sent_at": "2026-11-09T04:31:46.412495+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261109095206.html",
-    "headline": "निर्यात अनुमति नवीकरण र वैकल्पिक बजार खोज्न ढिलाइ, दैनिक हजार मेगावाट बिजुली खेर",
-    "sent_at": "2026-11-09T04:31:47.196430+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/snowfall-blocks-roads.html",
-    "headline": "Snowfall blocks roads, disrupting food transport to Limi",
-    "sent_at": "2026-11-09T04:47:24.911933+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/504654.html",
-    "headline": "कार्बन ट्रेडिङ: परिचय, यथार्थ, विश्वव्यापी बजार र नेपालको सम्भावना",
-    "sent_at": "2026-11-09T04:47:28.772645+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/504655.html",
-    "headline": "नेपाललाई लक्षित गरेर सञ्चालित भारतको बनगाउँ बजारमा भीषण आगलागी, ६० पसल जलेर नष्ट",
-    "sent_at": "2026-11-09T04:47:32.620834+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261109102301.html",
-    "headline": "ढाकामा चौथो ट्रान्स हिमालय सम्मेलन, क्षेत्रीय सम्बन्धदेखि एआई र जलवायु परिवर्तनबारे चर्चा हुँदै",
-    "sent_at": "2026-11-09T04:47:36.505867+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228732",
-    "headline": "सिँचाइ अभाव हुँदा हिउँदे खेती गर्न समस्या",
-    "sent_at": "2026-11-09T04:47:40.367259+00:00"
-  },
-  {
     "link": "https://www.setopati.com/social/402324",
     "headline": "पाँच वटा मेसिन प्रयोग गरी हटाइँदै छ घोप्टेभीरको पहिरो",
     "sent_at": "2026-11-09T05:16:24.725660+00:00",
@@ -7957,5 +7921,43 @@
     "link": "https://risingnepaldaily.com/news/88802",
     "headline": "Growing Cloud Kitchens",
     "sent_at": "2026-11-20T02:32:11.994388+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96688",
+    "headline": "सुनको मूल्यमा ठूलो गिरावट, एक सातामै झन्डै ९ प्रतिशतले घट्ने संकेत",
+    "sent_at": "2026-11-20T03:03:10.482580+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthasarokar.com/2026/11/fraud-in-the-name-of-malaysia-employment-arrest-warrant-issued-against-former-chief-secretary-as-well.html",
+    "headline": "‘मलेसिया रोजगारी’का नाममा ठगीः पूर्वमुख्यसचिवविरुद्ध पनि पक्राउ पुर्जी जारी !",
+    "sent_at": "2026-11-20T03:03:10.482605+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/20/782790/store-fined-rs-200000-for-overcharging-for-lpg-gas-cylinders/",
+    "headline": "एलपीजी ग्यास सिलिन्डरमा बढी मूल्य लिने स्टोरलाई २ लाख जरिवाना",
+    "sent_at": "2026-11-20T03:03:11.485593+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506358.html",
+    "headline": "हाइड्रो हेरिटेज पर्यटनको गन्तव्य फर्पिङ",
+    "sent_at": "2026-11-20T03:03:15.547729+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87388/woman-sentenced-to-2-years-in-prison-in-check-dishonor-case-arrested",
+    "headline": "Woman Arrested for Two Years Imprisonment in Check Bounce Case",
+    "sent_at": "2026-11-20T03:03:19.435471+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/politics/402971",
+    "headline": "मन्त्रिपरिषद् बैठक बस्दै",
+    "sent_at": "2026-11-20T03:03:23.355821+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/229639",
+    "headline": "आज मन्त्रीपरिषद् बैठक बस्दै",
+    "sent_at": "2026-11-20T03:03:26.355981+00:00",
+    "dup": true
   }
 ]
