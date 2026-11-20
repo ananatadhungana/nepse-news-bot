@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://kathmandupost.com/columns/2026/11/09/can-nepal-cook-dal-bhat-on-its-own-electricity",
-    "headline": "Can Nepal cook dal bhat on its own electricity?",
-    "sent_at": "2026-11-09T02:02:09.545520+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/interviews/2026/11/09/q-a-before-we-get-high-on-the-cannabis-law-let-s-measure-the-plant",
-    "headline": "Q&A: Before we get high on the cannabis law, let’s measure the plant",
-    "sent_at": "2026-11-09T02:02:13.305129+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/money/2026/11/09/three-in-four-transport-jobs-in-nepal-are-informal",
-    "headline": "Three in four transport jobs in Nepal are informal",
-    "sent_at": "2026-11-09T02:02:17.064838+00:00"
-  },
-  {
     "link": "https://arthakhabar.com/2026/11/09/126996/",
     "headline": "पोलिगनका सह–संस्थापक सन्दीप नेलवाल भन्छन् : नेपालमा एआइको सम्भावना उच्च छ",
     "sent_at": "2026-11-09T02:02:20.729525+00:00"
@@ -7954,5 +7939,22 @@
     "link": "https://risingnepaldaily.com/news/88796",
     "headline": "Paddy farmers fail to get fair prices",
     "sent_at": "2026-11-20T00:46:54.256777+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506342.html",
+    "headline": "सात वर्षमा पनि बनेन मुस्ताङको लेते–धम्पु पुल",
+    "sent_at": "2026-11-20T01:01:51.819675+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/social/402965",
+    "headline": "सात वर्षमा पनि बनेन मुस्ताङको लेते–धम्पु पुल",
+    "sent_at": "2026-11-20T01:01:54.819827+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/inflation-rises-over-four-fold-to-637-percent-in-mid-october-food-and-bever-49-44.html",
+    "headline": "Inflation rises over fourfold to 6.37 percent in mid-October; food and beverage prices hike 8 percent",
+    "sent_at": "2026-11-20T01:01:54.820295+00:00",
+    "dup": true
   }
 ]
