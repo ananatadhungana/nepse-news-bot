@@ -1,43 +1,5 @@
 [
   {
-    "link": "https://himalpress.com/2026/11/2-months-after-the-bhotekoshi-flood-erosion-continues-156-families-in-crisis/",
-    "headline": "भोटेकोशी बाढीको २ महिनापछि पनि कटान निरन्तर, १५६ परिवार संकटमा",
-    "sent_at": "2026-11-09T03:31:52.991079+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/09/780103/hakubesi-village-in-rasuwa-at-risk-due-to-erosion-of-bhotekoshi-demand-to-relocate-the-settlement-with-156-houses/",
-    "headline": "भोटेकोशीको कटानले रसुवाको हाकुबेँसी गाउँ जोखिममा, १५६ घर भएको बस्ती नै सार्न माग",
-    "sent_at": "2026-11-09T03:31:52.991144+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://himalpress.com/2026/11/production-increases-in-myagde-after-rural-municipality-provides-75-percent-subsidy-for-flower-farming/",
-    "headline": "फूलखेतीमा गाउँपालिकाले ७५ प्रतिशत अनुदान दिएपछि म्याग्देमा बढ्यो उत्पादन",
-    "sent_at": "2026-11-09T03:31:53.788528+00:00"
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/311652",
-    "headline": "भोटेकोशीको कटानले रसुवाको हाकुबेँसी गाउँ जोखिममा, बस्ती सार्न माग",
-    "sent_at": "2026-11-09T03:31:56.788700+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291173-2026-11-9-3-56-55",
-    "headline": "बालेनको भ्रमणअघि पञ्चेश्वरबारे भारतको सकारात्मक सन्देश, अरुण र तल्लो अरुणमा खोज्यो साथ",
-    "sent_at": "2026-11-09T04:01:55.018761+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96374",
-    "headline": "तेलको मूल्य घटेसँगै सुनको भाउ प्रतिऔँस ४ हजार १०० डलरमाथि",
-    "sent_at": "2026-11-09T04:01:58.939214+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/228728",
-    "headline": "हरिचौर—मल्म पाण्डवखानी सडक : ठेक्काको चार वर्षपछि कालोपत्र तयारी",
-    "sent_at": "2026-11-09T04:02:02.716563+00:00"
-  },
-  {
     "link": "https://himalpress.com/2026/11/the-taste-of-tihar-is-expensive/",
     "headline": "तिहारको स्वादै महँगो",
     "sent_at": "2026-11-09T04:31:46.412495+00:00",
@@ -7959,5 +7921,41 @@
     "link": "https://bizmandu.com/content/20261120071928.html",
     "headline": "भोटेकोशी बाढीले टुटेको रसुवालाई बजारसँग जोड्दै ‘टेस्ट रसुवा’, किसानका उत्पादन बजारसम्म पुर्याउन युवाको पहल",
     "sent_at": "2026-11-20T02:02:18.987388+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88806",
+    "headline": "How Sri Lanka Handles Recession",
+    "sent_at": "2026-11-20T02:31:52.440500+00:00"
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/20/96279",
+    "headline": "भिसा र मास्टरकार्डका ग्राहकको विवरणमा साइबर आक्रमणकारीको पहुँच",
+    "sent_at": "2026-11-20T02:31:56.436957+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/229637",
+    "headline": "पालिकाबाटै प्यान दर्ता सेवा सुरु",
+    "sent_at": "2026-11-20T02:32:00.317274+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261120074818.html",
+    "headline": "सेयर बजारमा एन्थ्रोपिकको डेब्यू, कम्पनीको मूल्यांकन १.७६ ट्रिलियन डलर पुग्यो",
+    "sent_at": "2026-11-20T02:32:04.213660+00:00"
+  },
+  {
+    "link": "https://www.osnepal.com/detail/594180",
+    "headline": "बेल्चा चलाउने श्रमिकले मंसिरदेखि दैनिक ज्याला १७०० रुपैयाँ पाउँछन् : मन्त्री लम्साल",
+    "sent_at": "2026-11-20T02:32:08.094093+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/shovel-workers-to-receive-rs-1-700-daily-from-mangsir-minister-lamsal-83-64.html",
+    "headline": "मङ्सिरदेखि बेल्चा चलाउने श्रमिकले दैनिक १ हजार ७०० रुपैयाँ पाउने छन् : मन्त्री लम्साल",
+    "sent_at": "2026-11-20T02:32:11.094244+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88802",
+    "headline": "Growing Cloud Kitchens",
+    "sent_at": "2026-11-20T02:32:11.994388+00:00"
   }
 ]
