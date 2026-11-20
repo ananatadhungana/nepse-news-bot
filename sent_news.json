@@ -1,26 +1,5 @@
 [
   {
-    "link": "https://english.onlinekhabar.com/syafrubesi-bridge-reopens.html",
-    "headline": "Syafrubesi bridge reopens",
-    "sent_at": "2026-11-09T08:01:56.709533+00:00"
-  },
-  {
-    "link": "https://newsofnepal.com/2026/11/09/793708/",
-    "headline": "सुन तोलामा १३०० र चाँदी ४५ रुपैयाँले बढ्यो",
-    "sent_at": "2026-11-09T08:02:00.461221+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/fire-caused-by-electrical-short-circuit-in-nepalgunj-causes-damage-worth-crores-26-39.html",
-    "headline": "नेपालगन्जमा बिद्युत सर्ट भएर आगलागी हुँदा करोडौं क्षति",
-    "sent_at": "2026-11-09T08:02:04.148467+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/86119/ghoptebhir-landslide-cleared-two-way-traffic-on-prithvi-highway",
-    "headline": "Dry Landslide Cleared on Malekhu-Mugling Road Section, Two-Way Traffic Resumes",
-    "sent_at": "2026-11-09T08:31:50.345906+00:00",
-    "dup": true
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/rasuwas-hakubesi-village-at-risk-from-bhotekoshi-erosion-residents-seek-rel-68-34.html",
     "headline": "Rasuwa's Hakubesi village at risk from Bhotekoshi erosion, residents seek relocation",
     "sent_at": "2026-11-09T08:31:51.307177+00:00"
@@ -7957,5 +7936,26 @@
     "link": "https://nagariknews.nagariknetwork.com/economy/opening-the-door-to-investment-in-electricity-br-92-50.html",
     "headline": "विद्युतमा लगानीको ढोका फराकिलो बनाइँदै",
     "sent_at": "2026-11-20T04:02:19.497776+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506278.html",
+    "headline": "सरकारले बसट्रकको दर्ता ३ महिना बन्द गरिदिँदा नेपालमा घट्यो टाटाको व्यापार, कार ब्रिक्रीमा पनि आयो ह्रास",
+    "sent_at": "2026-11-20T04:31:31.852575+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87401/preparations-to-operate-city-buses-in-bara-parsa-including-birgunj-establish-a-revolving-fund-of-rs-10-million",
+    "headline": "Integrated Public Transport Service to Operate Within Mansir",
+    "sent_at": "2026-11-20T04:31:35.685285+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/229658",
+    "headline": "करसम्बन्धी अन्योल हटाउन करदाता शिक्षा कार्यक्रम",
+    "sent_at": "2026-11-20T04:31:38.685455+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/229656",
+    "headline": "जलाशयको पानीले फेरियो किसानको जीवन",
+    "sent_at": "2026-11-20T04:31:39.584529+00:00"
   }
 ]
