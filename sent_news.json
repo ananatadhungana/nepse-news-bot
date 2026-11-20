@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://baahrakhari.com/detail/507100",
-    "headline": "वीरगञ्ज नाकाबाट खाद्यान्न आयात ६३ प्रतिशतले घट्यो",
-    "sent_at": "2026-11-12T00:16:20.901645+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132418",
-    "headline": "७३ कम्पनीले घोषणा गरे लाभांश, युनिलिभरको १ हजार ५४० प्रतिशतदेखि छिमेक लघुवित्तको २५ प्रतिशतसम्म",
-    "sent_at": "2026-11-12T00:31:36.610015+00:00"
-  },
-  {
-    "link": "https://www.bbc.com/nepali/articles/cjx23ewv60kqo?at_medium=RSS&at_campaign=rss",
-    "headline": "सरकारले ६ प्रतिशत मात्रै लगानी गर्दा कसरी जुट्छ कर्मचारीको पेन्सनका लागि पुँजी",
-    "sent_at": "2026-11-12T01:31:52.287810+00:00"
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/economy/82-percent-complete-in-undergrounding-electrical-wires-in-pokhara-br-61-46.html",
     "headline": "पोखरामा विद्युतीय तार भूमिगत गर्ने काम ८२ प्रतिशत सम्पन्न",
     "sent_at": "2026-11-12T01:31:55.952677+00:00"
@@ -7971,5 +7956,21 @@
     "headline": "अर्थसंक्षेप : ११ करोड अनुदान-ऋण स्वीकार, नेप्से घट्यो, पर्वतारोहणबाट ३३ करोड भित्रियो र धान उत्पादन बढ्यो",
     "sent_at": "2026-11-20T13:32:02.085915+00:00",
     "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261120192857.html",
+    "headline": "मिदासले ल्यायो नेपालकै पहिलो माइक्रो सर्भिसेस आर्किटेक्चरमा आधारित ‘एचएमआईएस’",
+    "sent_at": "2026-11-20T13:46:48.097356+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/study-panel-estimates-rs-118-billion-needed-to-resume-birgunj-sugar-mill-53-43.html",
+    "headline": "Study panel estimates Rs 1.18 billion needed to resume Birgunj Sugar Mill",
+    "sent_at": "2026-11-20T13:46:51.097536+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/over-8000-tourists-enter-mustang-via-thorong-la-pass-in-four-months-99-49.html",
+    "headline": "Over 8,000 tourists enter Mustang via Thorong La Pass in four months",
+    "sent_at": "2026-11-20T13:46:51.812264+00:00"
   }
 ]
