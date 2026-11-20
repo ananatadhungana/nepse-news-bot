@@ -1,11 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/226712/",
-    "headline": "फूलखेतीमा मेहनत र लगानी बढ्दै, किसानले अझै पाएनन् उचित मूल्य",
-    "sent_at": "2026-11-08T17:01:45.142731+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalkhabar.com/politics/291396-2026-11-8-23-25-8",
     "headline": "हामीले बिजुलीलाई आर्थिक समृद्धिको आधार बनाउनु पर्छ: कुलमान  सिघिङ",
     "sent_at": "2026-11-08T23:31:36.271450+00:00"
@@ -7955,5 +7949,10 @@
     "headline": "Gandaki estimates over Rs 8.37 billion needed for post-disaster reconstruction",
     "sent_at": "2026-11-19T17:47:33.854192+00:00",
     "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2061532/dollar-falls-euro-pound-and-swiss-franc-rise",
+    "headline": "डलरको भाउ घट्यो, युरो, पाउन्ड र स्वीस फ्र्यांकको बढ्यो",
+    "sent_at": "2026-11-20T00:01:53.458102+00:00"
   }
 ]
