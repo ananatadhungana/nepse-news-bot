@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/communications-minister-discusses-expanding-collaboration-in-it-sector-with-58-61.html",
-    "headline": "Communications Minister discusses expanding collaboration in IT sector with his counterparts",
-    "sent_at": "2026-11-13T03:02:09.300924+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132471",
-    "headline": "मंसिर ९ गतेदेखि ‘नबिल ग्रोथ फण्ड’ निष्काशन गर्दै नबिल इन्भेष्टमेन्ट",
-    "sent_at": "2026-11-13T03:31:48.518344+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261113090936.html",
-    "headline": "विकासका लागि ऋणको भर, बजेटको २०% रकम ऋण तिर्नै छुट्याउनुपर्ने बाध्यता",
-    "sent_at": "2026-11-13T03:31:52.103321+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/11/504954.html",
     "headline": "दानाको बिक्री बढ्दा एसियन फिड्सले एक वर्षमै गर्‍यो सवा २ अर्बको व्यापार",
     "sent_at": "2026-11-13T03:31:55.872521+00:00"
@@ -7980,5 +7965,21 @@
     "link": "https://bizmandu.com/content/20261121154658.html",
     "headline": "आधा अर्ब लगानीमा पोखरामा बन्दै अत्याधुनिक क्लब, कमर्सियल कम्प्लेक्स पनि सँगै",
     "sent_at": "2026-11-21T10:32:01.899534+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/private-sector-engagement-with-india/",
+    "headline": "‘भारतसँग निजी क्षेत्रका समस्या प्राथमिकताका साथ उठाइयोस्’",
+    "sent_at": "2026-11-21T11:02:01.760089+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87651/work-begins-to-prevent-dry-landslides-in-ghoptebhir-by-closing-the-highway",
+    "headline": "Prithvi Highway Section Closed Daily for Landslide Prevention",
+    "sent_at": "2026-11-21T11:02:04.760296+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/229830",
+    "headline": "विद्युत् ठेक्का वर्षौंदेखि अलपत्र, अँध्यारोमा गाउँबस्ती",
+    "sent_at": "2026-11-21T11:02:06.758741+00:00"
   }
 ]
