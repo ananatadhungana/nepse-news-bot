@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://www.setopati.com/kinmel/business/402456",
-    "headline": "चीन र भारतका टायल्ससँग नेपाली उद्योगले कसरी प्रतिस्पर्धा गर्दैछ?",
-    "sent_at": "2026-11-12T15:03:05.538686+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/money/2026/11/12/nepal-still-has-few-large-employers-after-35-years-of-liberalisation",
-    "headline": "Nepal still has few large employers after 35 years of liberalisation",
-    "sent_at": "2026-11-12T15:32:01.020575+00:00"
-  },
-  {
     "link": "https://www.setopati.com/politics/402453",
     "headline": "नेपालले अघि सार्‍यो 'सगरमाथादेखि समुद्रसम्म' साझेदारी, विश्वसामु राख्यो ५ प्राथमिकता",
     "sent_at": "2026-11-12T15:32:04.538080+00:00"
@@ -7976,6 +7966,18 @@
     "link": "https://khabarhub.com/2026/21/1050000/",
     "headline": "एमसीसीअन्तर्गत ९० किलोमिटर प्रसारण लाइन निर्माण सुरु",
     "sent_at": "2026-11-21T05:46:41.035609+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthasarokar.com/2026/11/an-npl-ticket-bought-for-1000-rupees-using-the-ai-bot-from-esewa-is-sold-for-up-to-7500-rupees-in-black.html",
+    "headline": "इसेवाबाट ‘एआई बट’ प्रयोग गरेर १००० रुपैयाँमा किनेको एनपीएलको टिकट एउटाकै ७५०० सम्म ‘ब्ल्याक’मा बिक्री !",
+    "sent_at": "2026-11-21T06:01:59.241840+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261121113158.html",
+    "headline": "एमसीसीको न्यू बुटवल–न्यू दमौली प्रसारण लाइनको काम सुरु, ४२ महिनामा सक्ने लक्ष्य",
+    "sent_at": "2026-11-21T06:01:59.241866+00:00",
     "dup": true
   }
 ]
