@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://himalpress.com/2026/11/rain-with-hail-damages-rice-crops-in-nuwakot/",
-    "headline": "असिनासहितको वर्षाले नुवाकोटमा धानमा क्षति",
-    "sent_at": "2026-11-13T00:24:07.231548+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261113062656.html",
     "headline": "युआन बढेर बिक्री मूल्य २२.६१, आज अन्य मुद्राको कति विनिमय दर कति?",
     "sent_at": "2026-11-13T00:46:27.320802+00:00"
@@ -7979,5 +7974,11 @@
     "link": "https://arthakhabar.com/2026/11/21/132927/",
     "headline": "सहुलियत पसलबाट १ करोड १९ लाख बढीको खाद्यान्न बिक्री, उपभोक्तालाई राहत",
     "sent_at": "2026-11-21T07:46:24.349665+00:00"
+  },
+  {
+    "link": "https://kathmandupost.com/money/2026/11/21/nepse-loses-ground-as-trading-slows-and-investors-favour-select-stocks",
+    "headline": "Nepse loses ground as trading slows and investors favour select stocks",
+    "sent_at": "2026-11-21T08:01:53.008478+00:00",
+    "dup": true
   }
 ]
