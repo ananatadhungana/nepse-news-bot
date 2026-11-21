@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/226927/",
-    "headline": "युरोपको रोजगारी त्यागेर मखनाखेतीमा जुटे कृष्ण, वार्षिक ५० लाख आम्दानीको सम्भावना",
-    "sent_at": "2026-11-12T13:03:12.250846+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/86341/new-track-of-postal-highway-inside-chitwan-national-park-budget-proposal-of-rs-625-crore-to-protect-wildlife",
-    "headline": "New Alignment for Hulaki Road Project Underway",
-    "sent_at": "2026-11-12T13:32:25.116015+00:00"
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/life-insurers-collect-rs-14-billion-in-new-premiums-in-q1-40-58.html",
     "headline": "Life insurers collect Rs 14 billion in new premiums in Q1",
     "sent_at": "2026-11-12T13:32:30.105151+00:00"
@@ -7975,5 +7965,16 @@
     "link": "http://english.ratopati.com/story/87561/farmers-worried-after-fall-in-chiraito-prices",
     "headline": "Chiraito Price Drop Worries Bhojpur Farmers and Traders",
     "sent_at": "2026-11-21T04:31:36.110090+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506636.html",
+    "headline": "८ अर्ब २० करोडको गुराँस जलविद्युत् आयोजना आधा पूरा, ४२२ परिवारलाई ५ लाखसम्मको संस्थापक शेयर",
+    "sent_at": "2026-11-21T04:46:28.365877+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/chiraito-which-was-sold-for-30000-last-year-is-now-being-sold-for-5000/",
+    "headline": "गत वर्ष ३० हजार पुगेको चिराइतो अहिले २० हजारमा बिक्दै",
+    "sent_at": "2026-11-21T04:46:31.366095+00:00",
+    "dup": true
   }
 ]
