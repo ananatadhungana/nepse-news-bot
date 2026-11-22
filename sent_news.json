@@ -1,20 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/86570/three-construction-companies-blacklisted-for-two-years",
-    "headline": "Three Construction Companies Blacklisted for Two Years",
-    "sent_at": "2026-11-14T06:02:17.123282+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2057298/ai-and-industry-4-0-in-nepal",
-    "headline": "नेपालमा एआई र उद्योग ४.०",
-    "sent_at": "2026-11-14T06:02:21.000203+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/11/vegetable-prices-in-kalimati-large-tomatoes-70-stem-and-body-90-how-much-for-others/",
-    "headline": "कालिमाटीमा तरकारीको मूल्य : ठूलो गोलभेँडा ७०, तने बोडी ९० [अरू कति?]",
-    "sent_at": "2026-11-14T06:02:24.627975+00:00"
-  },
-  {
     "link": "https://english.onlinekhabar.com/nepal-smart-infrastructure-development.html",
     "headline": "Nepal must build, but it must build smarter",
     "sent_at": "2026-11-14T06:31:49.680297+00:00"
@@ -7974,5 +7959,21 @@
     "link": "https://www.onlinekhabar.com/2026/11/2063383/facilitating-industry-in-environmental-studies",
     "headline": "उद्योगलाई वातावरणीय अध्ययनमा सहजीकरण गरिँदै",
     "sent_at": "2026-11-22T14:02:25.100890+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96752",
+    "headline": "एआईले चलाउँछ विश्वको सेयर बजार, नेपाल अझै किन पछाडि ?",
+    "sent_at": "2026-11-22T14:31:59.804011+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96751",
+    "headline": "निरन्तर भाउ घट्दा किन पाइएको छैन सुन? यस्तो भन्छन् व्यवसायी",
+    "sent_at": "2026-11-22T14:32:02.804301+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506947.html",
+    "headline": "महासंघ र सीआईआईको आयोजनामा बिजनेस राउन्डटेबल सुरू, राज्यमन्त्री जितिन प्रसाद सहभागी",
+    "sent_at": "2026-11-22T14:32:03.283943+00:00"
   }
 ]
