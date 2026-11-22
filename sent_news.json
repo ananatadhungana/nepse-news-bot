@@ -1,43 +1,5 @@
 [
   {
-    "link": "https://onlinetvnepal.com/2026/11/219689/",
-    "headline": "नेपालमा हरित हाइड्रोजनमा आधारित मल कारखाना स्थापना गर्न लगानी खोजिँदै",
-    "sent_at": "2026-11-13T08:46:49.296518+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226995/",
-    "headline": "सेयर बजारमा किन्ने मात्र होइन, बेच्न पनि जान्नुपर्छ, यी हुन् कारोबारका ३ महत्वपूर्ण सूत्र",
-    "sent_at": "2026-11-13T08:46:50.172747+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/267207",
-    "headline": "नेपाल टेलिकमको ३० एमबीपीएस फाइबर र मेस एप अफरको अवधि पुस ३० सम्म थप",
-    "sent_at": "2026-11-13T08:46:54.050965+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/505051.html",
-    "headline": "सामाजिक सुरक्षा कोषको आकार १ खर्ब ३० अर्ब पुग्यो",
-    "sent_at": "2026-11-13T09:16:34.092302+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://khabarhub.com/2026/13/1047283/",
-    "headline": "छठ पर्व : कात्तिक २९ र ३० गते दुवै दिन सार्वजनिक बिदा",
-    "sent_at": "2026-11-13T09:16:34.880790+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/511176",
-    "headline": "विराटनगरका सबै वडाबाट जग्गाको कित्ताकाट हुने",
-    "sent_at": "2026-11-13T09:32:00.450039+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/government-declares-public-holiday-on-monday-following-chhath-festival-2026-11-13",
-    "headline": "Government Declares Public Holiday on Monday Following Chhath Festival",
-    "sent_at": "2026-11-13T09:32:03.450212+00:00",
-    "dup": true
-  },
-  {
     "link": "https://bizkhabar.com/267212",
     "headline": "तिहार बिदापछिको पहिलो सेयर कारोबार : ६.४४ अंकले घट्यो परिसूचक, ३ अर्बको कारोबार",
     "sent_at": "2026-11-13T09:32:04.143902+00:00"
@@ -7976,5 +7938,41 @@
     "headline": "भोटेकोशी बाढी प्रभावित क्षेत्रको अवस्था बुझ्न गगन थापा विज्ञ टोलीसहित पुनः फिल्डमा",
     "sent_at": "2026-11-22T05:02:07.295462+00:00",
     "dup": true
+  },
+  {
+    "link": "http://ictsamachar.com//story/100007733",
+    "headline": "नेपालमा प्रविधि व्यवसायको सम्भावना ठूलो छ, उद्यम सुरु गर्न नीतिकै प्रतीक्षा नगरौँ : सुवास शर्मा",
+    "sent_at": "2026-11-22T05:31:41.185452+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/tvs-motor-opens-first-premium-ev-showroom-in-kathmandu-hands-over-25-bikes-to-flood-affected-communities-2026-11-22",
+    "headline": "TVS Motor Opens First Premium & EV Showroom in Kathmandu, Hands Over 25 Bikes to Flood-Affected Communities",
+    "sent_at": "2026-11-22T05:31:44.894433+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/om-megashree-pharmaceuticals-calls-agm-on-mangsir-26-with-these-agendas-whens-the-book-closure-2026-11-22",
+    "headline": "Om Megashree Pharmaceuticals Calls AGM on Mangsir 26 With These Agendas; When's the Book Closure?",
+    "sent_at": "2026-11-22T05:31:48.613043+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/gold-price-falls-by-rs-2800-in-tola-silver-by-45-2026-11-22",
+    "headline": "Gold Price Falls by Rs. 2800 in Tola; Silver by 45",
+    "sent_at": "2026-11-22T05:31:52.331341+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261122111346.html",
+    "headline": "सुनको मूल्यमा प्रति तोलामा २ हजार ८ सय रुपैयाँले गिरावट, चाँदी पनि सस्तियो",
+    "sent_at": "2026-11-22T05:31:55.331502+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizkhabar.com/267735",
+    "headline": "प्रतितोला २४ सयले घट्यो सुनको मूल्य, कतिमा हुँदैछ कारोबार ?",
+    "sent_at": "2026-11-22T05:31:56.047678+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261122105740.html",
+    "headline": "प्रोभिजनिङ राइट ब्याक गर्दा श्रृजनशील लघुवित्तको नाफा २ करोड ५ लाख, बढ्यो खराब कर्जा",
+    "sent_at": "2026-11-22T05:31:59.811822+00:00"
   }
 ]
