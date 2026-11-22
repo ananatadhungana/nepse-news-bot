@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://gorkhapatraonline.com/news/228995",
-    "headline": "श्रमिक आपूर्तिकर्तालाई सूचीकृत हुन आग्रह",
-    "sent_at": "2026-11-14T01:31:56.675300+00:00"
-  },
-  {
     "link": "https://www.onlinekhabar.com/2026/11/2057278/budget-allocation-of-rs-30-million-to-advance-khimti-those-shivalay-reservoir-project",
     "headline": "खिम्ती–ठोसे–शिवालय जलाशययुक्त आयोजना अघि बढाउन तीन करोड बजेट विनियोजन",
     "sent_at": "2026-11-14T01:32:00.338703+00:00"
@@ -7971,6 +7966,12 @@
     "link": "https://bankingkhabar.com/archives/170472",
     "headline": "चार महिनामा बैंकहरूको कर्जा १ खर्ब ४८ अर्बले बढ्यो, ग्लोबल आइएमई पहिलो",
     "sent_at": "2026-11-22T12:16:42.719344+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/ncell-foundation-to-help-reopen-flood-damaged-campus-in-nuwakot.html",
+    "headline": "Ncell Foundation to help reopen flood-damaged campus in Nuwakot",
+    "sent_at": "2026-11-22T12:32:06.066539+00:00",
     "dup": true
   }
 ]
