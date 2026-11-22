@@ -1,26 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/hotels-can-now-open-until-2-am-90-49.html",
-    "headline": "अब राति २ बजेसम्म होटल खोल्न पाइने",
-    "sent_at": "2026-11-13T14:02:05.671461+00:00"
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/311858",
-    "headline": "बल्खु–हेटौँडा रुटमा बिहान ५ बजेपछि चल्न र राति ८ बजेसम्म फर्पिङ पुग्नैपर्ने नियम लागू",
-    "sent_at": "2026-11-13T14:02:09.389900+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2057222/new-timings-set-for-traffic-on-balkhu-dakshinkali-hetauda-road",
-    "headline": "बल्खु–दक्षिणकाली–हेटौंडा सडकमा सवारीलाई तोकियो नयाँ समय",
-    "sent_at": "2026-11-13T14:02:12.390048+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://annapurnapost.com/story/511194",
-    "headline": "बाढीपीडितलाई विद्युत् महसुल मिनाहा गर्न माग, जरिवाना तिर्नुपरेको ग्राहकको गुनासो",
-    "sent_at": "2026-11-13T14:32:02.949382+00:00"
-  },
-  {
     "link": "https://nepalkhabar.com/economy/291596-2026-11-13-14-18-23",
     "headline": "नेपालमा सकिँदै थ्रीजी युग : एनसेलले पुसभित्रै बन्द गर्ने, टेलिकमको कहिले",
     "sent_at": "2026-11-13T14:32:06.754334+00:00"
@@ -7969,5 +7948,27 @@
     "link": "https://bizpati.com/2026/11/228247/",
     "headline": "टीभीएसको नयाँ अपाचे आरटीआर २०० ४भी यूएसडी नेपाली बजारमा, मूल्य कति ?",
     "sent_at": "2026-11-22T08:46:33.421356+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132789",
+    "headline": "झ्याप–झ्याप बिजुली जानु 'अघाेषित लाेडसेडिङ' कि 'प्राविधिक' समस्या ?",
+    "sent_at": "2026-11-22T09:01:56.881460+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/507983",
+    "headline": "४७.१ मेगावाटको गुँरास हाइड्रो आयोजनामा ५० प्रतिशत काम सकियो",
+    "sent_at": "2026-11-22T09:01:59.881637+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/11/220504/",
+    "headline": "घोप्टेभिरमा जोखिम न्यूनीकरणको काम सुरु, पहिरो झारिँदै",
+    "sent_at": "2026-11-22T09:01:59.881663+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/international/trader-writes-letter-to-modi-thanking-him-after-gold-price-drops-by-rs-6-5-million-per-kg-17-80.html",
+    "headline": "सुनको मूल्य प्रतिकिलो ६५ लाख घटेपछि मोदीलाई धन्यवाद दिँदै व्यापारीले लेखे पत्र",
+    "sent_at": "2026-11-22T09:02:00.585284+00:00"
   }
 ]
