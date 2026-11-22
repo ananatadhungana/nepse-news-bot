@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/226983/",
-    "headline": "बुद्धभूमि नेपाल हाइड्रोपावरको लेखापरीक्षकमा सिन्हा एन्ड कम्पनी नियुक्त",
-    "sent_at": "2026-11-13T07:02:19.862675+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/226981/",
-    "headline": "नेपाल एसबीआई बैंकले सेयरधनीलाई ५.२५ प्रतिशत लाभांश दिने प्रस्ताव",
-    "sent_at": "2026-11-13T07:02:22.862833+00:00",
-    "dup": true
-  },
-  {
     "link": "https://myrepublica.nagariknetwork.com/news/dhakal-urges-uae-investors-to-invest-in-nepals-different-sectors-72-77.html",
     "headline": "Dhakal urges UAE investors to invest in Nepal's different sectors",
     "sent_at": "2026-11-13T07:02:22.862860+00:00",
@@ -7977,5 +7966,16 @@
     "link": "https://gorkhapatraonline.com/news/229884",
     "headline": "मुस्ताङबाट भित्रियो तिस अर्बको सामान",
     "sent_at": "2026-11-22T02:01:53.614801+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87714/bagmatis-capital-expenditure-limited-to-356-percent-in-four-months-revenue-collection-1935-percent",
+    "headline": "Bagmati Province Government Spends 7.60% of Budget in First Four Months",
+    "sent_at": "2026-11-22T02:46:27.519590+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506709.html",
+    "headline": "एक डलरको १४८.५८ रुपैयाँ, कति छ अन्य विदेशी मुद्राको विनिमयदर ?",
+    "sent_at": "2026-11-22T02:46:30.519786+00:00",
+    "dup": true
   }
 ]
