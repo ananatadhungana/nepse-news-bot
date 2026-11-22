@@ -1,16 +1,5 @@
 [
   {
-    "link": "https://myrepublica.nagariknetwork.com/news/spains-tile-wars-examines-nepals-shift-toward-local-tile-production-89-27.html",
-    "headline": "Spain’s Tile Wars examines Nepal’s shift toward local tile production",
-    "sent_at": "2026-11-14T08:01:56.941019+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/romania-is-the-new-destination-for-nepali-workers-50-23.html",
-    "headline": "रोमानिया नेपाली कामदारको नयाँ गन्तव्य",
-    "sent_at": "2026-11-14T08:01:59.941194+00:00",
-    "dup": true
-  },
-  {
     "link": "https://theannapurnaexpress.com/story/68738",
     "headline": "Ahead of PM’s New Delhi visit, Nepal’s ruling party seeks enhanced economic cooperation with Beijing",
     "sent_at": "2026-11-14T08:31:36.130229+00:00",
@@ -7974,5 +7963,16 @@
     "link": "https://baahrakhari.com/detail/508021",
     "headline": "भेरिएसन विवादले रोकिएको चुहार पुलको गाँठो फुक्यो, पाँच करोड लागत बढ्यो",
     "sent_at": "2026-11-22T16:46:50.383966+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87810/increase-in-tourist-arrivals",
+    "headline": "Annapurna Conservation Area Sees 123,714 Foreign Tourists from July to October",
+    "sent_at": "2026-11-22T17:16:36.611379+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/508026",
+    "headline": "पोखरामा करिब ५० करोडको लगानीमा ‘क्लब भोल्कानो’ निर्माण हुँदै",
+    "sent_at": "2026-11-22T17:16:39.611560+00:00",
+    "dup": true
   }
 ]
