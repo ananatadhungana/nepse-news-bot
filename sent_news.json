@@ -1,25 +1,5 @@
 [
   {
-    "link": "http://annapurnapost.com/story/511216",
-    "headline": "नेपाललाई प्राविधिक र वित्तीय पहुँचको अवसर",
-    "sent_at": "2026-11-14T04:01:56.041252+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/widening-trade-deficit-and-revenue-shortfall-add-to-economic-woes-36-17.html",
-    "headline": "Widening trade deficit and revenue shortfall add to economic woes",
-    "sent_at": "2026-11-14T04:31:50.329696+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/11/14/96060",
-    "headline": "पर्यटकीय नगरी सौराहामा डिडिसीको आउटलेट सञ्चालनमा",
-    "sent_at": "2026-11-14T04:31:53.996229+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/society/291623-2026-11-14-4-49-6",
-    "headline": "गोरखामा बुढीगण्डकी नदीमाथि जंगलमा भीषण सुक्खा पहिरो",
-    "sent_at": "2026-11-14T05:02:00.751237+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/86560/attention-of-the-transport-federation-drawn-to-the-night-time-limit-on-the-balkhu-dakshinkali-hetauda-route-demand-to-reconsider-the-decision",
     "headline": "Kathmandu Administration Sets New Timetable for Balkhu-Southkali-Hetauda Public Transport; Transport Federation Expresses Concern",
     "sent_at": "2026-11-14T05:02:03.751393+00:00",
@@ -7974,5 +7954,27 @@
     "link": "https://newsofnepal.com/2026/11/22/795113/",
     "headline": "नेपाल–भारत नीति संवाद: लगानीको वातावरण बने जलविद्युत र पर्यटनमा भारतीय लगानीको ओइरो",
     "sent_at": "2026-11-22T13:02:14.433490+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/politics/292176-2026-11-22-13-29-10",
+    "headline": "प्रधानमन्त्री शाह र जयशंकरबीच ‘कनेक्टिभिटी’ र पारवहनबारे छलफल",
+    "sent_at": "2026-11-22T13:32:10.561069+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://khabarhub.com/2026/22/1050447/",
+    "headline": "हवाई मार्ग खुल्ने आशमा लुम्बिनी",
+    "sent_at": "2026-11-22T13:32:10.561085+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/Bazar/royal-enfield-s-hunterhood-to-be-held-for-the-first-time-in-kathmandu-on-december-12-44-11.html",
+    "headline": "रोयल इन्फिल्डको ‘हन्टरहुड’ पहिलोपटक काठमाडौंमा डिसेम्बर १२ मा आयोजना हुने",
+    "sent_at": "2026-11-22T13:32:11.307281+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/Bazar/gwm-s-ora-5-and-haval-h7-receive-five-star-safety-ratings-from-euro-ncap-76-81.html",
+    "headline": "जीडब्लूएमका ओरा ५ र हाभल एच ७ ले पाए युरो एनक्यापको पाँचतारे सुरक्षा रेटिङ",
+    "sent_at": "2026-11-22T13:32:15.056561+00:00"
   }
 ]
