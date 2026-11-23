@@ -1,75 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/96512",
-    "headline": "राम र सीताको जन्मभूमि सिधा रेलमार्गले जोडिँदै, बालेन र मोदीले उद्घाटन गर्ने",
-    "sent_at": "2026-11-15T08:01:57.088109+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bankingsamachar.com/news/178104/",
-    "headline": "जलवायु वित्तसम्बन्धि उच्चस्तरीय कार्यक्रममा सहभागी भइ अर्थमन्त्री स्वदेश फिर्ता",
-    "sent_at": "2026-11-15T08:01:57.088133+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://english.ratopati.com/story/86733/finance-minister-wagle-returns-home-after-participating-in-high-level-program-on-climate-finance",
-    "headline": "Finance Minister Dr. Swarnim Wagle Returns Home After COP-31",
-    "sent_at": "2026-11-15T08:01:57.088137+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/311940",
-    "headline": "अन्तर्राष्ट्रिय जलवायु वित्त भित्र्याउन नेपाल र साउथ पोलबीच वन कार्बन साझेदारी",
-    "sent_at": "2026-11-15T08:01:57.088141+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/311938",
-    "headline": "नेपालको स्पष्ट अडान : जलवायु पीडितलाई ऋण होइन, पर्याप्त अनुदान चाहिन्छ",
-    "sent_at": "2026-11-15T08:01:57.088144+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261115140055.html",
-    "headline": "महिला लघुवित्तको नाफा ११५.७६ प्रतिशतले वृद्धि, प्रति सेयर आम्दानी ८०.४० रुपैयाँ",
-    "sent_at": "2026-11-15T08:16:27.572360+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/politics/citizenship-regulations-amended-for-the-fifth-time-new-arrangements-from-taking-copies-to-digital-records-80-21.html",
-    "headline": "नागरिकता नियमावली पाँचौँ पटक संशोधन : प्रतिलिपि लिनेदेखि डिजिटल अभिलेखसम्म नयाँ व्यवस्था",
-    "sent_at": "2026-11-15T08:31:33.398845+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/505282.html",
-    "headline": "तेलको मूल्य घट्दा र एआई लगानी बढ्दा सन् २०२७ मा विश्व आर्थिक वृद्धिदर २.८ प्रतिशत पुग्ने गोल्डम्यान स्याक्सको प्रक्षेपण",
-    "sent_at": "2026-11-15T08:46:37.045122+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/15/781367/annual-income-from-cattle-farming-employment-for-two/",
-    "headline": "गाईपालनबाटै वार्षिक ११ लाख आम्दानी, दुईलाई रोजगारी",
-    "sent_at": "2026-11-15T08:46:40.695003+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/opinion/402619",
-    "headline": "बैंकमा प्रशस्त पैसा भए पनि साना व्यवसायीले किन पाउँदैनन् ऋण?",
-    "sent_at": "2026-11-15T08:46:44.390176+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68762",
-    "headline": "Nepal flood deepens poverty",
-    "sent_at": "2026-11-15T09:02:00.192320+00:00"
-  },
-  {
-    "link": "https://khabarhub.com/2026/15/1047895/",
-    "headline": "एनसेलले देशभरको थ्रीजी सेवा बन्द गर्दै, आधारभूत सञ्चार सेवा भने निरन्तर",
-    "sent_at": "2026-11-15T09:02:03.995567+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96517",
-    "headline": "केयर इकोनोमीमा रोजगारीको ढोका खुल्दै, पाँच वर्षमा डेढ लाख रोजगारी सिर्जना गर्ने सरकारको लक्ष्य",
-    "sent_at": "2026-11-15T09:31:43.019703+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/11/505297.html",
     "headline": "हेरचाह र घरेलु कामलाई औपचारिक श्रम बजारमा जोडिँदै, ५ वर्षमा डेढ लाख रोजगारीको लक्ष्य",
     "sent_at": "2026-11-15T09:31:46.019906+00:00",
@@ -7978,6 +7908,82 @@
     "link": "https://www.onlinekhabar.com/2026/11/2063712/royal-enfields-hunterhood-to-be-held-in-kathmandu-on-mangsir-10",
     "headline": "रोयल इन्फिल्डको ‘हन्टरहुड’ पहिलोपटक मंसिर २६ गते काठमाडौंमा हुने",
     "sent_at": "2026-11-23T08:00:50.478484+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96772",
+    "headline": "मोदीले गरे झण्डै साढे २ खर्ब आर्थिक सहयोगको घोषणा",
+    "sent_at": "2026-11-23T08:16:39.500547+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/87894/india-announces-rs-24000-crore-aid-package-for-nepal",
+    "headline": "India Announces Development Aid Package of NPR 240 Billion for Nepal",
+    "sent_at": "2026-11-23T08:16:39.500572+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/23/783733/india-announces-rs-24000-crore-package-for-nepal-flood-victims/",
+    "headline": "भारतद्वारा नेपालका बाढी पीडितका लागि २ खर्ब ४० अर्ब रुपैयाँको प्याकेज घोषणा",
+    "sent_at": "2026-11-23T08:16:39.500576+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/23/96367",
+    "headline": "भारतको पूर्वाधार विकास योजना ‘गतिशक्ति’बारे शाहलाई मोदीले दिए जानकारी",
+    "sent_at": "2026-11-23T08:16:40.174199+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/politics/403191",
+    "headline": "बालेन र मोदीले हरियो झन्डा हल्लाएर सुरू गरे अयोध्या–जनकपुर रेल",
+    "sent_at": "2026-11-23T08:16:43.174363+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/janakpur-ayodhya-railway-launched.html",
+    "headline": "Janakpur-Ayodhya railway link launched to boost religious tourism",
+    "sent_at": "2026-11-23T08:16:43.174393+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/230089",
+    "headline": "नेपाल–भारत एमओयू आदानप्रदान, संयुक्त वक्तव्य जारी हुँदै",
+    "sent_at": "2026-11-23T08:16:43.174398+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2063727/mahakali-bridge-inaugurated-connecting-asigada-and-charchum",
+    "headline": "महाकाली पुल उद्घाटन, जोडिए असिगडा र छारछुम",
+    "sent_at": "2026-11-23T08:16:43.823837+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/janakpurdham-prepares-grand-welcome-for-ayodhya-train-and-pilgrims.html",
+    "headline": "Janakpurdham prepares grand welcome for Ayodhya train and pilgrims",
+    "sent_at": "2026-11-23T08:16:46.824005+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://baahrakhari.com/detail/508072",
+    "headline": "नेपाल–भारत एमओयू आदानप्रदान समारोह : बालेन–मोदीको संयुक्त प्रेस ब्रिफिङ (LIVE)",
+    "sent_at": "2026-11-23T08:16:46.824071+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/507135.html",
+    "headline": "बालेन र मोदीले हरियो झण्डा देखाएपछि अयोध्याबाट जनकपुर हिँड्यो रेल, भोलि नेपाल पुग्ने",
+    "sent_at": "2026-11-23T08:16:46.824075+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228417/",
+    "headline": "अयोध्या जनकपुर जोड्ने सरयू कमला एक्सप्रेस उद्घाटन, नियमित सेवा मङ्सिर १३ देखि",
+    "sent_at": "2026-11-23T08:16:46.824079+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://khabarhub.com/2026/23/1050672/",
+    "headline": "दिल्लीमा बालेन मोदीको संयुक्त पत्रकार सम्मेलन (लाइभ)",
+    "sent_at": "2026-11-23T08:16:46.824083+00:00",
     "dup": true
   }
 ]
