@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/178060/",
-    "headline": "बीमा शुल्क आम्दानीसँगै बढ्यो एशियन लाइफको नाफा",
-    "sent_at": "2026-11-15T05:31:48.110799+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/267280",
-    "headline": "११ जीवन बीमा कम्पनीको वित्तीय विवरण सार्वजनिक : नाफा र आम्दानीमा को अगाडि, कुनको अवस्था कस्तो ?",
-    "sent_at": "2026-11-15T05:31:51.765853+00:00"
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66835",
-    "headline": "दुई वटा फाइनान्स कम्पनीले गरे लाभांश घोषणा, कुनको कति ?",
-    "sent_at": "2026-11-15T05:31:55.420998+00:00"
-  },
-  {
     "link": "https://bankingsamachar.com/news/178053/",
     "headline": "दुई दिनमा १४ हजार १ सय रुपैयाँले घट्यो सुन, तोलाको कति ?",
     "sent_at": "2026-11-15T05:31:58.421292+00:00",
@@ -7970,6 +7955,22 @@
     "link": "https://bizpati.com/2026/11/228338/",
     "headline": "सुनचाँदीको मूल्य घटेपछि धितो राखेर ऋण लिएका ऋणीहरु दबाबमा, बैंकले के गर्न सक्छन ?",
     "sent_at": "2026-11-23T05:02:01.859963+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/gold-price-rises-by-rs-4800-after-week-of-massive-downfall-2026-11-23",
+    "headline": "Gold Price Rises by Rs. 4800 After Week of Massive Downfall",
+    "sent_at": "2026-11-23T05:16:28.838145+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132807",
+    "headline": "प्रि ओपन सेसन अपडेटः करिब साढे ४ अंक घट्यो नेप्से",
+    "sent_at": "2026-11-23T05:16:32.740692+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2063617/gold-increases-by-4800-rupees-per-tola",
+    "headline": "तोलामा ४ हजार ८ सय बढ्यो सुन",
+    "sent_at": "2026-11-23T05:16:35.740860+00:00",
     "dup": true
   }
 ]
