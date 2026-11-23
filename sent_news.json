@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132504",
-    "headline": "पूँजीबजार र अर्थतन्त्र सुधार्ने ‘अध्यादेश’: ५० प्रतिशत प्रगति भएका हाइड्रोलाई आईपीओ, ३० दिनमा हकप्रद र कर परीक्षण हदम्याद २ वर्ष",
-    "sent_at": "2026-11-15T00:31:33.801983+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/money/2026/11/15/sips-attracted-investors-in-the-past-current-low-returns-frustrate-them",
-    "headline": "SIPs attracted investors in the past. Current low returns frustrate them",
-    "sent_at": "2026-11-15T01:02:20.485759+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/229093",
-    "headline": "टेलिकमको आम्दानीमा बाढीको असर",
-    "sent_at": "2026-11-15T01:02:23.979866+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/229092",
-    "headline": "लाखौँका शीतभण्डारमा ‘माकुराको जालो’",
-    "sent_at": "2026-11-15T01:02:27.660902+00:00"
-  },
-  {
     "link": "https://risingnepaldaily.com/news/88622",
     "headline": "NT’s net profit rises  by 37.35% in Q1",
     "sent_at": "2026-11-15T01:31:38.356439+00:00",
@@ -7968,5 +7948,27 @@
     "link": "https://baahrakhari.com/detail/508024",
     "headline": "ठूलामा भएन विदेशी लगानी आकर्षण, साना उद्योगमै ९८.८ प्रतिशत",
     "sent_at": "2026-11-23T02:31:40.336819+00:00"
+  },
+  {
+    "link": "https://peoplesreview.com.np/2026/11/23/wagle-calls-on-indian-businessmen-to-invest-in-nepal/",
+    "headline": "Wagle calls on Indian businessmen to invest in Nepal",
+    "sent_at": "2026-11-23T02:46:23.589164+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228335/",
+    "headline": "एसियाली सेयर बजारमा पहिरो, एआई लगानीको भविष्यप्रति आशंका बढ्दा कोस्पी ४.३ प्रतिशतसम्म घट्यो",
+    "sent_at": "2026-11-23T02:46:24.489602+00:00"
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/23/133855/",
+    "headline": "बाढी र पहिरोका कारण दुई स्थानमा सडक अवरुद्ध, घोप्टेभिरमा दैनिक पाँच घण्टा आवागमन बन्द",
+    "sent_at": "2026-11-23T02:46:27.489764+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthakhabar.com/2026/11/23/133861/",
+    "headline": "माप्य दुधकोशीमा भीषण आगलागी, पसल, होटलसहित घर पूर्ण रूपमा क्षति",
+    "sent_at": "2026-11-23T02:46:28.401068+00:00"
   }
 ]
