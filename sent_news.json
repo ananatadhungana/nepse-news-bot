@@ -1,33 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/505402.html",
-    "headline": "न्यून ब्याजदर र पोलिसी सरेन्डरको चपेटामा जीवन बिमा कम्पनी, वित्तीय स्थितिमा अझै आउन सकेन सुधार",
-    "sent_at": "2026-11-16T06:02:22.110303+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/178181/",
-    "headline": "मंसिरमा पनि घट्यो बैंकको ब्याजदर, कुन बैंकमा कति पाइन्छ ?",
-    "sent_at": "2026-11-16T06:02:25.110504+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261116113550.html",
-    "headline": "मुद्दती निक्षेपको ब्याजदर १५ वटा बैैंकमा यथावत, ५ वटाले भने मंसिरदेखि लागू हुने गरी घटाए",
-    "sent_at": "2026-11-16T06:02:25.110535+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://arthakhabar.com/2026/11/16/130500/",
-    "headline": "वंशजको नागरिकता निरन्तरताका लागि राज्यले बाटो खोल्नुपर्नेमा जोड",
-    "sent_at": "2026-11-16T06:02:26.072103+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/505371.html",
-    "headline": "मुद्दती निक्षेपको औसत ब्याजदर ४% तल, मंसिरका लागि ६ वटाले घटाउँदा चौधको स्थिर",
-    "sent_at": "2026-11-16T06:02:29.072275+00:00",
-    "dup": true
-  },
-  {
     "link": "https://www.thahakhabar.com/detail/311982",
     "headline": "चार दिनमा १५ हजार २ सयले घट्यो सुनको भाउ",
     "sent_at": "2026-11-16T06:02:29.982496+00:00"
@@ -8024,6 +7996,33 @@
     "link": "https://bankingkhabar.com/archives/170476",
     "headline": "नेपाल-भारत बैंकिङ सहकार्य : डिजिटल कारोबारदेखि सीमापार रेमिट्यान्ससम्म",
     "sent_at": "2026-11-23T11:32:52.223940+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/more-than-a-hundred-tourists-arrive-at-korala-checkpoint-daily-10-89.html",
+    "headline": "कोरला नाकामा दैनिक पुग्छन् सय बढी पर्यटक",
+    "sent_at": "2026-11-23T12:02:46.814530+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87956/nepse-index-rises-marginally",
+    "headline": "NEPSE Index Rises Slightly by 2.26 Points to 2623.56",
+    "sent_at": "2026-11-23T12:02:49.814705+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261123173104.html",
+    "headline": "कैलाश हेलिकप्टर बढी आयकर तिरेर सम्मानित, पारदर्शिता र व्यावसायिक प्रतिवद्धतामा अडिग",
+    "sent_at": "2026-11-23T12:02:50.499379+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/the-government-s-goal-is-to-create-an-environment-for-youth-to-start-businesses-in-the-country-36-90.html",
+    "headline": "युवालाई स्वदेशमै उद्यम गर्ने वातावरण बनाउने सरकारको लक्ष्य",
+    "sent_at": "2026-11-23T12:02:54.182924+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/politics/agreements-ranging-from-rs-24-000-crore-in-aid-expansion-of-air-routes-to-allowing-use-of-two-ports-17-95.html",
+    "headline": "२४ हजार करोडको सहयोग, हवाई रुट विस्तारदेखि दुई बन्दरगाह प्रयोग गर्न दिनेसम्मका सहमति",
+    "sent_at": "2026-11-23T12:02:57.183069+00:00",
     "dup": true
   }
 ]
