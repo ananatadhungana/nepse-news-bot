@@ -1,25 +1,5 @@
 [
   {
-    "link": "https://www.onlinekhabar.com/2026/11/2058710/nepals-public-administration-needs-to-introspect-how-did-we-get-here",
-    "headline": "नेपालको सार्वजनिक प्रशासनले गर्नुपर्ने आत्मसमीक्षा : हामी यहाँसम्म कसरी आइपुग्यौँ ?",
-    "sent_at": "2026-11-16T06:32:22.134630+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/505423.html",
-    "headline": "हिमालयन रिइन्स्योरेन्सको नाफा ५८%ले घट्यो, ईपीएस ३.८२ रुपैयाँ",
-    "sent_at": "2026-11-16T06:32:25.758860+00:00"
-  },
-  {
-    "link": "https://kathmandupost.com/national/2026/11/16/night-travel-restricted-on-hetauda-kathmandu-road-via-bhimphedi",
-    "headline": "Night travel restricted on Hetauda-Kathmandu road via Bhimphedi",
-    "sent_at": "2026-11-16T07:02:21.437633+00:00"
-  },
-  {
-    "link": "https://www.sharesansar.com/newsdetail/citizens-bank-customers-to-get-up-to-7-discount-at-chautari-hospitality-group-2026-11-16",
-    "headline": "Citizens Bank Customers to Get Up to 7% Discount at Chautari Hospitality Group",
-    "sent_at": "2026-11-16T07:02:25.196120+00:00"
-  },
-  {
     "link": "https://himalpress.com/2026/11/gold-prices-continue-to-fall/",
     "headline": "सुनको भाउमा अझै गिरावट",
     "sent_at": "2026-11-16T07:02:28.196281+00:00",
@@ -8023,5 +8003,27 @@
     "link": "https://baahrakhari.com/detail/508108",
     "headline": "भारतीय प्राविधिक सहयोगमा कृषिजन्य उत्पादकत्व वृद्धिको बाटो खुल्यो",
     "sent_at": "2026-11-23T12:32:59.694174+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96788",
+    "headline": "पूर्व–पश्चिम रेलमार्ग विकासका लागि भारतले सहयोग गर्ने",
+    "sent_at": "2026-11-23T13:02:40.004698+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228506/",
+    "headline": "चाडपर्वपछि पनि बजारमा उत्साह फर्किएन, कारोबार र भोल्युम कमजोर",
+    "sent_at": "2026-11-23T13:02:40.960854+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228507/",
+    "headline": "ला ग्राण्डीका बीबीए विद्यार्थीलाई पुँजीबजारबारे वित्तीय साक्षरता",
+    "sent_at": "2026-11-23T13:02:44.859373+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/507211.html",
+    "headline": "बालेनको भ्रमण: नेपालीहरू भारत जाँदा क्यूआरबाटै भुक्तानी गर्न पाउने सुविधा कार्यान्वयनमा कति उपलब्धि?",
+    "sent_at": "2026-11-23T13:02:47.859509+00:00",
+    "dup": true
   }
 ]
