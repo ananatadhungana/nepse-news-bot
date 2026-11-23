@@ -1,49 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/505259.html",
-    "headline": "कुमारी बैंकको रेटिङ स्तरोन्नति : पुँजीकोष र नाफा बलियो, खराब कर्जा मुख्य चुनौती",
-    "sent_at": "2026-11-15T07:31:45.691485+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/upper-tamakoshi-hydropower-earns-rs-1-65-billion-in-net-profit-in-3-months.html",
-    "headline": "Upper Tamakoshi Hydropower earns Rs 1.65 billion in net profit in 3 months",
-    "sent_at": "2026-11-15T07:31:49.459020+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/himalayan-distillerys-profit-rises.html",
-    "headline": "Himalayan Distillery’s first-quarter net profit rises 2.38 times to Rs 214.9 million",
-    "sent_at": "2026-11-15T07:31:52.459171+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://khabarhub.com/2026/15/1047788/",
-    "headline": "कर्णालीले जित्यो टस, चितवनविरुद्ध पहिले ब्याटिङ गर्ने",
-    "sent_at": "2026-11-15T07:31:53.329198+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/sports/npl-karnali-batting-against-chitwan-br-64-31.html",
-    "headline": "एनपिएल : चितवनविरुद्ध ब्याटिङ गर्दै कर्णाली",
-    "sent_at": "2026-11-15T07:31:56.329357+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://khabarhub.com/2026/15/1047774/",
-    "headline": "बाँदरको हैरानीले किसान अदुवाखेतीतर्फ आकर्षित",
-    "sent_at": "2026-11-15T07:31:56.329383+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://khabarhub.com/2026/15/1047770/",
-    "headline": "तमोर कोरिडोरले राँके बजारको व्यापार घटायो",
-    "sent_at": "2026-11-15T07:31:56.925685+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/social-affairs/tamor-corridor-reduces-business-in-ranke-bazaar-br-76-77.html",
-    "headline": "तमोर कोरिडोरले राँके बजारको व्यापार घटायो",
-    "sent_at": "2026-11-15T07:31:59.925832+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalipaisa.com/news-detail/96512",
     "headline": "राम र सीताको जन्मभूमि सिधा रेलमार्गले जोडिँदै, बालेन र मोदीले उद्घाटन गर्ने",
     "sent_at": "2026-11-15T08:01:57.088109+00:00",
@@ -7978,6 +7934,50 @@
     "link": "https://bizmandu.com/content/20261123123918.html",
     "headline": "बालेनको भारत भ्रमणमा हुँदैछन् केही विशेष प्याकेज घोषणा, दिनदयाल र पारादीप बन्दरगाह दिन सहमत",
     "sent_at": "2026-11-23T07:32:23.002232+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/292218-2026-11-23-7-40-9",
+    "headline": "शाह-मोदीबीच १०० मिनेट वार्ता: विशेष आर्थिक प्याकेजदेखि नयाँ रेल सेवासम्मका विषयमा छलफल",
+    "sent_at": "2026-11-23T08:00:35.763696+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/adbs-largest-investment-in-nepal-goes-to-energy-sector-followed-by-transport-total-portfolio-crosses-636-arba-2026-11-23",
+    "headline": "ADB's Largest Investment in Nepal Goes to Energy Sector, Followed by Transport; Total Portfolio Crosses 636 Arba",
+    "sent_at": "2026-11-23T08:00:36.461358+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132820",
+    "headline": "एआईमा लगानी प्रत्युपादक हुन सक्ने भन्दै झस्किएका बैंकहरुले लगानी घटाउन थाले, शेयर लगानीकर्ताहरु आतँकित",
+    "sent_at": "2026-11-23T08:00:40.140082+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87888/train-carrying-1158-passengers-from-ayodhya-to-janakpur",
+    "headline": "India-Nepal Rail Service Inaugurated",
+    "sent_at": "2026-11-23T08:00:43.140238+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://baahrakhari.com/detail/508067",
+    "headline": "दुहबीको ५७ करोडको परियोजनामा निफ्राको लगानी",
+    "sent_at": "2026-11-23T08:00:43.817340+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2063729/green-variant-of-yamaha-xsr-155-unveiled-at-nepal-japan-festival",
+    "headline": "नेपाल-जापान फेस्टिभलमा यामाहा एक्सएसआर १५५ को ग्रिन भेरियन्ट सार्वजनिक",
+    "sent_at": "2026-11-23T08:00:47.478239+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87881/government-moves-to-repeal-old-and-irrelevant-laws-for-economic-reform-law-minister-gautam",
+    "headline": "Government to Abolish Outdated Laws for Economic Reform",
+    "sent_at": "2026-11-23T08:00:50.478451+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2063712/royal-enfields-hunterhood-to-be-held-in-kathmandu-on-mangsir-10",
+    "headline": "रोयल इन्फिल्डको ‘हन्टरहुड’ पहिलोपटक मंसिर २६ गते काठमाडौंमा हुने",
+    "sent_at": "2026-11-23T08:00:50.478484+00:00",
     "dup": true
   }
 ]
