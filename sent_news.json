@@ -1,72 +1,5 @@
 [
   {
-    "link": "https://www.setopati.com/kinmel/banking/402645",
-    "headline": "ग्लोबल फाइनान्सको मूल्यांकन: नेपालका गभर्नरले पाएको 'बी' स्कोरले के बताउॅंछ?",
-    "sent_at": "2026-11-15T12:46:31.775594+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/annapurna-welcomes-41758-foreign-tourists-in-october-65-98.html",
-    "headline": "Annapurna welcomes 41,758 foreign tourists in October",
-    "sent_at": "2026-11-15T12:46:31.775620+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://english.ratopati.com/story/86767/sugarcane-farmers-angry-after-rs-8-increase-in-cost",
-    "headline": "Sugarcane Farmers Protest Government's Minimum Support Price",
-    "sent_at": "2026-11-15T13:16:33.459604+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261115190436.html",
-    "headline": "जीवन बीमा कम्पनीको नाफा १०.५६ प्रतिशतले खुम्चियो, कुनले कमाए कति?",
-    "sent_at": "2026-11-15T13:31:39.777259+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://english.ratopati.com/story/86761/prime-ministers-visit-to-india-private-sector-expects-new-chapter-in-economic-cooperation",
-    "headline": "Prime Minister Balen Shah's India Visit Preparations Underway, Private Sector Seeks Economic Diplomacy",
-    "sent_at": "2026-11-15T13:46:23.112503+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/flood-hit-rasuwagadhi-hydropowers-cumulative-loss-reaches-rs-287-billion-93-24.html",
-    "headline": "Flood-hit Rasuwagadhi Hydropower’s cumulative loss reaches Rs 2.87 billion",
-    "sent_at": "2026-11-15T14:16:22.226979+00:00"
-  },
-  {
-    "link": "https://www.setopati.com/politics/402648",
-    "headline": "कोप–३१ मा हिमाल र हिमनदीको निगरानी बढाउन सहमति, नेपाललाई के फाइदा?",
-    "sent_at": "2026-11-15T14:31:44.269901+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2058385/nepal-is-getting-old-without-getting-rich",
-    "headline": "धनी नहुँदै बुढो बन्दै छ नेपाल",
-    "sent_at": "2026-11-15T14:31:45.224730+00:00"
-  },
-  {
-    "link": "http://ictsamachar.com//story/100007697",
-    "headline": "नेपालबाट थ्रीजी प्रविधि विस्थापित हुँदै, एनसेल र टेलिकमले यसै वर्ष सेवा बन्द गर्ने",
-    "sent_at": "2026-11-15T14:46:36.274223+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/nepal-maintains-bb-credit-ratings-the-constant-one-for-the-past-three-years-12-12.html",
-    "headline": "Nepal retains BB- sovereign credit rating for third consecutive year",
-    "sent_at": "2026-11-15T15:02:04.848386+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizpati.com/2026/11/227126/",
-    "headline": "बेमौसमी वर्षाले पोखरामा काटेको धान खेतमै डुब्यो, किसान चिन्तित",
-    "sent_at": "2026-11-15T15:46:21.198021+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/507396",
-    "headline": "भाटभटेनीको टंगाल स्टोर पनि मंसिर १ देखि चौबिसै घण्टा खुल्ने",
-    "sent_at": "2026-11-15T16:16:21.247498+00:00"
-  },
-  {
     "link": "https://newsofnepal.com/2026/11/15/794028/",
     "headline": "सरकारले यी समस्या समाधान गरे बन्न सक्छ नेपालीलाई अवसर",
     "sent_at": "2026-11-15T16:46:22.055086+00:00"
@@ -7996,6 +7929,75 @@
     "link": "https://www.thahakhabar.com/detail/312415",
     "headline": "नेपाल-भारतबीच आयुर्वेद तथा अन्य परम्परागत चिकित्सा पद्धतिको आदान-प्रदान हुने",
     "sent_at": "2026-11-23T09:02:59.122179+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/669-mw-lower-arun-hydropower-project-inaugurated-by-pm-shah-and-pm-modi-2026-11-23",
+    "headline": "669 MW Lower Arun Hydropower Project Inaugurated by PM Shah and PM Modi",
+    "sent_at": "2026-11-23T09:32:18.498331+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/motihari-amlekhgunj-pipeline-handed.html",
+    "headline": "Motihari-Amlekhgunj pipeline handed over; foundation stone laid for Siliguri-Jhapa petroleum terminal",
+    "sent_at": "2026-11-23T09:32:18.498355+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/balens-india-visit-modi-project.html",
+    "headline": "PM Balen’s India visit sees launch, handover of six projects",
+    "sent_at": "2026-11-23T09:32:18.498359+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://khabarhub.com/2026/23/1050742/",
+    "headline": "‘विकसित भारत’ र ‘समुन्नत नेपाल’ भन्दै मोदीले गरे बहुआयामिक सहकार्यको घोषणा (पूर्णपाठ)",
+    "sent_at": "2026-11-23T09:32:18.498363+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/179010/",
+    "headline": "सीएनआई र भारतका लागि नेपाली राजदुतबीच नयाँ दिल्लीमा छलफल",
+    "sent_at": "2026-11-23T09:32:19.178230+00:00"
+  },
+  {
+    "link": "https://khabarhub.com/2026/23/1050746/",
+    "headline": "पेट्रोलियम पूर्वाधारमा नेपाल–भारत सहकार्य विस्तार, इन्धन ढुवानी खर्च ५० प्रतिशतसम्म घट्ने",
+    "sent_at": "2026-11-23T09:32:22.178428+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/87916/vcts-should-be-made-practical-and-business-friendly-mp-khadka",
+    "headline": "MP Khadka Calls for Practical, Transparent, and Business-Friendly Vehicle and Consignment Tracking System",
+    "sent_at": "2026-11-23T09:32:22.851031+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87914/revenue-leakage-provisions-being-repealed-to-eliminate-legal-duplication",
+    "headline": "Finance Ministry Proposes Repeal of Revenue Leakage Control Laws",
+    "sent_at": "2026-11-23T09:32:25.851189+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/87912/indias-vast-energy-market-can-make-nepals-hydropower-a-basis-for-economic-prosperity-modi",
+    "headline": "India's PM Modi Highlights Nepal's Hydropower Potential, Jointly Inaugurates Lower Arun Project",
+    "sent_at": "2026-11-23T09:32:25.851219+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://onlinetvnepal.com/2026/11/220653/",
+    "headline": "मोदी–बालेनबीचको आठ बुँदे समझदारीमा के–के समेटिए ?",
+    "sent_at": "2026-11-23T09:32:25.851224+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2063817/nepal-india-relations-should-be-transformed-into-a-development-partnership-balen",
+    "headline": "नेपाल–भारत सम्बन्ध विकास साझेदारीमा परिणत गर्नुपर्छ : प्रधानमन्त्री बालेन",
+    "sent_at": "2026-11-23T09:32:26.531451+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87911/pictured-is-the-joint-press-conference-held-at-hyderabad-house",
+    "headline": "Prime Minister Balen Shah and Prime Minister Narendra Modi Inaugurate Infrastructure Projects",
+    "sent_at": "2026-11-23T09:32:29.531607+00:00",
     "dup": true
   }
 ]
