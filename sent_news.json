@@ -1,41 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/505234.html",
-    "headline": "आईपीओ ल्याउने तयारी गरेको इच्छाबहादुर वाग्लेको होटल इच्छाको व्यापार १८% ले घट्यो",
-    "sent_at": "2026-11-15T07:01:51.841154+00:00"
-  },
-  {
-    "link": "https://aarthiksansar.com/archives/66931",
-    "headline": "यी हुन् मञ्जुश्री फाइनान्सका ३९ ठूला शेयरधनी, कसको स्वामित्व कति ?",
-    "sent_at": "2026-11-15T07:01:55.553209+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261115123921.html",
-    "headline": "हङकङसँग दोहोरो करमुक्ति सम्झौताको तयारी, बढ्ला सेवा क्षेत्र र बहुराष्ट्रिय कम्पनीमा लगानी?",
-    "sent_at": "2026-11-15T07:01:59.274186+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/507352",
-    "headline": "सरकारले ‘डुबिसकेका’ कुन–कुन औद्योगिक संस्थान चलाउँदैछ ? कहाँबाट जुट्नेछ स्रोत, कसले बेहोर्छ घाटा ?",
-    "sent_at": "2026-11-15T07:02:02.958111+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/gold-silver-prices-decline-in-domestic-market-83-64.html",
-    "headline": "Gold, silver prices decline in domestic market",
-    "sent_at": "2026-11-15T07:02:05.958277+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261115062257.html",
-    "headline": "जलवायु परिवर्तनको मार नेपाललाई, कार्बन व्यापारको अवसर पनि नेपाललाई",
-    "sent_at": "2026-11-15T07:02:06.760148+00:00"
-  },
-  {
-    "link": "http://ictsamachar.com//story/100007700",
-    "headline": "इ-पेन्सन सेवा अब सम्बन्धित सरकारी कार्यालयबाटै सञ्चालन हुने",
-    "sent_at": "2026-11-15T07:31:41.903264+00:00"
-  },
-  {
     "link": "https://clickmandu.com/2026/11/505259.html",
     "headline": "कुमारी बैंकको रेटिङ स्तरोन्नति : पुँजीकोष र नाफा बलियो, खराब कर्जा मुख्य चुनौती",
     "sent_at": "2026-11-15T07:31:45.691485+00:00"
@@ -7977,5 +7941,43 @@
     "link": "https://bizmandu.com/content/20261123123514.html",
     "headline": "सिटिजन्स बैंक कर्जा विस्तार र असुलीमा केन्द्रित, लुम्बिनी प्रदेशका कर्मचारीसँग सीइओको छलफल",
     "sent_at": "2026-11-23T07:02:13.311007+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132814",
+    "headline": "भेन्चर क्यापिटल बजारमा सीमित ठूला लगानीकर्ताको पकड : स्टार्टअपको पूँजी र स्वायत्तता जोखिममा रहेको ओईसीडीको ठहर",
+    "sent_at": "2026-11-23T07:32:07.823997+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132818",
+    "headline": "आर्थिक सुधारका लागि पुराना तथा असान्दर्भिक कानून खारेज गर्न खोजिएको होः गौतम",
+    "sent_at": "2026-11-23T07:32:11.797929+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/87873/mou-after-delegation-level-meeting-then-balen-and-modi-to-hold-joint-media-briefing",
+    "headline": "Nepal-India Bilateral Talks Conclude, Agreements to be Signed",
+    "sent_at": "2026-11-23T07:32:14.798100+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261123125934.html",
+    "headline": "कोशी प्रदेश लगानी प्राधिकरण र निफ्राबीच पूर्वाधार विकासमा साझेदारी हुने",
+    "sent_at": "2026-11-23T07:32:15.734027+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/178979/",
+    "headline": "अपी हिमालः जहाँ प्रकृति बोल्छ",
+    "sent_at": "2026-11-23T07:32:18.734185+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/87867/provincial-government-is-moving-forward-in-creating-an-investment-friendly-environment-chief-minister-karki",
+    "headline": "Koshi Province Government Focuses on Investment-Friendly Environment Through Policy Reforms",
+    "sent_at": "2026-11-23T07:32:20.002012+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261123123918.html",
+    "headline": "बालेनको भारत भ्रमणमा हुँदैछन् केही विशेष प्याकेज घोषणा, दिनदयाल र पारादीप बन्दरगाह दिन सहमत",
+    "sent_at": "2026-11-23T07:32:23.002232+00:00",
+    "dup": true
   }
 ]
