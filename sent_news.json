@@ -1,20 +1,5 @@
 [
   {
-    "link": "https://www.thahakhabar.com/detail/311991",
-    "headline": "अन्वेषण सकियो, अब कहिले सुरू हुन्छ दैलेखको ग्यास उत्खनन?, तस्वीरहरू",
-    "sent_at": "2026-11-16T07:32:03.102607+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/505452.html",
-    "headline": "भगवती स्टिलको व्यापार ३% ले घटेर १ अर्ब ६० करोड रुपैयाँमा झर्‍यो",
-    "sent_at": "2026-11-16T07:32:07.009014+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/505449.html",
-    "headline": "टेलिकमको सस्तो नेटमा ग्राहकको उच्च माग, अफरको म्याद पुस मसान्तसम्मलाई थपियो",
-    "sent_at": "2026-11-16T07:32:10.893832+00:00"
-  },
-  {
     "link": "https://theannapurnaexpress.com/story/68789",
     "headline": "Experts call for people-centric, tech-driven shift in Nepal–India ties",
     "sent_at": "2026-11-16T08:02:17.620040+00:00"
@@ -8022,5 +8007,21 @@
     "link": "https://baahrakhari.com/detail/508118",
     "headline": "उत्कृष्ट करदाता बनेर कैलाश हेलिकोप्टर सर्भिसेज सम्मानित",
     "sent_at": "2026-11-23T13:33:33.383919+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/petroleum-pipeline-and-storage-facility-to-be-built-in-jhapa-with-11-billion-rupees-grant-68-37.html",
+    "headline": "११ अर्ब अनुदानमा झापामा पेट्रोलियम पाइपलाइन र भण्डारण गृह निर्माण हुने",
+    "sent_at": "2026-11-23T14:04:24.792697+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/23/783883/koshi-province-can-become-prosperous-if-investment-in-ppp-model-is-increased-chief-minister-karki/",
+    "headline": "पिपिपी मोडेलमा लगानी बढाउन सके कोशी प्रदेश समृद्ध बन्न सक्छ : मुख्यमन्त्री कार्की",
+    "sent_at": "2026-11-23T14:04:25.688588+00:00"
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/23/96391",
+    "headline": "नेपाल एसबीआई बैंकद्वारा कुपन्डोलमा एटीएम सञ्चालन, बाल पुस्तकालय स्थापनाका लागि सहयोग",
+    "sent_at": "2026-11-23T14:04:29.474506+00:00"
   }
 ]
