@@ -1,42 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/178356/",
-    "headline": "खल्तीका पुर्व सीईओ रेग्मी बने नबिल बैंकको चिफ विजनेश अफिसर",
-    "sent_at": "2026-11-17T09:03:18.373550+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/11/17/96169",
-    "headline": "उत्कृष्ट करदाता घोषित भएका १९ संस्था र एक व्यक्ति सम्मानित, कुन क्षेत्रबाट कसले तिरे बढी कर ?",
-    "sent_at": "2026-11-17T09:03:22.261501+00:00"
-  },
-  {
-    "link": "https://arthadabali.com/2026/11/17/96168",
-    "headline": "सर्वाधिक करदाताका रूपमा आइएमई सम्मानित भएपछि अध्यक्ष ढकालले के भने ?",
-    "sent_at": "2026-11-17T09:03:26.233166+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/511444",
-    "headline": "भारतबाट नेपालमा ३५० मेगावाट विद्युत आयात, ५६ मेगावाट निर्यातको अनुमति",
-    "sent_at": "2026-11-17T09:32:16.312115+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/511442",
-    "headline": "करको दायरा विस्तार र प्रविधिमैत्री प्रशासनका लागि आजदेखि साताव्यापी कर सप्ताह सुरू",
-    "sent_at": "2026-11-17T09:32:20.230333+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291800-2026-11-17-9-11-30",
-    "headline": "बालेनको भ्रमणअघि भारतले दियो ३५० मेगावाट विद्युत् आयात र ५६ मेगावाट निर्यातको अनुमति",
-    "sent_at": "2026-11-17T09:32:23.230474+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132616",
-    "headline": "भारतबाट ३५० मेगावाट विद्युत आयात र ५६ मेगावाट निर्यातको अनुमति",
-    "sent_at": "2026-11-17T09:32:23.230508+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalipaisa.com/news-detail/96581",
     "headline": "२८ वर्षपछि पशु बधशाला तथा मासु जाँच ऐन लागू, जथाभावी बध र बिक्रीमा रोक",
     "sent_at": "2026-11-17T09:32:24.590838+00:00"
@@ -8039,5 +8002,42 @@
     "link": "https://clickmandu.com/2026/11/507621.html",
     "headline": "समयमै सक्ने मोदी-बालेनको प्रतिबद्धता, तर दशक पुरानो विवाद र सुस्त ड्याम निर्माणमै अल्झियो अरुण तेस्रो",
     "sent_at": "2026-11-24T13:05:07.767361+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/rsps-misconception-that-nepal-should-not-take-foreign-loans-has-been-dispel-19-97.html",
+    "headline": "RSP’s misconception that Nepal should not take foreign loans has been dispelled: Shankar Pokharel",
+    "sent_at": "2026-11-24T13:32:30.793998+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228690/",
+    "headline": "सिद्धार्थ बैंकलाई भिसाका दुई उत्कृष्टता अवार्ड, क्रेडिट कार्ड बजारमा २१ प्रतिशत हिस्सा",
+    "sent_at": "2026-11-24T13:32:34.756598+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepse-jumps-1539-points-as-daily-turnover-up-at-rs-555-billion-16-31.html",
+    "headline": "NEPSE jumps 15.39 points as daily turnover up at Rs 5.55 billion",
+    "sent_at": "2026-11-24T13:32:38.687573+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/india-to-build-petroleum-pipeline-and-storage-facility-in-jhapa-with-rs-111-18-56.html",
+    "headline": "India to build petroleum pipeline and storage facility in Jhapa with Rs 11.14 billion grant",
+    "sent_at": "2026-11-24T13:32:42.642490+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/nepse-gains-15-39-points.html",
+    "headline": "NEPSE gains 15.39 points as turnover surges, led by banking",
+    "sent_at": "2026-11-24T13:32:45.642638+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/himalayan-green-energy-expo-has-expanded-in-scope-92-11.html",
+    "headline": "‘Himalayan Green Energy Expo Has Expanded in Scope’",
+    "sent_at": "2026-11-24T13:32:46.384980+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2064479/stock-market-grows-with-trading-attracting-attention-to-banking-2",
+    "headline": "कारोबारसँगै बढ्यो सेयर बजार, बैंकिङमा आकर्षण",
+    "sent_at": "2026-11-24T13:32:49.385128+00:00",
+    "dup": true
   }
 ]
