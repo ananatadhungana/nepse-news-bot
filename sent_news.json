@@ -1,61 +1,5 @@
 [
   {
-    "link": "https://www.thahakhabar.com/detail/312019",
-    "headline": "तीन महिनामै सार्वजनिक ऋणको ब्याज करिब एक खर्ब भुक्तान",
-    "sent_at": "2026-11-16T15:16:42.746738+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://kathmandupost.com/money/2026/11/16/how-india-s-delay-is-set-to-leave-rs135m-of-nepal-s-electricity-unsold-daily",
-    "headline": "How India’s delay is set to leave Rs135m of Nepal’s electricity unsold daily",
-    "sent_at": "2026-11-16T15:32:02.303720+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/foreign-tourists-are-increasingly-flocking-to-the-streets-of-thamel-39-81.html",
-    "headline": "१० महिनामा भित्रिए १० लाख बढी पर्यटक, बाढीपछि लयमा फर्किँदै ठमेल",
-    "sent_at": "2026-11-16T15:32:05.303898+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/fuel-prices-remain-unchanged-nmc-loses-rs-1-62-billion-fortnight-72-24.html",
-    "headline": "इन्धनको मूल्य यथावत, निगमलाई पाक्षिक १ अर्ब ६२ करोड घाटा",
-    "sent_at": "2026-11-16T15:32:05.303925+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96565",
-    "headline": "ठमेलमा बढ्यो विदेशी पर्यटकको चहलपहल, पर्यटन व्यवसायीमा पलायो आशा",
-    "sent_at": "2026-11-16T16:02:20.699506+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.thahakhabar.com/detail/312022",
-    "headline": "किसानले सरकारलाई भने- दानाको मूल्य बढ्यो, दूधको मूल्य बढाइदेऊ",
-    "sent_at": "2026-11-16T16:32:11.171952+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2059083/three-meetings-of-the-prime-minister-in-delhi-agreement-on-2-trillion-rupees-in-aid-and-air-routes",
-    "headline": "दिल्लीमा प्रधानमन्त्रीका तीनवटा बैठक, २ खर्ब भारु सहयोग र हवाई रूटमा सहमति",
-    "sent_at": "2026-11-16T16:32:11.705043+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/227311/",
-    "headline": "हिमालयन डिस्टिलरीको नाफा १३८ प्रतिशतले बढ्यो, पहिलो त्रैमासमा २१ करोड ४९ लाख कमाइ",
-    "sent_at": "2026-11-16T17:16:42.643923+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizpati.com/2026/11/227316/",
-    "headline": "सर्वोत्तम पेन्ट्सको नाफा ५० प्रतिशतले बढ्यो, आम्दानी ५६ प्रतिशत वृद्धि",
-    "sent_at": "2026-11-16T17:31:47.542817+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/227313/",
-    "headline": "एनआईसी एशिया लघुवित्तको नाफा ११ गुणाभन्दा बढीले बढ्यो, ११ करोड ११ लाख कमाइ",
-    "sent_at": "2026-11-16T17:31:51.439563+00:00"
-  },
-  {
     "link": "https://bizpati.com/2026/11/227319/",
     "headline": "नेपाल बैंकले ल्यायो डिजिटल कर्जा, ‘बाइ नाउ पे लेटर’ र अनलाइन कर्जा आवेदन सेवा",
     "sent_at": "2026-11-16T17:46:56.884104+00:00"
@@ -8025,5 +7969,59 @@
     "link": "https://gorkhapatraonline.com/news/230192",
     "headline": "बबई पुल निर्माण : असी प्रतिशत भौतिक प्रगति",
     "sent_at": "2026-11-24T04:48:50.765500+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/gold-price-rises-by-500-in-tola-silver-by-35-only-2026-11-24",
+    "headline": "Gold Price Rises by 500 in Tola; Silver by 35 Only",
+    "sent_at": "2026-11-24T05:16:42.641489+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132850",
+    "headline": "प्रि ओपन सेसन अपडेटः साढे १ अंक बढ्यो नेप्से",
+    "sent_at": "2026-11-24T05:16:43.551925+00:00"
+  },
+  {
+    "link": "https://english.onlinekhabar.com/experts-decentralisation-mining-rights.html",
+    "headline": "Experts urge decentralisation of stone, gravel and sand mining rights",
+    "sent_at": "2026-11-24T05:16:46.552086+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/179062/",
+    "headline": "प्रि ओपन सेसनमा १.५७ अंकले बढ्यो नेप्से",
+    "sent_at": "2026-11-24T05:16:46.552116+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2064270/gold-price-increased-by-5300-in-two-days",
+    "headline": "दुई दिनमा ५ हजार ३ सय बढ्यो सुन",
+    "sent_at": "2026-11-24T05:16:46.552123+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepal-must-build-its-resilience-strategy-on-its-own-experience-62-33.html",
+    "headline": "‘Nepal must build its resilience strategy on its own experience’",
+    "sent_at": "2026-11-24T05:16:47.468915+00:00"
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/507447.html",
+    "headline": "विक्रेताकै तथ्यांकबाट अनलाइन बजारले प्रतिस्पर्धा गर्न नपाउने, विदेशबाट भुक्तानी लिन पनि खुल्दै बाटो",
+    "sent_at": "2026-11-24T05:16:51.400882+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261124104452.html",
+    "headline": "सेयरधनीलाई सोल्टी होटलको आकर्षक लाभांश, ३६.८४ प्रतिशत प्रतिफल वितरण गर्ने",
+    "sent_at": "2026-11-24T05:16:55.317779+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228585/",
+    "headline": "शेयर बजारका ५ ठूला अपडेट : कसले दिँदैछ लाभांश, कहाँ भयो मूल्य समायोजन ?",
+    "sent_at": "2026-11-24T05:16:59.215615+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/267875",
+    "headline": "जलविद्युत प्रवर्द्धकको फण्डा : लगानीकर्तालाई शून्य लाभांश, सेयर बेच्न हकप्रदको धन्दा",
+    "sent_at": "2026-11-24T05:17:03.140543+00:00"
   }
 ]
