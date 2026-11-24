@@ -1,47 +1,5 @@
 [
   {
-    "link": "https://baahrakhari.com/detail/507463",
-    "headline": "सम्पदाको संरक्षण आर्थिक विकास र राष्ट्रिय पहिचानसँग जोडिएको विषय हो : चेम्बर अध्यक्ष अग्रवाल",
-    "sent_at": "2026-11-16T11:32:06.509004+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261116165624.html",
-    "headline": "विमानस्थलबाट आधा किलो बढी सुन सहित चिनियाँ नागरिक समातिए, अनुसन्धान गर्दै प्रहरी",
-    "sent_at": "2026-11-16T11:32:10.480997+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/178248/",
-    "headline": "इसेवाको नाममा नक्कली पेज बनाएर ठगी प्रयास, सचेत रहन सीईओ शर्माको अपिल",
-    "sent_at": "2026-11-16T11:32:14.381428+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/511381",
-    "headline": "दुधको मूल्यवृद्धि गर्न चितवनका दुग्ध किसानहरूको माग",
-    "sent_at": "2026-11-16T12:02:24.744832+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132567",
-    "headline": "ऊर्जा र डिजिटल अर्थतन्त्रमा 'गेम चेन्जर' सुधार : जलविद्युत् आयोजनाको लाइसेन्स अवधि ५० वर्ष,  एकाधिकार तोड्ने कडा कानुनी व्यवस्था",
-    "sent_at": "2026-11-16T12:02:28.645893+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96556",
-    "headline": "नेपाल बैंकलाई अर्थमन्त्रीको निर्देशन– खराब कर्जा असुली गर्नू, अनुत्पादक क्षेत्रमा लगानी नगर्नू  ",
-    "sent_at": "2026-11-16T12:02:32.751092+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2058984/chitwan-farmers-demand-increase-in-milk-prices",
-    "headline": "दूधको मूल्यवृद्धि गर्न चितवनका किसानहरूको माग",
-    "sent_at": "2026-11-16T12:02:35.751238+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://himalpress.com/2026/11/finance-minister-wagle-urges-nepal-bank-to-focus-on-bad-loan-recovery-while-maintaining-financial-discipline/",
-    "headline": "वित्तीय अनुशासन कायम गर्दै खराब कर्जा असुलीमा ध्यान दिन नेपाल बैंकलाई अर्थमन्त्री वाग्लेको आग्रह",
-    "sent_at": "2026-11-16T12:02:35.751269+00:00",
-    "dup": true
-  },
-  {
     "link": "https://www.thahakhabar.com/detail/312010",
     "headline": "खराब कर्जा असुलीमा अर्थमन्त्री डा. वाग्लेले बैंकहरूलाई दिए निर्देशन",
     "sent_at": "2026-11-16T12:02:35.751275+00:00",
@@ -8029,5 +7987,47 @@
     "headline": "काठमाडौंमा भूकम्पको धक्का महसूस",
     "sent_at": "2026-11-24T02:02:17.003335+00:00",
     "dup": true
+  },
+  {
+    "link": "https://kathmandupost.com/science-technology/2026/11/24/how-a-simple-app-makes-qr-payments-easier-to-track",
+    "headline": "How a simple app makes QR payments easier to track",
+    "sent_at": "2026-11-24T02:32:05.614393+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/508093",
+    "headline": "सम्पत्ति शुद्धीकरण मिसिल सर्वोच्च र महान्यायाधिवक्ता कार्यालयबाटै ‘गायब’",
+    "sent_at": "2026-11-24T02:32:09.574076+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/special-stories/we-people/403224",
+    "headline": "'हामी जस्तो सानो व्यवसाय गर्नेलाई आइतबारको बिदाले असर गरेको छ'",
+    "sent_at": "2026-11-24T02:32:13.449330+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2063990/suggestion-not-to-centralize-the-right-to-use-stones-gravel-and-sand-in-the-association",
+    "headline": "ढुंगा, गिट्टी, बालुवा उपयोगको अधिकार संघमा केन्द्रीकृत नगर्न सुझाव",
+    "sent_at": "2026-11-24T02:32:17.315590+00:00"
+  },
+  {
+    "link": "https://newsofnepal.com/2026/11/24/795377/",
+    "headline": "विदेशी मुद्राको विनिमय दर सार्वजनिक, पाउन्ड १९५ रुपैयाँ माथि",
+    "sent_at": "2026-11-24T02:32:21.017137+00:00"
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/312449",
+    "headline": "भारतमा भूकम्प, नेपालमा धक्का महशुस",
+    "sent_at": "2026-11-24T02:32:24.017443+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.setopati.com/social/403246",
+    "headline": "ताप्लेजुङको ओलाङचुङगोला केन्द्रविन्दु बनाएर ५.६ म्याग्निच्युडको भूकम्प",
+    "sent_at": "2026-11-24T02:32:24.017470+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228535/",
+    "headline": "भोटेकोसी बाढीबाट प्रभावित भौतिक संरचनाको पुनर्निर्माण गर्न नुवाकोटमा डिभिजन कार्यालय स्थापना",
+    "sent_at": "2026-11-24T02:32:24.876988+00:00"
   }
 ]
