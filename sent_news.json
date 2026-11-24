@@ -1,28 +1,5 @@
 [
   {
-    "link": "https://khabarhub.com/2026/17/1048606/",
-    "headline": "‘माग अनुसार उत्पादन नहुँदा कफीको आयात निरन्तर बढिरहेको छ’",
-    "sent_at": "2026-11-17T09:32:31.895645+00:00"
-  },
-  {
-    "link": "https://clickmandu.com/2026/11/505808.html",
-    "headline": "बालेनको भ्रमणअघि भारतले दियो ३५० मेगावाट बिजुली आयात र ५६ मेगावाट निर्यातको अनुमति",
-    "sent_at": "2026-11-17T09:32:34.895780+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/17/781958/nepal-electricity-authority-to-import-350-megawatts-of-electricity-from-india-during-winter/",
-    "headline": "हिउँदयाममा विद्युत् प्राधिकरणले भारतबाट ३५० मेगावाट विद्युत् आयात गर्ने",
-    "sent_at": "2026-11-17T09:32:34.895808+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizmandu.com/content/20261117150534.html",
-    "headline": "हिउँदमा दैनिक ९०० मेगावाटसम्म विद्युत अपुग हुने, ३५० मेगावाट ल्याउन भारतको अनुमति",
-    "sent_at": "2026-11-17T09:32:34.895896+00:00",
-    "dup": true
-  },
-  {
     "link": "https://peoplesreview.com.np/2026/11/17/shah-tops-individual-taxpayer-list-surya-nepal-leads-corporate-list/",
     "headline": "Shah tops individual taxpayer list; Surya Nepal leads corporate list",
     "sent_at": "2026-11-17T09:32:34.895901+00:00",
@@ -8040,5 +8017,26 @@
     "headline": "नेप्सेमा दोहोरो अङ्कको बृद्धि, कारोबार पाँच अर्बमाथि",
     "sent_at": "2026-11-24T14:03:12.457692+00:00",
     "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/instructions-to-prepare-a-report-on-the-bill-amending-and-repealing-some-nepal-acts-related-to-finance/",
+    "headline": "अर्थसम्बन्धी केही नेपाल ऐन संशोधन तथा खारेजसम्बन्धी विधेयकको प्रतिवेदन तयार पार्न निर्देशन",
+    "sent_at": "2026-11-24T14:32:32.161814+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2064713/capacity-utilization-of-industries-has-decreased-further",
+    "headline": "झनै घट्यो उद्योगहरूको क्षमता उपयोग",
+    "sent_at": "2026-11-24T14:32:33.083584+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261124194807.html",
+    "headline": "वैदेशिक रोजगारीमा जानेमध्ये २४ प्रतिशत कामदार अदक्ष,  उच्च सीपयुक्त ०.१३ प्रतिशत",
+    "sent_at": "2026-11-24T14:32:36.810606+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/24/784098/the-suffering-of-karnali-bank-victims-some-are-taking-out-loans-to-pay-their-salaries-others-are-taking-medication-for-depression/",
+    "headline": "कर्णाली बैंकका पीडितको व्यथा- कोही ऋण काढेर तलब खुवाउँदै, कोही डिप्रेसनको दबाइ खाँदै",
+    "sent_at": "2026-11-24T14:32:40.789432+00:00"
   }
 ]
