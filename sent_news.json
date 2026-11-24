@@ -1,55 +1,5 @@
 [
   {
-    "link": "https://arthakhabar.com/2026/11/17/130836/",
-    "headline": "बाढीका कारण सोतीदेखि मान्बु जाने पुल पूर्ण रूपमा अवरुद्ध",
-    "sent_at": "2026-11-17T03:32:01.902732+00:00"
-  },
-  {
-    "link": "https://arthakhabar.com/2026/11/17/130844/",
-    "headline": "प्रधानमन्त्री मंसिर ६ गते भारत भ्रमणमा जाँदै, मोदीसँग ३० मिनेट एक्लाएक्लै वार्ता हुने",
-    "sent_at": "2026-11-17T03:32:05.615096+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68807",
-    "headline": "Minister Chaudhary requests additional support from ADB",
-    "sent_at": "2026-11-17T04:02:08.920034+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96570",
-    "headline": "सर्वोत्तम सिमेन्टले बोनस सेयर र नगद लाभांश दुवै दिने",
-    "sent_at": "2026-11-17T04:02:09.851784+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/86939/gold-nears-one-year-low-as-us-dollar-strengthens",
-    "headline": "Gold Prices Near One-Year Low Amid Strong Dollar and Fed Rate Hike Bets",
-    "sent_at": "2026-11-17T04:02:12.852015+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://arthasarokar.com/2026/11/the-animal-act-is-in-effect-in-kathmandu-and-unstamped-meat-is-not-allowed-to-be-sold.html",
-    "headline": "काठमाडौँमा पशु ऐन लागू, छाप नलगाइएका मासु बेच्न नपाइने !",
-    "sent_at": "2026-11-17T04:02:12.852047+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2059186/bhatbhatenis-tangal-branch-to-open-24-hours-from-today",
-    "headline": "भाटभटेनीको टंगाल शाखा आजदेखि २४ सै घण्टा खुल्ने",
-    "sent_at": "2026-11-17T04:02:12.852052+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://himalpress.com/2026/11/chitwan-milk-industry-starts-processing-after-10-months/",
-    "headline": "१० महिनापछि चितवन मिल्क उद्योगले थाल्यो प्रशोधन",
-    "sent_at": "2026-11-17T04:02:12.852056+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://kathmandupost.com/gandaki-province/2026/11/17/dubai-flights-raise-hopes-for-pokhara-s-tourism-sector",
-    "headline": "Dubai flights raise hopes for Pokhara’s tourism sector",
-    "sent_at": "2026-11-17T04:33:24.536592+00:00"
-  },
-  {
     "link": "https://nepalipaisa.com/news-detail/96571",
     "headline": "नेपाल हाइड्रो डेभलपरले १०.५३ प्रतिशत लाभांश दिने",
     "sent_at": "2026-11-17T04:33:28.046269+00:00"
@@ -8033,5 +7983,55 @@
     "link": "https://www.onlinekhabar.com/2026/11/2064347/sunkoshi-marine-diversion-contract-canceled-director-general-rajouria-admits-visit-to-prime-ministers-office",
     "headline": "सिँचाइ विभागका महानिर्देशक रजौरियाद्वारा प्रधानमन्त्री कार्यालय गएको स्वीकार",
     "sent_at": "2026-11-24T07:32:32.807591+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132860",
+    "headline": "अर्थमन्त्री वाग्लेलाई एमाले सांसद कँडेलको प्रश्नः ‘समुन्नत नेपालको कार्ययोजना खोइ ?’",
+    "sent_at": "2026-11-24T08:02:22.392428+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96817",
+    "headline": "भैरहवाका लागि १० हजार फिटमुनिको प्रवेश उचाइ आवश्यक, २१ हजारको रुटले निम्त्याउन सक्छ समस्या",
+    "sent_at": "2026-11-24T08:02:25.392587+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/507480.html",
+    "headline": "हुलास स्टिल डन्डष्ट्रिजको व्यापार १२ प्रतिशतले बढ्यो, कति गर्यो कारोबार ?",
+    "sent_at": "2026-11-24T08:02:26.042854+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/88062/mp-budha-demands-offline-option-saying-making-online-system-mandatory-in-remote-areas-will-cause-problems",
+    "headline": "MP Khadak Bahadur Buda Demands Offline Option for Online Business System",
+    "sent_at": "2026-11-24T08:02:30.078734+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/88057/it-is-important-to-reach-an-agreement-on-a-two-way-air-access-route-for-bhairahawa-airport-janardan-sharma",
+    "headline": "Former Minister Janardan Sharma Calls India Visit Agreement on Air Route Significant",
+    "sent_at": "2026-11-24T08:02:33.078896+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/24/96417",
+    "headline": "ठूला उद्योगसँग प्रतिस्पर्धा गर्न नसक्दा थलियाे निगाले सिमेन्ट, के भन्छन् लगानीकर्ता ?",
+    "sent_at": "2026-11-24T08:02:33.078931+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://baahrakhari.com/detail/508173",
+    "headline": "भारतसँगको सम्बन्धमा नयाँ फड्को",
+    "sent_at": "2026-11-24T08:02:33.078936+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthasarokar.com/2026/11/can-searching-for-a-ticketing-partner-for-2-years-applying-for-tenders-without-fixing-the-bug.html",
+    "headline": "२ वर्षका लागि ‘टिकेटिङ पार्टनर’ खोज्दै क्यान, ‘बग’ फिक्स नगरी टेण्डरमा आवेदन दिँदै इसेवा !",
+    "sent_at": "2026-11-24T08:02:33.909083+00:00"
+  },
+  {
+    "link": "https://himalpress.com/2026/11/9-things-to-know-about-the-janakpur-ayodhya-train/",
+    "headline": "जनकपुर-अयोध्या रेलबारे जान्नैपर्ने ९ कुरा",
+    "sent_at": "2026-11-24T08:02:36.909228+00:00",
+    "dup": true
   }
 ]
