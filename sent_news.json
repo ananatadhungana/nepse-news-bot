@@ -1,43 +1,5 @@
 [
   {
-    "link": "https://bizmandu.com/content/20261117125459.html",
-    "headline": "बैंकिङ क्षेत्रबाट सबैभन्दा बढी आयकर नबिल बैंकले तिर्‍यो, अर्थमन्त्रीबाट सम्मानित",
-    "sent_at": "2026-11-17T08:03:09.177894+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://arthadabali.com/2026/11/17/96162",
-    "headline": "नेपालको आर्थिक विश्वसनीयता बढ्दै, सार्वभौम क्रेडिट रेटिङ अङ्क ३.६६ पुग्यो",
-    "sent_at": "2026-11-17T08:03:09.959300+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/511434",
-    "headline": "विराटनगर राति २ बजेसम्म जाग्ने, प्रशासनको सर्तसहित व्यवसायिक अनुमति",
-    "sent_at": "2026-11-17T08:32:35.025083+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291793-2026-11-17-8-28-51",
-    "headline": "सूर्य नेपालले तिर्यो सबैभन्दा धेरै आयकर, रेमिट्यान्समा आईएमई र बैंकमा नबिल अगाडि",
-    "sent_at": "2026-11-17T08:32:38.976650+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132612",
-    "headline": "राजस्व कानुनमा ऐतिहासिक ‘क्रमभङ्ग’ गर्दै लगानी अध्यादेश : दफा ५७ को विवाद अन्त्य, अरु के छन् ?",
-    "sent_at": "2026-11-17T08:32:42.748851+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/cg-impex-best-taxpayers.html",
-    "headline": "CG Impex and Nabil Bank honoured as best taxpayers",
-    "sent_at": "2026-11-17T08:32:45.749020+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://english.onlinekhabar.com/ime-honoured-as-highest-tax-paying.html",
-    "headline": "IME honoured as highest tax-paying remittance company",
-    "sent_at": "2026-11-17T08:32:45.749051+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalpress.com/2026/11/17/781921/flood-affected-nuwakot-residents-start-occupying-electricity-land-after-government-neglect/",
     "headline": "सरकारको बेवास्तापछि विद्युतको जग्गा कब्जा गरेर बस्न थाले नुवाकोटका बाढी प्रभावित",
     "sent_at": "2026-11-17T08:32:46.508666+00:00"
@@ -8041,5 +8003,41 @@
     "link": "https://myrepublica.nagariknetwork.com/news/speaker-aryal-urges-qatar-to-invest-in-hydropower-and-other-sectors-in-nepa-32-44.html",
     "headline": "Speaker Aryal urges Qatar to invest in hydropower and other sectors in Nepal",
     "sent_at": "2026-11-24T12:02:45.279734+00:00"
+  },
+  {
+    "link": "https://bankingsamachar.com/news/179150/",
+    "headline": "नबिल बैंक र धुलिखेल अस्पतालद्वारा ‘नबिल बर्न केयर वार्ड’ उद्घाटन",
+    "sent_at": "2026-11-24T12:32:23.685408+00:00"
+  },
+  {
+    "link": "https://rajdhanidaily.com/id/152019/",
+    "headline": "नेपाल-श्रीलंका चेम्बरको २०औँ साधारणसभा सम्पन्न, श्रेष्ठसहित विभिन्न व्यक्तित्व सम्मानित",
+    "sent_at": "2026-11-24T12:32:27.380311+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/508207",
+    "headline": "पञ्चेश्वरको डीपीआर : बाचा धेरै, काम अधुरै",
+    "sent_at": "2026-11-24T12:32:30.862473+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261124181218.html",
+    "headline": "पूर्वका व्यवसायीको गुनासो : जुट, चिया र बिआईएस प्रमाणीकरणको समस्या समाधान भएन",
+    "sent_at": "2026-11-24T12:32:35.060166+00:00"
+  },
+  {
+    "link": "https://newsofnepal.com/2026/11/24/795588/",
+    "headline": "विशिष्टीकृत जलन उपचार सेवा सुदृढीकरणका लागि नबिल बैंक र धुलिखेल अस्पतालद्वारा ‘नबिल बर्न केयर वार्ड’ उद्घाटन",
+    "sent_at": "2026-11-24T12:32:38.060331+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/230255",
+    "headline": "आठबुँदे सहमतिपछि डेन्टल हाइजेनिस्टको आन्दोलन स्थगित",
+    "sent_at": "2026-11-24T12:32:38.722603+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/230254",
+    "headline": "हावाहुरीका कारण मुस्ताङमा विद्युत् सेवा अवरुद्ध",
+    "sent_at": "2026-11-24T12:32:42.451967+00:00"
   }
 ]
