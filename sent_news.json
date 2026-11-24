@@ -1,47 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/economy/dang-s-koilabas-customs-collects-rs-4-1-million-in-revenue-25-91.html",
-    "headline": "दाङको कोइलाबास भन्सारबाट ४१ लाख राजस्व सङ्कलन",
-    "sent_at": "2026-11-17T07:02:46.561330+00:00"
-  },
-  {
-    "link": "http://annapurnapost.com/story/511429",
-    "headline": "मासु किन्दै हुनुहुन्छ ? उपत्यकामा आजबाट छाप बिनाको बिक्री–वितरण गर्न नपाइने",
-    "sent_at": "2026-11-17T07:32:27.125512+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://english.ratopati.com/story/86986/to-increase-revenue-we-need-to-expand-the-scope-and-improve-administration-rather-than-tax-rates-chairman-birendra-raj-pandey",
-    "headline": "Confederation of Nepalese Industries Chairman Pandey Suggests Expanding Tax Base Over Increasing Tax Rates",
-    "sent_at": "2026-11-17T07:32:28.042072+00:00"
-  },
-  {
-    "link": "http://english.ratopati.com/story/86985/the-private-sector-should-be-made-not-only-a-source-of-revenue-but-also-a-companion-in-economic-development-chairman-agrawal",
-    "headline": "Nepal Chamber of Commerce Chairman Calls for Private Sector Partnership in Economic Development",
-    "sent_at": "2026-11-17T07:32:31.947874+00:00"
-  },
-  {
-    "link": "https://himalpress.com/2026/11/nepal-telecoms-net-profit-increases-by-37-35-percent-eps-at-rs-40-45-paisa/",
-    "headline": "नेपाल टेलिकमको खुद मुनाफा ३७.३५ प्रतिशतले वृद्धि, ईपीएस ४० रुपैयाँ ४५ पैसा",
-    "sent_at": "2026-11-17T07:32:35.860181+00:00"
-  },
-  {
-    "link": "https://onlinetvnepal.com/2026/11/219982/",
-    "headline": "लगातार नवौँ पटक सर्वाधिक आयकरदाताको सम्मान नबिललाई",
-    "sent_at": "2026-11-17T07:32:38.860384+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://english.ratopati.com/story/86982/muktinath-bikas-banks-next-initiative-in-digital-innovation-you-can-check-the-status-of-your-loan-application-from-home",
-    "headline": "Muktinath Development Bank Launches Loan Application Tracking Service",
-    "sent_at": "2026-11-17T07:32:39.759460+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/178337/",
-    "headline": "आईजीबाट हटाइएका दानबहादुर कार्कीको रिटमा बुधबार सुनुवाइ",
-    "sent_at": "2026-11-17T07:32:43.641296+00:00"
-  },
-  {
     "link": "https://gorkhapatraonline.com/news/229354",
     "headline": "३७ दिनपछि उत्तरी गोरखामा बल्यो बिजुली",
     "sent_at": "2026-11-17T07:32:47.563691+00:00"
@@ -8041,5 +7999,47 @@
     "link": "https://english.onlinekhabar.com/nepal-and-eu-expanding-nepali-exports.html",
     "headline": "Nepal and EU discuss expanding Nepali exports to the European market",
     "sent_at": "2026-11-24T11:02:27.597314+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132868",
+    "headline": "‘डे हाई’मा क्लोजिङ र बाउन्स ब्याकको संकेत : साना कम्पनी छाडेर वाणिज्य बैंकतिर किन सर्दै छन् लगानीकर्ता ?",
+    "sent_at": "2026-11-24T11:34:31.502697+00:00"
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132864",
+    "headline": "'देश उभो लाउने टोली’को आठ महिने रिपोर्ट कार्ड : अर्थतन्त्र तस्वीरले चल्दैन,परिणामले मात्र चल्छ",
+    "sent_at": "2026-11-24T11:34:35.402467+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96825",
+    "headline": "घट्दो ब्याजदर-बढ्दो खराब कर्जा, डिजिटल भुक्तानीमा क्यूआरको छलाङ",
+    "sent_at": "2026-11-24T11:34:39.314299+00:00"
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228687/",
+    "headline": "पोखरामा शाओमीको एक्सक्लुसिभ स्टोर सञ्चालनमा",
+    "sent_at": "2026-11-24T11:34:43.016179+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/267934",
+    "headline": "सार्वजनिक लेखा समितिको प्राधिकरणलाई निर्देशन, डिजिटल संचार संजालसम्बन्धी कागजात ७ दिनभित्र पेश गर्नु",
+    "sent_at": "2026-11-24T11:34:46.928634+00:00"
+  },
+  {
+    "link": "https://www.bbc.com/nepali/articles/crx2073kpp8do?at_medium=RSS&at_campaign=rss",
+    "headline": "भैरहवा हवाई प्रवेशबिन्दु नेपालका लागि किन महत्त्वपूर्ण, अब कसरी कार्यान्वयन होला",
+    "sent_at": "2026-11-24T11:34:49.928862+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/88092/a-dream-i-had-18-years-ago-is-finally-coming-true",
+    "headline": "Jalpa Devi Cable Car Nears Completion in Kailali",
+    "sent_at": "2026-11-24T11:34:49.928894+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizpati.com/2026/11/228682/",
+    "headline": "भारत भ्रमणका समझदारीबाट भारतीय पर्यटकको संख्या दोब्बर बनाउन सकिने व्यवसायीको दाबी",
+    "sent_at": "2026-11-24T11:34:50.881583+00:00"
   }
 ]
