@@ -1,43 +1,5 @@
 [
   {
-    "link": "https://clickmandu.com/2026/11/505229.html",
-    "headline": "कर दिवसको सान्दर्भिकता: कर प्रणाली सुधार र करदातामैत्री सेवाप्रतिको प्रतिबद्धता",
-    "sent_at": "2026-11-17T01:32:02.426535+00:00"
-  },
-  {
-    "link": "https://myrepublica.nagariknetwork.com/news/electricity-export-to-bangladesh-halts-with-onset-of-dry-season-and-surge-i-29-21.html",
-    "headline": "Electricity export to Bangladesh comes to a halt with onset of dry season and surge in domestic demand",
-    "sent_at": "2026-11-17T01:32:05.426693+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96567",
-    "headline": "डलर र अमेरिकी ऋणपत्रको प्रतिफल बढ्दा सुन एक वर्षयताकै न्यून विन्दुमा",
-    "sent_at": "2026-11-17T02:02:02.807712+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://english.ratopati.com/story/86924/todke-farmers-are-becoming-proficient-in-tomato-farming",
-    "headline": "Ilam's Todke Village Becomes Hub for Commercial Tomato Farming",
-    "sent_at": "2026-11-17T02:02:03.473650+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/229305",
-    "headline": "उखु किसानलाई मूल्यको चिन्ता",
-    "sent_at": "2026-11-17T02:02:07.152270+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/229304",
-    "headline": "तरकारी पोहोरभन्दा सस्तो",
-    "sent_at": "2026-11-17T02:02:10.837976+00:00"
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/229303",
-    "headline": "सञ्चयकोषले ल्यायो सवारी कर्जा",
-    "sent_at": "2026-11-17T02:02:13.838130+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nagariknews.nagariknetwork.com/economy/6-banks-reduce-interest-rates-12-15.html",
     "headline": "६ वटा बैंकले घटाए ब्याजदर",
     "sent_at": "2026-11-17T02:31:48.325378+00:00",
@@ -8027,5 +7989,41 @@
     "link": "https://nagariknews.nagariknetwork.com/social-affairs/china-ready-to-help-in-nepal-s-reconstruction-from-building-houses-to-restoring-normal-life-85-14.html",
     "headline": "नेपालको पुनर्निर्माणमा सघाउन चीन तयार : घर बनाउनदेखि जनजीवन सामान्य बनाउनसम्म सहयोग गर्ने",
     "sent_at": "2026-11-24T06:02:40.801045+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/i-asked-chatgpt-gemini-and-claude-10-questions-about-nepse-one-of-them-gave-an-answer-that-could-get-your-ipo-application-rejected-2026-11-24",
+    "headline": "I Asked ChatGPT, Gemini and Claude 10 Questions About NEPSE; One of Them Gave an Answer That Could Get Your IPO Application Rejected",
+    "sent_at": "2026-11-24T06:32:01.718266+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/icra-nepal-downgrades-ratings-of-two-firms-upgrades-ratings-of-himalayan-hydropower-2026-11-24",
+    "headline": "ICRA Nepal Downgrades Ratings of Two Firms, Upgrades Ratings of Himalayan Hydropower",
+    "sent_at": "2026-11-24T06:32:05.630389+00:00"
+  },
+  {
+    "link": "https://bizkhabar.com/267894",
+    "headline": "नेपालमा १२७ सिमेन्ट उद्योग सञ्चालनमा : उत्पादन क्षमता मागभन्दा बढी, किन हुँदैछ आयात ?",
+    "sent_at": "2026-11-24T06:32:09.520063+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/508160",
+    "headline": "मनिष झाको चेतावनी- सुनकोसी–मरिणको ठेक्का रद्द भए मधेस आन्दोलित हुन्छ",
+    "sent_at": "2026-11-24T06:32:12.520231+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingkhabar.com/archives/170526",
+    "headline": "मर्चेन्ट बैंकिङमा कामना सेवा बैंकको नयाँ कदम, आकाश क्यापिटल अब आफ्नै कम्पनी",
+    "sent_at": "2026-11-24T06:32:13.439577+00:00"
+  },
+  {
+    "link": "https://nepalsamaya.com/detail/147988",
+    "headline": "नुवाकोट र रसुवाका सेवा प्रदायक संस्थालाई टीभीएस र जगदम्बा मोटर्सको २५ अपाचे मोटरसाइकल",
+    "sent_at": "2026-11-24T06:32:17.344787+00:00"
+  },
+  {
+    "link": "https://nepalsamaya.com/detail/147987",
+    "headline": "एनपीएल सिजन ३ का उत्कृष्ट तीन खेलाडीलाई बजाज पल्सर एन१६०, आगामी सिजनमा पनि सहकार्य निरन्तरता",
+    "sent_at": "2026-11-24T06:32:21.266942+00:00"
   }
 ]
