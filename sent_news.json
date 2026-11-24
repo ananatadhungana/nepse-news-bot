@@ -1,20 +1,5 @@
 [
   {
-    "link": "http://ictsamachar.com//story/100007703",
-    "headline": "आयल निगमलाई डिजिटल बनाइँदै, इन्धन अर्डरदेखि भुक्तानीसम्म अनलाइन",
-    "sent_at": "2026-11-16T10:02:13.307845+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68796",
-    "headline": "AgriMech International Expo 2026 set to begin Friday",
-    "sent_at": "2026-11-16T10:02:18.562081+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261116154247.html",
-    "headline": "एसियन क्लियरिङ युनियनको ५४औं बैठक भोलिदेखि काठमाडौंमा, ११ देशका गभर्नर सहभागी हुने",
-    "sent_at": "2026-11-16T10:02:22.385465+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/86864/george-manse-signs-with-sudurpaschim-royals",
     "headline": "George Munsey Signs for Sudurpashchim Royals in Nepal Premier League",
     "sent_at": "2026-11-16T10:02:26.178366+00:00"
@@ -8022,5 +8007,21 @@
     "link": "https://gorkhapatraonline.com/news/230155",
     "headline": "विपत्तिले रोकिएन पर्यटकको नेपालमोह",
     "sent_at": "2026-11-24T00:46:44.078014+00:00"
+  },
+  {
+    "link": "https://nepalkhabar.com/economy/292271-2026-11-24-0-53-11",
+    "headline": "नारायणघाट-बुटवल सडक: पूरा भयो निर्माण, रोप्न थालियो दुबो",
+    "sent_at": "2026-11-24T01:02:01.880292+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88958",
+    "headline": "Railway Construction",
+    "sent_at": "2026-11-24T01:02:05.560245+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/88957",
+    "headline": "Nepali, Indian PMs jointly lay foundation for Lower Arun Project through digital switch",
+    "sent_at": "2026-11-24T01:02:08.560495+00:00",
+    "dup": true
   }
 ]
