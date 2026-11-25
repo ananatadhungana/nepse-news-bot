@@ -1,26 +1,5 @@
 [
   {
-    "link": "https://nepalipaisa.com/news-detail/96586",
-    "headline": "कफीखेतीमा उच्च सम्भावना, तर छैन पर्याप्त लगानी ",
-    "sent_at": "2026-11-17T11:03:02.892324+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://khabarhub.com/2026/17/1048661/",
-    "headline": "जग्गाको कित्ताकाटसँगै घरजग्गा कारोबार चलायमान हुने अपेक्षा",
-    "sent_at": "2026-11-17T11:03:04.209992+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261117163832.html",
-    "headline": "नेपाल-भियतनाम पर्यटन प्रवर्धनमा रुप्से होलिडेज, मंसिर अन्तिम साता दुई वटा चार्टर्ड उडान",
-    "sent_at": "2026-11-17T11:03:08.128078+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2059559/mahesh-shrestha-who-is-seen-to-be-connected-to-inam-is-also-being-investigated-for-money-laundering",
-    "headline": "इनमसँग कनेक्सन देखिएका महेश श्रेष्ठविरुद्ध पनि सम्पत्ति शुद्धीकरणमा अनुसन्धान",
-    "sent_at": "2026-11-17T11:03:12.021926+00:00"
-  },
-  {
     "link": "https://bizmandu.com/content/20261117163235.html",
     "headline": "बोराभित्र डेढ करोड रकम, पशुपतिनाथ पराग सप्लार्यसका ३ कर्मचारी प्रहरी नियन्त्रणमा",
     "sent_at": "2026-11-17T11:03:15.786425+00:00"
@@ -8039,5 +8018,26 @@
     "headline": "कैलालीमा करिब १६ हजार क्विन्टल धान खरिद",
     "sent_at": "2026-11-25T00:46:40.510196+00:00",
     "dup": true
+  },
+  {
+    "link": "https://bizkhabar.com/267949",
+    "headline": "बाढी प्रभावित ९७० परिवारलाई घरभाडा रकम वितरण सुरु",
+    "sent_at": "2026-11-25T01:02:07.101121+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/88125/salakpurs-tourism-and-economy-are-changing-with-oranges",
+    "headline": "Ilam's Salakpur Generates Millions from Orange Farming and Tourism",
+    "sent_at": "2026-11-25T01:02:10.101308+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/how-much-is-the-dollar-worth-47/",
+    "headline": "कति छ डलरको भाउ?",
+    "sent_at": "2026-11-25T01:02:10.788705+00:00"
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/nepses-real-problem-is-uncertainty-41-34.html",
+    "headline": "NEPSE's Real Problem Is Uncertainty",
+    "sent_at": "2026-11-25T01:02:14.496230+00:00"
   }
 ]
