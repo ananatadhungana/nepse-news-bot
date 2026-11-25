@@ -1,88 +1,5 @@
 [
   {
-    "link": "https://bankingsamachar.com/news/178359/",
-    "headline": "७९ करोडको आईपीओ निष्कासनको तयारीमा निलगिरी खोला, नाफा बढेर ७४ करोड पुग्यो",
-    "sent_at": "2026-11-17T12:32:50.347317+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/economy/41-kilometers-of-karnali-corridor-road-to-be-upgraded-multi-year-contract-worth-rs-3-billion-signed-74-61.html",
-    "headline": "कर्णाली करिडोरको ४१ किलोमिटर सडक&nbsp;स्तरोन्नति हुने, ३ अर्बको बहुवर्षीय ठेक्का सम्झौता",
-    "sent_at": "2026-11-17T13:02:34.259144+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2059764/nepal-insists-that-climate-damage-financing-should-be-easy-and-grant-based",
-    "headline": "जलवायु क्षति वित्तपोषण सहज र अनुदानमा आधारित हुनुपर्ने नेपालको जोड",
-    "sent_at": "2026-11-17T13:02:38.113264+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/507548",
-    "headline": "कर प्रणालीलाई लगानी र रोजगारी प्रवर्धनको माध्यम बनाउनुपर्छ : अग्रवाल",
-    "sent_at": "2026-11-17T13:02:41.844379+00:00"
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/Corporate/yubaraj-bista-appointed-as-ceo-of-yeti-airlines-56-85.html",
-    "headline": "यती एयरलाइन्सको प्रमुख कार्यकारी अधिकृतमा युवराज बिष्ट",
-    "sent_at": "2026-11-17T13:02:45.573154+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/227465/",
-    "headline": "शीर्ष १० ब्रोकरमा खरिदबिक्री बराबर, नागरिक स्टक डिलरबाट ३३ करोडको बिक्री",
-    "sent_at": "2026-11-17T13:02:49.336817+00:00"
-  },
-  {
-    "link": "https://arthasarokar.com/2026/11/the-finance-minister-said-the-highest-income-tax-rate-has-been-reduced-from-39-to-29-percent.html",
-    "headline": "अर्थमन्त्रीले भने- ‘आयकरको उच्चतम् दर ३९ बाट २९ प्रतिशतमा झारिएको छ’",
-    "sent_at": "2026-11-17T13:02:53.093925+00:00"
-  },
-  {
-    "link": "https://nepalkhabar.com/economy/291829-2026-11-17-13-26-31",
-    "headline": "कर प्रशासन सुधारमा महानिर्देशक भुसालको १५ बुँदे संकल्प, पौने आठ खर्ब राजस्व उठाउने लक्ष्य",
-    "sent_at": "2026-11-17T13:32:56.130472+00:00"
-  },
-  {
-    "link": "https://theannapurnaexpress.com/story/68825",
-    "headline": "Rasuwa flood leaves historic Uttargaya Dham in ruins, reconstruction uncertain",
-    "sent_at": "2026-11-17T13:32:59.969245+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261117191602.html",
-    "headline": "टेलिकम कम्पनी कर धेरै तिर्ने सूचीबाट आउट, सरकारी नीतिले लगानी नगर्दा घट्यो व्यापार",
-    "sent_at": "2026-11-17T13:33:03.829814+00:00"
-  },
-  {
-    "link": "https://baahrakhari.com/detail/507553",
-    "headline": "चुनौतीपूर्ण अर्थतन्त्रबीच निजी क्षेत्रको उत्कृष्ट कर योगदान : सरकारको कदरले कति प्रोत्साहित ?",
-    "sent_at": "2026-11-17T13:33:07.650903+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/bhatbhateni-postpones-tangal-24-hour.html",
-    "headline": "Bhatbhateni postpones 24-hour grocery service at Tangal store",
-    "sent_at": "2026-11-17T13:33:10.651053+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2059785/customs-revenue-meets-target-in-first-quarter-despite-adverse-circumstances",
-    "headline": "प्रतिकूल परिस्थिति झेल्दै भन्सार राजस्वले प्रथम चौमासिकमा भेट्यो लक्ष्य",
-    "sent_at": "2026-11-17T13:33:11.464995+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2059728/24-hour-operation-plan-for-bhatbhateni-in-tangal-postponed-due-to-technical-reasons",
-    "headline": "टंगालस्थित भाटभटेनी चौबिसै घण्टा सञ्चालन योजना प्राविधिक कारण स्थगित",
-    "sent_at": "2026-11-17T13:33:14.465160+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://arthasarokar.com/2026/11/taxpayer-incentive-gift-program-16-winners-announced-who-won.html",
-    "headline": "करदाता प्रोत्साहन उपहार कार्यक्रमः १६ जना विजेता घोषणा, कसले जिते ?",
-    "sent_at": "2026-11-17T13:33:14.465190+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://himalpress.com/2026/11/meat-inspection-act-from-today-only-meat-marked-healthy-meat-can-be-sold/",
-    "headline": "मासु जाँच ऐन आजदेखि कार्यान्वयनमा, ‘स्वस्थ मासु’ को छाप लगाइएको मासु मात्र बेच्नुपर्ने",
-    "sent_at": "2026-11-17T13:33:15.181157+00:00"
-  },
-  {
     "link": "http://annapurnapost.com/story/511466",
     "headline": "इमेज सहकारी ठगी प्रकरण : संस्थापक अध्यक्ष नेपालीसहित ७ जनालाई कैद र जरिवाना",
     "sent_at": "2026-11-17T14:05:03.903189+00:00"
@@ -8027,5 +7944,95 @@
     "headline": "Talks held to merge provident fund, social security fund and health insurance systems",
     "sent_at": "2026-11-25T05:02:23.235125+00:00",
     "dup": true
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/miteri-development-bank-unveils-book-closure-date-for-its-11-dividend-calls-agm-on-poush-04-2026-11-25",
+    "headline": "Miteri Development Bank Unveils Book Closure Date for its 11% Dividend; Calls AGM on Poush 04",
+    "sent_at": "2026-11-25T05:31:59.122776+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/again-gold-price-falls-by-6500-in-tola-silver-by-more-than-100-2026-11-25",
+    "headline": "Again, Gold Price Falls by 6500 in Tola; Silver by More than 100",
+    "sent_at": "2026-11-25T05:32:02.842026+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/lock-in-period-of-42500-units-of-sarvottam-paints-industries-limited-shares-held-by-mutual-funds-to-expire-on-poush-10-2026-11-25",
+    "headline": "Lock-in Period of 42,500 Units of Sarvottam Paints Industries Limited Shares Held by Mutual Funds to Expire on Poush 10",
+    "sent_at": "2026-11-25T05:32:06.496647+00:00"
+  },
+  {
+    "link": "https://www.sharesansar.com/newsdetail/machhapuchchhre-bank-partners-with-uk-based-riaze-remit-to-expand-remittance-services-2026-11-25",
+    "headline": "Machhapuchchhre Bank Partners with UK-Based Riaze Remit to Expand Remittance Services",
+    "sent_at": "2026-11-25T05:32:09.496823+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132879",
+    "headline": "प्रि ओपन सेसन अपडेटः करिब ५ अंक बढ्यो नेप्से",
+    "sent_at": "2026-11-25T05:32:09.496856+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://rajdhanidaily.com/id/152052/",
+    "headline": "सुन र चाँदीको मूल्यमा उल्लेख्य गिरावट, सुन तोलामै ६ हजार ५०० ले घट्यो",
+    "sent_at": "2026-11-25T05:32:09.496862+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://english.onlinekhabar.com/dhankuta-tea-gardens-overgrown-as-farmers-struggle-to-find-markets.html",
+    "headline": "Dhankuta tea gardens overgrown as farmers struggle to find markets",
+    "sent_at": "2026-11-25T05:32:09.496866+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/jewellery/403333",
+    "headline": "एकैदिन तोलामा ६५ सय रूपैयाँ घट्यो सुनको भाउ, आज कतिमा हुँदैछ किनबेच?",
+    "sent_at": "2026-11-25T05:32:09.496870+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://arthadabali.com/2026/11/25/96453",
+    "headline": "एकैदिन ६ हजार ५००ले घट्यो सुन, आज कतिमा हुँदैछ कारोबार ?",
+    "sent_at": "2026-11-25T05:32:09.496874+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261125110313.html",
+    "headline": "सुनचाँदीको भाउ फेरि ओरालो, सुनको मूल्य तोलामा ६५०० रुपैयाँ घट्यो, ३.३४% ले सस्तियो चाँदी",
+    "sent_at": "2026-11-25T05:32:09.496878+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bankingsamachar.com/news/179165/",
+    "headline": "प्रि ओपन सेसनमा ४.८३ अंकले बढ्यो नेप्से",
+    "sent_at": "2026-11-25T05:32:09.496881+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizkhabar.com/267959",
+    "headline": "एक वर्षमा बैंकहरुको सीडी रेसियो ३.४० प्रतिशत बिन्दुले घट्यो, कुनको कति ?",
+    "sent_at": "2026-11-25T05:32:10.182974+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2064906/gold-price-drops-by-6500-tola",
+    "headline": "सुनको भाउ तोलामा ६ हजार ५ सय घट्यो",
+    "sent_at": "2026-11-25T05:32:13.183184+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/regional-forum-focuses-on-sustainable-trade-of-himalayan-herbs-15-42.html",
+    "headline": "Regional forum focuses on sustainable trade of Himalayan herbs",
+    "sent_at": "2026-11-25T05:32:13.944765+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261125104852.html",
+    "headline": "हिमपर्वत हाइड्रोपावरको आइपीओ मंसिर १८ देखि, सर्वसाधारणलाई ३४ लाख ६४ हजार कित्ता",
+    "sent_at": "2026-11-25T05:32:16.945013+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/88163/foundation-stone-laying-ceremony-for-budhi-gandaki-project-office-residential-building-and-concrete-bridge-underway",
+    "headline": "Budhigandaki Hydropower Project Office, Housing Building, and Bridge Foundation Laid",
+    "sent_at": "2026-11-25T05:32:17.655950+00:00"
   }
 ]
