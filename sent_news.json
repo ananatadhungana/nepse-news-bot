@@ -1,35 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132650",
-    "headline": "सूचीकृत पाँच सिमेन्ट कम्पनीको पहिलाे त्रैमासिक वित्तीय अवस्था : कसको नाफा कति?",
-    "sent_at": "2026-11-18T09:32:12.434780+00:00"
-  },
-  {
-    "link": "https://nepalipaisa.com/news-detail/96616",
-    "headline": "पहिलो चौमासिकमा उठ्यो ३ खर्ब ७८ अर्ब राजश्व",
-    "sent_at": "2026-11-18T09:32:15.944374+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261118151454.html",
-    "headline": "सेयर बजार लगातार ओरालो, १९९ कम्पनीको मूल्य घट्दा परिसूचक २६२५.०५ विन्दुमा",
-    "sent_at": "2026-11-18T09:32:19.474327+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/baraha-group-chair-arrested.html",
-    "headline": "Baraha Group chair arrested over alleged misappropriation of Rs 10.73 billion from cooperative",
-    "sent_at": "2026-11-18T09:32:23.184882+00:00"
-  },
-  {
-    "link": "https://newsofnepal.com/2026/11/18/794446/",
-    "headline": "राष्ट्र बैंकले नष्ट गर्‍यो ७ खर्ब ६५ अर्ब ७४ करोडका पुराना नोट, चलनचल्तीमा ८ खर्ब ७ अर्ब रुपैयाँ",
-    "sent_at": "2026-11-18T09:32:26.907171+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2060198/wider-skies-shared-benefits-a-diplomatic-path-to-expanding-air-routes",
-    "headline": "फराकिलो आकाश, साझा लाभ : हवाईमार्ग विस्तारको कूटनीतिक बाटो",
-    "sent_at": "2026-11-18T09:32:30.494790+00:00"
-  },
-  {
     "link": "http://annapurnapost.com/story/511521",
     "headline": "सेयर बजारमा ११ अंकको गिरावट,कारोबार रकम पनि घट्यो",
     "sent_at": "2026-11-18T10:02:51.936127+00:00",
@@ -8020,5 +7990,36 @@
     "link": "https://clickmandu.com/2026/11/507900.html",
     "headline": "एक डलरको १४७.८८ रुपैयाँ, कति छ अन्य विदेशी मुद्राको विनिमयदर ?",
     "sent_at": "2026-11-26T01:02:09.719051+00:00"
+  },
+  {
+    "link": "https://rajdhanidaily.com/id/152099/",
+    "headline": "कहिले छिनोफानो होला १२ वर्षमा ५२ पटक सर्वोच्चको इजलासमा घुमेको छायादेवी कम्प्लेक्सको विवाद ?",
+    "sent_at": "2026-11-26T01:31:39.003380+00:00"
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/banking/403400",
+    "headline": "घट्यो डलर र युरोको भाउ",
+    "sent_at": "2026-11-26T01:31:42.823090+00:00"
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/230408",
+    "headline": "आर्थिक असन्तुलन कायमै",
+    "sent_at": "2026-11-26T01:31:46.618034+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/88285/locals-request-for-construction-of-swing-bridge",
+    "headline": "Locals Pressure Authorities for Completion of Trishuli River Bridge in Tanahun",
+    "sent_at": "2026-11-26T01:31:50.430902+00:00"
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/312538",
+    "headline": "ट्रम्पले घोषणा गरे चीन र भारतसहित १४ देशमा नयाँ भन्सार शुल्क",
+    "sent_at": "2026-11-26T01:31:53.431064+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://bizmandu.com/content/20261126063035.html",
+    "headline": "कान्डला र पारादीप बन्दरगाहको एलओई गर्दा पुरानै गल्ती नदोहोर्‍याउन व्यवसायीको सरकारलाई सुझाव",
+    "sent_at": "2026-11-26T01:31:54.234444+00:00"
   }
 ]
