@@ -1,40 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132676",
-    "headline": "सरकारी जलविद्युतमा १ हजार मेगावाट बढीका आयोजनाको पीपीए खुल्दै. कुन कुनको हुदै छ पीपीए ?",
-    "sent_at": "2026-11-19T05:32:41.592189+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132673",
-    "headline": "आशुतोष इनर्जीले मंसिर १४ गतेदेखि आईपीओ निष्काशन गर्ने",
-    "sent_at": "2026-11-19T05:32:42.318863+00:00"
-  },
-  {
-    "link": "https://bizpati.com/2026/11/227739/",
-    "headline": "ऐतिहासिक उचाइबाट सुनचाँदीमा ठूलो पहिरो : अब के होला बजार ?",
-    "sent_at": "2026-11-19T05:32:45.319038+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://baahrakhari.com/detail/507713",
-    "headline": "लगातार घट्दै सुनको भाउ, प्रतितोला दुई लाख ५७ हजार ६०० रुपैयाँमा कारोबार",
-    "sent_at": "2026-11-19T05:32:45.319064+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizkhabar.com/267574",
-    "headline": "सुनको मूल्यमा ३३ सयको गिरावट, कतिमा हुँदैछ कारोबार ?",
-    "sent_at": "2026-11-19T05:32:45.319071+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.setopati.com/kinmel/banking/402892",
-    "headline": "बैंकमा थुप्रिएको पैसा व्यवस्थापन गर्न राष्ट्र बैंकले एक वर्षमै तिर्‍यो २२ अर्ब ब्याज",
-    "sent_at": "2026-11-19T05:32:45.319076+00:00",
-    "dup": true
-  },
-  {
     "link": "https://bankingsamachar.com/news/178581/",
     "headline": "प्रि ओपन सेसनमा ०.७५ अंकले घट्यो नेप्से",
     "sent_at": "2026-11-19T05:32:46.038330+00:00"
@@ -8009,5 +7974,35 @@
     "link": "https://www.onlinekhabar.com/2026/11/2065857/krishna-prasad-rijal-elected-unopposed-as-president-of-melan-for-the-fourth-time",
     "headline": "मेलानको अध्यक्षमा कृष्णप्रसाद रिजाल चौथोपटक निर्विरोध निर्वाचित",
     "sent_at": "2026-11-26T12:32:49.220621+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96917",
+    "headline": "अनुदानको मलमा अनियमितता, कृषि भण्डारलाई २ लाख जरिवाना",
+    "sent_at": "2026-11-26T13:02:31.014747+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96915",
+    "headline": "भोटेकोशी बाढीमा ७८२ जना मानवीय क्षति, ६७६ अझै बेपत्ता",
+    "sent_at": "2026-11-26T13:02:34.752347+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261126184529.html",
+    "headline": "भोटेकोशी बाढीमा कन्टेनर र ट्रक बिलाउँदा डेढ अर्ब स्वाहा, नयाँ किन्न भन्सार/अन्तःशुल्क छुटको सिफारिस",
+    "sent_at": "2026-11-26T13:02:38.748353+00:00"
+  },
+  {
+    "link": "https://aarthiksansar.com/archives/67603",
+    "headline": "रङ्गशाला निर्माणका लागि एनपीएल फ्रेन्चाइजसँग सहकार्य गर्न सरकार तयार",
+    "sent_at": "2026-11-26T13:02:42.675766+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2065911/presidents-chure-tarai-madhes-conservation-development-committee-dissolved-16-billion-spent-in-12-years",
+    "headline": "राष्ट्रपति चुरे तराई मधेस संरक्षण विकास समिति विघटन, १२ वर्षमा १६ अर्ब खर्च",
+    "sent_at": "2026-11-26T13:02:46.603062+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/paragliding-is-gaining-popularity-81-87.html",
+    "headline": "‘पोखरा घुम्न आएका २० प्रतिशत पर्यटकले प्याराग्लाडिङ गर्छन्’",
+    "sent_at": "2026-11-26T13:02:50.368340+00:00"
   }
 ]
