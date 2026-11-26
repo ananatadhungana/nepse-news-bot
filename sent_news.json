@@ -1,20 +1,5 @@
 [
   {
-    "link": "http://annapurnapost.com/story/511575",
-    "headline": "विकास खर्चको हरिबिजोग",
-    "sent_at": "2026-11-19T07:32:12.478773+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132688",
-    "headline": "सात महिनापछि १५० रुपैयाँभन्दा तल झर्‍यो डलर, वैदेशिक ऋण भुक्तानी र आयात लागत घट्ने अपेक्षा",
-    "sent_at": "2026-11-19T07:32:16.386198+00:00"
-  },
-  {
-    "link": "https://bizkhabar.com/267587",
-    "headline": "गोरुसिंगे-चन्द्रौटा सडक खण्डको ठेक्का सम्झौता : साढे ४ अर्ब लागत, २९ महिना अवधि",
-    "sent_at": "2026-11-19T07:32:20.310204+00:00"
-  },
-  {
     "link": "https://arthasarokar.com/2026/11/samsung-nepal-and-ncell-sign-mou-to-make-ai-accessible-accelerate-nepals-2g-to-4g-shift-and-build-a-sustainable-galaxy-upgrade-ecosystem.html",
     "headline": "Samsung Nepal and Ncell Sign MoU to Make AI Accessible, Accelerate Nepal’s 2G-to-4G Shift and Build a Sustainable Galaxy Upgrade Ecosystem",
     "sent_at": "2026-11-19T07:32:24.242533+00:00"
@@ -8000,5 +7985,23 @@
     "link": "https://www.onlinekhabar.com/2026/11/2065802/gold-has-fallen-by-a-third-from-its-record-high-why-is-the-price-continuously-falling",
     "headline": "कीर्तिमानी उचाइबाट एकतिहाइ खस्यो सुन, किन लगातार घट्दै छ भाउ ?",
     "sent_at": "2026-11-26T15:32:19.065072+00:00"
+  },
+  {
+    "link": "https://www.eadarsha.com/nep/217191.html",
+    "headline": "दुधको उचित मूल्य कायम गर्न माग",
+    "sent_at": "2026-11-26T16:02:22.964888+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.setopati.com/politics/403472",
+    "headline": "'ब्रेक थ्रू' भनिएको भैरहवा हवाई रूट उचाइको विवादले फेरि 'डेडलक' हुने त होइन?",
+    "sent_at": "2026-11-26T16:02:22.964912+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/draft-legal-and-policy-reforms-being-finalized-to-promote-investment-in-the-energy-sector/",
+    "headline": "ऊर्जा क्षेत्रमा लगानी प्रवर्द्धन गर्न कानुनी तथा नीतिगत सुधारको मस्यौदालाई अन्तिम रूप दिइँदै",
+    "sent_at": "2026-11-26T16:02:22.964916+00:00",
+    "dup": true
   }
 ]
