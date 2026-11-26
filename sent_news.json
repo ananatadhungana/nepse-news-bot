@@ -1,51 +1,5 @@
 [
   {
-    "link": "https://nagariknews.nagariknetwork.com/economy/60-million-in-carbon-finance-being-raised-to-transform-the-brick-industry-br-82-80.html",
-    "headline": "इँटा उद्योग रूपान्तरण गर्न ६ करोड डलरको कार्बन वित्त जुटाइँदै",
-    "sent_at": "2026-11-18T11:02:43.855138+00:00"
-  },
-  {
-    "link": "https://english.onlinekhabar.com/trade-transit-energy-supply-india-balen.html",
-    "headline": "Trade, transit and energy supply to dominate economic agenda of PM Balen’s India visit",
-    "sent_at": "2026-11-18T11:02:46.855348+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/18/782321/60-million-in-carbon-finance-being-raised-to-transform-the-brick-industry/",
-    "headline": "इँटा उद्योग रूपान्तरण गर्न ६ करोड डलरको कार्बन वित्त जुटाइँदै",
-    "sent_at": "2026-11-18T11:02:46.855382+00:00",
-    "dup": true
-  },
-  {
-    "link": "http://english.ratopati.com/story/87158/60-million-in-carbon-finance-being-raised-to-transform-the-brick-industry",
-    "headline": "Nepal Plans $60 Million Carbon Finance for Eco-Friendly Brick Industry",
-    "sent_at": "2026-11-18T11:02:46.855388+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.myrepublica.nagariknetwork.com/news/nepse-plunges-double-digit-points-on-second-consecutive-day-as-daily-turnov-71-38.html",
-    "headline": "NEPSE extends losses for second straight day",
-    "sent_at": "2026-11-18T11:02:46.855391+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://gorkhapatraonline.com/news/229495",
-    "headline": "नेप्से परिसूचक ११ अङ्कले घट्यो",
-    "sent_at": "2026-11-18T11:02:46.855395+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://nagariknews.nagariknetwork.com/Bazar/nepse-index-drops-by-11-05-points-br-62-40.html",
-    "headline": "११.०५ अंकले घट्यो नेप्से परिसूचक",
-    "sent_at": "2026-11-18T11:02:46.855399+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://www.myrepublica.nagariknetwork.com/news/global-climate-movement-stages-vigil-at-cop31-demands-justice-for-nepal-flo-99-58.html",
-    "headline": "Global climate movement stages vigil at COP31, demands justice for Nepal flood victims",
-    "sent_at": "2026-11-18T11:02:47.777681+00:00"
-  },
-  {
     "link": "https://risingnepaldaily.com/news/88748",
     "headline": "'Breakthrough' of Mahadevtar tunnel accomplished",
     "sent_at": "2026-11-18T11:02:50.777853+00:00",
@@ -8021,5 +7975,48 @@
     "link": "https://clickmandu.com/2026/11/507578.html",
     "headline": "अर्थमन्त्री र कर्मचारी किन चाहँदैनन् नेप्से पुनर्संरचना ?",
     "sent_at": "2026-11-26T03:32:19.650170+00:00"
+  },
+  {
+    "link": "https://theannapurnaexpress.com/story/69071",
+    "headline": "US announces new tariffs on host of countries including China",
+    "sent_at": "2026-11-26T04:02:17.168371+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132911",
+    "headline": "ऊर्जा मिश्रण अवधारणामार्फत पीपीए खुलाउने तयारी",
+    "sent_at": "2026-11-26T04:02:18.141402+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96890",
+    "headline": "सुनको मूल्य प्रतिऔंस ३५ सय ७३ डलरमा झर्‍यो",
+    "sent_at": "2026-11-26T04:02:22.091451+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/88306/a-new-energy-mix-policy-is-being-formulated-in-line-with-the-30000-mw-electricity-generation-target",
+    "headline": "Government Prepares New Energy Mix Framework for 30,000 MW Target",
+    "sent_at": "2026-11-26T04:02:25.808077+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/26/784564/government-formulating-new-energy-mix-policy-targets-30000-mw-of-electricity-generation/",
+    "headline": "नयाँ ऊर्जा मिश्रण नीति बनाउँदै सरकार, ३० हजार मेगावाट विद्युत् उत्पादनको लक्ष्य",
+    "sent_at": "2026-11-26T04:02:28.808260+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://clickmandu.com/2026/11/506476.html",
+    "headline": "अध्यादेशमार्फत् आयकर ऐनमा ३० संशोधन गरिँदैः भूतप्रभावी करमा बन्देज, लगानीकर्तालाई प्रोत्साहन",
+    "sent_at": "2026-11-26T04:02:29.760096+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/economy/preparations-to-open-ppa-through-energy-mix-concept-80-33.html",
+    "headline": "ऊर्जा मिश्रण अवधारणामार्फत पीपीए खुलाउने तयारी",
+    "sent_at": "2026-11-26T04:02:32.760271+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/banking/403398",
+    "headline": "सेयर बजार सुस्ताउँदा पनि बैंकमा आकर्षण, किन?",
+    "sent_at": "2026-11-26T04:02:33.602515+00:00"
   }
 ]
