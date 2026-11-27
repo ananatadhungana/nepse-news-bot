@@ -1,32 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/87313/stock-market-rose-by-modest-percentage-points",
-    "headline": "Nepal Stock Exchange Index Rises by 3.62 Points",
-    "sent_at": "2026-11-19T09:46:58.404249+00:00"
-  },
-  {
-    "link": "https://bizmandu.com/content/20261119152808.html",
-    "headline": "मंसिर २६ भित्र देशभर एनसेलको थ्रीजी पूणरुपमा बन्द हुने, भोल्टे चलाउन कम्पनीको आग्रह",
-    "sent_at": "2026-11-19T09:47:02.253125+00:00"
-  },
-  {
-    "link": "https://www.onlinekhabar.com/2026/11/2061032/information-from-ipos-to-rights-shares-and-dividends-can-now-be-found-on-mero-share",
-    "headline": "आईपीओदेखि हकप्रद र लाभांशसम्मका सूचना अब मेरो सेयरमा पाइने",
-    "sent_at": "2026-11-19T09:47:06.060237+00:00"
-  },
-  {
-    "link": "https://arthakhabar.com/2026/11/19/131925/",
-    "headline": "बिहिबार ३.६२ अंकले बढ्यो नेप्से परिसूचक",
-    "sent_at": "2026-11-19T09:47:09.060511+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://baahrakhari.com/detail/507742",
-    "headline": "नेप्से ३.६२ अंकले बढ्यो, तीन अर्ब ८७ करोडको कारोबार",
-    "sent_at": "2026-11-19T09:47:09.060550+00:00",
-    "dup": true
-  },
-  {
     "link": "https://arthakhabar.com/2026/11/19/131926/",
     "headline": "कर प्रणालीबारे सचेतना जगाउन व्यापारीलाई ‘करदाता शिक्षा’",
     "sent_at": "2026-11-19T09:47:09.852504+00:00"
@@ -8009,5 +7982,31 @@
     "link": "https://aarthiksansar.com/archives/67719",
     "headline": "आजसम्म शेयर किन्नेले लक्ष्मी सनराइज बैंकको प्रस्तावित लाभांश पाउने, एजीएम कहिले ?",
     "sent_at": "2026-11-27T02:31:54.433291+00:00"
+  },
+  {
+    "link": "https://nepalipaisa.com/news-detail/96932",
+    "headline": "मध्यपूर्वमा आपूर्ति प्रभावित हुने चिन्ता बढ्दा कच्चा तेलको मूल्य उकालो लाग्यो",
+    "sent_at": "2026-11-27T03:02:08.614457+00:00"
+  },
+  {
+    "link": "https://risingnepaldaily.com/news/89082",
+    "headline": "Nyalu road reopens after two months",
+    "sent_at": "2026-11-27T03:02:12.258294+00:00"
+  },
+  {
+    "link": "https://www.onlinekhabar.com/2026/11/2065196/expensive-market-for-halwabed-japanese-flavor-chinese-imports",
+    "headline": "हलुवाबेदको महँगो बजार : जापानी स्वाद, चिनियाँ आयात",
+    "sent_at": "2026-11-27T03:02:16.071609+00:00"
+  },
+  {
+    "link": "http://english.ratopati.com/story/88449/kaski-farmers-demand-that-the-price-of-milk-be-fixed-at-rs-80-otherwise-they-will-protest-with-cow-dung",
+    "headline": "Dairy Farmers Protest Unchanged Milk Prices Amid Rising Costs",
+    "sent_at": "2026-11-27T03:02:19.071796+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://www.setopati.com/kinmel/tourism/403466",
+    "headline": "भैरहवा एयररूट खुल्दा पोखरा आउने अन्तर्राष्ट्रिय उडानको दुरी २११ किलोमिटर घट्ने",
+    "sent_at": "2026-11-27T03:02:19.699020+00:00"
   }
 ]
