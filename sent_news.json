@@ -1,22 +1,5 @@
 [
   {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132694",
-    "headline": "मेरो शेयरमै उपलब्ध हुने भयो आईपीओ, बोनस र ‘लक-इन’को सूचना",
-    "sent_at": "2026-11-19T08:02:24.335771+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132694",
-    "headline": "मेरो शेयरमै उपलब्ध हुने भयो आईपीओ, बोनस र ‘लक-इन’को सूचना",
-    "sent_at": "2026-11-19T08:02:24.335818+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132691",
-    "headline": "एसियाली शेयर बजारबाट एक महिनामै ५० अर्ब डलरको विदेशी पूँजी पलायन: प्रविधि क्षेत्रको तीव्र गिरावट, ऊर्जा संकट र उच्च ब्याजदरले वित्तीय प्रणालीमा गम्भीर धक्का",
-    "sent_at": "2026-11-19T08:02:25.098186+00:00"
-  },
-  {
     "link": "https://bizkhabar.com/267591",
     "headline": "विश्व बजारमा कच्चा तेल सस्तिँदै, नेपाली उपभोक्ताले किन पाइरहेका छैनन् राहत ?",
     "sent_at": "2026-11-19T08:02:28.698062+00:00"
@@ -8004,5 +7987,20 @@
     "headline": "निर्माण थालेको डेढ दशकपछि उत्पादनको चरणमा राहुघाट जलविद्युत् आयोजना",
     "sent_at": "2026-11-27T00:46:26.165878+00:00",
     "dup": true
+  },
+  {
+    "link": "https://himalpress.com/2026/11/these-7-construction-companies-have-been-blacklisted-for-1-to-2-5-years/",
+    "headline": "यी ७ निर्माण कम्पनी १ वर्षदेखि अढाई वर्षका लागि कालोसूचीमा",
+    "sent_at": "2026-11-27T01:02:11.994512+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/social-affairs/no-attempt-was-made-to-create-a-diversion-in-the-henwa-river-63-81.html",
+    "headline": "हेंवाखोलामा डाइभर्सन बनाउने प्रयास नै भएन",
+    "sent_at": "2026-11-27T01:02:15.926492+00:00"
+  },
+  {
+    "link": "https://nagariknews.nagariknetwork.com/editorial/reconstruction-must-not-become-another-disaster-12-57.html",
+    "headline": "पुनर्निर्माण अर्को विपद् बन्नु हुँदैन",
+    "sent_at": "2026-11-27T01:02:19.833768+00:00"
   }
 ]
