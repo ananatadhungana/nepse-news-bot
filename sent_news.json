@@ -1,15 +1,5 @@
 [
   {
-    "link": "https://nepalpress.com/2026/11/20/782817/these-issues-of-national-interest-should-not-be-ignored-when-joining-hands-with-india/",
-    "headline": "भारतसँग हात मिलाउँदा नछुटून् राष्ट्रिय हितका यी सवाल",
-    "sent_at": "2026-11-20T07:02:16.797258+00:00"
-  },
-  {
-    "link": "https://bankingsamachar.com/news/178710/",
-    "headline": "समता घरेलु लघुवित्तको ८ हजार कित्ता शेयर बिक्रीमा",
-    "sent_at": "2026-11-20T07:02:20.459847+00:00"
-  },
-  {
     "link": "http://english.ratopati.com/story/87423/kp-oli-reaches-election-commission",
     "headline": "CPN UML Chairman KP Sharma Oli Visits Election Commission for Local Level Election Discussions",
     "sent_at": "2026-11-20T07:02:24.122322+00:00"
@@ -8005,6 +7995,17 @@
     "link": "https://myrepublica.nagariknetwork.com/news/vat-on-electricity-tariff-will-be-eased-minister-shrestha-58-37.html",
     "headline": "VAT on electricity tariff will be eased: Minister Shrestha",
     "sent_at": "2026-11-28T02:46:35.085512+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/28/785168/energy-minister-shrestha-monitors-various-projects/",
+    "headline": "ऊर्जामन्त्री श्रेष्ठद्वारा विभिन्न आयोजना अनुगमन",
+    "sent_at": "2026-11-28T02:58:37.660419+00:00"
+  },
+  {
+    "link": "https://www.thahakhabar.com/detail/312652",
+    "headline": "ऊर्जामन्त्री श्रेष्ठद्वारा विभिन्न आयोजनाको अनुगमन",
+    "sent_at": "2026-11-28T02:58:40.660587+00:00",
     "dup": true
   }
 ]
