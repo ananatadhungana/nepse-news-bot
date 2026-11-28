@@ -1,15 +1,5 @@
 [
   {
-    "link": "http://english.ratopati.com/story/87423/kp-oli-reaches-election-commission",
-    "headline": "CPN UML Chairman KP Sharma Oli Visits Election Commission for Local Level Election Discussions",
-    "sent_at": "2026-11-20T07:02:24.122322+00:00"
-  },
-  {
-    "link": "https://nepalpress.com/2026/11/20/782834/comedian-bharatmani-poudel-is-the-brand-ambassador-of-gautam-holidays/",
-    "headline": "कमेडियन भरतमणि पौडेल गौतम होलिडेजको ब्रान्ड एम्बेसडर",
-    "sent_at": "2026-11-20T07:02:28.061374+00:00"
-  },
-  {
     "link": "https://merolagani.com/NewsDetail.aspx?newsID=132744",
     "headline": "‘भारतीय पर्यटक दोब्बर भित्र्याउन सकिन्छ, कनेक्टिभिटीका लागि दिल्लीसँग कुरा गरौँ’",
     "sent_at": "2026-11-20T07:31:52.073017+00:00"
@@ -8006,6 +7996,18 @@
     "link": "https://www.thahakhabar.com/detail/312652",
     "headline": "ऊर्जामन्त्री श्रेष्ठद्वारा विभिन्न आयोजनाको अनुगमन",
     "sent_at": "2026-11-28T02:58:40.660587+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/28/785174/farmers-demand-lets-increase-the-price-of-milk-to-80-per-liter/",
+    "headline": "किसानको मागः दूधको मूल्य प्रतिलिटर ८० पुर्याऔँ",
+    "sent_at": "2026-11-28T03:31:48.004361+00:00",
+    "dup": true
+  },
+  {
+    "link": "http://english.ratopati.com/story/88619/energy-minister-shrestha-conducts-on-site-monitoring-of-various-projects-and-offices",
+    "headline": "Energy Minister Inspects Rupa Tal Project, Discusses Lake Conservation and Power Supply",
+    "sent_at": "2026-11-28T03:31:48.004386+00:00",
     "dup": true
   }
 ]
