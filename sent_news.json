@@ -1,26 +1,5 @@
 [
   {
-    "link": "https://theannapurnaexpress.com/story/68913",
-    "headline": "Nepal officially announces PM Balendra Shah’s state visit to New Delhi",
-    "sent_at": "2026-11-20T06:31:42.704763+00:00"
-  },
-  {
-    "link": "https://merolagani.com/NewsDetail.aspx?newsID=132738",
-    "headline": "डिजिटल भुक्तानीमा क्यूआरको नयाँ रेकर्ड : एकै महिना २ खर्ब ७ अर्बको कारोबार, मोबाइल बैंकिङमा भने गिरावट",
-    "sent_at": "2026-11-20T06:31:46.460898+00:00"
-  },
-  {
-    "link": "https://peoplesreview.com.np/2026/11/20/remittances-hit-record-high-as-economy-picks-up/",
-    "headline": "Remittances hit record high as economy picks up",
-    "sent_at": "2026-11-20T06:31:49.461105+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bankingsamachar.com/news/178712/",
-    "headline": "तीन महिनामा निजी क्षेत्र तर्फको कर्जा पौने २ खर्ब बढ्यो",
-    "sent_at": "2026-11-20T06:31:50.220334+00:00"
-  },
-  {
     "link": "https://aarthiksansar.com/archives/67346",
     "headline": "‘एनबीए अन्तर–बैंक फुटसल कप २०२६’ आयोजना हुँदै",
     "sent_at": "2026-11-20T06:31:53.803748+00:00"
@@ -8005,5 +7984,26 @@
     "link": "https://risingnepaldaily.com/news/89113",
     "headline": "Govt gears up to implement deals inked with India",
     "sent_at": "2026-11-28T00:31:51.024649+00:00"
+  },
+  {
+    "link": "https://bizmandu.com/content/20261128063853.html",
+    "headline": "म्याग्दीको सुर्केमेलामा सुन्तलाखेतीको लहर, नगदे बालीको आम्दानीमा किसान खुसी",
+    "sent_at": "2026-11-28T01:02:21.089568+00:00"
+  },
+  {
+    "link": "https://baahrakhari.com/detail/508475",
+    "headline": "सुरक्षण मुद्रण केन्द्रमा नियमित छापिँदै लाइसेन्स",
+    "sent_at": "2026-11-28T01:02:24.939518+00:00"
+  },
+  {
+    "link": "https://nepalpress.com/2026/11/28/785152/power-cuts-of-5-hours-per-day-will-be-imposed-in-various-areas-of-baneshwor-distribution-center-for-four-days-starting-today/",
+    "headline": "बानेश्वर वितरण केन्द्रका विभिन्न क्षेत्रमा आजदेखि चार दिन दैनिक ५ घण्टा विद्युत कटौती हुने",
+    "sent_at": "2026-11-28T01:02:27.939670+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/230647",
+    "headline": "अगाडि बढेन मेट्रोसिटी योजना",
+    "sent_at": "2026-11-28T01:02:28.799524+00:00"
   }
 ]
