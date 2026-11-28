@@ -1,17 +1,5 @@
 [
   {
-    "link": "https://bizpati.com/2026/11/227950/",
-    "headline": "सन नेपाल लाइफले व्यतित बीमालेख पुनर्जागरणमा ७५ प्रतिशतसम्म विलम्ब शुल्क छुट दिने",
-    "sent_at": "2026-11-20T07:02:16.157510+00:00",
-    "dup": true
-  },
-  {
-    "link": "https://bizkhabar.com/267649",
-    "headline": "सन नेपाल लाइफले व्यतित बीमालेख पुनर्जागरणमा ७५ प्रतिशतसम्म छुट दिने",
-    "sent_at": "2026-11-20T07:02:16.157539+00:00",
-    "dup": true
-  },
-  {
     "link": "https://nepalpress.com/2026/11/20/782817/these-issues-of-national-interest-should-not-be-ignored-when-joining-hands-with-india/",
     "headline": "भारतसँग हात मिलाउँदा नछुटून् राष्ट्रिय हितका यी सवाल",
     "sent_at": "2026-11-20T07:02:16.797258+00:00"
@@ -8005,6 +7993,18 @@
     "link": "https://gorkhapatraonline.com/news/230657",
     "headline": "निर्यात बढाउन ल्याइयो प्रोत्साहन कार्यविधि",
     "sent_at": "2026-11-28T02:31:37.833253+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://gorkhapatraonline.com/news/230662",
+    "headline": "चौबिसै घण्टा बिजुली किन्न बोलपत्र आह्वान",
+    "sent_at": "2026-11-28T02:46:35.085486+00:00",
+    "dup": true
+  },
+  {
+    "link": "https://myrepublica.nagariknetwork.com/news/vat-on-electricity-tariff-will-be-eased-minister-shrestha-58-37.html",
+    "headline": "VAT on electricity tariff will be eased: Minister Shrestha",
+    "sent_at": "2026-11-28T02:46:35.085512+00:00",
     "dup": true
   }
 ]
